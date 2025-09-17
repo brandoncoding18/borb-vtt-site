@@ -1,0 +1,17 @@
+{
+          "name": "Bar Mace",
+          "weapon_category" : {"training" : "Simple", "type" : "Melee"},
+          "cost": {"amount" : 3, "currency" : "gp"},
+          "damage": [{"numDie" : 1, "die" : 6}],
+          "damage_types" : ["Bludgeoning", "Slashing"],
+          "weight": 3,
+          "weapon_group": "Bludgeon",
+          "properties": ["Disarm"],
+          "range":[5],
+          "special" : [""],
+          "ammunition_weight" : ["N/A"],
+          "ammunition_cost" : {"cost" : "N/A", "currency" : "gp", "quantity" : 10},
+          "mastery" : " When you wield a Bar Mace it gains the Deflect property.If you roll 5 over the AC of an enemy, it gains disadvantage on melee attacks until the end of its next turn."
+}
+        
+        

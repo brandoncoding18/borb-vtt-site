@@ -1,0 +1,83 @@
+ <h2>Weapon Mastery</h2>
+        <div>In addition to the expanded and altered weapon lists this system introduces a new level of proficiency: weapon mastery. Mastery of a weapon means that your character has specialized in it beyond the level of understanding that warriors normally achieve. A character with mastery of a weapon unlocks a special perk with that weapon and may also gain extra damage or new properties.</div>
+
+
+        <h2>How do I get Weapons Mastery?</h2>
+        <div>Obtaining Mastery in a weapon is not an easy feat and should not come as such. Here are a few suggestions for how to obtain weapon mastery:</div>
+
+        <ul>
+            <li>The Weapon Master feat grants mastery in two weapons or shields of your choice</li>
+            <li>The different prowess feats grant mastery in one weapon or shield of its category</li>
+            <li>Some nations have prowess & weapon mastery feats as their nation feats, this allows for an early access to a master perk</li>
+        </ul>
+        <h2>Weapon Properties</h2>
+        <div>These properties include those listed in the Player’s Handbook, with some changes, as well as some new ones.</div>
+        
+        <h2>Weapon DC</h2>
+        <div>When your enemy must make a save against your weapon DC, it is calculated with the following equation:
+        Weapon DC = 8 + your proficiency + your strength modifier.
+
+        You can substitute dexterity for strength if the weapon has the finesse property. If a weapon has any magic enhancement, this is added to your Weapon DC.
+
+        In general you can attempt to trip/disarm/entangle once per attack action.This does not apply to attacks of opportunity or to strikes you make on other characters' turns. If you somehow strike more than outside of your turn you may only attempt to trip/disarm/entangle once during those attacks. Engaging in two-weapon fighting allows you to make trip/disarm/entangle attempts once with each weapon.</div>
+       <h2>Ammunition</h2>
+<p>You can use a weapon that has the Ammunition property to make a ranged Attack only if you have Ammunition to fire from the weapon. Each time you Attack with the weapon, you expend one piece of Ammunition. Drawing the Ammunition from a Quiver, case, or other container is part of the Attack.</p>
+
+<p>At the end of the battle, you can recover half your expended Ammunition by taking a minute to Search the battlefield.</p>
+
+<h2>Brace</h2>
+<p>You choose to hold your action to brace. On your turn, choose any targets you can see that is at least 20 feet away from you. If any target moves within your weapon’s reach before your next turn, you can make a melee attack against it with your weapon as a reaction. If the attack hits, treat the attack as a critical hit, plus double your strength modifier.</p>
+
+<h2>Conceal</h2>
+<p>You gain advantage on sleight of hand checks made to conceal the weapon on your person. Some conceal weapons are not obviously weapons and require additional checks to identify as weapons after they are discovered (at the discretion of your DM).</p>
+
+<h2>Deflect</h2>
+<p>When struck by a melee weapon attack, you can use your reaction to reduce the non-magical damage by a roll of your weapon's damage. If you are wielding a magical deflect weapon, you may deflect magical damage as well. If you are wielding a Deflect weapon with two hands, you can add your modifier twice instead of 1.5 times (Rounded up).</p>
+
+<p>If you are wielding two Deflect weapons, you can roll both weapons Deflect rolls and take the highest result or you can choose to deflect another attack using your off-hand weapon, as part of the same reaction. You do not add your modifier to the off-hand Deflect roll unless you have the Two-Weapon Fighting Style.</p>
+
+<h2>Disarm</h2>
+<p>You may only make a disarm attempt with weapons that have the disarm property. If your attack is successful, you can choose to deal no damage and instead force your enemy to roll your choice of Strength or Dexterity Saving throw against your Weapon DC. On a failure, it drops one held object of your choice, landing at its feet. If the enemy is larger than you or is using a two-handed weapon, it gains advantage on this save. If it is smaller than you, it suffers disadvantage.</p>
+
+<h5>Disarm Mechanics</h5>
+<p>A disarm drops the item at the target's feet. On its turn, the target can pick up the item using its free object interaction, so be sure someone else grabs the disarmed item before its turn! A character who has disarmed an enemy may use their own object interaction to pick the weapon up if they have a free hand.</p>
+
+<h2>Double</h2>
+<p>During your turn after you take the attack action, if you choose to use a weapon's double feature, you must be within 5ft of your target, and you make an additional attack using the damage in (parentheses). Double attacks do not benefit from Reach. If no damage is given the double end does the weapons normal damage. If a weapon has the Versatile property, you must wield it with both hands to benefit from the Double property.</p>
+
+<h2>Entangle</h2>
+<p>If your attack is successful, you can choose to deal no damage and instead apply the grappled condition to your target. To escape, the entangled enemy must succeed a grapple check against your weapon DC, gaining advantage if it is larger than you. Creatures two size categories larger than you are immune to being entangled.</p>
+<p>While you are holding the weapon entangling your target, on your turn, as an attack you can choose to deal damage equal to your strength modifier. You can release a foe from being entangled at any time. If you drop the weapon, the foe is automatically freed.</p>
+
+<h2>Finesse</h2>
+<p>Instead of Strength, you can add Dexterity bonus to your attack and damage if it is higher than your Strength. This weapon can also be used for sneak attack. Note that this is only an option, you can still use strength if you wish.</p>
+
+<h2>Heavy</h2>
+<p>Category size Small creatures always suffer disadvantage when wielding a heavy weapon. Tiny and smaller cannot wield a heavy weapon. Ranged weapons with the Heavy property may not be used from on top of a mount or whilst flying.</p>
+
+<h2>Light</h2>
+<p>In order to dual wield two weapons, both weapons you wield must have this property. You can make an attack with your off-hand weapon as part of your Attack action, but don't add any ability modifier to damage unless you have the Two Weapon Fighting Style. There is no requirement that your off-hand weapon be melee in order to dual wield.</p>
+
+<h2>Loading</h2>
+<p>Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.</p>
+
+<h2>Lunge</h2>
+<p>You may use your reaction on your turn to overextend yourself in a lunge. When you do you may attack a foe up to 5ft further away than normal with all attacks for that turn. This extended reach ends at the end of your turn and cannot be used as part of an Opportunity Attack. This property may be combined with Reach (usually equating to 15 feet of reach for that turn).</p>
+
+<h2>Ranged</h2>
+<p>Ranged weapons make a ranged weapon attack using dexterity for attack and damage. Your ranged weapon must be loaded with ammunition to use with that weapon to roll an Attack Roll. Range always lists two numbers. The first is the weapon's normal range, and the second indicates its maximum range. When attacking enemies beyond the normal range or with an enemy within 5ft of you, you suffer disadvantage for that attack.</p>
+
+<h2>Reach</h2>
+<p>This weapon adds 5 feet to your reach when you make a melee weapon attack, as well as for determining your reach for opportunity attacks made with it. Note that if there is a creature between you and your enemy within reach, your enemy has half cover. Reach cannot be used to extend the range of a Double attack. Note that some weapons provide further reach, mentioned between (). In these cases, you gain disadvantage against enemies 5 feet closer than the reach, and cannot attack enemies further within the range.</p>
+
+<h2>Thrown</h2>
+<p>Thrown weapons are melee weapons which can be used to make a ranged attack by throwing the weapon at the enemy, dealing their melee damage at range. Thrown weapons use Strength for attack and damage, unless the weapon has the Finesse property, in which case you may use Dexterity for the attack and damage. Thrown always lists two numbers. The first is the weapon's normal range, and the second indicates its maximum range. When attacking enemies beyond the normal range or with an enemy within 5ft of you, you suffer disadvantage for that attack. A weapon with the Versatile property can be thrown with both hands.</p>
+
+<h2>Trip</h2>
+<p>If your attack is successful, you can choose to deal no damage and your enemy must succeed on your choice between a strength or dexterity saving throw against your weapon DC or be knocked prone. Enemies 1 size category larger than you and enemies that stand on more than 2 legs gain advantage on this save. Enemies two size categories larger than you are immune to being tripped in this way.</p>
+
+<h2>Two-Handed</h2>
+<p>This weapon requires two hands to use when you attack with it. While wielding a two-handed melee weapon, you add half of your Strength modifier (Rounded up) to the damage roll in addition to the normal ability modifier for that weapon.</p>
+
+<h2>Versatile</h2>
+<div>This weapon can be used with one or two hands and you can switch between them at any time. While wielding this weapon with two hands, you add half of your Strength modifier (Rounded up) to the damage roll in addition to the normal ability modifier for that weapon.</div>

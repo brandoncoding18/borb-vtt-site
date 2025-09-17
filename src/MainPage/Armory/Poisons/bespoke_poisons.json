@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Nemiros (Liquid)",
+    "Description": "The target takes 2d6 Poison damage and must succeed a DC 10 CON save or gain a level of exhaustion. At the end of every turn for the next minute, the target must reroll, gaining additional levels of exhaustion on each failure. Healing the poison damage ends the effect early.",
+    "Ingredients": "Gymarkin, Purified Absinthe, Laudanum"
+  },
+  {
+    "Name": "Gut Rot (Paste)",
+    "Description": "The target takes 3d6 Necrotic damage and must roll a DC 10 CON save at the end of its next turn. On a failure, the character takes 3d6 necrotic damage. On a success, the effect ends. Taking any amount of healing or fire damage ends the effect early.",
+    "Ingredients": "Rottenberry, Distilled Alcohol, Corpse Mushroom"
+  },
+  {
+    "Name": "Nubaara (Liquid)",
+    "Description": "The target must roll a DC 20 WIS save. On a success, the creature's limbs grow numb, giving it disadvantage on all attack rolls, ability checks, and saving throws for the next minute. On a failure, the creature suffers the aforementioned effects until the end of its next turn, at which point it becomes incapacitated, having visions of placid dreams filling its senses. Counts as the charmed condition for saving throws.",
+    "Ingredients": "Laudanum, False Rose Mushroom, Mercury"
+  },
+  {
+    "Name": "Naal Gruul (Liquid)",
+    "Description": "The target must succeed on a DC 10 CON save or take 8d6 Poison damage and become poisoned for an hour, half as much damage and time on a success.",
+    "Ingredients": "Kythenian Gruul “Poison”, Refined Alcohol, Wheathopper Snake Venom"
+  },
+  {
+    "Name": "Devilburn (Gas)",
+    "Description": "The target must succeed on a DC 10 CON save or take 8d6 Radiant damage, half as much damage on a success. Fiends automatically fail the save.",
+    "Ingredients": "Purified absinthe, Blessed water, Refined lantern oil, Alkahest"
+  }
+]

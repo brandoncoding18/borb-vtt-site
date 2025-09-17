@@ -1,0 +1,209 @@
+[{
+    "name" : "Endure",
+    "casting_time" : "1 reaction when you fail a concentration saving throw",
+    "nation" : "Zentravalk",
+    "level" : 1,
+    "school" : "Abjuration",
+    "components" : ["V"],
+    "material_desc" : "N/A",
+    "duration" : "Instantaneous",
+    "description" : "You evoke the holy word to endure beyond your own capabilities.You take Radiant damage that cannot be reduced equal to twice by how much you failed the concentration save. You then maintain concentration on the spell.",
+    "spell_list" : ["Cleric", "Paladin"]
+    
+},
+{
+    "name" : "Armor of Contempt",
+    "casting_time" : "1 action",
+    "nation" : "Zentravalk",
+    "level" : 1,
+    "school" : "Abjuration",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a holy seal patched in your armor)",
+    "duration" : "Instantaneous",
+    "description" : "You evoke the holy word to endure beyond your own capabilities.You take Radiant damage that cannot be reduced equal to twice by how much you failed the concentration save. You then maintain concentration on the spell.",
+    "spell_list" : ["Paladin"],
+    "At Higher Levels" : "When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the radiant damage increase by 5 for each slot.",
+    "Damage" : {"amount" : 5, "type" : "radiant", "scalar" : "level"}
+},
+{
+    "name" : "Coarse Heart",
+    "casting_time" : "1 action",
+    "nation" : "Zentravalk",
+    "level" : 2,
+    "range" : "Self",
+    "school" : "Abjuration",
+    "components" : ["S","M"],
+    "material_desc" : "(a fistful of crushed stones)",
+    "duration" : "1 hour",
+    "description" : "Following the ancestral technique, you swallow crushed stones and redirect them to cover your vital organs. Roll two hit dice, you gain temporary hit points equal to that amount, and the spell ends early if the temp hit points reach zero. For the remainder of the duration of this spell, you have advantage on constitution saving throws.",
+    "spell_list" : ["Cleric", "Paladin","Druid","Ranger"]
+},
+{
+    "name" : "Spit Curse",
+    "casting_time" : "1 minute",
+    "nation" : "Zentravalk",
+    "level" : 2,
+    "range" : "Touch",
+    "school" : "Abjuration",
+    "components" : ["V","M"],
+    "material_desc" : " (A bowl of bone&stone broth, which the spell consumes)",
+    "duration" : "1 hour",
+    "description" : "You enchant a cold bone&stone broth, then serve it to a creature ailed by a curse or magical condition. After drinking the broth, the creature must pass a DC 15 Constitution saving throw. On a success, the creature vomits the broth back out, now darkened and carrying the curse that ailed it. On a failure, the creature vomits it , but the curse remains. Success or failure, the creature then gains a level of exhaustion.",
+    "spell_list" : ["Druid", "Sorcerer"]
+},
+{
+    "name" : "One With the Ground",
+    "casting_time" : "1 action",
+    "nation" : "Zentravalk",
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Abjuration",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "Your equipment, clothing and skin become surrounded by a coarse film of the local ground, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) gains advantage on perception, survival and stealth checks, as long as they stay prone and do not move more than 10 feet per round.",
+    "spell_list" : ["Druid", "Ranger"]
+},
+
+{
+    "name" : "Glyph of Salts",
+    "casting_time" : "1 hour",
+    "nation" : "Zentravalk",
+    "level" : 3,
+    "range" : "Touch",
+    "school" : "Abjuration",
+    "components" : ["V","S","M"],
+    "material_desc" : "(A piece of Auropolian Bronze Armor ,Salts and powdered diamond worth at least 200 gp, which the spell consumes)",
+    "duration" : "Until dispelled or triggered",
+    "description" : "Over the course of the spell`s casting time you etch a glyph of salt and powdered diamond over a piece of auropolian bronze armor. At the end of the spell`s casting, you imbue the glyph with the magic of a spell of up to 3rd level with a range of self or touch, for which you also spend a spell slot. This spell fails if you do not have the spell slot available for casting it, or if the spell is not from the same spell list from which you obtained this spell. Each armor can only hold 1 glyph, with renewed castings destroying the prior one.",
+    "spell_list" : ["Artificer", "Cleric"]
+},  
+
+{
+    "name" : "Mirror Spell",
+    "casting_time" : "1 reaction, which you take when you see a creature within 60 feet of you casting a spell",
+    "level" : 3,
+    "nation" : "Zentravalk",
+
+    "range" : "60 feet",
+    "target" : " A creature in the process of casting a spell",
+    "school" : "Abjuration",
+    "components" : ["S"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Poop",
+    "casting_time" : "1 action",
+        "nation" : "Orientavalk",
+
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Conjuration",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Pee",
+    "casting_time" : "1 action",
+        "nation" : "Orientavalk",
+
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Evocation",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Shit",
+    "casting_time" : "1 action",
+        "nation" : "Zentravalk",
+
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Illusion",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Fart",
+    "casting_time" : "1 action",
+    "nation" : "Orientavalk",
+
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Necromancy",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Fart 3",
+    "casting_time" : "1 action",
+    "nation" : "Orientavalk",
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Divination",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+{
+    "name" : "Fart 2",
+    "casting_time" : "1 action",
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Enchantment",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+},
+
+
+{
+    "name" : "TemplateSpell",
+    "casting_time" : "1 action",
+    "level" : 3,
+    "range" : "Self",
+    "school" : "Abjuration",
+    "components" : ["V","S","M"],
+    "material_desc" : "(a fistful of the local soil)",
+    "concentration" : true,
+    "duration" : "Concentration, up to one day",
+    "description" : "",
+    "spell_list" : ["Artificer", "Cleric"]
+}
+
+]
+

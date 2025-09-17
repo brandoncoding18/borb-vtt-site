@@ -1,0 +1,50 @@
+[
+  {
+    "Name": "Injected",
+    "Description": "Injection via Syringe. Cannot be done to an aware enemy with a normal syringe unless it is restrained, paralized ,stunned , incapacitated or unconscious.",
+    "Dose Cost": 1,
+    "Effect on Poison": "Triples Save DC and duration"
+  },
+  {
+    "Name": "Tipped",
+    "Description": "Applied to projectile munitions/small instruments that deal piercing or slashing damage. Takes 1 Action to properly apply and lasts for 1 hour or until the munition is used.",
+    "Dose Cost": 1,
+    "Effect on Poison": "Doubles Duration"
+  },
+  {
+    "Name": "Coated",
+    "Description": "Applied to melee weapons that deal piercing or slashing damage. Takes 1 Action to properly apply and lasts for 1 hour or until the weapon is used.",
+    "Dose Cost": 1,
+    "Effect on Poison": "Doubles Effect"
+  },
+  {
+    "Name": "Absorbed",
+    "Description": "Must be applied on a body cavity (eyes, mouth, nose, etc.). Takes 30 minutes to begin its work.",
+    "Dose Cost": 1,
+    "Effect on Poison": "Doubles Save and Duration"
+  },
+  {
+    "Name": "Ingested",
+    "Description": "Must be fed to the target. Takes 1 minute to begin its work.",
+    "Dose Cost": 1,
+    "Effect on Poison": "Doubles Effect and Duration"
+  },
+  {
+    "Name": "Touched",
+    "Description": "Must be applied against the skin. Takes 1 hour to begin its work. Will continue applying until it is wiped.",
+    "Dose Cost": 1,
+    "Effect on Poison": "None"
+  },
+  {
+    "Name": "Gas",
+    "Description": "Must be evaporated into the air. The gas expands into the room (at 15ft per round, resolving at the end of the round) or dissipates. Gas is heavier than air unless specified. 1 dose requires 10 GP worth of gunpowder or another method of evaporation.",
+    "Dose Cost": 5,
+    "Effect on Poison": "None"
+  },
+  {
+    "Name": "Smoke",
+    "Description": "Must be ignited. The smoke will expand into the room (at 30ft per round, resolving at the end of the round) or dissipate. Smoke is lighter than air unless specified. 1 dose requires 10 GP worth of gunpowder or another quick ignition method.",
+    "Dose Cost": 5,
+    "Effect on Poison": "None"
+  }
+]

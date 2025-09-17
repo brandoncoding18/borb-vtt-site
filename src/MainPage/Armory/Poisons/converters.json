@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Alchemist Water",
+    "Converts into": "Liquid",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Distilled Alcohol",
+    "Converts into": "Liquid (Volatile)",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Fine Gunpowder",
+    "Converts into": "Powder",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Bone Dust",
+    "Converts into": "Paste",
+    "Cost (gp)": 5
+  }
+]

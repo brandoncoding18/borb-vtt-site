@@ -1,0 +1,44 @@
+{
+
+    "name" : "Physician",
+    "caster_type" : "N/A",
+    "hitDie" : 8,
+    "armor_prof" : ["Light", "Shields"],
+    "weapon_prof" : ["Simple", "Shortswords", "Hand Crossbows", "Rapiers", "Interceptors", "Side Batons"],
+    "tools_prof" : ["Healer's Kit", "Herbalist's Kit", {"choice" : 1, "type" : "Artisan's"}],
+    "saving_throws" : ["Wisdom", "Intelligence"],
+    "skill_prof" : {"choice" : 2, "skills" : ["Insight", "Nature", "Medicine", "Survival", "Perception", "Investigation"]},
+    "equipment" : ["(a) any simple weapon or (b) a rapier or (c) a side baton", "(a) a shield or (b) an interceptor", "(a) a scholar’s pack or (b) an explorer’s pack", "(a) a healer’s kit or (b) an herbalist’s kit", "Leather armor and a dagger"],
+    "starting_gold" : {"multiplier" : 10, "num_die" : 5, "die" : 4},
+    "misc_table_features" : 
+    
+    {"Treatments Known"
+    : [null, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4]
+    },
+    "features" : [
+        
+        {"name" : "Medicinal Background", "lvl" : [1], "desc" : "You can use an action to stabilize a creature that has 0 hit points, without needing to make a Medicine check."}
+        ,{"name" : "Expertise", "lvl" : [1], "desc" : "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with your herbalist's kit or healer's kit. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 6th level, you can choose two more of your proficiencies (in skills or with healer's/herbalists kit) to gain this benefit."}
+        ,{"name" : "Practitioner's Eye", "lvl" : [1], "desc" : "With a deeper knowledge of anatomy than most, you gain a keen understanding of the state of creatures you face, to aid you in treatment as well as combat. Be it a limp, a bad eye, or an exposed wound, you are able to pick up on weaknesses that you can use to aid or harm. Starting at 1st level you may use your bonus action to mark an enemy you can see within 60 feet of you, and impose one of the following effects:Expose: Until the start of your next turn, the first time a target of this mark is damaged by you or a creature that is not hostile towards you, pick one of the following conditions: blinded, disarmed, prone, or unable to speak. The targeted creature must roll a Constitution saving throw against a DC of 8 + your wisdom modifier + proficiency bonus, or be inflicted with the chosen condition until the end of their next turn. Amplify: Until the start of your next turn, the first time a target of this mark is damaged by you or another creature, the damage is increased by an additional 1d6. The mark can be applied multiple times in a single bonus action when you reach higher levels in this class: two times at 5th level, three times at 11th level, and four times at 17th level. You can direct the mark at the same target or at different ones. You may choose new effects for each subsequent mark you make. "}
+        ,{"name" : "Administer Aid", "lvl" : [2], "desc" : "At 2nd level, you gain the knowledge that allows you to heal wounds most effectively. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your Physician level x 10.As an action, you can touch a creature and restore a number of hit points to that creature, up to the maximum amount remaining in your pool.Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Administer Aid, expending hit points separately for each one.This feature has no effect on undead and constructs."}
+        ,{"name" : "Treatments", "lvl" : [2], "desc" : "TBA"}
+        ,{"name" : "Physician Study", "lvl" : [3],  "subclassOptions" : true, "desc" : "At 3rd level, you delve further into a particular school of medicine that interests you. You gain further features at 5th, 9th, and 15th level " }
+        ,{"name" : "Ability Score Improvement", "lvl" : [4, 8, 10, 12, 16, 19], "desc" : "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature"}
+        ,{"name" : "Critical Information", "lvl" : [7], "desc" : "Beginning at 7th level, when you or an ally within 60 feet of you is attacked by a creature marked with your practitioner’s eye, you can use your reaction to add your Wisdom to their AC until the start of your next turn.  You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."}
+        ,{"name" : "First Responder", "lvl" : [11], "desc" : "Beginning at 11th level, you may use the Adminiser Aid feature as a bonus action instead of an action. "}
+        ,{"name" : "Improved Practitioner’s Eye", "lvl" : [14], "desc" : "By 14th level, you have gained an even sharper eye from being in the field. The range of your practitioner’s eye extends to 120 feet, and you can target any number of creatures in a 15 foot radius, applying the same effect once to all creatures. "}
+        ,{"name" : "Bolstered Vitality", "lvl" : [18], "desc" : "Beginning at 18th level, for every 5 hitpoints you use with the Administer Aid feature, the target’s maximum hit die will increase by 1 until the end of their next long rest. This bonus to a single creature’s maximum hit die cannot exceed your proficiency bonus. "}
+        ,{"name" : "Miracle Drug", "lvl" : [20], "desc" : "At 20th level, you have perfected a drug that can provide shocking benefits. You gain the following treatment: When consuming a Miracle Drug, you regain hit points and hit die up to your maximum, remove all levels of exhaustion, as well as end any curses on the target. Once you use this feature, you can’t use it again until you finish a long rest. "}
+
+
+        ,{"name" : "Acupuncture Proficiencies", "lvl" : [3], "subclass" : "Acupuncture", "desc" : "At 3rd level, you gain proficiency with any one handed melee weapon with the finesse property that deals piercing damage. Weapons meeting these requirements are referred to as Acupuncture weapons "}
+        ,{"name" : "Administer Needle", "subclass" : "Acupuncture", "lvl" : [3], "desc" : "At 3rd level, you gain proficiency with any one handed melee weapon with the finesse property that deals piercing damage. Weapons meeting these requirements are referred to as Acupuncture weapons"}
+        ,{"name" : "Potent Puncture", "subclass" : "Acupuncture", "lvl" : [5], "desc" : "At 5th level, you gain the ability to debilitate targets more effectively using the implements of your practice. Targets damaged with your Acupuncture weapons have disadvantage on attack rolls until the end of their next turn. "}
+        ,{"name" : "Acupuncture Eye", "lvl" : [9], "desc" : "At 9th level, you gain the ability to use your medical knowledge to improve the accuracy of your acupuncture weapons and treatments. You gain an additional use for your Practitioner’s Eye feature:Encumber: Until the start of your next turn, the first time a target of this mark is damaged by one of your acupuncture weapons,that creature’s initiative count is reduced by 1d6 until the start of their next turn. A creature can only be subject to this effect once."}
+        ,{"name" : "Debilitating Precision", "lvl" : [15], "desc" : "At 15th level, you gain the ability to strike with uncanny precision, attacking vital pressure points in your enemiesOnce per turn, when you deal damage with an acupuncture weapon, the enemy must roll a constitution saving throw against your Treatment DC or lose their reaction and only be able to take 1 action during their next turn"}
+
+        ,{"name" : "Feature", "lvl" : [1], "desc" : ""}
+
+    ]
+
+}

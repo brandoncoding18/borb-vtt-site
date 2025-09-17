@@ -1,0 +1,46 @@
+[
+    {
+        "name" : "Elf", 
+        "size" : ["Medium"],
+        "speed" : {"Walking" : 30},
+        "languages" : ["Common", "Elven"],
+        "asi" : {"Dexterity" : 2},
+
+        "subraces" : [
+        
+            {
+                "sub" : "High Elf",
+                "asi" : {"Intelligence" : 1},
+                 "features" : [
+                    {"High Elf Cantrip" : "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."},
+                    {"Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow."},
+                    {"Extra Language" : "You can read, speak, and write one additional language of your choice."}
+                ]
+            }, 
+            {
+
+                "sub" : "Wood ELf",
+                "asi" : {"Wisdom" : 1 },
+                "features" : [
+                    {"Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow."},
+                    {"Fleet of Foot" : "Your base walking speed increases to 35 feet."},
+                    {"Mask of the Wild" : " You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."}
+                ]
+
+            },
+            {
+
+                "sub" : "Sea ELf",
+                "asi" : {"Constitution" : 1 },
+                "features" : [
+                    {"Sea Elf Training" : "You have proficiency with the spear, trident, light crossbow, and net."},
+                    {"Friend of the Sea" : "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return."}
+                    ,{"Child of the Sea" : "You have a swimming speed of 30 feet, and you can breathe air and water."}
+                    ,{"Language of the Waves" : "You can speak, read, and write Aquan."}
+                                ]
+
+            }
+    ]
+
+    }
+]

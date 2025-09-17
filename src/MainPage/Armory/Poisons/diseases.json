@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Kythenian Gruul “Poison”",
+    "Phase 1": "1st Day: Mild fever, revolving stomach. The afflicted will vomit unless passing a DC 10 CON check.",
+    "Phase 2": "2nd Day to 5th: Strong fever, stomach pain. The DC to not vomit is 13, disadvantage on all INT skill checks.",
+    "Phase 3": "5th to 8th Day: Fever gone, mild stomach pain, still DC 13 save to avoid vomiting.\n8th to 11th Day: Severe headache, inability to cast spells, disadvantage on all ability checks, walking speed halved.",
+    "DC": "10 CON",
+    "Cost": 100
+  },
+  {
+    "Name": "Rotwater Sickness",
+    "Phase 1": "1st Day: Revolving stomach when trying to drink, DC 10 CON check to avoid vomiting.",
+    "Phase 2": "2nd Day to 10th: DC 15 CON save daily, on a failure, -1 penalty to STR and DEX scores, any score reaching 0 causes death. DC to drink becomes 15.",
+    "Phase 3": "11th to 21st Day: DC 15 CON save daily, on a failure, -1 penalty to CON and WIS, any score reaching 0 causes death, afflicted revolts at any wet touch.",
+    "DC": "10 CON",
+    "Cost": 150
+  },
+  {
+    "Name": "Stone Joint",
+    "Phase 1": "1st Day: -5ft movement speed, pain in knees. Disadvantage on Athletics and Acrobatics checks.",
+    "Phase 2": "2nd to 14th Day: Movement speed halved, pain in every joint, disadvantage on all STR and DEX rolls.",
+    "Phase 3": "14th to 21st Day: 1d4 limbs become useless and begin to rot, requiring amputation.",
+    "DC": "10 CON",
+    "Cost": 200
+  },
+  {
+    "Name": "Underdark Bat Fever",
+    "Phase 1": "1st to 3rd Day: Difficulty breathing, DC 10 CON check to dash.",
+    "Phase 2": "4th to 7th Day: Weakness, fever. DC 15 CON check for any STR or DEX roll, including dash, dodge, or disengage actions.",
+    "Phase 3": "8th to 15th Day: Speed reduced to 0, DC 20 CON check to avoid suffocating, DC 15 CON check for STR or DEX rolls.",
+    "DC": "10 CON",
+    "Cost": 200
+  },
+  {
+    "Name": "Prancing Madness",
+    "Phase 1": "1st Day: Jolt in legs, disadvantage on DEX saves and ability checks. -5ft movement speed.",
+    "Phase 2": "2nd to 5th Day: Sudden urge to jump/dance, disadvantage on WIS and DEX saves and ability checks.",
+    "Phase 3": "6th to 10th Day: Inability to stop dancing, creature rambles incoherently. DC 15 CON save every hour, on fail, gains 1 level of exhaustion.",
+    "DC": "10 CON",
+    "Cost": 250
+  }
+]

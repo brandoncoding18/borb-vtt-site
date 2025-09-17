@@ -1,0 +1,80 @@
+[
+  {
+    "Name": "Syringe",
+    "Delivery Method": "Injected",
+    "Description": "A common syringe. Can be concealed and used as an attack on restrained, paralyzed or unconscious enemies.",
+    "Cost": 75
+  },
+  {
+    "Name": "Syringe Dart",
+    "Delivery Method": "Injected",
+    "Description": "A small syringe with feather fins. Must be fired from a blowgun.",
+    "Cost": 125
+  },
+  {
+    "Name": "Insulated Container",
+    "Delivery Method": "Tipped",
+    "Description": "Used to stow tipped ammunition like darts or bullets.",
+    "Cost": 25
+  },
+  {
+    "Name": "Insulated Scabbard",
+    "Delivery Method": "Coated",
+    "Description": "Used to stow one-handed bladed weapons to prevent coated poison from expiring. Can be flooded with paste to keep the blade coated.",
+    "Cost": 25
+  },
+  {
+    "Name": "Wrist Pouch",
+    "Delivery Method": "Touched, Absorbed",
+    "Description": "Used to contain powder or paste in one’s wrist. Can be applied to another object via a sleight of hand check.",
+    "Cost": 25
+  },
+  {
+    "Name": "Cultivation Cart",
+    "Delivery Method": "Miscellaneous",
+    "Description": "Used to grow plants, animals, and parasites for harvesting poisons.",
+    "Cost": 250
+  },
+  {
+    "Name": "Gasifier",
+    "Delivery Method": "Gas",
+    "Description": "Quickly evaporates any gas fed into it and blows it through a nozzle in a 15ft cone. Worn as a backpack (15 lbs). Loading takes 1 minute. Holds up to 100 doses of a single poison.",
+    "Cost": 250
+  },
+  {
+    "Name": "Gas Grenade",
+    "Delivery Method": "Gas",
+    "Description": "Small, single-dose grenade. Can be thrown as an action. Counts as a grenade for properties and masteries. the DC of the poison replaces the grenade DC.",
+    "Cost": 50
+  },
+  {
+    "Name": "Smoker",
+    "Delivery Method": "Smoke",
+    "Description": "Quickly ignites smoke poisons and blows it through a nozzle in a 15ft cone. Worn as a backpack (15 lbs). Loading takes 1 minute. Holds up to 100 doses of a single poison.",
+    "Cost": 250
+  },
+  {
+    "Name": "Clockwork Smoke Grenade",
+    "Delivery Method": "Smoke",
+    "Description": "Small, single-dose grenade. Can be thrown as an object action and set to release its dose in up to 1 minute.",
+    "Cost": 150
+  },
+  {
+    "Name": "Insulated Gloves",
+    "Delivery Method": "Absorbed, Touched",
+    "Description": "Insulated gloves immune to most poison types. Useful for creating and delivering poisons via touch.",
+    "Cost": 50
+  },
+  {
+    "Name": "Poisoner Masquerade",
+    "Delivery Method": "Miscellaneous",
+    "Description": "Provides protection against gases and smokes that affect by being breathed in. Useful for creating and delivering poisons.",
+    "Cost": 150
+  },
+  {
+    "Name": "Poisoner Coat",
+    "Delivery Method": "Miscellaneous",
+    "Description": "Provides full-body protection against poisons.",
+    "Cost": 150
+  }
+]

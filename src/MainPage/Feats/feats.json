@@ -1,0 +1,1094 @@
+[
+  {
+    "Name": "Actor",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Charisma score by 1, to a maximum of 20.\n\tYou have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.\n\tYou can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked."
+  },
+  {
+    "Name": "Alert",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "\n\tYou can't be surprised while you are conscious. \n\tYou gain a +5 bonus to initiative. \n\tOther creatures don't gain advantage on attack rolls against you as a result of being unseen by you."
+  },
+  {
+    "Name": "Artificer Initiate",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Studying artifice, you learn one Infusion of your choice from the Artificer class. \n\tYour spellcasting ability for the infusion is Intelligence, Wisdom, or Charisma (choose when you select this feat). \n\tIf the infusion has a prerequisite of any kind, you can choose that infusion only if you’re an artificer who meets the prerequisite. \n\tWhenever you gain a level, you can replace the infusion with another one from the artificer class."
+  },
+  {
+    "Name": "Athlete",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\tWhen you are prone, standing up uses only 5 feet of your movement.\n\tClimbing doesn't cost you extra movement.\n\tYou can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
+  },
+  {
+    "Name": "Charger",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Chef",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n\tYou gain proficiency with cook’s utensils if you don’t already have it.\n\tAs part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points. \n\tWith one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
+  },
+  {
+    "Name": "Crusher",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Constitution by 1, to a maximum of 20.\n\tOnce per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.\n\tWhen you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn."
+  },
+  {
+    "Name": "Dual Wielder",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "\tYou gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.\n\tYou can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.\n\tYou can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
+  },
+  {
+    "Name": "Dungeon Delver",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.,You have advantage on saving throws made to avoid or resist traps.,You have resistance to the damage dealt by traps.,Travelling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception) score."
+  },
+  {
+    "Name": "Durable",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Constitution score by 1, to a maximum of 20.,When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2)."
+  },
+  {
+    "Name": "Eldritch Adept",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "Spellcasting or Pact Magic feature",
+    "Desc": "Studying occult lore, you learn one Eldritch Invocation option of your choice from the warlock class. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma (choose when you select this feat). If the invocation has a prerequisite of any kind, you can choose that invocation only if you’re a warlock who meets the prerequisite.,Whenever you gain a level, you can replace the invocation with another one from the warlock class."
+  },
+  {
+    "Name": "Elemental Adept",
+    "Source": "Player's Handbook",
+    "Prereq": "The ability to cast at least one spell",
+    "Desc": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.,Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.,You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+  },
+  {
+    "Name": "Fey Touched",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the Misty Step spell and one 1st-level spell of your choice. The 1st-level spell must be from the Divination or Enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+  },
+  {
+    "Name": "Fighting Initiate",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "Proficiency with a martial weapon",
+    "Desc": "Your martial training has helped you develop a particular style of fighting. As a result, you learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.,Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
+  },
+  {
+    "Name": "Grappler",
+    "Source": "Player's Handbook",
+    "Prereq": "Strength 13 or higher",
+    "Desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:,You have advantage on attack rolls against a creature you are grappling.,You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
+  },
+  {
+    "Name": "Healer",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "When you use a healer's kit to stabilize a dying creature, that creature also regains 1 hit point.,As an action. you can spend one use of a healer's kit to tend to a creature and restore 1d6 + 4 hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest."
+  },
+  {
+    "Name": "Heavily Armored",
+    "Source": "Player's Handbook",
+    "Prereq": "Proficiency with medium armor",
+    "Desc": "You have trained to master the use of heavy armor, gaining the following benefits:,Increase your Strength score by 1, to a maximum of 20.,You gain proficiency with heavy armor."
+  },
+  {
+    "Name": "Heavy Armor Master",
+    "Source": "Player's Handbook",
+    "Prereq": "Proficiency with heavy armor",
+    "Desc": "You can use your armor to deflect strikes that would kill others. You gain the following benefits:,Increase your Strength score by 1, to a maximum of 20.,While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 3."
+  },
+  {
+    "Name": "Inspiring Leader",
+    "Source": "Player's Handbook",
+    "Prereq": "Charisma 13 or higher",
+    "Desc": "You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
+  },
+  {
+    "Name": "Keen Mind",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence score by 1, to a maximum of 20.,You always know which way is north.,You always know the number of hours left before the next sunrise or sunset.,You can accurately recall anything you have seen or heard within the past month."
+  },
+  {
+    "Name": "Lightly Armored",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.,You gain proficiency with light armor."
+  },
+  {
+    "Name": "Linguist",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence score by 1, to a maximum of 20.,You learn three languages of your choice.,You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
+  },
+  {
+    "Name": "Lucky",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "You have 3 luck points. Whenever you make an attack roll, an ability check, or a saving throw, you can spend one luck point to roll an additional d20. You can choose to spend one of your luck points after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the attack roll, ability check, or saving throw.,You can also spend one luck point when an attack roll is made against you. Roll a d20 and then choose whether the attack uses the attacker's roll or yours.,If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.,You regain your expended luck points when you finish a long rest."
+  },
+  {
+    "Name": "Mage Slayer",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.,When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.,You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+  },
+  {
+    "Name": "Magic Initiate",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "In addition, choose one 1st-level spell to learn from that same list. Using this feat, you can cast the spell once at its lowest level, and you must finish a long rest before you can cast it in this way again.,Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+  },
+  {
+    "Name": "Martial Adept",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "You learn two maneuvers of your choice from among those available to the Battle Master archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).,You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
+  },
+  {
+    "Name": "Medium Armor Master",
+    "Source": "Player's Handbook",
+    "Prereq": "Proficiency with medium armor",
+    "Desc": "You have practiced moving in medium armor to gain the following benefits:,Wearing medium armor doesn't impose disadvantage on your Dexterity (Stealth) checks.,When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
+  },
+  {
+    "Name": "Metamagic Adept",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "Spellcasting or Pact Magic feature",
+    "Desc": "You've learned how to exert your will on your spells to alter how they function:,You learn two Metamagic options of your choice from the sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the sorcerer class.,You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest."
+  },
+  {
+    "Name": "Mobile",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Your speed increases by 10 feet.,When you use the Dash action, difficult terrain doesn't cost you extra movement on that turn.,When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
+  },
+  {
+    "Name": "Moderately Armored",
+    "Source": "Player's Handbook",
+    "Prereq": "Proficiency with light armor",
+    "Desc": "You have trained to master the use of medium armor and shields, gaining the following benefits:,Increase your Strength or Dexterity score by 1, to a maximum of 20.,You gain proficiency with medium armor and shields."
+  },
+  {
+    "Name": "Mounted Combatant",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "You have advantage on melee attack rolls against any unmounted creature that is smaller than your mount.,You can force an attack targeted at your mount to target you instead.,If your mount is subjected to an effect that allows it to make Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+  },
+  {
+    "Name": "Observant",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence or Wisdom score by 1, to a maximum of 20.,If you can see a creature's mouth while it is speaking a language you understand, you can interpret what it's saying by reading its lips.,You have a +5 bonus to your passive Wisdom (Perception) and passive Intelligence (Investigation) scores."
+  },
+  {
+    "Name": "Piercer",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Dexterity by 1, to a maximum of 20.,Once per turn, when you hit a creature with an attack that deals piercing damage, you can re-roll one of the attack’s damage dice, and you must use the new roll.,When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes."
+  },
+  {
+    "Name": "Poisoner",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "When you make a damage roll, you ignore resistance to poison damage.,You can coat a weapon in poison as a bonus action, instead of an action.,You gain proficiency with the poisoner's kit if you don't already have it. With one hour of work using a poisoner's kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied to a weapon or piece of ammunition, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a DC 14 Constitution saving throw or take 2d8 poison damage and become poisoned until the end of your next turn."
+  },
+  {
+    "Name": "Polearm Master",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "When you take the Attack action and attack with only a glaive, halberd, quarterstaff, or spear, you can use a bonus action to make a melee attack with the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and it deals bludgeoning damage.,While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an opportunity attack from you when they enter the reach you have with that weapon."
+  },
+  {
+    "Name": "Resilient",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase the chosen ability score by 1, to a maximum of 20.,You gain proficiency in saving throws using the chosen ability."
+  },
+  {
+    "Name": "Ritual Caster",
+    "Source": "Player's Handbook",
+    "Prereq": "Intelligence or Wisdom of 13 or higher",
+    "Desc": "You have learned a number of spells that you can cast as rituals. These spells are written in a ritual book, which you must have in hand while casting one of them.,When you choose this feat, you acquire a ritual book holding two 1st-level spells of your choice. Choose one of the following classes: bard, cleric, druid, sorcerer, warlock, or wizard. You must choose your spells from that class's spell list, and the spells you choose must have the ritual tag. The class you choose also must have the ritual tag. The class you choose also determines your spellcasting ability for these spells: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard.,If you come across a spell in written form, such as a magical spell scroll or a wizard's spellbook, you might be able to add it to your ritual book. The spell must be on the spell list for the class you chose, the spell's level can be no higher than half your level (rounded up), and it must have the ritual tag. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents the material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it."
+  },
+  {
+    "Name": "Savage Attacker",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Sentinel",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.,Creatures provoke opportunity attacks from you even if they take the Disengage action before leaving your reach.,When a creature within 5 feet of you makes an attack against a target other than you (and that target doesn't have this feat), you can use your reaction to make a melee weapon attack against the attacking creature."
+  },
+  {
+    "Name": "Shadow Touched",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the Invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the Illusion or Necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+  },
+  {
+    "Name": "Sharpshooter",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.,Your ranged weapon attacks ignore half and three-quarters cover.,Before you make an attack with a ranged weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If that attack hits, you add +10 to the attack's damage."
+  },
+  {
+    "Name": "Skill Expert",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase one ability score of your choice by 1, to a maximum of 20.,You gain proficiency in one skill of your choice.,Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus."
+  },
+  {
+    "Name": "Skilled",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Skulker",
+    "Source": "Player's Handbook",
+    "Prereq": "Dexterity 13 or higher",
+    "Desc": "You are an expert at slinking through shadows. You gain the following benefits:,You can try to hide when you are lightly obscured from the creature from which you are hiding.,When you are hidden from a creature and miss it with a ranged weapon attack, making the attack doesn't reveal your position.,Dim light doesn't impose disadvantage on your Wisdom (Perception) checks relying on sight."
+  },
+  {
+    "Name": "Slasher",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Dexterity by 1, to a maximum of 20.,Once per turn when you hit a creature with an attack that deals slashing damage, you can reduce the speed of the target by 10 feet until the start of your next turn.,When you score a critical hit that deals slashing damage to a creature, you grievously wound it. Until the start of your next turn, the target has disadvantage on all attack rolls."
+  },
+  {
+    "Name": "Spell Sniper",
+    "Source": "Player's Handbook",
+    "Prereq": "The ability to cast at least one spell",
+    "Desc": "You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:,When you cast a spell that requires you to make an attack roll, the spell's range is doubled.,Your ranged spell attacks ignore half cover and three-quarters cover.,You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, and warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+  },
+  {
+    "Name": "Tavern Brawler",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Consititution score by 1, to a maximum of 20.,You are proficient with improvised weapons.,Your unarmed strike uses a d4 for damage.,When you hit a creature with an unarmed strike or an improvised weapon on your turn, you can use a bonus action to attempt to grapple the target."
+  },
+  {
+    "Name": "Telekinetic",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the mage hand cantrip. You can cast it without verbal or somatic components, and you can make the spectral hand invisible. If you already know this spell, its range increases by 30 feet when you cast it. Its spellcasting ability is the ability increased by this feat.,As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward or away from you. A creature can willingly fail this save."
+  },
+  {
+    "Name": "Telepathic",
+    "Source": "Tasha's Cauldron of Everything",
+    "Prereq": "N/A",
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You can speak telepathically to any creature you can see within 60 feet of you. Your telepathic utterances are in a language you know, and the creature understands you only if it knows that language. Your communication doesn't give the creature the ability to respond to you telepathically.,You can cast the Detect Thoughts spell, requiring no spell slot or components, and you must finish a long rest before you can cast it this way again. Your spellcasting ability for the spell is the ability increased by this feat. If you have spell slots of 2nd level or higher, you can cast this spell with them."
+  },
+  {
+    "Name": "Tough",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "War Caster",
+    "Source": "Player's Handbook",
+    "Prereq": "The ability to cast at least one spell",
+    "Desc": "You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:,You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.,You can perform the somatic components of spells even when you have weapons or a shield in one or both hands.,When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature."
+  },
+  {
+    "Name": "Weapon Master",
+    "Source": "Player's Handbook",
+    "Prereq": "N/A",
+    "Desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.,You gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+  },
+  {
+    "Name": "Adept of the Black Robes",
+    "Source": "Dragonlance: Shadow of the Dragon Queen",
+    "Prereq": "4th Level, Initiate of High Sorcery (Nuitari) Feat",
+    "Desc": "You chose the moon Nuitari to influence your magic, and your ambition and loyalty to the Order of the Black Robes has been recognized, granting you these benefits:,Ambitious Magic. You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the Enchantment or Necromancy school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.,Life Channel. You can channel your life force into the power of your magic. When a creature you can see within 60 feet of you fails a saving throw against a spell that deals damage that you cast, you can expend a number of Hit Dice equal to the level of the spell. Roll the expended Hit Dice and add them together. The damage that the creature takes increases by an amount equal to that total."
+  },
+  {
+    "Name": "Adept of the Red Robes",
+    "Source": "Dragonlance: Shadow of the Dragon Queen",
+    "Prereq": "4th Level, Initiate of High Sorcery (Lunitari) Feat",
+    "Desc": "You chose the moon Lunitari to influence your magic, and your dedication to maintaining the balance between all things has been recognized by the Order of the Red Robes, granting you these benefits:,Insightful Magic. You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the Illusion or Transmutation school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.,Magical Balance. When you make an attack roll or an ability check and roll a 9 or lower on the d20, you can balance fate and treat the roll as a 10. You can balance fate in this way a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+  },
+  {
+    "Name": "Adept of the White Robes",
+    "Source": "Dragonlance: Shadow of the Dragon Queen",
+    "Prereq": "4th Level, Initiate of High Sorcery Feat",
+    "Desc": "You chose the moon Solinari to influence your magic, and your oath to use magic to make the world a better place has been recognized by the Order of the White Robes, granting you these benefits:,Protective Magic. You learn one 2nd-level spell of your choice. The 2nd-level spell must be from the Abjuration or Divination school of magic. You can cast this feat’s 2nd-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast this spell using spell slots you have of the appropriate level. The spell’s spellcasting ability is the one chosen when you gained the Initiate of High Sorcery feat.,Protective Ward. When you or a creature you can see within 30 feet of you takes damage, you can use your reaction to expend a spell slot and weave protective magic around the target. Roll a number of d6s equal to the level of the spell slot expended and reduce the damage the target takes by the total rolled on those dice + your spellcasting ability modifier."
+  },
+  {
+    "Name": "Initiate of High Sorcery",
+    "Source": "Dragonlance: Shadow of the Dragon Queen",
+    "Prereq": "Dragonlance Campaign, Sorcerer or Wizard Class or Mage of High Sorcery Background",
+    "Desc": "You've received training from magic-users affiliated with the Mages of High Sorcery.,Choose one of the three moons of Krynn to influence your magic: the black moon, Nuitari; the red moon, Lunitari; or the white moon Solinari. You learn one cantrip of your choice from the Wizard spell list and two 1st-level spells based on the moon you choose, as specified in the Lunar Spells table.,You can cast each of the chosen 1st-level spells without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spells using any spell slots you have.,Your spellcasting ability for this feat’s spells is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+  },
+  {
+    "Name": "Squire of Solamnia",
+    "Source": "Dragonlance: Shadow of the Dragon Queen",
+    "Prereq": "Dragonlance Campaign, Fighter or Paladin Class or Knight of Solamnia Background",
+    "Desc": "Your training in the ways of the Knights of Solamnia grants you these benefits:,Mount Up. Mounting or dismounting costs you only 5 feet of movement.,Precise Strike. Once per turn, when you make a weapon attack roll against a creature, you can cause the attack roll to have advantage. If the attack hits, you roll a d8 and add the number rolled as a bonus to the attack's damage roll. You can use this benefit a number of times equal to your proficiency bonus, but a use is expended only if the attack hits. You regain all expended uses when you finish a long rest."
+  },
+  {
+    "Name": "Bountiful Luck",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Halfling",
+    "Desc": "Your people have extraordinary luck, which you have learned to mystically lend to your companions whenever you see them falter. You're not sure how you do it, you just wish it, and it happens. Surely a sign of fortune's favor!,When an ally you can see within 30 feet of you rolls a 1 on the d20 for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.,When you use this ability, you can't use your Lucky racial trait before the end of your next turn"
+  },
+  {
+    "Name": "Dragon Fear",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Dragonborn",
+    "Desc": "When angered, you radiate menace. You gain the following benefits:,Increase your Strength, Constitution, or Charisma score by 1, to a maximum of 20.,Instead of exhaling destructive energy, you can expend a use of your Breath Weapon trait to roar, forcing each creature of your choice within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can’t hear or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success."
+  },
+  {
+    "Name": "Dragon Hide",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Dragonborn",
+    "Desc": "You manifest scales and claws reminiscent of your draconic ancestors. You gain the following benefits:,Increase your Strength, Constitution, or Charisma score by 1, up to a maximum of 20.,Your scales harden. While you aren't wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.,You can grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike."
+  },
+  {
+    "Name": "Dwarven Fortitude",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Dwarf",
+    "Desc": "You have the blood of dwarf heroes flowing through your veins. You gain the following benefits:,Increase your Constitution score by 1, to a maximum of 20.,Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1)."
+  },
+  {
+    "Name": "Drow High Magic",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Elf (drow)",
+    "Desc": "You learn more of the magic typical of dark elves. You learn the Detect Magic spell and can cast it at will, without expending a spell slot. You also learn Levitate and Dispel Magic, each of which you can cast once without expending a spell slot. You regain the ability to cast the spell in this way when you finish a long rest. Charisma is your spellcasting ability for these spells."
+  },
+  {
+    "Name": "Elven Accuracy",
+    "Source": "N/A",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Fade Away",
+    "Source": "N/A",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Fey Teleportation",
+    "Source": "N/A",
+    "Prereq": "N/A",
+    "Desc": ""
+  },
+  {
+    "Name": "Flames Of Phlegethos",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Tiefling",
+    "Desc": "You learn to call on hellfire to serve your commands. You gain the following benefits:,Increase your Intelligence or Charisma score by 1, to a maximum of 20.,When you roll fire damage for a spell you cast, you can reroll any roll of 1 on the fire damage dice, but you must use the new roll, even if it is another 1.,Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. The flames don’t harm you or your possessions, and they shed bright light out to 30 feet and dim light for an additional 30 feet. While the flames are present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 fire damage."
+  },
+  {
+    "Name": "Infernal Constitution",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Tiefling",
+    "Desc": "Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:,Increase your Constitution score by 1, up to a maximum of 20.,You have resistance to cold damage and poison damage.,You have advantage on saving throws against being poisoned."
+  },
+  {
+    "Name": "Orcish Fury",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Half-orc",
+    "Desc": "Your fury burns tirelessly. You gain the following benefits:,Increase your Strength or Constitution score by 1, up to a maximum of 20.,When you hit with an attack made with a simple or martial weapon, you can roll one of the weapon’s damage dice an additional time and add it as extra damage of the weapon’s damage type. Once you use this ability, you can’t use it again until you finish a short or long rest.,Immediately after you use your Relentless Endurance trait, you can use your reaction to make one weapon attack."
+  },
+  {
+    "Name": "Prodigy",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Half-Elf, Half-Orc or Human",
+    "Desc": "You have a knack for learning new things. You gain the following benefits:,You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.,Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus"
+  },
+  {
+    "Name": "Revenant Blade",
+    "Source": "Zentravalk",
+    "Prereq": "Shadar Kai",
+    "Desc": "You are descended from the masters of the lajatang, and some of that mastery has passed on to you. You gain the following benefits:,Increase your Dexterity or Strength score by 1, to a maximum of 20.\nWhile you are holding a Lajatang, you gain a +1 bonus to Armor Class. This bonus increases to +2 when you are wearing nothing but light armor.\nYou may apply your Dexterity or Strength modifier twice on attacks with a Lajatang"
+  },
+  {
+    "Name": "Second Chance",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Halfling",
+    "Desc": "Fortune favors you when someone tries to strike you. You gain the following benefits:,Increase your Dexterity, Constitution, or Charisma score by 1, to a maximum of 20.,When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. Once you use this ability, you can’t use it again until you roll initiative at the start of combat or until you finish a short or long rest."
+  },
+  {
+    "Name": "Squat Nimbleness",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Dwarf or a Small race",
+    "Desc": "You are uncommonly nimble for your race. You gain the following benefits:,Increase your Strength or Dexterity score by 1, to a maximum of 20.,Increase your walking speed by 5 feet.,You gain proficiency in the Acrobatics or Athletics skill (your choice).,You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled."
+  },
+  {
+    "Name": "Svirfneblin Magic",
+    "Source": "Mordenkainen's Tome of Foes",
+    "Prereq": "Gnome (Deep Gnome)",
+    "Desc": "You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast Nondetection on yourself at will, without needing a material component.,You can also cast each of the following spells once with this ability: Blindness/Deafness, Blur, and Disguise Self. You regain the ability to cast these spells when you finish a long rest. Intelligence is your spellcasting ability for these spells"
+  },
+  {
+    "Name": "Wood Elf Magic",
+    "Source": "Xanathar's Guide to Everything",
+    "Prereq": "Elf (Wood)",
+    "Desc": "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one Druid cantrip of your choice. You also learn the Longstrider and Pass Without Trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+  },
+  {
+    "Name": "Ambush Weapon Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with Ambush Weapons. \n You gain mastery with an ambush weapon of your choice \n A successful hit to a creature that is surprised is a critical hit \n You may use your reaction to make a single attack against a creature that has missed you with a melee attack. \nWeapons with the Conceal trait count as ambush weapons for you."
+  },
+   {
+    "Name": "Axe Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with Axes.You gain mastery with an axe of your choiceOn your turn, when you score a critical hit or reduce a target to 0 hit points with an axe, you can immediately make another attack as part of the same action, as long as it is within the weapon´s reach. This effect can happen multiple times as long as the criteria are met.Before you make a melee attack, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.You count as one size category larger for the purpose of weapon properties, such as trip or disarm."
+  },
+   {
+    "Name": "Bludgeon Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with Axes.You gain mastery with an axe of your choiceOn your turn, when you score a critical hit or reduce a target to 0 hit points with an axe, you can immediately make another attack as part of the same action, as long as it is within the weapon´s reach. This effect can happen multiple times as long as the criteria are met.Before you make a melee attack, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack's damage.You count as one size category larger for the purpose of weapon properties, such as trip or disarm."
+  },
+   {
+    "Name": "Bow and Sling Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.You gain mastery with a bow or sling of your choiceYour attacks ignore half and three quarters coverYou can overdraw your shot, making the shot less accurate, but more powerful. Before you make a ranged attack with a ranged weapon with which you are proficient, you can choose to take a -5 penalty to the attack roll. If you do so and the attack hits, it deals +10 damage."
+  },
+   {
+    "Name": "Combat Blade Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attack with Combat Blades.You gain mastery with an Combat Blade of your choiceOn your turn, you can use your reaction to assume a parrying stance. Until your next turn or until you are no longer holding a Combat Blade, you gain a +2 to your AC against melee weapon attacks that target you. If your weapon is magical, this bonus also applies to melee spell attacksYou have advantage on opportunity attacks.On your turn you can use your reaction to enter a readied stance. While readied, making an opportunity attack does not use your reaction."
+  },
+   {
+    "Name": "Crossbow Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You ignore the loading quality of crossbows with which you are proficient.You gain mastery with a Crossbow of your choiceIf a target is within 10ft of you, you can choose another target within your crossbow's normal range in a straight line from you through your first target, and to the second. If you hit the closer target, you can also us the first roll to attack the further target for free, hitting both targets with the same piece of ammunition.Being within 5ft of a hostile creature does not impose disadvantage on your ranged weapon attack rolls."
+  },
+   {
+    "Name": "Dueling Blade Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with Dueling Blades. You gain mastery with a dueling blade of your choice If a creature within 5ft of you takes an attack action against another creature other than you, you may use your reaction to make one attack against that creature. On your turn, as a reaction, you can choose a single target. Until the start of your next turn, your weapon gains the Deflect property, and can Deflect all attacks the chosen target makes against you as part of the same reaction."
+  },
+   {
+    "Name": "Flail and Whip Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with flails and whips. You gain mastery with a Flail or whip of your choiceYou can use your bonus action to ignore the AC coming from an enemy´s shield using your flail or whip against a single enemy, as you sweep around the shield to hit. This effect lasts until the beginning of your next turn. Your Disarm, Entangle and Trip attacks now also deal the weapon´s damage."
+  },
+   {
+    "Name": "Hammer and Pick Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks made with hammers or picks You gain mastery with an hammer or pick of your choice Whenever you have advantage on attacks and both dice would hit, you knock the target prone or shove them 5ft Whenever you have disadvantage on attacks and at least one roll would have hit but the other misses, you can deal your strength modifier in weapon damage to the target."
+  },
+   {
+    "Name": "Polearm Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks with polearms You gain mastery with a polearm of your choice. All Polearm weapons are treated as having the Double property. Your attacks granted by the double property deals 1d4 damage. While you are wielding a polearm, other creatures provoke an opportunity attack from you when they enter the reach of your weapon. The following weapons are part of the polearm group for you: Halberd, Lucerne, Morningstar, Poleaxe, Pole flail, Short Glaive"
+  },
+   {
+    "Name": "Spear Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain +1 to attacks made with spears. You gain mastery with a spear of your choice. You may lunge with any spear, which does not use your reaction. Once per turn, if you have advantage on an attack roll, you can forgo the advantage for that roll to make an additional weapon attack against that target as part of the same action. You can do so once per turn. Any remaining attacks still have advantage."
+  },
+  {
+    "Name": "Shield Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain mastery with a shield of your choice. If you take an Attack action on your turn, you can use a bonus action on the same turn to perform a shove with your shield. If you aren't incapacitated, you can add your shield AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you. If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the save, interposing your shield between yourself and the source of the effect. If you are Untrained with shields, while wielding one you suffer disadvantage on attack rolls, ability checks, and saving throws that rely on Strength or Dexterity, and you can’t cast spells."
+  },
+  {
+    "Name": "Throwing Weapons Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "When you throw a weapon, you draw another weapon freely. Additionally, you may throw with your off hand, and add your ability modifier to the damage roll. You gain mastery with a throwing weapon of your choice Throwing a weapon ignores half cover. You threaten 10ft around you and can make an Opportunity Attack if an enemy leaves your threatened space. You do not suffer disadvantage for throwing at long range and do not suffer disadvantage to ranged attacks made while an enemy is within 5ft of you. This feat applies to all light weapons with the thrown property, in addition to those in the group."
+  },
+  {
+    "Name": "Assault Firearms Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with assault firearms and mastery with one of your choice. You gain +1 to hit with assault firearms.If you hit a creature with a ranged weapon attack, you can follow up with a free melee attack on the creature you hit in the same turn. If you hit an enemy with a ranged attack, you gain the piercing score bonus to melee attack rolls until the end of your turn."
+  },
+   {
+    "Name": "Medium Firearms Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with medium firearms and mastery with one of your choice. You gain +1 to hit with medium firearms. If you score 5 over the target's AC, the enemy must succeed on a Constitution saving throw or take a level of exhaustion. You may grant two levels of exhaustion per enemy this way. If a target is within 10ft of you, you can choose another target within your firearm's normal range in a straight line from you through your first target, and to the second. If you hit the closer target, you can also us the first roll to attack the further target for free, hitting both targets with the same piece of ammunition."
+  },
+   {
+    "Name": "Hand Firearms Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with hand firearms and mastery with one of your choice. You gain a +1 to hit with hand firearms. Being within 5 ft of a hostile creature does not impose disadvantage on your ranged weapon attack rolls. You can load a hand firearm even with no free hands, as long as one hand is holding a hand firearm."
+  },
+   {
+    "Name": "Shotgun Firearms Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with shotgun firearms and mastery with one of your choice. You gain a +1 to hit with shotguns. When your attack with a shotgun misses but does not misfire, it still deals its modifier in damage. You may use your reaction to do an attack of opportunity when an enemy comes within 10 ft of you."
+  },
+   {
+    "Name": "Marksmen Firearms Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with marksmen firearms and mastery with one of your choice. Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.Your ranged weapon attacks ignore half and three-quarters cover.Before you make an attack with a marksmen weapon you are proficient with, you can choose to take a -5 penalty to the attack roll. If that attack hits, you double the damage."
+  },
+   {
+    "Name": "Explosives Prowess",
+    "Source": "DM Gideon",
+    "Prereq": "N/A",
+    "Desc": "You gain proficiency with explosives and mastery with one of your choice.You gain a +1 to hit with explosive firearms and a +1 to the DC saving throw of explosives.When you have advantage on the attack roll with an explosive weapon, the creatures make the saving throw at disadvantage.If you land an explosive on the same 5 ft square of a creature, it automatically fails the saving throw."
+  },
+  {
+    "Name": "Acolyte of The Palace of Moonlight",
+    "Source": "DM Gideon",
+    "Prereq": "Principality of the Vlast Nation",
+    "Desc": "Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your character level (rounded up), and none of the slots can be 6th level or higher. For example, if you're a 4th-level character, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."
+  },
+  {
+    "Name": "Among the Rocks",
+    "Source": "DM Gideon",
+    "Prereq": "Crown of Matacan Nation",
+    "Desc": "You can attempt to hide amongst low hills, small rocks and other hilly, rocky terrain that other creatures could otherwise not use as cover. Additionally, you are proficient in tossing stones as improvised weapons. Medium stones deal 1d8 Bludgeoning damage and have the Thrown (20/60) property for you. Large stones require to be dropped, or rolled down as an action, forcing all creatures on their path to pass a Dexterity Saving Throw against your weapon DC (8 + STR + Prof bonus) or take 2d8 damage, plus an extra d8 for every size category above large"
+  },
+   {
+    "Name": "Ancestor Stones of The Morning",
+    "Source": "DM Gideon",
+    "Prereq": "Dominion of Amrots Nation",
+    "Desc": "You gain proficiency in the Religion skill, if you already are proficient, you double your proficiency bonus for it. Additionally, if you spend a day in prayer at your ancestor’s tomb-shrine, you gain the effects of the Bless spell for the following 7 days."
+  },
+  {
+    "Name": "Armed Trader",
+    "Source": "DM Gideon",
+    "Prereq": "Crown of Tugarpu Nation",
+    "Desc": "When in any market, you may spend an hour to find the best prices, and if there is a good you are looking after available in the market, you will always find it. Additionally, whilst wearing light or no armor, and wielding a Dueling Blade , you gain a +2 bonus to your Armor Class"
+  },
+   {
+    "Name": "Arcane Scribe",
+    "Source": "DM Gideon",
+    "Prereq": "Szlachta Nation",
+    "Desc": "You gain proficiency with Calligrapher's supplies, if you already are proficient, you double your proficiency bonus for it. Additionally, you may use your Calligrapher's supplies to scribe scrolls in half the time and cost it would otherwise take. If you are scribing a scroll that is not in your spell list, you may assist a spellcaster who knows the spell and can cast it."
+  },
+   {
+    "Name": "Ascended Lore",
+    "Source": "DM Gideon",
+    "Prereq": "Sapphire Island Nation, Arcanist (UA) Feat, Magic Initiate Feat",
+    "Desc": "Choose one 3rd Level and one 4th Level spells from the same spell list, you can cast them once at their lowest level without using a spell slot. Once you do so, you cannot do so again until you finish a long rest."
+  },
+   {
+    "Name": "Barkmen",
+    "Source": "DM Gideon",
+    "Prereq": "Luth Tribes Nation",
+    "Desc": "You gain proficiency in the Survival skill, if you already are proficient, you double your proficiency bonus for it. Additionally you can attempt to hide in the backdrop of open forest, swamps and other wetlands that other creatures could otherwise not use as cover. As long as you stay motionless, Heavy armor does not give you disadvantage on stealth checks."
+  },
+    {
+    "Name": "Battlemage",
+    "Source": "DM Gideon",
+    "Prereq": "Tsardom of The Bress Nation",
+    "Desc": "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage. Additionally, when using a two handed spellcasting focus, such as a staff, you gain a +1 bonus to your spell attack rolls and spellcasting DC, and the range for your spells that have attack rolls is doubled."
+  },
+  {
+    "Name": "Blessed by the Sun",
+    "Source": "DM Gideon",
+    "Prereq": "Blessed Maronnian Empire Nation",
+    "Desc": "You may cast the Bless spell without vocal components or spending a spell slot, but only affecting yourself. Once you do this, you may not do so again until you finish a short or long rest."
+  },
+   {
+    "Name": "Blood Smith",
+    "Source": "DM Gideon",
+    "Prereq": "Nikannor Nation",
+    "Desc": "You gain proficiency with Smithing Tools, if you already are proficient, you double your proficiency bonus for it. Additionally, Weapons and Armor you forge from brass have a magical bonus equal to half your Proficiency Modifier (Rounded Up), as long as they are quenched in the blood of recently sacrificed humanoids."
+  },
+  {
+    "Name": "Bone Knight",
+    "Source": "DM Gideon",
+    "Prereq": "Dominion of Snivir Nation",
+    "Desc": "You gain proficiency with the Arcana skill , if you already are proficient, you double your proficiency bonus for it. Additionally, you know the Prepare and Awakening of the Nail spells, and when you cast Awakening of The Nail, you can do so without spending material components, but turning the reanimated undead into a corpse that must be commanded from within."
+  },
+    {
+    "Name": "Bulwark of The Line",
+    "Source": "DM Gideon",
+    "Prereq": "Knights of the Steel Cross Nation",
+    "Desc": "While holding a heavy shield, allied creatures within 5ft of you gain half cover."
+  },
+  {
+    "Name": "Butcherer",
+    "Source": "DM Gideon",
+    "Prereq": "Cakoni Clans Nation",
+    "Desc": "You have advantage on attack rolls against creatures that are under the Frightened condition, unarmed commoners and other noncombatants. Additionally, when a hostile creature with the Frightened condition, unarmed commoner or other noncombatant moves away from you, you may spend your reaction to move up to half your speed towards it."
+  },
+  {
+    "Name": "Cloth of Sun and Beauty",
+    "Source": "DM Gideon",
+    "Prereq": "House Salonikos Nation",
+    "Desc": "You gain proficiency in the Religion skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you learn the Find Familiar and Pass Without Trace spells, which you can cast as a ritual."
+  },
+  {
+    "Name": "Coin and Wine",
+    "Source": "DM Gideon",
+    "Prereq": "Garbunnian Nobles Nation",
+    "Desc": "You gain proficiency with Brewer’s supplies. If you are already proficient, you double your proficiency bonus for it. Additionally, you have advantage on Charisma checks made to bribe a creature by the expenditure of coin, fine goods, or favors."
+  },
+  {
+    "Name": "Court of Pikes",
+    "Source": "DM Gideon",
+    "Prereq": "Emirate of The Hashna Nation",
+    "Desc": "You gain proficiency in the Athletics skill. If you are already proficient, you double your proficiency bonus for it. Additionally, when an ally within 5 feet of you hits a creature with a melee weapon attack, you may spend your reaction to do one weapon attack towards it."
+  },
+  {
+    "Name": "Court Retainer",
+    "Source": "DM Gideon",
+    "Prereq": "Seelie Court Nation",
+    "Desc": "You gain proficiency in the Persuasion skill. If you are already proficient, you double your proficiency bonus for it. Additionally, when you are wielding a weapon with the Deflect property and a creature within your reach is hit by a melee attack, you may use your reaction to deflect said attack."
+  },
+  {
+    "Name": "Crimson Touched",
+    "Source": "DM Gideon",
+    "Prereq": "Heptarchy of Sahràn Nation",
+    "Desc": "You have advantage on checks to research information on eldritch spells and rites, such as sangromancy spells. You learn one Eldritch Invocation, and two 1st-Level Sangromancy spells. You can cast each of these spells without expending a spell slot or hit die. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. You choose the Spell’s spellcasting Ability when you take this feat."
+  },
+  {
+    "Name": "Dauntless",
+    "Source": "DM Gideon",
+    "Prereq": "Despotate of Drazhùn Nation",
+    "Desc": "On your turn, if you reduce a creature to 0 hit points with an attack that deals Piercing damage, you may immediately move within its space and do another attack towards any creature that was behind it when you began the attack. This consumes your movement speed. If the attack deals Slashing damage instead, you may immediately move 10 feet without provoking opportunity attacks. This consumes your movement speed. Both of these may work as long as the criteria are met, and you still have movement speed left to spend."
+  },
+  {
+    "Name": "Devilmen",
+    "Source": "DM Gideon",
+    "Prereq": "Gyamar Tribes Nation",
+    "Desc": "You gain a pool of hit die equal to half your character level (rounded down). This die pool consists of d10 die, and can only be used for spells or magical effects that consume them upon being cast. You regain half your spent hit die this way when you finish a long rest."
+  },
+  {
+    "Name": "Dreamer",
+    "Source": "DM Gideon",
+    "Prereq": "House Saburnikos Nation",
+    "Desc": "You learn two spells from the Psion class of up to 2nd Level. Intelligence is your spellcasting stat for these spells, which you may cast without any verbal or somatic components. Once you cast them this way, you cannot do so again until you finish a Long Rest."
+  },
+  {
+    "Name": "Druzhina",
+    "Source": "DM Gideon",
+    "Prereq": "Tsardom of Varangor Nation, Axe Prowess Feat",
+    "Desc": "You have been trained in the way of the Varangor Druzhina, you gain the following benefits: Whilst mounted, reduce the attack penalty of the axe prowess feat by an amount equal to your proficiency bonus. Creatures smaller than your mount have disadvantage on attack rolls against you. When you command your mount to do an attack towards a creature you can see, you may apply the axe prowess attack penalty & damage increase on hit."
+  },
+  {
+    "Name": "Dunewalker",
+    "Source": "DM Gideon",
+    "Prereq": "Sarab Tribes Nation",
+    "Desc": "You gain proficiency in the Survival skill. If you are already proficient, you double your proficiency bonus for it. When walking over dunes or desert, your footsteps leave no trace, nor can you be heard or sensed by them, by senses such as tremorsense or creatures that might hear them."
+  },
+  {
+    "Name": "Eldritch Master",
+    "Source": "DM Gideon",
+    "Prereq": "Shidte of Karàn Nation, Eldritch Adept Feat",
+    "Desc": "You make a pact of your choosing from the ones available to the Warlock Class. Additionally, you learn two Eldritch Invocations. Your spellcasting ability for the invocation is Intelligence, Wisdom, or Charisma (choose when you select this feat)."
+  },
+  {
+    "Name": "Ember Blooded",
+    "Source": "DM Gideon",
+    "Prereq": "Kharannor Nation",
+    "Desc": "Embers run deep within your blood. Whenever you roll damage for a spell that deals fire damage, you may spend hit die up to your Proficiency Bonus to increase the damage for one target. The damage is equal to the roll of the hit die spent."
+  },
+  {
+    "Name": "Farlands Scholar",
+    "Source": "DM Gideon",
+    "Prereq": "Spellcasting feature, Kingdom of Helmar Nation",
+    "Desc": "Choose two nations, you learn up to four spells from their nation spells roster that are from your spell list. Your spellcasting stat for these spells is the same as your spellcasting class."
+  },
+  {
+    "Name": "Ear of Stone",
+    "Source": "DM Gideon",
+    "Prereq": "Asker Tribes Nation",
+    "Desc": "You gain proficiency in the Perception skill. If you are already proficient, you double your proficiency bonus for it. Additionally, if you spend 1 minute with your ear to the ground in rocky or mountainous terrain, you will learn the direction and rough distance of any moving groups of creatures, rivers, and other terrain features that resonate against the stone in a mile radius. At the DM's discretion, you may also try this in other stony surfaces, such as the streets of a city."
+  },
+  {
+    "Name": "Frightening Pragmatism",
+    "Source": "DM Gideon",
+    "Prereq": "Anatol Tribes Nation",
+    "Desc": "You gain proficiency in the Intimidation skill. If you are already proficient, you double your proficiency bonus for it. When you hit a creature with a Net and it becomes restrained, it must also pass a Wisdom Saving Throw against your weapon DC or become frightened. The creature can repeat the save at the end of its turn. The effect ends early if it loses sight of you. You can use a bonus action on your turn to command one of your slaves within 60 feet of you that can hear you. You decide what action the slave will take and where it will move, immediately during your turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area."
+  },
+  {
+    "Name": "Ghost Sight",
+    "Source": "DM Gideon",
+    "Prereq": "Principality of Wachonia Nation",
+    "Desc": "You gain proficiency in the Perception skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you gain 30 feet of blindsight, and you can see the light cast from the Ghost Light spell, regardless of if you were included in the spell effects when it was cast."
+  },
+  {
+    "Name": "Gift of Mizada",
+    "Source": "DM Gideon",
+    "Prereq": "Letun Tribes Nation",
+    "Desc": "Your skin becomes green and bark-like. While not wearing armor, you gain a +3 bonus to your AC, you may wield a shield and still gain this benefit."
+  },
+  {
+    "Name": "Gift of Haemomancy",
+    "Source": "DM Gideon",
+    "Prereq": "Vojivoivode Nation",
+    "Desc": "You learn two Mutagen Formulas, and you can have up to one mutagen affecting you. As a bonus action, you consume a mutagen, whose effects and side effects last until you finish a short or long rest unless otherwise specified. While one or more mutagens are affecting you, you can use an action to focus and flush all mutagens from your system, ending their effects and side effects. Your total Character level is the one used for level requirements."
+  },
+  {
+    "Name": "Grim Curiosity",
+    "Source": "DM Gideon",
+    "Prereq": "Anatol Empire Nation",
+    "Desc": "You gain proficiency in the Arcana skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you learn the Prepare and Awakening of The Nail spells, which you can cast as a ritual."
+  },
+  {
+    "Name": "Guffor",
+    "Source": "DM Gideon",
+    "Prereq": "Duchy of Argens Nation",
+    "Desc": "You gain proficiency in the Perception skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you gain a bonus to your Initiative rolls equal to your Intelligence or Wisdom bonus (Your choice when you select this feat)."
+  },
+  {
+    "Name": "Hand Forge",
+    "Source": "DM Gideon",
+    "Prereq": "Dominion of Ashod Nation",
+    "Desc": "You gain proficiency with Smithing Tools. If you are already proficient, you double your proficiency bonus for it. Additionally, you may use the heat your body generates to heat, melt and mold brass and softer metals, requiring no forge for you to create, mend or unmake metal items with enough time."
+  },
+  {
+    "Name": "Hill Figther",
+    "Source": "DM Gideon",
+    "Prereq": "Crown of Aguerre Nation",
+    "Desc": "You have advantage on attack rolls against creatures who are in difficult terrain, and as long as you are not traversing difficult terrain, you do not provoke opportunity attacks from them."
+  },
+  {
+    "Name": "Highgrounder",
+    "Source": "DM Gideon",
+    "Prereq": "Crown of Varùz Nation",
+    "Desc": "You are considered to have half cover against any enemies that are 5 feet below you or more. Additionally, if you move at least 10 feet during your turn and do an attack towards a creature that is standing at least 5 feet lower than you, you have advantage in the attack roll."
+  },
+  {
+    "Name": "Idyllique",
+    "Source": "DM Gideon",
+    "Prereq": "Kingdom of Anjou Nation",
+    "Desc": "You gain proficiency in the Deception skill. If you are already proficient, you double your proficiency bonus for it. Additionally, as a reaction when targeted by an attack, you force an ally within 5 feet of you to be targeted instead."
+  },
+  {
+    "Name": "Iron Warrior",
+    "Source": "DM Gideon",
+    "Prereq": "Boolannor Nation",
+    "Desc": "You are a warrior of iron. You gain the following benefits: If you are wearing heavy armor with an inherent DR value and do not move during your turn, the DR from your armor is doubled until the start of your next turn. If a creature lands a melee weapon attack but the damage is reduced to 0 by your DR, it is knocked prone, and its speed is reduced to 0 until the end of its turn. If you take the Dash action during your turn, your speed cannot be reduced until the end of your next turn."
+  },
+  {
+    "Name": "Keen Merchant",
+    "Source": "DM Gideon",
+    "Prereq": "Halvedain League Nation",
+    "Desc": "You gain proficiency in the Insight skill. If you are already proficient, you double your proficiency bonus for it. Additionally, if you find yourself on a market and spend an hour getting acquainted with the people in it, you learn the following: Any goods that could be sold for a profit at this market, or from this market to another. Any goods in high demand or high supply. Any goods of particular rarity, as well as who possesses them and their base price."
+  },
+  {
+    "Name": "Keen Obscurist",
+    "Source": "DM Gideon",
+    "Prereq": "Ostzee Republic Nation",
+    "Desc": "You gain proficiency in the Arcana skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you have advantage on Saving Throws against effects from aberrations, and on rolls to determine whether a creature, item or area is of an eldritch nature, of influence thereby, as well as exacting details of such nature."
+  },
+  {
+    "Name": "Laduguer’s Wanderer",
+    "Source": "DM Gideon",
+    "Prereq": "Duergar Under Empire Nation",
+    "Desc": "You gain proficiency with the Poisoner’s Kit. If you are already proficient, you double your proficiency bonus for it. Additionally, you learn the Ghost Light and Membrane of Laduguer spells, which you can cast as a ritual using your Tinker Tools as a casting focus."
+  },
+  {
+    "Name": "Lance of The Steppe",
+    "Source": "DM Gideon",
+    "Prereq": "Gyamar Kingdom Nation",
+    "Desc": "Once per turn, when you move 30 feet in a straight line whilst mounted and you do a melee weapon attack with a lance at the end of that movement, if that attack hits, consider every damage roll of it to have rolled its maximum possible amount."
+  },
+  {
+    "Name": "Learned Clergy",
+    "Source": "DM Gideon",
+    "Prereq": "Holy Seat of Amaunator Nation",
+    "Desc": "You gain proficiency in History, Medicine, Religion and Caligrapher Supplies. If you are already proficient, you double your proficiency bonus for them."
+  },
+  {
+    "Name": "Light Beyond Life",
+    "Source": "DM Gideon",
+    "Prereq": "Signoria of Arlequin Nation",
+    "Desc": "If a spell, such as Raise Dead, has the sole effect of restoring you to life, the caster doesn't need material components to cast the spell on you."
+  },
+  {
+    "Name": "Magic Adept",
+    "Source": "DM Gideon",
+    "Prereq": "Kingdom of Normand Nation, Magic Initiate Feat",
+    "Desc": "Choose a class: bard, cleric, druid, sorcerer, warlock, or wizard. You learn two 1st-level and one 2nd level spells of your choice from that class's spell list. Using this feat, you can cast the spells once at its lowest level, and you must finish a long rest before you can cast it in this way again. Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
+  },
+  {
+    "Name": "Maker of Chains",
+    "Source": "DM Gideon",
+    "Prereq": "Caliphate of the Mohads Nation",
+    "Desc": "If you are within 5 feet of a creature that has been restrained, you may use your bonus action to bind it with shackles or manacles, freely drawing them from your backpack or other container. If the creature is entangled, you may still do so if you beat it on a grapple check."
+  },
+  {
+    "Name": "Manhunter",
+    "Source": "DM Gideon",
+    "Prereq": "Wodanaz Blood Druids Nation",
+    "Desc": "You gain in the Survival skill. If you are already proficient, you double your proficiency bonus for it. Additionally, as an action when you are within 60 feet of a humanoid that has blood, you become familiar with its scent. Until you finish a long rest, you can reliably track the path it has taken. You may track the scent of a number of humanoids up to your proficiency bonus at the same time."
+  },
+  {
+    "Name": "Master Smith",
+    "Source": "DM Gideon",
+    "Prereq": "Republic of Lamin Nation",
+    "Desc": "You gain proficiency with Smithing Tools. If you are already proficient, you double your proficiency bonus for it. Additionally, metal weapons & armor you create have a nonmagical bonus to their damage & AC equal to half your proficiency bonus (rounded down). If an armor has an inherent DR value, this benefit applies to it as well."
+  },
+  {
+    "Name": "Might of Solas",
+    "Source": "DM Gideon",
+    "Prereq": "Island of Saint Ariemos Nation",
+    "Desc": "You count as one size larger for the purposes of handling weapons, but do not suffer any penalties from wielding weapons of your same size."
+  },
+  {
+    "Name": "Melded with the Woods",
+    "Source": "DM Gideon",
+    "Prereq": "Wood Lords Nation",
+    "Desc": "You gain proficiency in the Stealth skill. If you are already proficient, you double your proficiency bonus for it. Additionally, if you are hidden in thick foliage (such as tree branches or bushes) and remain still, you become invisible until you leave said area."
+  },
+  {
+    "Name": "Merchant’s Cant",
+    "Source": "DM Gideon",
+    "Prereq": "House Palailogos Nation",
+    "Desc": "You gain proficiency in the Persuasion skill. If you are already proficient, you double your proficiency bonus for it. Additionally, you can engage with conversation with any creature that speaks at least one language, communicating with signs, gestures and grunts to agree on the general aspects of trade, such as the exchange of wares, services, or long-term agreements."
+  },
+  {
+    "Name": "Oathsworn",
+    "Source": "DM Gideon",
+    "Prereq": "Sharpheart Clans Nation",
+    "Desc": "You have undergone the ritual to become an Oathsworn Warrior of your clan. You gain the following benefits: You may take the dash action as a bonus action, as long as you are moving directly towards a hostile creature. When a creature within 5 feet of you attacks a target other than you, you may force it to attack you instead."
+  },
+  {
+    "Name": "Oath of Allegiance",
+    "Source": "DM Gideon",
+    "Prereq": "Hashna Turannor Nation",
+    "Desc": "You gain proficiency in all Saving Throws and you gain an extra 2 hit points per level you have. You lose the following features: Blessing of the Raven Queen, Necrotic Resistance, Trance."
+  },
+  {
+    "Name": "Oath of Dust and Distance",
+    "Source": "DM Gideon",
+    "Prereq": "Al Hisan Turannor Nation",
+    "Desc": "You suffer no penalties from difficult terrain, extreme heat, or dehydration. You will never take a short or long rest when there is a roof under your head, and you will travel the maximum distance possible to you in order to intercept any slavers, or to rescue captured slaves."
+  },
+  {
+    "Name": "Oath of Endurance",
+    "Source": "DM Gideon",
+    "Prereq": "Al Muràn Turannor Nation",
+    "Desc": "You are considered to always be under the effect of the Endure spell, which is triggered when you fail a concentration saving throw."
+  },
+  {
+    "Name": "Oath of Reckless Dance",
+    "Source": "DM Gideon",
+    "Prereq": "Al Nasser Turannor Nation",
+    "Desc": "You attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Dexterity, but attack rolls against you have advantage."
+  },
+  {
+    "Name": "Oath of Rampage",
+    "Source": "DM Gideon",
+    "Prereq": "Al Damawi Turannor Nation",
+    "Desc": "When you are reduced to 0 hit points or outright killed, you can immediately take a turn in which you must take the attack action towards a hostile creature or cast a spell that is harmful towards a hostile creature. At the end of this special turn, if you haven't reduced to 0 hit points a hostile creature that opposed you, you die. If you have done so, you fall unconscious."
+  },
+  {
+    "Name": "Oath of Stalwart Service",
+    "Source": "DM Gideon",
+    "Prereq": "Mukhlis Turannor Nation",
+    "Desc": "You are immune to all effects of exhaustion, except Death. You automatically fail any Saving Throw or Skill Check against gaining exhaustion."
+  },
+  {
+    "Name": "Oath of The Adept Custodian",
+    "Source": "DM Gideon",
+    "Prereq": "Al Nehir Turannor Nation",
+    "Desc": "You can never be surprised, and creatures have disadvantage on stealth and sleight of hand checks against you. You may never flee combat, nor retreat behind the safety of others that are not from the Sultan’s Warriors (Al Hisan, Al Nehir, Noker turannor clans)."
+  },
+  {
+    "Name": "Oath of The Endless Battle",
+    "Source": "DM Gideon",
+    "Prereq": "Noker Turannor Nation",
+    "Desc": "When you reduce a creature to 0 hit points, you may immediately and freely do one melee weapon attack against it, which immediately kills it. You may never accept an enemy’s surrender, nor allow them quarter for any longer than it takes to pull information out of them."
+  },
+  {
+    "Name": "Oath of The Last Sacrifice",
+    "Source": "DM Gideon",
+    "Prereq": "Aysun Turannor Nation",
+    "Desc": "When you are reduced to 0 hit points or outright killed, you can choose to remain conscious and standing until the end of the current combat. You become immune to being charmed, frightened, stunned, paralyzed or incapacitated, and your speed cannot be reduced. You must use every turn to attack an enemy, be it with weapon attacks or harmful spells. At the end of the current combat, you die, and your soul is snuffed out, making it impossible for you to be resurrected by any means known."
+  },
+  {
+    "Name": "Old Hope",
+    "Source": "DM Gideon",
+    "Prereq": "Mythrellian Baronies Nation",
+    "Desc": "You are a flame of hope for the days of old, that they may one day return. You gain the following benefits: When you hit a creature with a melee weapon attack, it has disadvantage on attack rolls to creatures other than you until the end of its next turn. Allies within 5 feet of you are considered to have Half Cover. Enemies within 15 feet of you have disadvantage on Intimidation checks against you or your allies."
+  },
+  {
+    "Name": "Opportunist",
+    "Source": "DM Gideon",
+    "Prereq": "Emirate of Alevaz Nation",
+    "Desc": "You gain proficiency in the Sleight of Hand skill. If you are already proficient, you double your proficiency bonus for it. When a creature within your weapon’s reach is knocked prone, it provokes an attack of opportunity from you."
+  },
+  {
+    "Name": "Pack Leader",
+    "Source": "DM Gideon",
+    "Prereq": "Clan Meropje Nation",
+    "Desc": "When you use the help action to give advantage to an ally against an enemy, that ally may instead use its reaction to immediately do a weapon attack to said enemy. A character that takes this feat cannot be affected by it."
+  },
+  {
+    "Name": "Pounce",
+    "Source": "DM Gideon",
+    "Prereq": "Crown of Rauna Nation",
+    "Desc": "If you move at least 20 feet in a straight line and you hit a creature with a weapon attack at the end of the movement, said creature must make a Strength Saving Throw against your Weapon DC or be knocked prone. You may then do an extra attack on this creature."
+  },
+  {
+    "Name": "Pebbler",
+    "Source": "DM Gideon",
+    "Prereq": "Hadjuk Commune Nation",
+    "Desc": "You gain proficiency in the Survival skill and calligraphy supplies. If you are already proficient, you double your proficiency bonus for it. Additionally, firearms you reload take half the gold value of gunpowder, and you can use pebbles in any firearm that fires a solid munition without penalty."
+  },
+  {
+    "Name": "Psionic Adept",
+    "Source": "DM Gideon",
+    "Prereq": "Principality of The Dalmovs Nation",
+    "Desc": "You learn two disciplines from the Psion class. Your character level counts as psion level for the prerequisite."
+  },
+  {
+    "Name": "Relentless Rampage",
+    "Source": "DM Gideon",
+    "Prereq": "Ratarte Khanate Nation",
+    "Desc": "When you reduce a creature to 0 hit points, you may move up to your movement speed, difficult terrain does not slow you down, and you may do one weapon attack."
+  },
+  {
+    "Name": "Rune Attuned",
+    "Source": "DM Gideon",
+    "Prereq": "Kingdom of Druz Nation",
+    "Desc": "You may attune to up to 4 magical items at the same time, to which you can attune over the course of a minute should you choose to do so. Additionally, if you meditate over a magical item over the course of a day, you inflict the effects of Legend Lore on the item at the end of the day. If you instead spend an hour in a room or small area no larger than a 30ft radius, you can sense the direction of any magical items within 30 feet of you."
+  },
+  {
+    "Name": "Scholar of Wonders",
+    "Source": "DM Gideon",
+    "Prereq": "Caliphate of Auropolis Nation",
+    "Desc": "You gain proficiency with Tinker Tools. If you are already proficient, you double your proficiency bonus for it. Additionally, you learn the Awaken Glyphs and Glyph of Salts spells, which you can cast as a ritual using your Tinker Tools as a casting focus."
+  },
+  {
+    "Name": "Seafarer",
+    "Source": "DM Gideon",
+    "Prereq": "Republic of Vanettia Nation",
+    "Desc": "You gain proficiency with Navigator Tools. If you are already proficient, you double your proficiency bonus for it. Additionally, you learn the Forecast and Gust The Sails spells, which you can cast as a ritual using your Navigator Tools as a casting focus."
+  },
+  {
+    "Name": "Skirmisher",
+    "Source": "DM Gideon",
+    "Prereq": "Tsardom of Galburia Nation",
+    "Desc": "You are a well trained skirmisher, you gain the following benefits: When you move 10 feet in a straight line in your turn and do a weapon attack with a sling or Thrown Weapon, its range increases an amount equal to its normal range. When wearing a Skirmish shield, you can spend a reaction to assume a Skirmishing Stance. Until the start of your next turn, ranged attacks against you have disadvantage. Whilst wearing light or medium armor, you have damage reduction against nonmagical bludgeoning, piercing and slashing damage equal to your proficiency bonus. If you are wearing magical armor, this applies to the magical counterparts as well."
+  },
+  {
+    "Name": "Sprinter",
+    "Source": "DM Gideon",
+    "Prereq": "Oirannor Tribes Nation",
+    "Desc": "You become an adept sprinter. You gain the following benefits: Increase your speed by 10 feet. When you move your entire movement speed in a straight line, your movement speed increases by 10 feet. If you have taken the Dash action on your previous turn, moved in a straight line and your speed is not 0, you may move 15 feet further at the beginning of your turn in the same direction."
+  },
+  {
+    "Name": "Step Beyond The Veil",
+    "Source": "DM Gideon",
+    "Prereq": "Unseelie Fey Nation",
+    "Desc": "You learn the Eldritch Step spell, which you can cast as a reaction when targeted by a weapon or spell attack. Using this feat, you can cast the spell once at its lowest level, and you must finish a short or long rest before you can cast it in this way again."
+  },
+  {
+    "Name": "Stomper",
+    "Source": "DM Gideon",
+    "Prereq": "Clan Varcusa Nation",
+    "Desc": "If you move 20 feet in a straight line towards a hostile creature no more than one size larger than you and hit it with an attack, the creature is knocked prone, and its speed is reduced to 0 until the end of its next turn."
+  },
+  {
+    "Name": "Tarkhin",
+    "Source": "DM Gideon",
+    "Prereq": "Clan Armagusa Nation",
+    "Desc": "When you use the help action to give advantage to an ally against an enemy, that ally may use its reaction to immediately move half its speed without provoking opportunity attacks instead. A character that takes this feat cannot be affected by it."
+  },
+  {
+    "Name": "Temple Bureaucrat",
+    "Source": "DM Gideon",
+    "Prereq": "Sultanate of Altyn Nehir Nation",
+    "Desc": "You gain proficiency in the Religion skill, and calligraphy supplies. If you are already proficient, you double your proficiency bonus for it. The time you spend copying, researching and scribing magical spells & scrolls is halved."
+  },
+  {
+    "Name": "Thorn",
+    "Source": "DM Gideon",
+    "Prereq": "Kingdom of The Llapocks Nation",
+    "Desc": "You become a thorn in the grass. You gain the following benefits: You gain proficiency in the Stealth skill. If you are already proficient, you double your proficiency bonus for it. When you take the action to brace with a weapon, you may also do the Hide action for free. You may attempt to hide in bushes, foliage, or tall grass. You do not suffer disadvantage from attacking whilst prone."
+  },
+  {
+    "Name": "Trampler",
+    "Source": "DM Gideon",
+    "Prereq": "House Hadrianos Nation",
+    "Desc": "You gain proficiency in the Athletics skill. If you are already proficient, you double your proficiency bonus for it. You can walk over creatures equal or smaller in size to you when they are prone. They count as difficult terrain, and when you do so, they take bludgeoning damage equal to 1d10 + your Strength Modifier, and an extra d10 for every extra size you are larger than them. You may subject a creature to this damage only once per turn."
+  },
+  {
+    "Name": "Tree Whisperer",
+    "Source": "DM Gideon",
+    "Prereq": "Estun Tribes Nation",
+    "Desc": "You gain proficiency in the Perception skill. If you are already proficient, you double your proficiency bonus for it. Additionally, if you spend 1 minute inspecting the bark of a tree, its branches and its roots, you can determine the presence of fey, aberrations, Wurzel or undead within the forest or swampland it belongs to, as well as their rough location, power, and effect on the land."
+  },
+  {
+    "Name": "Trinketeer",
+    "Source": "DM Gideon",
+    "Prereq": "Marna of The Wagon Nation",
+    "Desc": "At the end of a Long Rest, you may imbue a single trinket with a spell you can cast of a level up to your Proficiency Bonus, and give it to someone else, who may then cast the spell as it is. The spell keeps the spellcasting DC and bonus you had when you put it in said trinket. If the spell consumes any resources, they must be used when you put the spell in the trinket. Any trinkets not used lose their power at the end of your next long rest."
+  },
+  {
+    "Name": "Tunneler",
+    "Source": "DM Gideon",
+    "Prereq": "Kythenian Tribes Nation",
+    "Desc": "You gain proficiency in the Survival skill. If you are already proficient, you double your proficiency bonus for it. You can dig a 5 foot hole over soft ground over a minute with your hands, and over hard ground over the course of five minutes if you have a shovel or other digging equipment. Over the course of 30 minutes you can dig a stable shelter that can house 10 medium sized creatures, and over the course of an hour, you can do the same, in hard ground. Additionally, you have advantage on checks to hear any digging noises through dirt or stone if you can put your ear to it."
+  },
+  {
+    "Name": "Tunnel Defender",
+    "Source": "DM Gideon",
+    "Prereq": "Dwarven Holds Nation",
+    "Desc": "You are a consummate defender of the underways. You gain the following benefits: If you are wearing a shield and do not move during your turn, the AC from your shield is doubled until the start of your next turn. As a reaction on your turn, you may enter a stalwart stance. Until the start of your next turn, you are immune to being knocked prone or forcibly moved. Creatures have disadvantage on attack rolls against you if you have a solid wall to either side of you or to three sides behind you."
+  },
+  {
+    "Name": "Tyrant",
+    "Source": "DM Gideon",
+    "Prereq": "Tyranny of Ragoza Nation",
+    "Desc": "When you reduce a humanoid that has blood to 0 hit points, you can use your reaction to instantly kill it. You regain 1 hit die worth of lost Hit points."
+  },
+  {
+    "Name": "Virajte",
+    "Source": "DM Gideon",
+    "Prereq": "Principality of The Folyos",
+    "Desc": "You undergo the rituals to become a Virajte. You gain the following traits: Increase your walking speed by 10 feet. Medium and Heavy armor no longer give you disadvantage on Stealth Checks. You can sense the blood flowing within creatures that are within 30 feet of you. Your mind becomes foggy, your thoughts clouded by primal senses. You gain disadvantage in Intelligence Rolls."
+  },
+  {
+    "Name": "Veil of Grass",
+    "Source": "DM Gideon",
+    "Prereq": "Gorbennor Nation",
+    "Desc": "You gain proficiency in the Disguise Kit. If you are already proficient, you double your proficiency bonus for it. Additionally, you may make a camouflage of grass or the likes of an animal, such as a steppe horse, over the course of a long rest. Whilst you and any allies within 30 feet of you wear said disguises, you have a +10 bonus to stealth and deception checks made to hide or appear as the disguised animal."
+  },
+  {
+    "Name": "Wall of Meat",
+    "Source": "DM Gideon",
+    "Prereq": "Despotate of the Bress Nation",
+    "Desc": "You gain proficiency in the Athletics skill. If you are already proficient, you double your proficiency bonus for it. When an ally within 5 feet of you does a shove attack to knock a creature prone that is within 5 feet of you, you may use your reaction to do a shove attack as well."
+  },
+  {
+    "Name": "Winemaker",
+    "Source": "DM Gideon",
+    "Prereq": "~nTsardom of Vidìn~n#",
+    "Desc": "You gain proficiency with ~tBrewer’s supplies~t#. If you are already proficient, you double your proficiency bonus for it. Additionally, once per day, you may imbue a bottle of wine with the effects of the Wineberry spell, affecting up to ten creatures instead of five."
+  },
+  {
+    "Name": "Wonders of Brass And Glass",
+    "Source": "DM Gideon",
+    "Prereq": "Emirate of Seytanlar Nation",
+    "Desc": "You gain proficiency with Glassblower Tools. If you are already proficient, you double your proficiency bonus for it, and over the course of a day, you may make a crystal gemstone of a value in gold equal to ten times your proficiency bonus. Additionally, you may use Glassblower Tools to make weapons and armor, though they will be brittle and risk shattering until properly enchanted."
+  }
+]

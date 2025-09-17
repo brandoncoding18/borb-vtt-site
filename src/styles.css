@@ -1,0 +1,160 @@
+/* Base styles for the entire page */
+html,
+body {
+  height: 100%; /* Ensures html and body take full viewport height */
+  margin: 0; /* Remove default browser margin */
+  padding: 0; /* Remove default browser padding */
+  box-sizing: border-box; /* Good practice for consistent box model */
+  overflow: hidden; /* Prevent body scroll if sideNav or mainContent has its own scroll */
+}
+
+.editable-column {
+  display : flex; 
+  cursor: text;
+  max-height : 3em; 
+  overflow-y : hidden; 
+}
+
+.editable-column.a{
+  
+}
+
+
+td {
+            
+            overflow-y: hidden;
+        }
+
+        tr {
+           overflow-y: hidden;
+
+           height :1em !important; 
+
+        }
+
+/* Make sure elements use border-box for easier sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Container for the entire page layout */
+.mainContainer {
+  display: flex; /* Use flexbox to arrange children (SideNav and ActivePage) */
+  height: 100vh; /* Make mainContainer take up full viewport height */
+  width: 100vw; /* Make mainContainer take up full viewport width */
+}
+
+/* Side Navigation Styles */
+.sideNav {
+  background-color: pink;
+  width: 15%; /* Takes up 15% of the mainContainer width */
+  flex-shrink: 0; /* Prevents sideNav from shrinking if content is too wide */
+  /* Remove position: absolute; and margin: auto; here as flexbox handles positioning */
+  display: flex; /* Use flex for content inside the nav (e.g., sideNavLink items) */
+  flex-direction: column; /* Stack nav links vertically */
+  /* If you want the side nav to scroll independently, add: */
+  /* overflow-y: auto; */
+}
+
+/* Main Content Area Styles */
+.subPageContainer {
+  padding-left: 20px; /* Adjust as needed, this was likely a placeholder from before */
+  flex-grow: 1; /* Allows this container to take up remaining space */
+  width: 85%; /* Takes up the remaining 85% of the mainContainer width */
+  overflow-y: auto; /* Allows content to scroll within this area if it overflows */
+}
+
+.classPageContainer {
+  height: 100vh; /* Make mainContainer take up full viewport height */
+  width: 100vw; /* Make mainContainer take up full viewport width */
+  overflow-y: auto; /* Allows content to scroll within this area if it overflows */
+
+}
+
+/* Side Navigation Link Base Styles */
+.sideNavLink {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Default link color */
+  /* Remove margin: auto; here unless you specifically need it for vertical centering within its own space */
+}
+
+/* Side Navigation Link Hover Styles */
+.sideNavLink:hover {
+  background-color: red;
+  color: white; /* Change text color on hover for better contrast */
+  cursor: pointer;
+}
+
+/* Styling for specific anchor tags with sideNavLink class */
+/* This targets <a class="sideNavLink">. If your links are nested, use '.sideNavLink a' */
+.sideNavLink.a {
+  /* This selector '.sideNavLink.a' means an element that has BOTH classes 'sideNavLink' and 'a'.
+     If you intended to style <a> tags *inside* .sideNavLink, use '.sideNavLink a'.
+     If 'a' is meant to be an 'active' class, rename it for clarity. */
+  background-color: blue;
+  color: white; /* Example: active link text color */
+}
+
+/* Icon Styles */
+.icon {
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle; /* Helpful for aligning icons with text */
+}
+
+.weaponNavBar {
+  display: flex; 
+}
+
+.weaponNavItem {
+  display: auto; 
+
+}
+
+.weaponNavItem.active{
+  display: auto; 
+  background-color: green
+
+}
+
+.weaponNavItem.active{
+  display: auto; 
+  background-color: blue; 
+
+}
+
+.binderContainer {
+  display: flex; 
+  margin : 15px; 
+  background-color : burlywood
+}
+
+
+.binderSelection {
+  display: flex; 
+  margin : 15px; 
+  background-color : grey
+}
+
+
+.binderSelection:hover {
+  display: flex; 
+  margin : 15px; 
+  background-color : green
+}
+
+.binderSelection.active {
+  display: flex; 
+  margin : 15px; 
+  color: white; 
+  background-color : blue
+}
+
+

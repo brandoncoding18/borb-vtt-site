@@ -1,0 +1,121 @@
+{
+"name": "Blood Hunter",
+"caster_type": "N/A",
+"hitDie": 12,
+"armor_prof": ["Light", "Medium", "Shields"],
+"weapon_prof": ["Simple", "Martial"],
+"tools_prof": ["Alchemist's Supplies"],
+"saving_throws": ["Charisma", "Constitution"],
+"skill_prof": {
+"choice": 2,
+"skills": ["Athletics", "Acrobatics", "Arcana", "History", "Insight", "Investigation", "Nature", "Religion", "Survival"]
+},
+"equipment": ["(a) a martial weapon or (b) two simple weapons", "(a) a light crossbow and 20 bolts or (b) four javelins", "(a) studded leather armor or (b) scale mail armor", "alchemist's supplies and an explorer's pack"],
+"starting_gold": {
+"multiplier": 10,
+"num_die": 5,
+"die": 4
+},
+"misc_table_features": {
+"Rite Die": ["--", "d4", "d4", "d4", "d6", "d6", "d6", "d6", "d6", "d6", "d8", "d8", "d8", "d8", "d8", "d8", "d10", "d10", "d10", "d10"],
+"Rites Known": ["--", "2", "2", "2", "3", "3", "3", "3", "4", "4", "4", "4", "5", "5", "5", "5", "6", "6", "6", "6"]
+},
+"features": [
+{
+"name": "Hunter's Bane",
+"lvl": [1],
+"table" : { "column_names" : ["Skill", "Creature Types"], 
+"columns" : [
+    ["Arcana", ["Aberrations", "Dragons", "Monstrosities"]],
+    ["Nature", ["Beasts", "Elementals", "Oozes", "Plants"]],
+    ["Religion", ["Celestials", "Fey", "Fiends", "Undead"]]
+]
+
+},
+"desc": "You have survived the Hunter's Bane, a dark alchemical ritual that suffuses your blood with sinister magic, granting you an enhanced knowledge and awareness of evil. At 1st level, you gain proficiency in either Arcana, Nature, or Religion.As a bonus action, you can use this dark insight to analyze a creature you can see within 30 feet, making a Constitution ability check using the corresponding skill (DC = 8 + its CR): On a success, you learn one characteristic of your choice from the following list: its highest ability score, lowest ability score, damage vulnerabilities, damage immunities, damage resistances, condition immunities, or another weakness (like a troll's Regeneration being stopped by taking fire damage).If your choice doesn't apply to that creature, your DM will reveal another relevant characteristic of their choice to you."
+},
+{
+"name": "Fighting Style",
+"lvl": [1],
+"desc": "At 1st level, you adopt a Fighting Style that best reflects your training. You cannot select a Fighting Style more than once, even if a feature allows you to select another Fighting Style. Whenever you gain a level in this class, you can switch your Fighting Style for another Fighting Style of your choice. Archery. You gain a +2 bonus to attack rolls with ranged weapons.Dual Wielding. While two-weapon fighting, when you make your off-hand attack, you add your ability modifier to the damage of this attack.Dueling. When you are attacking a melee weapon with the finesse property using Dexterity and nothing else in your hands, you may add a +2 to your attack rolls.Featherweight Fighting. While you are unarmed or wielding only light weapons, and are not wearing medium or heavy armor, your walking speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light melee weapons and unarmed strikes.Great Weapon Fighting. When you make an attack with a two-handed melee weapon, you can reroll 1s and 2s for the damage rolls.Thrown Weapon Fighting. You can draw a weapon that has the thrown property as part of the attack you make with the weapon. Moreover, when you hit with a ranged weapon attack using a thrown weapon, you gain a +2 bonus to the damage roll of that attack."
+},
+{
+"name": "Blood Rites",
+"lvl": [2],
+"desc": "At 2nd level, you learn to harness the sinister magicks within your bloodstream to invoke the ancient power of Blood Rites. If a Blood Rite requires a creature to make a saving throw to resist its effects, you use your Rite save DC, as shown below:Rite save DC = 8 + your proficiency bonus+ your Constitution modifier"
+},
+{
+"name": "Blood Rites Known",
+"lvl": [2],
+"sub" : true,
+"desc": "At 2nd level, you know two Blood Rites of your choice from the list at the end of this class. When you reach certain Blood Hunter levels you learn more Rites of your choice, as shown in the Rites Known column of the Blood Hunter class table.Once you invoke a Blood Rite you must finish a short or long rest before you can invoke that Blood Rite again. When you have no uses of a Blood Rite remaining, you can make a Vital Sacrifice (detailed below) to use that Rite again.Blood Rites can only be used against creatures with blood. However, when you make a Vital Sacrifice to empower a Rite, you can target any creature, regardless if it has blood or not.Finally, whenever you learn a new Blood Rite, you can replace one of the Blood Rites you know withanother Rite of your choice."
+},
+
+{
+"name": "Rite Die",
+"lvl": [2],
+"sub" : true,
+"desc": "Some Blood Rites use your Rite Die, which starts as a d4. At certain Blood Hunter levels, this die grows, as shown in the Rite Die column of the Blood Hunter class table."
+},
+
+{
+"name": "Vital Sacrifice",
+"lvl": [2],
+"sub" : true, 
+"desc": "Some Blood Rites allow you to sacrifice your own life to fuel deadly effects. When you make a Vital Sacrifice, you reduce both your maximum and current hit points by one roll of your Rite Die. This reduction cannot be lessened in any way.If you have temporary hit points, you can reduce these in place of reducing your current hit points. You always reduce your maximum hit points when you make a Vital Sacrifice.At the end of your next long rest, any reductions to your maximum hit points from Vital Sacrifices return to normal."
+},
+
+{
+"name": "Crimson Offering",
+"lvl": [2],
+"desc": "Also starting at 2nd level, you can use a bonus action on your turn to make a Vital Sacrifice and empower one weapon you are holding with blood magic. Choose acid, cold, fire, lighting, or poison, and for 1 hour, your attacks with that weapon deal bonus damage of that type equal to one roll of your Rite Die."
+},
+
+{
+"name": "Occult Order",
+"lvl": [3],
+"subclassOptions" : true,
+"desc": "At 3rd level, you choose the Occult Order that best represents your training and blood magic. Your Occult Order grants you features at 3rd level, and again when you reach 7th, 13th, and finally at 18th level in this class."
+},
+{
+"name": "Ability Score Improvement",
+"lvl": [4, 8, 12, 16, 19],
+"desc": "When you reach 4th level, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+},
+{
+"name": "Extra Attack",
+"lvl": [5],
+"desc": "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+},
+
+{
+"name": "Grim Psychometry",
+"lvl": [5, 9],
+"prog" : ["", "improvement"],
+"desc": "Your familiarity with dark magic allows you to decipher the influence of similar effects. Also at 5th level, you can use alchemist's supplies to cast identify as a ritual. When you do so, you also learn if the object is cursed.At 9th level, you can use this feature to cast legend lore, targeting an object or creature you touch, or your current location. When you do so, the target can have an evil, violent, or cursed history instead of legendary importance. You make a Vital Sacrifice in place of expending a spell slot, and your alchemist's supplies replace the material components."
+},
+{
+"name": "Crimson Brand",
+"lvl": [6],
+"desc": "Your affinity with blood magic has grown. Beginning at 6th level, you can make a Crimson Offering once between each short or long rest without making a Vital Sacrifice.Moreover, when you damage a creature with a Crimson Offering weapon attack, you can sear it with blood magic to place a Crimson Brand upon it. While this Crimson Brand lasts, you gain the following benefits against that creature:You know its exact direction while on the same plane. Whenever it damages you, or a friendly creature that you can see within 15 feet of you, it takes Crimson Offering damage equal to one roll of your Rite Die.This Brand lasts until the creature is slain, or you Brand another creature. It can also be dispelled by remove curse.Once you use this feature you must complete a short or long rest before you can use it again. When you have no uses left you can make a Vital Sacrifice to use this feature again."
+},
+{
+"name": "Dark Augmentation",
+"lvl": [10],
+"desc": "The dark magic of the Hunter's Bane enhances your physical abilities. Starting at 10th level, whenever you make an ability check or saving throw that uses your Strength, Dexterity, or Constitution, you add one roll of your Rite Die to the result."
+},
+
+{
+"name": "Improved Crimson Offering",
+"lvl": [11],
+"desc": ""
+},
+
+
+{
+"name": "Improved",
+"lvl": [11],
+"desc": ""
+}
+]
+}

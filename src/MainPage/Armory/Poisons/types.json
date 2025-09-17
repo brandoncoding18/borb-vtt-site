@@ -1,0 +1,38 @@
+[
+  {
+    "Type": "Liquid",
+    "Delivery Methods": "Absorbed, Gas, Injected, Tipped, Touched, Ingested"
+  },
+  {
+    "Type": "Liquid (Venom)",
+    "Delivery Methods": "Injected, Tipped"
+  },
+  {
+    "Type": "Liquid (Volatile)",
+    "Delivery Methods": "Gas, Injected"
+  },
+  {
+    "Type": "Powder",
+    "Delivery Methods": "Absorbed, Coated, Ingested, Smoke, Touched"
+  },
+  {
+    "Type": "Paste",
+    "Delivery Methods": "Absorbed, Coated, Tipped"
+  },
+  {
+    "Type": "Plant/Herb/Seed",
+    "Delivery Methods": "Absorbed, Coated, Ingested"
+  },
+  {
+    "Type": "Spores",
+    "Delivery Methods": "Absorbed, Gas, Ingested, Smoke, Touched"
+  },
+  {
+    "Type": "Parasite",
+    "Delivery Methods": "Absorbed, Injected, Ingested"
+  },
+  {
+    "Type": "Disease",
+    "Delivery Methods": "Absorbed, Coated, Gas, Injected, Ingested, Tipped, Touched"
+  }
+]

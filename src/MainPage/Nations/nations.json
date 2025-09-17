@@ -1,0 +1,119 @@
+[
+
+
+    {
+        "name" : "Anatol Tribes", 
+        "races" : ["~rHuman~#", "~rTabaxi~#"],
+        "feats" : ["~fMounted Combatant~#", "~fMagic Initiate~# (From ~xSorcerer~# or ~xWarlock~# Spell List)", "~fWeapon Master~# (~wNet~# ~wScimitar~# ~wJezzail~# ~wRecurve Bow~#)", "~fAnimal Handler~#", "~fSlasher~#"],
+        "spells" : ["~sAwakening of The Nail~#", "~sImperate~#", "~sPrepare~#", "~sWrack~#"],
+        "unique_feat" : ["~fFrightening Pragmatism~#"],
+        "test lol" : ["~xCleric~#"],
+
+        "language" : ["Anatol"]
+    },
+    {
+        "name" : "Asker Tribes", 
+        "races" : ["~rGoliath~#", "~rLizardfolk~#", "~rAaracockra~#", "~rMinotaur~#"],
+        "feats" : ["~fTough~#", "~fEldritch Adept~#", "~fWeapon Master~# (~wHeavy Club~# ~wMaul~# ~wGreatclub~# ~wWall Pick~#)", "~fBrawny~#"],
+        "spells" : ["~sCoarse Heart~#", "~sSpit Curse~#", "~sCrumble From Within~#", "~sStone Fist~#", "~sRockslide~#"],
+        "unique_feat" : ["~fEar of Stone~#"],
+        "language" : ["Asker"]
+    },
+    {
+        "name" : "Divine Kingdom of Aysundar", 
+        "races" : ["~rHuman~#", "~rGenasi~# (Water)", "Sea ~rElf~#", "~rTiefling~#"],
+        "feats" : ["~fEldritch Adept~#", "~fInitiate of High Sorcery~#", "~fSkulker~#"],
+        "spells" : ["~sGust the Sails~#", "~sForecast~#", "~sMirror Spell~#", "~sMoon Mirror~#"],
+        "unique_feat" : ["None"],
+        "language" : ["Sahilese"]
+    },
+    {
+        "name" : "Aysun Turannor", 
+        "member of" : ["Divine Kingdom of Aysundar"],
+        "special" : ["Members from this faction will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty. Members from this faction also have the following oaths by default, being sworn as soon as they are capable of speech and understanding. The last oath can be dissolved by mutual agreement with the other party.Kinship: You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.Faith: You shall carry the rites of the Old Mother.Moon: You shall serve the Old Mother. She shall reward you for your service."],
+        "races" : ["~rShadar Kai~#"],
+        "feats" : ["~fAmbush Weapon Prowess~#", "~fResilient~# (Intelligence, Charisma)", "~fShadow Touched~#", "~fObservant~#"],
+        "spells" : ["~sAwakening from Repose~#", "~sEldritch Step~#", "~sMoon Mirror~#", "~sRepose~#", "~sWhisper of Spells~#"],
+        "unique_feat" : ["~fOath of the Last Sacrifice~#"],
+        "language" : ["Sahilese"]
+    },
+    {
+        "name" : "Banate of the Craots"
+    },
+    {
+        "name" : "Clan Armagusa", 
+        "member of" : "Banate of the Craots",
+        "races" : ["~rDragonborn~#", "~rTiefling~#", "~rGoblin~#", "~rHobgoblin~#", "~rKobold~#"],
+        "feats" : ["~fCombat Blade Prowess~#", "~fEldritch Adept~#", "~fInspiring Leader~#", "~fTandem Tactician~#"],
+        "spells" : ["~sBlood Bond~#", "~sImperate~#", "~sRespel Magic~#", "~sTendrils of the Mind~#"],
+        "unique_feat" : ["~fTarkhin~#"],
+        "language" : ["Armagusan"]
+    },
+    {
+        "name" : "Clan Meropje", 
+        "member of" : "Banate of the Craots",
+        "races" : ["~rGnoll~#"],
+        "feats" : ["~fBow and Sling Prowess~#", "~fChef~#", "~fSkulker~#", "~fTandem Tactician~#"],
+        "spells" : ["~sBlood Rush~#", "~sExanguinate~#", "~sTheft of Vitae~#", "~sSense Lifeblood~#"],
+        "unique_feat" : ["~fTarkhin~#"],
+        "language" : ["Armagusan"]
+    },
+     {
+        "name" : "Clan Varcusa", 
+        "member of" : "Banate of the Craots",
+        "races" : ["~rHalf Orc~#", "~rOrc~#"],
+        "feats" : ["~fBludgeon Prowess~#", "~fCharger~#", "~fTough~#", "~fHeavy Armor Master~#"],
+        "spells" : ["~sCounterspellcaster~#", "~sFold Person~#", "~sRespel Magic~#", "~sSense Lifeblood~#"],
+        "unique_feat" : ["~fStomper~#"],
+        "language" : ["Varcusan"]
+    },
+     {
+        "name" : "Blessed Maronnian Empire", 
+        "races" : ["~rDwarf~#", "~rFir Bolg~#", "~rGnome~#", "~rHalf Orc~#", "~rHalfling~#", "~rHuman~#", "~rWood Elf~#"],
+        "feats" : ["~fSkilled~#", "~fInspiring Leader~#", "~fDurable~#", "~fElemental Adept~#", "~fSpear Prowess~#"],
+        "spells" : ["~sFiery Missile~#", "~sImperate~#", "~sSun Shield~#"],
+        "unique_feat" : ["~fBlessed by the Sun~#"],
+        "language" : ["Magerni"]
+    },
+    {
+        "name" : "Kingdom of Helmar", 
+        "member of" : "Blessed Maronnian Empire",
+        "races" : ["~rHalfling~#", "~rHuman~#", "~rOwlin~#", "~rTiefling~#", "~rWood Elf~#"],
+        "feats" : ["~fElemental Adept~#", "~fHealer~#", "~fMagic Initiate~#", "~fSpell Sniper~#"],
+        "spells" : ["~sFiery Missile~#", "~sGhost Light~#", "~sMirror Spell~#", "~sArmor of COntempt~#"],
+        "unique_feat" : ["~fFarlands Scholar~#"],
+        "language" : ["Helmar"]
+    },
+     {
+        "name" : "Knights of the Steel Cross", 
+        "member of" : "Blessed Maronnian Empire",
+        "races" : ["~rDwarf~#", "~rHalf Orc~#", "~rHuman~#"],
+        "feats" : ["~fCombat Blade Prowess~#", "~fMounted Combatant~#", "~fSpear Prowess~#", "~fTheologian~#"],
+        "spells" : ["~sArmor of COntempt~#", "~sImperate~#", "~sLitany of War~#", "~sSun Shield~#"],
+        "unique_feat" : ["~fBulwark of The Line~#"],
+        "language" : ["Magerni"]
+    },
+      {
+        "name" : "Ostzee Republic", 
+        "member of" : "Blessed Maronnian Empire",
+        "races" : ["~rGnome~#", "~rHuman~#", "~rMerfolk~#", "~rTriton~#"],
+        "feats" : ["~fArtificer Initiate~#", "~fCrossbow Prowess~#", "~fEldritch Adept~#", "~fResilient~# (Wisdom, Intelligence)"],
+        "spells" : ["~sDisregard~#", "~sMind Screech~#", "~sSphere of Silence~#", "~sTendrils of the Mind~#"],
+        "unique_feat" : ["~fKeen Obscurist~#"],
+        "language" : ["Magerni"]
+    },
+      {
+        "name" : "Wood Lords", 
+        "member of" : "Blessed Maronnian Empire",
+        "races" : ["~rHalf Orc~#", "~rOrc~#", "~rWood Elf~#"],
+        "feats" : ["~fBludgeon Prowess~#", "~fBow and Sling Prowess~#", "~fSkulker~#", "~fTracker~#"],
+        "spells" : ["~sOne With the Ground~#", "~sRoots of the Earth~#"],
+        "unique_feat" : ["~fMelded with The Woods~#"],
+        "language" : ["Magerni"]
+    }
+
+
+
+
+
+]

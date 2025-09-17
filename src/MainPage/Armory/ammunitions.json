@@ -1,0 +1,68 @@
+{
+  "ammunition": [
+    {
+      "type": "Arrow",
+      "cost": "5 cp",
+      "weight": "20/1 lb.",
+      "for_use_with": [
+        "Bladed Bow",
+        "Compound",
+        "Longbow",
+        "Shortbow",
+        "Recurve"
+      ]
+    },
+    {
+      "type": "Bolt",
+      "cost": "5 cp",
+      "weight": "40/1 lb.",
+      "for_use_with": [
+        "Hand Crossbow",
+        "Heavy Crossbow",
+        "Light Crossbow"
+      ]
+    },
+    {
+      "type": "Bullet",
+      "cost": "1 cp",
+      "weight": "20/1 lb.",
+      "for_use_with": [
+        "Sling",
+        "Wrist Shot"
+      ]
+    },
+    {
+      "type": "Great Arrow",
+      "cost": "1 sp",
+      "weight": "0.5 lb",
+      "for_use_with": [
+        "Greatbow"
+      ]
+    },
+    {
+      "type": "Needle",
+      "cost": "1 cp",
+      "weight": "100/1 lb",
+      "for_use_with": [
+        "Blowgun",
+        "Hidden Crossbow"
+      ]
+    },
+    {
+      "type": "Disc",
+      "cost": "10 cp",
+      "weight": "10/1 lb",
+      "for_use_with": [
+        "Spinner"
+      ]
+    },
+    {
+      "type": "Ballista Bolt",
+      "cost": "1 gp",
+      "weight": "2/1 lb",
+      "for_use_with": [
+        "Portable Ballista"
+      ]
+    }
+  ]
+}

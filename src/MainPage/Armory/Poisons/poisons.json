@@ -1,0 +1,810 @@
+[
+  {
+    "Name": "Mercury",
+    "Effect": "Poisoned",
+    "Save": "DC 15 CON, Suffer effects on a fail. If 3 saves are failed, the creature has disadvantage on Constitution saves.",
+    "Duration": "Until Healed (If failed save)",
+    "Cost": 10,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Ammonia",
+    "Effect": "1d6 Acid damage, Blindness, Suffocation (If in gas or smoke)",
+    "Save": "DC 10 CON, suffer effect on fail",
+    "Duration": "Instantaneous",
+    "Cost": 10,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Wyvern Blood",
+    "Effect": "2d4 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until ended",
+    "Cost": 20,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Refined Stomach Acid",
+    "Effect": "2d4 Acid damage",
+    "Save": "DC 10 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 30,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Refined Troll Bile",
+    "Effect": "2d6 Acid damage. If a creature can vomit, it does so, becoming incapacitated.",
+    "Save": "DC 10 CON, suffer effect on fail",
+    "Duration": "Until Healed",
+    "Cost": 30,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Sulphuric Acid",
+    "Effect": "2d6 Acid Damage",
+    "Save": "DC 15 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 40,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Refined Cave Drake Saliva",
+    "Effect": "2d4 Poison damage, Poisoned, Vulnerability to Piercing Damage",
+    "Save": "DC 15 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 40,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Rotten Trollblood",
+    "Effect": "Prevents Natural Regeneration, Poisoned",
+    "Save": "DC 15 CON, Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 40,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Ogre Solution",
+    "Effect": "4d6 Acid Damage, turns into 4d8 if taken acid damage before.",
+    "Save": "DC 15 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 60,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Blink Dog Spine Fluid",
+    "Effect": "4d6 Slashing damage as part of the victim's body teleports randomly. Will Destroy delivery method",
+    "Save": "None",
+    "Duration": "Instantaneous",
+    "Cost": 60,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Displacer Beast Eye Fluid",
+    "Effect": "Disadvantage on all Saving throws, Poisoned",
+    "Save": "DC 15 CON, half damage on pass. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 80,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Flintgrass Seed Oil",
+    "Effect": "2d4 Poison Damage, Poisoned",
+    "Save": "DC 15 CON. If 3 saves are failed, the creature is unable to regain hit points. Effect ends if Greater Restoration is cast on the creature.",
+    "Duration": "Until Ended",
+    "Cost": 150,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Swamp Drowner Sap",
+    "Effect": "1 Exhaustion level",
+    "Save": "DC 15 CON, suffer effects on a failure. Effect ends if 3 saves are passed",
+    "Duration": "Until Ended",
+    "Cost": 200,
+    "Poison Type": "Liquid"
+  },
+  {
+    "Name": "Malshanni Snakehound Venom",
+    "Effect": "2d6 Poison Damage",
+    "Save": "DC 10 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 15,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Wheathopper Snake Venom",
+    "Effect": "2d6 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 15,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Rat Snapper Snake Venom",
+    "Effect": "1d6 Poison damage, -10 movement speed",
+    "Save": "DC 10 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 15,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Craot Swamp Constrictor Venom",
+    "Effect": "-10 movement speed, Disadvantage on STR checks and saves",
+    "Save": "DC 10 CON at the beginning of every turn, no effect on a pass",
+    "Duration": "1 minute",
+    "Cost": 20,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Bressnian Bull Snake Venom",
+    "Effect": "2d6 Poison damage, Disadvantage on WIS checks and saves",
+    "Save": "DC 10 WIS, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 25,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Hornet Wasp Venom",
+    "Effect": "2d6 Poison damage attracts other wasps",
+    "Save": "DC 10 WIS, half damage on pass",
+    "Duration": "5 minutes",
+    "Cost": 25,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Ruin Spider Venom",
+    "Effect": "2d6 Poison Damage, Blindness",
+    "Save": "DC 15 CON, Effect ends early on 3 successful saves",
+    "Duration": "1 minute",
+    "Cost": 30,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Mirage Snake Venom",
+    "Effect": "2d6 Psychic damage, Hallucinations, Paranoia, inability to trust allies",
+    "Save": "DC 10 WIS at the beginning of every turn, effect ends early after 3 successes",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Golden Cobra Venom",
+    "Effect": "4d6 Poison Damage, Poisoned",
+    "Save": "DC 15 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Gideon Tarantula Venom",
+    "Effect": "2d6 Necrotic damage",
+    "Save": "DC 15 CON, Effect ends early on 3 successful saves",
+    "Duration": "5 minutes",
+    "Cost": 50,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Stirge Gland Fluid",
+    "Effect": "Bleeding damage equal to ¼ of lost hit points (Rounded down)",
+    "Save": "None",
+    "Duration": "Until Healed",
+    "Cost": 50,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Boomslang Snake Venom",
+    "Effect": "2d6 Slashing Damage, Bleeding damage equal to ¼ of lost hit points (Rounded down)",
+    "Save": "DC 15 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 55,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Corpse Eater Snake Venom",
+    "Effect": "2d6 Necrotic damage, 2d12 if taken any necrotic damage",
+    "Save": "DC 15 CON, half damage on pass",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Crimson Cave Spider Venom",
+    "Effect": "4d6 Poison damage, 1 exhaustion level",
+    "Save": "DC 15 CON, Effect ends early on 3 successful saves",
+    "Duration": "1 minute",
+    "Cost": 80,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Sapphire Wasp Venom",
+    "Effect": "8d6 Psychic damage",
+    "Save": "DC 15 WIS, half damage on pass",
+    "Duration": "Instantaneous",
+    "Cost": 100,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Phase Spider Venom",
+    "Effect": "2d8 Poison Damage, If reduced to 0 HP, target is paralyzed, but stable and poisoned for an hour",
+    "Save": "DC 11 CON, half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 100,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Horse Hunter Tarantula Venom",
+    "Effect": "2d6 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, Target is paralyzed after 3 failed saves",
+    "Duration": "1 minute",
+    "Cost": 100,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Antlion Venom",
+    "Effect": "2d6 Acid Damage, Paralyzed",
+    "Save": "DC 15 CON, Effect ends early on 3 successful saves",
+    "Duration": "1 minute",
+    "Cost": 150,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Purple Worm Venom",
+    "Effect": "4d6 Poison Damage, Poisoned",
+    "Save": "DC 15 CON, half damage on successful save",
+    "Duration": "1 minute",
+    "Cost": 300,
+    "Poison Type": "Venom"
+  },
+  {
+    "Name": "Refined Black Tar",
+    "Effect": "2d8 Poison Damage, Flammable",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 10,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Rottenberry Vinegar",
+    "Effect": "2d8 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "1 minute",
+    "Cost": 20,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Purified Absinthe",
+    "Effect": "1d8 Poison Damage, Flammable, 1 exhaustion level",
+    "Save": "DC 10 CON or suffer the effects",
+    "Duration": "Instantaneous",
+    "Cost": 20,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Refined Swamp Geyser Extract",
+    "Effect": "2d8 Poison Damage, Flammable",
+    "Save": "DC 10 CON, Effect ends early on 3 successful saves",
+    "Duration": "1 minute",
+    "Cost": 30,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Drachen's Breath",
+    "Effect": "2d8 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, Effect ends early on 3 successful saves",
+    "Duration": "1 minute",
+    "Cost": 30,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Bottled Dragon's Breath",
+    "Effect": "4d8 Damage (Depends on dragon type)",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 50,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Malshanni Dragonfly Breath",
+    "Effect": "3d6 Poison Damage",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 50,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Remorhaz Blood",
+    "Effect": "4d8 Fire Damage, Vulnerability to Fire",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "12 seconds",
+    "Cost": 100,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Behir Breath",
+    "Effect": "4d8 Lightning Damage",
+    "Save": "DC 10 CON, half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 100,
+    "Poison Type": "Volatile"
+  },
+  {
+    "Name": "Sulphur",
+    "Effect": "2d4 Poison Damage, Blindness (If in smoke or absorbed through eyes), Poisoned",
+    "Save": "DC 15 CON, Suffer effects on a fail, Half damage on a save",
+    "Duration": "1 minute",
+    "Cost": 15,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Fume Drake Dust",
+    "Effect": "1d8 Poison Damage, Blinded, Flammable",
+    "Save": "DC 15 CON, Suffer effects on fail",
+    "Duration": "1 minute",
+    "Cost": 15,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Duergar Pepper",
+    "Effect": "2d4 Poison Damage, Blindness (If in smoke or absorbed through eyes), Disadvantage on DEX rolls (If in Touch), Suffocation (If ingested)",
+    "Save": "DC 15 CON, Suffer the effects on a fail",
+    "Duration": "1 minute",
+    "Cost": 35,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Cinnabar",
+    "Effect": "2d4 Poison Damage, Poisoned, Specially effective against unseelie fey",
+    "Save": "DC 15 CON, Suffer the effects on a fail",
+    "Duration": "1 minute",
+    "Cost": 45,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Fire Elemental Essence",
+    "Effect": "4d4 Fire Damage",
+    "Save": "None",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Ice Elemental Essence",
+    "Effect": "2d4 Cold Damage, -10 movement speed",
+    "Save": "None",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Refined Fine Lead Dust",
+    "Effect": "2d4 Poison Damage, Poisoned, Disadvantage on INT and WIS rolls after 3 failed saves, Maximum health reduced by damage taken from poison",
+    "Save": "DC 15 CON, After 3 failed saves",
+    "Duration": "1 minute",
+    "Cost": 150,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Powdered Sickness Stone",
+    "Effect": "1 Poison Damage per day +1 per day passed, Poisoned. Body degenerates progressively, slowed only by healing spells.",
+    "Save": "DC 20 CON, Suffer the effects on a fail, Ends with Greater Restoration Spell",
+    "Duration": "Until Ended",
+    "Cost": 200,
+    "Poison Type": "Powder"
+  },
+  {
+    "Name": "Grung Sweat Paste",
+    "Effect": "2d4 Poison Damage, Poisoned",
+    "Save": "DC 10 CON, Effect ends on a success",
+    "Duration": "1 Minute",
+    "Cost": 30,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Gymarkin",
+    "Effect": "2d6 Poison Damage",
+    "Save": "DC 10 CON, On a fail, become poisoned",
+    "Duration": "1 minute",
+    "Cost": 30,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Crystal Lotus Paste",
+    "Effect": "2d6 Slashing Damage",
+    "Save": "DC 10 CON, On a fail, become vulnerable to slashing damage until healing is received",
+    "Duration": "1 minute",
+    "Cost": 40,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Asker Centipede Paste",
+    "Effect": "2d6 Acid Damage",
+    "Save": "DC 10 CON, On a fail, become vulnerable to acid damage until healing is received",
+    "Duration": "1 minute",
+    "Cost": 40,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Congealed Banderhobb Saliva",
+    "Effect": "4d6 Necrotic Damage",
+    "Save": "DC 10 CON, Half damage on successful save",
+    "Duration": "Instantaneous",
+    "Cost": 40,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Mashed Basilisk Eyes",
+    "Effect": "2d6 Poison Damage, -10 movement speed",
+    "Save": "DC 10 CON, After 3 failed saves, becomes petrified",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Laudanum Paste",
+    "Effect": "Disadvantage on STR and DEX rolls",
+    "Save": "DC 10 CON, On a fail, gain 1 level of exhaustion",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Bone Devil Marrow",
+    "Effect": "2d6 Necrotic Damage, 2d6 Poison Damage",
+    "Save": "DC 10 CON, On a fail, become vulnerable to necrotic damage until healing is received",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Congealed Yeth Hound Saliva",
+    "Effect": "2d6 Psychic Damage",
+    "Save": "DC 10 CON, On a fail, the target becomes Frightened",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Mashed Feyr Brain",
+    "Effect": "2d6 Psychic Damage",
+    "Save": "DC 10 WIS, On a fail, the victim becomes frightened from the attacker",
+    "Duration": "1 minute",
+    "Cost": 80,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Red Wasp Honey",
+    "Effect": "2d6 Poison Damage",
+    "Save": "DC 10 CON, On a fail, damage can only be healed by spells, unless greater restoration is cast",
+    "Duration": "1 minute",
+    "Cost": 120,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Sea Basilisk Scale Paste",
+    "Effect": "Restrained",
+    "Save": "DC 10 CON, Petrified after 3 failures",
+    "Duration": "Instantaneous",
+    "Cost": 120,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Carrion Crawler Tentacle Paste",
+    "Effect": "Poisoned",
+    "Save": "DC 10 CON, Paralyzed on a fail",
+    "Duration": "1 minute",
+    "Cost": 130,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Bearded Devil Sweat",
+    "Effect": "2d6 Slashing Damage",
+    "Save": "DC 10 CON, On a fail, become poisoned and unable to regain hit points",
+    "Duration": "1 minute",
+    "Cost": 150,
+    "Poison Type": "Paste"
+  },
+  {
+    "Name": "Crystal Lotus",
+    "Effect": "None",
+    "Save": "DC 10 CON, On a fail, become vulnerable to slashing damage until healing is received or effect ends",
+    "Duration": "1 Hour",
+    "Cost": 30,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Laudanum",
+    "Effect": "None",
+    "Save": "DC 10 CON, After 3 failed saves, creature becomes unconscious",
+    "Duration": "1 Hour",
+    "Cost": 30,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Rottenberry",
+    "Effect": "None",
+    "Save": "DC 10 CON, After 3 failed saves, creature becomes poisoned",
+    "Duration": "1 Hour",
+    "Cost": 30,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Gnomecap Mushroom",
+    "Effect": "None",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes poisoned and vomits upon any attempt to eat or drink",
+    "Duration": "1 Hour",
+    "Cost": 50,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Corpse Mushroom",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to Necrotic Damage",
+    "Duration": "1 Hour",
+    "Cost": 50,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Spine Mushroom",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature loses half its movement speed",
+    "Duration": "1 Hour",
+    "Cost": 50,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Drake Dung Mushroom",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to elemental damage (varies depending on the drake)",
+    "Duration": "1 Hour",
+    "Cost": 70,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Flintgrass Seed",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature is unable to regain hit points. Ends early with greater restoration",
+    "Duration": "1 Hour",
+    "Cost": 75,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Asker Pale Vine Root",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature loses a hit die every minute. After all hit die are spent, visions of otherworldly creatures begin",
+    "Duration": "1 Hour",
+    "Cost": 75,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Rathat Mushroom",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature has disadvantage on all rolls unless basking in daylight, and will vomit when attempting to drink liquids",
+    "Duration": "1 Hour",
+    "Cost": 100,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Brittlebone Seed",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to Bludgeoning and Force Damage",
+    "Duration": "1 Hour",
+    "Cost": 100,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Moongrass",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes unconscious and enters a trance. Damage or touch will wake it",
+    "Duration": "1 Hour",
+    "Cost": 100,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Blue Garlic",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to Poison and Acid Damage",
+    "Duration": "1 Hour",
+    "Cost": 100,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Thunder Oak Saplings",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to Lightning and Thunder Damage",
+    "Duration": "1 Hour",
+    "Cost": 100,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Saint’s Cowl Mushroom",
+    "Effect": "None",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes vulnerable to Radiant Damage, and becomes frightened upon taking radiant damage",
+    "Duration": "1 Hour",
+    "Cost": 120,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "False Rose Mushroom",
+    "Effect": "None",
+    "Save": "DC 15 WIS, If 3 saves are failed, creature loses memory of the last 24 hours",
+    "Duration": "1 Hour",
+    "Cost": 200,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Blood Cotton",
+    "Effect": "Bleeding damage equal to ¼ of lost hit points (Rounded down). Prevents Natural Regeneration. 1 necrotic damage every hour",
+    "Save": "DC 10 CON, If 3 saves are failed, creature is unable to regain hit points. Ends with Greater Restoration",
+    "Duration": "Until Ended",
+    "Cost": 200,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Flower of Otherwere",
+    "Effect": "None",
+    "Save": "DC 10 WIS, If 3 saves are failed, creature has disadvantage on all saves against spells",
+    "Duration": "1 Hour",
+    "Cost": 200,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Dune Mirage Seed",
+    "Effect": "Cannot benefit from potions.",
+    "Save": "DC 10 CON, If 3 saves are failed, creature becomes dehydrated unless it drinks 4 times the required water. Must pass DC 15 CON save or gain 1 level of exhaustion",
+    "Duration": "1 Hour",
+    "Cost": 200,
+    "Poison Type": "Plant"
+  },
+  {
+    "Name": "Gnomecap Spores",
+    "Effect": "2d4 Poison Damage, Poisoned",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes poisoned and vomits upon any attempt to eat or drink until illness is healed",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Corpse Mushroom Spores",
+    "Effect": "2d4 Necrotic Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes vulnerable to Necrotic Damage",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Spine Mushroom Spores",
+    "Effect": "2d4 Poison Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature loses half its movement speed",
+    "Duration": "1 minute",
+    "Cost": 50,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Drake Dung Mushroom Spores",
+    "Effect": "2d4 Elemental damage (depending on the Drake's dung it was found on)",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes vulnerable to the elemental damage dealt",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Desert Horsetail Spores",
+    "Effect": "2d4 Piercing Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes frightened of every enemy",
+    "Duration": "1 minute",
+    "Cost": 70,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Rathat Mushroom Spores",
+    "Effect": "2d4 Poison Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature has disadvantage on all rolls unless basking in daylight, and will vomit when attempting to drink liquids",
+    "Duration": "1 minute",
+    "Cost": 100,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Saint's Cowl Mushroom",
+    "Effect": "2d4 Radiant Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes vulnerable to Radiant Damage, and becomes frightened upon taking radiant damage until out of line of sight",
+    "Duration": "1 minute",
+    "Cost": 120,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Svirvelfa's Cave Mushroom Spores",
+    "Effect": "4d4 Acid Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature's maximum health is reduced by the acid damage until Greater Restoration is cast, or healing applied ends the effect",
+    "Duration": "1 minute",
+    "Cost": 150,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "False Rose Mushroom Spores",
+    "Effect": "4d4 Psychic Damage",
+    "Save": "DC 15 WIS, If 3 saves are failed, creature loses the memory of the last 24 hours",
+    "Duration": "1 minute",
+    "Cost": 200,
+    "Poison Type": "Spore"
+  },
+  {
+    "Name": "Carrion Crawler Maggot",
+    "Effect": "Disadvantage on WIS rolls",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes paralyzed and the maggot begins to grow. Ends early if maggot is removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 200,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Ruin Spider Spiderling",
+    "Effect": "Disadvantage on INT rolls (Cannot be injected)",
+    "Save": "DC 15 CON, If 3 saves are failed, creature becomes Deafened, Frightened, and forced to move away at top speed. Ends early if spiderling is removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 200,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Asker Centipede",
+    "Effect": "Disadvantage on WIS rolls (Cannot be injected)",
+    "Save": "DC 15 WIS, If 3 saves are failed, creature forgets attack and feels the urge to walk to the highest location or deepest cave",
+    "Duration": "Until ended",
+    "Cost": 200,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "False Stirge",
+    "Effect": "Disadvantage on WIS, INT, and CHA rolls (Tiny creature, must be attached to neck or spine)",
+    "Save": "DC 15 INT, If 3 saves are failed, creature forgets attack, covers the stirge, and wanders off to its death. Ends early if stirge is removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 250,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Sapphire Wasp Larvae",
+    "Effect": "Disadvantage on STR and DEX rolls",
+    "Save": "DC 15 WIS, If 3 saves are failed, creature becomes paralyzed. Creature begins moving again after 1d4 days, controlled by larvae. Ends early if larvae is removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 300,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Aboleth Tadpole",
+    "Effect": "Disadvantage on INT and WIS rolls",
+    "Save": "DC 15 INT, If 3 saves are failed, creature becomes unquenchably thirsty, feeling the urge to submerge in the nearest body of still water",
+    "Duration": "Until ended",
+    "Cost": 300,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Tadpole From Other Pond",
+    "Effect": "Advantage on INT and WIS rolls, disadvantage on DEX, STR, and CHA rolls",
+    "Save": "DC 15 INT, If 3 saves are failed, creature will feel an irresistible urge to drown itself in the nearest body of water",
+    "Duration": "Until ended",
+    "Cost": 350,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Toothfairy Larvae",
+    "Effect": "Disadvantage on CON rolls, vulnerability to Bludgeoning Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature takes 1d4+4 Piercing damage every hour. Ends early if larvae are removed or Greater Restoration is cast. After 2d6 days, a Toothfairy hatches and kills the host",
+    "Duration": "Until ended",
+    "Cost": 400,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Trollrot Larvae",
+    "Effect": "Prevents natural regeneration",
+    "Save": "DC 15 INT, If 3 saves are failed, creature cannot regain hit points and is unable to benefit from short or long rests. Ends early if larvae are removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 450,
+    "Poison Type": "Parasite"
+  },
+  {
+    "Name": "Leucrotta Gut Worms",
+    "Effect": "Poisoned, vulnerability to Poison Damage",
+    "Save": "DC 15 CON, If 3 saves are failed, creature requires double the food and begins craving raw flesh after 1d6 days. Ends early if worms are removed or Greater Restoration is cast",
+    "Duration": "Until ended",
+    "Cost": 500,
+    "Poison Type": "Parasite"
+  }
+]

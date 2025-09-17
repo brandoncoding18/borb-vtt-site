@@ -1,0 +1,339 @@
+{
+    "name" : "Cleric",
+    "caster_type" : "Full",
+    "hitDie" : 8,
+    "armor_prof" : ["Light", "Medium", "Shields"],
+    "weapon_prof" : ["Simple"],
+    "tools_prof" : [],
+    "saving_throws" : ["Wisdom", "Charisma"],
+    "skill_prof" : {"choice" : 2, "skills" : ["History", "Insight", "Medicine", "Persuasion", "Religion"]},
+    "equipment" : ["(a) a mace or (b) a warhammer (if proficient)", "(a) scale mail, (b) leather armor, or (c) chain mail (if proficient)", "(a) a light crossbow and 20 bolts or (b) any simple weapon", "(a) a priest's pack or (b) an explorer's pack", "A shield and a holy symbol"],
+    "starting_gold" : {"multiplier" : 10, "num_die" : 5, "die" : 4},
+    "misc_table_features" : 
+    {"Cantrips Known"
+    : [3, 3, 3, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]},
+    "features" : [
+        
+        {"name" : "Spellcasting", "lvl" : [1], "desc" : "As a conduit for divine power, you can cast cleric spells."},
+        {"name" : "Cantrips", "lvl" : [1], "sub" : true, "desc" : "At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table."},
+        {"name" : "Spell Slots", "lvl" : [1], "sub" : true,"desc" : "The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list."},
+        {"name" : "Spells Known of 1st Level and Higher", "sub" : true, "lvl" : [1], "desc" : "You know four 1st-level spells of your choice from the bard spell list.The Spells Known column of the Bard table shows when you learn more bard spells of your choice. Each of these spells must be of a level for which you have spell slots, as shown on the table. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.Additionally, when you gain a level in this class, you can choose one of the bard spells you know and replace it with another spell from the bard spell list, which also must be of a level for which you have spell slots."},
+        {"name" : "Spellcasting Ability", "lvl" : [1], "sub" : true, "desc" : "Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.Spell save DC = 8 + your proficiency bonus + your Wisdom modifierSpell attack modifier = your proficiency bonus + your Wisdom modifier"},
+        {"name" : "Ritual Casting", "lvl" : [1], "sub" : true,"desc" : "You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared."},
+        {"name" : "Spellcasting Focus", "lvl" : [1], "sub" : true,"desc" : "You can use a holy symbol as a spellcasting focus for your cleric spells."},
+        {"name" : "Divine Domain", "lvl" : [1],  "subclassOptions" : true, "desc" : "At 1st level, you choose a domain shaped by your choice of Deity and the gifts they grant you. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels." },
+        {"name" : "Domain Spells", "lvl" : [1], "sub" : true,"desc" : "Each domain has a list of spells-its domain spells that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."},
+        {"name" : "Channel Divinity", "prog" : ["x1", "x2", "x3"], "lvl" : [2, 6, 18], "desc" : "At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."},
+        {"name" : "Channel Divinity: Turn Undead", "sub": true, "lvl" : [2], "desc" : "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."},
+        {"name" : "Harness Divine Power (Optional)", "prog" : ["x1", "x2", "x3"], "lvl" : [2, 6, 18], "desc" : "At 2nd level, you can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest."},
+
+        {"name" : "Ability Score Improvement", "lvl" : [4, 8, 12, 16, 19], "desc" : "When you reach 4th level, 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."},
+        {"name" : "Cantrip Versatility (Optional)", "lvl" : [4, 8, 12, 16, 19], "desc" : "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list."},
+        {"name" : "Destroy Undead", "lvl" : [5], "desc" : "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Cleric table above."},
+        {"name" : "Blessed Strikes", "lvl" : [8], "desc" : "Replaces the Divine Strike or Potent Spellcasting feature When you reach 8th level, you are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."},
+        {"name" : "Divine Inspiration", "prog" : ["", "improvement"], "lvl" : [10, 20], "desc" : "Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The DM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.At 20th level, your call for intervention succeeds automatically, no roll required."}
+
+        ,{"name" : "Arcana Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Detect Magic", "Magic Missile"] ],
+            ["3rd", ["Magic Weapon", "Nystul's Magic Aura"] ],
+            ["5th", ["Dispel Magic", "Magic Circle"] ],
+            ["7th", ["Arcane Eye", "Leomund's Secret Chest"]],
+            ["9th", ["Planar Binding", "Teleportation Circle"]]
+            
+        ]},
+
+        "subclass" : "Arcana", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Arcane Initiate", "subclass" : "Arcana", "lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips."}
+        ,{"name" : "Channel Divinity: Arcane Abjuration", "table" : {"column_names" : ["Cleric Level", "Banishes Creatures of CR..."], "columns" : [
+            ["5th", "1/2 or lower" ],
+            ["8th", "1 or lower"],
+            ["11th", "2 or lower" ],
+            ["14th", "3 or lower"],
+            ["17th", "4 or lower"]
+        ]},
+        "subclass" : "Arcana", "prog" : ["", "improvement"], "lvl" : [2, 5], "desc" : "Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can only use the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.After you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the Banishment spell, no concentration required) if it isn't on its plane of origin and its challenge rating is at or below a certain threshold, as shown on the Arcane Banishment table."}
+        ,{"name" : "Spell Breaker", "lvl" : [6], "desc" : "Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell."}
+        ,{"name" : "Potent Spellcasting", "lvl" : [8], "desc" : "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Arcane Mastery", "lvl" : [17], "desc" : "At 17th level, you choose four spells from the wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."}
+
+
+        ,{"name" : "Death Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["False Life", "Ray of Sickness"] ],
+            ["3rd", ["Blindness/Deafness", "Ray of Enfeeblement"] ],
+            ["5th", ["Animate Dead", "Vampiric Touch"] ],
+            ["7th", ["Blight", "Death Ward"]],
+            ["9th", ["Antilife Shell", "Cloudkill"]]
+            
+        ]},
+
+        "subclass" : "Death", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Death Domain Proficiencies",  "subclass" : "Death","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency with martial weapons."}
+        ,{"name" : "Reaper",  "subclass" : "Death","lvl" : [1], "desc" : "At 1st level, you learn one necromancy cantrip of your choice from any spell list. When you cast a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."}
+
+        ,{"name" : "Channel Divinity: Touch of Death",  "subclass" : "Death", "lvl" : [2], "desc" : "Starting at 2nd level, you can use Channel Divinity to destroy another creature's life force by touch. When you hit a creature with a melee attack, you can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice your cleric level."}
+        ,{"name" : "Inescapable Destruction",  "subclass" : "Death","prog" : ["", "improvement"], "lvl" : [6, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with necrotic energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 necrotic damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Improved Reaper",  "subclass" : "Death", "lvl" : [17], "desc" : "Starting at 17th level, when you cast a necromancy spell of 1st through 5th level that targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other. If the spell consumes its material components, you must provide them for each target."}
+
+
+     ,{"name" : "Eldritch Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Tasha's Hideous Laughter", "Sleep"] ],
+            ["3rd", ["Detect Thoughts", "See Invisibility"] ],
+            ["5th", ["Fear", "Tongues"] ],
+            ["7th", ["Confusion", "Phantasmal Killer"]],
+            ["9th", ["Contact Other Plane", "Dream"]]
+            
+        ]},
+
+        "subclass" : "Eldritch", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Unpredictable Inspiration", "lvl" : [1], "desc" : "At 1st level, choose any cantrip. The chosen cantrip counts as a cleric spell for you but does not count against the number of cleric cantrips you know. Each time you finish a long rest you can replace the chosen cantrip with any other cantrip of your choice. In addition, you gain proficiency in a skill of yourchoice. Each time you finish a long rest you can replace the chosen skill with another skill of your choice."}
+        ,{"name" : "Eldritch Contagion", "lvl" : [1], 
+        "table" : {"column_names" : ["Eldritch Contagion(d8)", "Effect"], "columns" : [
+            ["1", "The creature cannot speak or cast spells that have verbal components." ],
+            ["2", "The creature takes 1d8 psychic damage at the start of each of its turns."],
+            ["3", "The creature is disoriented. It immediately falls prone and falls prone again at the end of each turn it moves 5 feet or more" ],
+            ["4", "The creature is distracted by visions and voices and has disadvantage on attack rolls and Wisdom (Perception) ability checks"],
+            ["5", "The creature is unsure of itself. It can move or take an action on its turn but not both and it cannot use reactions."],
+            ["6", "The creature is reckless. It has advantage on attack rolls and attack rolls against it have advantage."],
+            ["7", "The creature is deafened and cannot see objects or creatures further than 30 feet away."],
+            ["8", "The creature is frightened of you."]
+        ]}, "subclass" : "Eldritch", "desc" : "Starting at 1st level, you’ve been gifted with the ability to impart a fleeting taste of the unknowable on others. When you cast a spell with a spell slot of 1st level or higher that targets one or more creatures, you can use a bonus action on the same turn to force one of the spell’s targets to make a Wisdom saving throw. On a failure, roll on the Eldritch Effects table and the creature suffers that effect for 1 minute. At the end of each of its turns, the creature can make another Wisdom saving throw,ending the effect on a success. This effect ends early if you use this feature again."}
+
+        ,{"name" : "Channel Divinity: Prophecy of Doom",  "subclass" : "Eldritch", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to speak a prophecy, inducing visions and hallucinations in nearby creatures. As an action, choose a point within 120 feet of you that you can see and roll on the Eldritch Effects table. Each creature in a 15-foot-radius sphere centered on the chosen point must succeed on a Wisdom saving throw or suffer the temporary effect for 1 minute. At the end of each of its turns, an affected creature can make another Wisdom saving throw, ending the temporary effect on a success."}
+        ,{"name" : "Otherworldly Calm", "lvl" : [6], "desc" : "Starting at 6th level, you gain resistance to psychic damage and advantage on saving throws against being charmed and frightened. Additionally, any creature that attempts to read your thoughts find them incomprehensible. The attempt automatically fails and they must succeed on a Wisdom saving throw against your cleric spell save DC or take psychic damage equal to your cleric level."}
+        ,{"name" : "Potent Spellcasting", "lvl" : [8], "desc" : "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Sing the Song that Ends the World", "lvl" : [17], "desc" : "Starting at 17th level, creatures who fail a saving throw against your Prophecy of Doom feature take 10d10 psychic damage. Once a creature has taken damage in this way, it can’t take damage from this feature again for 10 minutes"}
+
+         ,{"name" : "Forge Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Identify", "Searing Smite"] ],
+            ["3rd", ["Heat Metal", "Magic Weapon"] ],
+            ["5th", ["Elemental Weapon", "Protection from Energy"] ],
+            ["7th", ["Fabricate", "Wall of Fire"]],
+            ["9th", ["Animate Objects", "Creation"]]
+            
+        ]}, "subclass" : "Forge", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Forge Domain Proficiencies",  "subclass" : "Forge","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency with heavy armor and smith's tools."}
+        ,{"name" : "Blessing of the Forge", "subclass" : "Forge","lvl" : [1], "desc" : "At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon. Once you use this feature, you can't use it again until you finish a long rest."}
+
+        ,{"name" : "Channel Divinity: Artisan's Blessing","subclass" : "Forge",  "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to create simple items. You conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a simple or martial weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object. The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.The thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual's end, magically forming even nonmetal parts of the creation.The ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual."}
+        ,{"name" : "Soul of the Forge", "subclass" : "Forge","lvl" : [6], "desc" : "Starting at 6th level, your mastery of the forge grants you special abilities: You gain resistance to fire damage. While wearing heavy armor, you gain a +1 bonus to AC."}
+        ,{"name" : "Divine Strike", "subclass" : "Forge","lvl" : [8], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Saint of Forge and Fire","subclass" : "Forge","lvl" : [17], "desc" : "At 17th level, your blessed affinity with fire and metal becomes more powerful:You gain immunity to fire damage.While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."}
+        
+
+        ,{"name" : "Grave Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Bane", "False Life"] ],
+            ["3rd", ["Gentle Repose", "Ray of Enfeeblement"] ],
+            ["5th", ["Revivify", "Vampiric Touch"] ],
+            ["7th", ["Blight", "Death Ward"]],
+            ["9th", ["Antilife Shell", "Raise Dead"]]
+            
+        ]},
+
+        "subclass" : "Grave", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Circle of Mortality",  "subclass" : "Grave","lvl" : [1], "desc" : "At 1st level, you gain the ability to manipulate the line between life and death. When you would normally roll one or more dice to restore hit points with a spell to a creature at 0 hit points, you instead use the highest number possible for each die.In addition, you learn the Spare the Dying cantrip, which doesn't count against the number of cleric cantrips you know. For you, it has a range of 30 feet, and you can cast it as a bonus action."}
+        ,{"name" : "Eyes of the Grave",  "subclass" : "Grave","lvl" : [1], "desc" : "At 1st level, you gain the ability to occasionally sense the presence of the undead, whose existence is an insult to the natural cycle of life. As an action, you can open your awareness to magically detect undead. Until the end of your next turn, you know the location of any undead within 60 feet of you that isn't behind total cover and that isn't protected from divination magic. This sense doesn't tell you anything about a creature's capabilities or identity.You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."}
+
+        ,{"name" : "Channel Divinity: Path to the Grave",  "subclass" : "Grave", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to mark another creature’s life force for termination.As an action, you choose one creature you can see within 30 feet of you, cursing it until the end of your next turn. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends."}
+        ,{"name" : "Sentinel at Death's Door", "subclass" : "Grave","lvl" : [6], "desc" : "At 6th level, you gain the ability to impede death’s progress. As a reaction when you or an ally that you can see within 30 feet of you suffers a critical hit, you can turn that attack into a normal hit. Any effects triggered by a critical hit are canceled.You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a long rest."}
+        ,{"name" : "Potent Spellcasting", "subclass" : "Grave","lvl" : [8], "desc" : "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Keeper of Souls","subclass" : "Grave","lvl" : [17], "desc" : "At 17th level, you can seize a trace of vitality from a parting soul and use it to heal the living. When an enemy you can see dies within 30 feet of you, you or one ally of your choice that is within 30 feet of you regains hit points equal to the enemy’s number of Hit Dice. You can use this feature only if you aren't incapacitated. Once you use it, you can't do so again until the start of your next turn."}
+        
+        
+        ,{"name" : "Knowledge Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Command", "Identify"] ],
+            ["3rd", ["Augury", "Suggestion"] ],
+            ["5th", ["Nondetection", "Speak with Dead"] ],
+            ["7th", ["Arcane Eye", "Confusion"]],
+            ["9th", ["Legend Lore", "Scrying"]]
+            
+        ]},
+
+        "subclass" : "Knowledge", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Blessings of Knowledge",  "subclass" : "Knowledge","lvl" : [1], "desc" : "At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.Your proficiency bonus is doubled for any ability check you make that uses either of those skills."}
+        ,{"name" : "Channel Divinity: Knowledge of the Ages",  "subclass" : "Knowledge","lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool."}
+        ,{"name" : "Channel Divinity: Read THoughts",  "subclass" : "Knowledge","lvl" : [6], "desc" : "At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it. As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.During that time, you can use your action to end this effect and cast the Suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."}
+        ,{"name" : "Potent Spellcasting", "subclass" : "Knowledge","lvl" : [8], "desc" : "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Visions of the Past", "subclass" : "Knowledge","lvl" : [17], "desc" : "Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.Once you use this feature, you can't use it again until you finish a short or long rest.Object Reading. Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.Area Reading. As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation."}
+
+
+        
+          ,{"name" : "Life Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Bless", "Cure Wounds"] ],
+            ["3rd", ["Lesser Restoration", "Spiritual Weapon"] ],
+            ["5th", ["Beacon of Hope", "Revivify"] ],
+            ["7th", ["Death Ward", "Guardian of Faith"]],
+            ["9th", ["Mass Cure Wounds", "Raise Dead"]]
+            
+        ]},
+
+        "subclass" : "Life", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Life Domain Proficiencies",  "subclass" : "Life","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency with heavy armor."}
+        ,{"name" : "Disciple of Life", "subclass" : "Life","lvl" : [1], "desc" : "Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."}
+        ,{"name" : "Channel Divinity: Preserve Life", "subclass" : "Life", "prog" : [""], "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."}
+        ,{"name" : "Blessed Healer", "subclass" : "Life","lvl" : [6], "desc" : "Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."}
+        ,{"name" : "Divine Strike", "subclass" : "Life","prog" : ["", "improvement"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Supreme Healing","subclass" : "Life","lvl" : [17], "desc" : "Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12."}
+        
+        ,{"name" : "Light Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Burning Hands", "Faerie Fire"] ],
+            ["3rd", ["Flaming Sphere", "Scorching Ray"] ],
+            ["5th", ["Daylight", "Fireball"] ],
+            ["7th", ["Guardian of Faith", "Wall of Fire"]],
+            ["9th", ["Flame Strike", "Scrying"]]
+            
+        ]},
+
+        "subclass" : "Light", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Light Cleric Proficiencies",  "subclass" : "Light","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain the Light cantrip if you don't already know it. This cantrip doesn’t count against the number of cleric cantrips you know."}
+        ,{"name" : "Warding Flare",  "subclass" : "Light","lvl" : [1], "desc" : "Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."}
+
+        ,{"name" : "Channel Divinity: Radiance of the Dawn", "subclass" : "Light", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected."}
+        ,{"name" : "Improved Flare", "subclass" : "Light","lvl" : [6], "desc" : "Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."}
+        ,{"name" : "Potent Spellcasting", "subclass" : "Light","lvl" : [8], "desc" : "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Corona of Light","subclass" : "Light","lvl" : [17], "desc" : "Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."}
+        
+        
+        ,{"name" : "Nature Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Animal Friendship", "Speak with Animals"] ],
+            ["3rd", ["Barkskin", "Spike Growth"] ],
+            ["5th", ["Plant Growth", "Wind Wall"] ],
+            ["7th", ["Dominate Beast", "Grasping Vine"]],
+            ["9th", ["Insect Plague", "Tree Stride"]]
+            
+        ]},
+
+        "subclass" : "Nature", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Acolyte of Nature",  "subclass" : "Nature","lvl" : [1], "desc" : "At 1st level, you learn one cantrip of your choice from the druid spell list. This cantrip counts as a cleric cantrip for you, but it doesn’t count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival."}
+        ,{"name" : "Nature Cleric Proficiencies",  "subclass" : "Nature","lvl" : [1], "desc" : "Also at 1st level, you gain proficiency with heavy armor."}
+        ,{"name" : "Channel Divinity: Charm Animals and Plants",   "subclass" : "Nature", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate."}
+        ,{"name" : "Dampen Elements", "subclass" : "Nature","lvl" : [6], "desc" : "Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage."}
+        ,{"name" : "Divine Strike", "subclass" : "Nature", "prog" : ["(1d8)", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Master of Nature","subclass" : "Nature","lvl" : [17], "desc" : "At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."}
+        
+        ,{"name" : "Order Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Command", "Heroism"] ],
+            ["3rd", ["Hold Person", "Zone of Truth"] ],
+            ["5th", ["Mass Healing Word", "Slow"] ],
+            ["7th", ["Compulsion", "Locate Creature"]],
+            ["9th", ["Commune", "Dominate Person"]]
+        ]},
+
+        "subclass" : "Order", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Order Cleric Proficiencies",  "subclass" : "Order","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in the Intimidation or Persuasion skill (your choice)."}
+        ,{"name" : "Voice of Authority",  "subclass" : "Order","lvl" : [1], "desc" : "Starting at 1st level, you can invoke the power of law to embolden an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.If the spell targets more than one ally, you choose the ally who can make the attack."}
+
+        ,{"name" : "Channel Divinity: Order's Command", "subclass" : "Order", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be charmed by you until the end of your next turn or until the charmed creature takes any damage. You can also cause any of the charmed creatures to drop what they are holding when they fail the saving throw."}
+        ,{"name" : "Embodiment of the Law", "subclass" : "Order","lvl" : [6], "desc" : "At 6th level, you become remarkably adept at channeling magical energy to compel others.If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell's casting time to 1 bonus action for this casting, provided the spell's casting time is normally 1 action.You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."}
+        ,{"name" : "Divine Strike", "subclass" : "Order", "prog" : ["(1d8)", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Order's Wrath","subclass" : "Order","lvl" : [17], "desc" : "Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn."}
+
+
+        ,{"name" : "Peace Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Heroism", "Sanctuary"] ],
+            ["3rd", ["Aid", "Warding Bond"] ],
+            ["5th", ["Beacon of Hope", "Sending"] ],
+            ["7th", ["Aura of Purity", "Otiluke's Resilience Sphere"]],
+            ["9th", ["Greater Restoration", "Rary's Telepathic Bond"]]
+            
+        ]},
+
+        "subclass" : "Peace", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Implement of Peace",  "subclass" : "Peace","lvl" : [1], "desc" : "When you choose this domain at 1st level, you gain proficiency in the Insight, Performance, or Persuasion skill (your choice)."}
+        ,{"name" : "Emboldening Bond",  "subclass" : "Peace","lvl" : [1], "desc" : "Starting at 1st level, you can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."}
+
+        ,{"name" : "Channel Divinity: Balm of Peace", "subclass" : "Peace", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action."}
+        ,{"name" : "Protective Bond", "subclass" : "Peace","lvl" : [6], "desc" : "Beginning at 6th level, the bond you forge between people helps them protect each other. When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead."}
+        ,{"name" : "Potent Spellcasting", "subclass" : "Peace","lvl" : [8], "desc" : "At 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."}
+        ,{"name" : "Expansive Bond","subclass" : "Peace","lvl" : [17], "desc" : "At 17th level, the benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else's damage, the creature has resistance to that damage."}
+
+    ,{"name" : "Tempest Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Fog Cloud", "Thunderwave"] ],
+            ["3rd", ["Gust of Wind", "Shatter"] ],
+            ["5th", ["Call Lightning", "Sleet Storm"] ],
+            ["7th", ["Control Water", "Ice Storm"]],
+            ["9th", ["Destructive Wave", "Insect Plague"]]
+            
+        ]},
+
+        "subclass" : "Tempest", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Tempest Cleric Proficiencies",  "subclass" : "Tempest","lvl" : [1], "desc" : "At 1st level, you gain proficiency with martial weapons and heavy armor."}
+        ,{"name" : "Wrath of the Storm",  "subclass" : "Tempest","lvl" : [1], "desc" : "Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."}
+
+        ,{"name" : "Channel Divinity: Destructive Wrath", "subclass" : "Tempest", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling."}
+        ,{"name" : "Thunderous Strike", "subclass" : "Tempest","lvl" : [6], "desc" : "At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you."}
+        ,{"name" : "Divine Strike", "subclass" : "Tempest", "prog" : ["(1d8", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Stormborn","subclass" : "Tempest","lvl" : [17], "desc" : "At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors."}
+
+
+          ,{"name" : "Trickery Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Charm Person", "Disguise Self"] ],
+            ["3rd", ["Mirror Image", "Pass without Trace"] ],
+            ["5th", ["Blink", "Dispel Magic"] ],
+            ["7th", ["Dimension Door", "Polymorph"]],
+            ["9th", ["Dominate Person", "Modify Memory"]]
+            
+        ]},
+
+        "subclass" : "Trickery", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "Blessing of the Trickster",  "subclass" : "Trickery","lvl" : [1], "desc" : "Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."}
+
+        ,{"name" : "Channel Divinity: Invoke Duplicity", "subclass" : "Trickery", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself. As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."}
+        ,{"name" : "Channel Divinity: Cloak of Shadows", "subclass" : "Trickery","lvl" : [6], "desc" : "Starting at 6th level, you can use your Channel Divinity to vanish. As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell."}
+        ,{"name" : "Divine Strike", "subclass" : "Trickery", "prog" : ["(1d8)", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with poison – a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Improved Duplicity","subclass" : "Trickery","lvl" : [17], "desc" : "At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet."}
+
+ ,{"name" : "Twilight Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Faerie Fire", "Sleep"] ],
+            ["3rd", ["Moonbeam", "See Invisibility"] ],
+            ["5th", ["Aura of Vitality", "Tiny Hut"] ],
+            ["7th", ["Aura of Life", "Greater Invisibility"]],
+            ["9th", ["Circle of Power", "Mislead"]]
+            
+        ]},
+
+        "subclass" : "Twilight", "lvl" : [1], "desc" : ""}
+        ,{"name" : "Twilight Cleric Proficiencies",  "subclass" : "Twilight","lvl" : [1], "desc" : "At 1st level, you gain proficiency with martial weapons and heavy armor."}
+        ,{"name" : "Eyes of Night",  "subclass" : "Twilight","lvl" : [1], "desc" : "Starting at 1st level, you can see through the deepest gloom. You have darkvision out to a range of 300 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light.As an action, you can magically share the darkvision of this feature with willing creatures you can see within 10 feet of you, up to a number of creatures equal to your Wisdom modifier (minimum of one creature). The shared darkvision lasts for 1 hour. Once you share it, you can't do so again until you finish a long rest, unless you expend a spell slot of any level to share it again."}
+        ,{"name" : "Vigilant Blessing", "subclass" : "Twilight","lvl" : [1], "desc" : "At 1st level, the night has taught you to be vigilant. As an action, you give one creature you touch (including possibly yourself) advantage on the next initiative roll the creature makes. This benefit ends immediately after the roll or if you use this feature again."}
+
+        ,{"name" : "Channel Divinity: Twilight Sanctuary",  "subclass" : "Twilight","lvl" : [2], "desc" : "At 2nd level, you can use your Channel Divinity to refresh your allies with soothing twilight.As an action, you present your holy symbol, and a sphere of twilight emanates from you. The sphere is centered on you, has a 30-foot radius, and is filled with dim light. The sphere moves with you, and it lasts for 1 minute or until you are incapacitated or die. Whenever a creature (including you) ends its turn in the sphere, you can grant that creature one of these benefits:You grant it temporary hit points equal to 1d6 plus your cleric level.You end one effect on it causing it to be charmed or frightened."}
+        ,{"name" : "Steps of Night", "subclass" : "Twilight","lvl" : [6], "desc" : "Starting at 6th level, you can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."}
+        ,{"name" : "Divine Strike", "subclass" : "Twilight", "prog" : ["(1d8", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Twilight Shroud","subclass" : "Twilight","lvl" : [17], "desc" : "At 17th level, the twilight that you summon offers a protective embrace: you and your allies have half cover while in the sphere created by your Twilight Sanctuary."}
+       
+
+          ,{"name" : "War Domain Spells", "table" : {"column_names" : ["Cleric Level", "Spells"], "columns" : [
+            ["1st", ["Divine Favor", "Shield of Faith"] ],
+            ["3rd", ["Magic Weapon", "Spiritual Weapon"] ],
+            ["5th", ["Crusader's Mantle", "Spirit Guardians"] ],
+            ["7th", ["Freedom of Movement", "Stoneskin"]],
+            ["9th", ["Flame Strike", "Hold Monster"]]
+            
+        ]},
+
+        "subclass" : "War", "lvl" : [1], "desc" : ""}
+
+        ,{"name" : "War Cleric Proficiencies",  "subclass" : "War","lvl" : [1], "desc" : "At 1st level, you gain proficiency with martial weapons and heavy armor."}
+
+        ,{"name" : "War Priest",  "subclass" : "War","lvl" : [1], "desc" : "From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest"}
+        ,{"name" : "Channel Divinity: Guided Strike", "subclass" : "War", "lvl" : [2], "desc" : "Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."}
+        ,{"name" : "Channel Divinity: War God's Blessing", "subclass" : "War","lvl" : [6], "desc" : "At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."}
+        ,{"name" : "Divine Strike", "subclass" : "War", "prog" : ["(1d8)", "(2d8)"], "lvl" : [8, 14], "desc" : "At 8th level, you gain the ability to infuse your weapon strikes with poison – a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."}
+        ,{"name" : "Avatar of Battle","subclass" : "War","lvl" : [17], "desc" : "At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."}
+
+
+    ]
+}

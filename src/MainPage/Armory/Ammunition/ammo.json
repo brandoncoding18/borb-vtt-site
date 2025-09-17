@@ -1,0 +1,59 @@
+[
+
+    {"Name" : "Arrow",
+        "Cost" : {
+            "Amount" : 5, 
+            "Currency" : "cp"
+        }, 
+        "Units Per Sale" : 20,
+        "For Use With" : ["Bladed Bow", "Compound Bow", "Longbow", "Shortbow", "Recurve Bow"]
+    }, 
+    {"Name" : "Bolt",
+        "Cost" : {
+            "Amount" : 5, 
+            "Currency" : "cp"
+        }, 
+        "Units Per Sale" : 40,
+        "For Use With" : ["Hand Crossbow", "Heavy Crossbow", "Light Crossbow"]
+    }, 
+    {"Name" : "Bullet",
+        "Cost" : {
+            "Amount" : 1, 
+            "Currency" : "cp"
+        }, 
+        "Units Per Sale" : 20,
+        "For Use With" : ["Sling", "Wrist Shot", "Sling Staff"]
+    }, 
+    {"Name" : "Great Arrow",
+        "Cost" : {
+            "Amount" : 1, 
+            "Currency" : "sp"
+        }, 
+        "Units Per Sale" : 20,
+        "For Use With" : ["Greatbow"]
+    }, 
+    {"Name" : "Needle",
+        "Cost" : {
+            "Amount" : 1, 
+            "Currency" : "cp"
+        }, 
+        "Units Per Sale" : 100,
+        "For Use With" : ["Blowgun", "Hidden Crossbow"]
+    }, 
+     {"Name" : "Disc",
+        "Cost" : {
+            "Amount" : 10, 
+            "Currency" : "cp"
+        }, 
+        "Units Per Sale" : 10,
+        "For Use With" : ["Spinner"]
+    }, 
+    {"Name" : "Ballista Bolt",
+        "Cost" : {
+            "Amount" : 1, 
+            "Currency" : "gp"
+        }, 
+        "Units Per Sale" : 2,
+        "For Use With" : ["Ballista"]
+    }
+]

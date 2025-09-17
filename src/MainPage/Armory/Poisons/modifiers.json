@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "Pure Water",
+    "Converts": "Converts into Liquid",
+    "Effect": "x0.5",
+    "Save": "x0.5",
+    "Duration": "x0.5",
+    "Cost (gp)": 5
+  },
+  {
+    "Name": "Condensed Fatwood Ash",
+    "Converts": "Converts into Paste",
+    "Effect": "x2.0",
+    "Save": "x1.0",
+    "Duration": "x0.5",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Condensed Fatwood Sap",
+    "Converts": "Converts into Paste",
+    "Effect": "x0.5",
+    "Save": "x2.0",
+    "Duration": "x1.0",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Condensed Fatwood Leaf Extract",
+    "Converts": "Converts into Liquid",
+    "Effect": "x1.0",
+    "Save": "x0.5",
+    "Duration": "x2.0",
+    "Cost (gp)": 10
+  },
+  {
+    "Name": "Refined Alembic Residue",
+    "Converts": "None",
+    "Effect": "x2.0",
+    "Save": "x0.5",
+    "Duration": "x0.5",
+    "Cost (gp)": 15
+  },
+  {
+    "Name": "Refined Alcohol",
+    "Converts": "Converts into Volatile, flammable",
+    "Effect": "x1.5",
+    "Save": "x1.5",
+    "Duration": "x0.5",
+    "Cost (gp)": 20
+  },
+  {
+    "Name": "Refined Lantern Oil",
+    "Converts": "Converts into Liquid, flammable",
+    "Effect": "x1.5",
+    "Save": "x0.5",
+    "Duration": "x1.5",
+    "Cost (gp)": 20
+  },
+  {
+    "Name": "Alkahest",
+    "Converts": "Converts into Powder",
+    "Effect": "x0.5",
+    "Save": "x1.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 25
+  },
+  {
+    "Name": "Liquified Gum Anatolic",
+    "Converts": "Converts into Liquid",
+    "Effect": "x0.5",
+    "Save": "x1.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 30
+  },
+  {
+    "Name": "Argenese Wine",
+    "Converts": "Converts into Liquid, Tasty",
+    "Effect": "x1.0",
+    "Save": "x1.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 35
+  },
+  {
+    "Name": "Purified Electrum Dust",
+    "Converts": "None",
+    "Effect": "x0.5",
+    "Save": "x2.0",
+    "Duration": "x0.5",
+    "Cost (gp)": 50
+  },
+  {
+    "Name": "Ancient Maronni Oil",
+    "Converts": "Converts into Paste",
+    "Effect": "x2.0",
+    "Save": "x2.0",
+    "Duration": "x1.0",
+    "Cost (gp)": 75
+  },
+  {
+    "Name": "Mashed Rust Ants",
+    "Converts": "Converts into Powder",
+    "Effect": "x3.0",
+    "Save": "x0.5",
+    "Duration": "x0.5",
+    "Cost (gp)": 100
+  },
+  {
+    "Name": "Blessed Water",
+    "Converts": "Converts into Liquid, Radiant",
+    "Effect": "x1.0",
+    "Save": "x1.0",
+    "Duration": "x0.5",
+    "Cost (gp)": 100
+  },
+  {
+    "Name": "Cursed Graveyard Soil",
+    "Converts": "Converts into Powder, Necrotic",
+    "Effect": "x1.0",
+    "Save": "x1.0",
+    "Duration": "x0.5",
+    "Cost (gp)": 100
+  },
+  {
+    "Name": "Condensed Peaceweed Vapors",
+    "Converts": "None",
+    "Effect": "x0.5",
+    "Save": "x2.0",
+    "Duration": "x1.0",
+    "Cost (gp)": 100
+  },
+  {
+    "Name": "Refined False Hydra Saliva",
+    "Converts": "Converts into Volatile",
+    "Effect": "x0.5",
+    "Save": "x3.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 200
+  },
+  {
+    "Name": "True Mercury",
+    "Converts": "None",
+    "Effect": "x0.5",
+    "Save": "x0.5",
+    "Duration": "x2.0",
+    "Cost (gp)": 200
+  },
+  {
+    "Name": "Condensed Eladrin Tears of Pain",
+    "Converts": "Converts into Volatile",
+    "Effect": "x2.0",
+    "Save": "x2.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 250
+  },
+  {
+    "Name": "Ethereal Silkworm",
+    "Converts": "None",
+    "Effect": "x1.0",
+    "Save": "x2.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 500
+  },
+  {
+    "Name": "Platinum Fine Powder",
+    "Converts": "None (Not consumed upon usage)",
+    "Effect": "x2.0",
+    "Save": "x2.0",
+    "Duration": "x2.0",
+    "Cost (gp)": 1600
+  }
+]

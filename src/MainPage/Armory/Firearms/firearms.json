@@ -1,0 +1,1322 @@
+[
+  {
+    "Name": "Arquebus",
+    "Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Weight": 7.5,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 150,
+      "Long": 300
+    },
+    "Properties": {
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Piercing": 3,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Axegun",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Weight": 7,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 13,
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Piercing": 2,
+      "Reload": "1",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 8,
+        "Type": "Slashing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "If during your turn you hit an enemy with a ranged attack, the next melee attack until the end of your turn that hits will be considered a critical hit.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Blunderbuss",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Weight": 7,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 20,
+      "Long": 40
+    },
+    "Properties": {
+      "Heavy": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 3,
+      "Reload": "1",
+      "Spread": 2,
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 3,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "You do not have disadvantage from shooting at close quarters. When you hit an enemy within short range, you push it 10 ft in the opposite direction and knock it prone unless it is one size larger than you.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Caliver",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Weight": 5,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 200,
+      "Long": 400
+    },
+    "Properties": {
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Piercing": 3,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "When you aim for a weak spot, you take the normal -5 to hit but triple the damage (2d8+8+Dex normally).",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Firelance",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 15,
+      "Type" : "Cone"
+    },
+    "Properties": {
+      "Brace": true,
+      "Heavy": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Reach": true,
+      "Reload": "1 action",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 12,
+        "Type": "Slashing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 50,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "As an action, you sweep the lance around you, forcing all targets within the weapon’s range to succeed on a Dexterity saving throw or suffer the damage die of the weapon. On a pass, the targets take half damage.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Grenade",
+    "Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Weight": 5,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 20,
+      "Long": 40,
+      "Type": "Thrown"
+    },
+    "Properties": {
+      "Explosive": "15 ft",
+      "Misfire": 3,
+      "Misfire Type": "Unstable"
+    },
+    "Ammo Cost": {
+      "Amount": 0,
+      "Currency": "N/A"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You may throw a grenade as a bonus action instead of an action. You can throw grenades up to their maximum range without disadvantage, and they lose the unstable tag for you.",
+    "Firearm Group": "Explosives"
+  },
+  {
+    "Name": "Handcannon",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Weight": 7.5,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Piercing": 2,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "You can load this weapon with a double load, doubling the base damage and misfire score. If this weapon jams, you may reload it and fire it to clear it, counting as a double load, but with the unstable property.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Hand Mortar",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Weight": 20,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 50,
+      "Long": 150
+    },
+    "Properties": {
+      "Explosive": "15 ft",
+      "Hooked": 13,
+      "Mechanism": "Matchlock",
+      "Misfire": 3,
+      "Misfire Type": "Unstable",
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 50,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "When you attack with a Hand Mortar, you can select 1 objective as the main target, in which the attack is centered, losing the explosive property. If the attack hits like a normal attack would, that objective takes maximum dice damage.",
+    "Firearm Group": "Explosives"
+  },
+  {
+    "Name": "Hookgun",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Weight": 7,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 15,
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Piercing": 3,
+      "Reload": "1",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 8,
+        "Type": "Piercing",
+        "Melee Type": "(Hammers and Picks)"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "You gain the Trip property with this weapon`s melee attacks. If you score 5 above the AC of the enemy, you knock it prone and shove it 10 feet away.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Jezzail",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Weight": 6,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 200,
+      "Long": 300
+    },
+    "Properties": {
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Piercing": 4,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "If you have advantage when shooting at an enemy and both dice would hit, it is considered a critical hit.",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Musket",
+    "Cost": {
+      "Amount": 250,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 300,
+      "Long": 600
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 15,
+      "Mechanism": "Matchlock",
+      "Misfire": 3,
+      "Piercing": 6,
+      "Reload": "1 turn",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 3,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "If you take the attack action on your turn and your musket is hooked, you can roll a Perception check against 15 or half the enemy's AC, whichever is higher. On success, the piercing score for your musket is doubled for this attack. If there is an object providing full cover to a creature, you can shoot through it as long as your Piercing score is higher than its AC, but losing piercing equal to its AC.",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Pistol",
+    "Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Weight": 2,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 30,
+      "Long": 60
+    },
+    "Properties": {
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "One Handed": true,
+      "Piercing": 1,
+      "Reload": "1"
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "sp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "Your range with Pistols is doubled. You can use a bonus action to make an attack with a pistol, even if you don't take the attack action.",
+    "Firearm Group": "Hand Firearms"
+  },
+  {
+    "Name": "Siphon",
+    "Cost": {
+      "Amount": 250,
+      "Currency": "gp"
+    },
+    "Weight": 10,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 15,
+      "Long": 30,
+      "Type" : "Cone/Line"
+    },
+    "Properties": {
+      "Heavy": true,
+      "Reload": "1 Turn",
+      "Two Handed": true,
+      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    },
+    "Ammo Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Rarity": "Common",
+    "Mastery Feat": "When attacking with a Siphon, you can choose to ignore a number of creatures equal to your Dexterity modifier.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Wrist Pistol",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Weight": 1,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 20,
+      "Long": 40
+    },
+    "Properties": {
+      "Conceal": true,
+      "Light": true,
+      "Misfire": 1,
+      "Piercing": 2,
+      "Reload": "2 (2 actions)",
+      "Mechanism": "Wheellock"
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "sp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "An attack that hits with this weapon on a surprised enemy deals maximum dice damage. You can reload this weapon using 2 bonus actions instead of two actions.",
+    "Firearm Group": "Hand Firearms"
+  },
+  {
+    "Name": "Wrist Rocket",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Weight": 1,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 15
+    },
+    "Properties": {
+      "Conceal": true,
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Reload": "1 action",
+      "Ranged Attack Type": "15ft line 5ft wide",
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 4,
+        "Type": "Piercing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "If you hit a creature with a wrist rocket attacks ,you have advantage on melee attacks against it until the end of your turn.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Bracamorte Pistol",
+    "Cost": {
+      "Amount": 115,
+      "Currency": "gp"
+    },
+    "Weight": 3,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 20,
+      "Long": 40
+    },
+    "Properties": {
+      "Finesse": true,
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "One Handed": true,
+      "Piercing": 1,
+      "Reload": "1",
+      "Melee Damage": {
+        "Number Die": 2,
+        "Die Amount": 4,
+        "Type": "Slashing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "sp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
+    "Firearm Group": "Hand Firearms"
+  },
+  {
+    "Name": "Bressbuss (Blunderbuss)",
+    "Cost": {
+      "Amount": 500,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 30,
+      "Long": 60
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 18,
+      "Mechanism": "Matchlock",
+      "Misfire": 5,
+      "Misfire Type": "(Unstable)",
+      "Reload": "1 turn",
+      "Spread": 4,
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 2,
+        "Die Amount": 6,
+        "Type": "Bludgeoning"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You do not have disadvantage from shooting at close quarters. When you hit an enemy within short range, you push it 10 ft in the opposite direction and knock it prone unless it is one size larger than you.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Bressnian Hand Mortar",
+    "Cost": {
+      "Amount": 500,
+      "Currency": "gp"
+    },
+    "Weight": 80,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 150,
+      "Long": 300
+    },
+    "Properties": {
+      "Explosive": "30 ft",
+      "Heavy": true,
+      "Hooked": 18,
+      "Misfire": 5,
+      "Misfire Type": "(Unstable)",
+      "Reload": "1 turn",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 2,
+        "Die Amount": 6,
+        "Type": "Bludgeoning"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "When you attack with a Hand Mortar, you can select 1 objective as the main target, in which the attack is centered, losing the explosive property. If the attack hits like a normal attack would, that objective takes maximum dice damage.",
+    "Firearm Group": "Explosives"
+  },
+  {
+    "Name": "Cakoni Hookgun",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 60,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 17,
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Misfire Type": "(Unstable)",
+      "Piercing": 4,
+      "Reload": "1 Action",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 12,
+        "Type": "Piercing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 3,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You gain the Trip property with this weapon`s melee attacks. If you score 5 above the AC of the enemy, you knock it prone and shove it 10 feet away.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Craot Axegun",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Weight": 10,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 15,
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Piercing": 2,
+      "Reload": "1",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 12,
+        "Type": "Slashing",
+        "Melee Type": "(Axes)"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "If during your turn you hit an enemy with a ranged attack, the next melee attack until the end of your turn that hits will be considered a critical hit.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Duergar Firefist (Wrist Rocket)",
+    "Cost": {
+      "Amount": 250,
+      "Currency": "gp"
+    },
+    "Weight": 3,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Fire+Piercing"
+    },
+    "Range": {
+      "Short": 15
+    },
+    "Properties": {
+      "Misfire": 1,
+      "Piercing": 3,
+      "Reload": "1 action",
+      "Mechanism": "Wheellock",
+      "Ranged Attack Type": "15ft line 5ft wide",
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 6,
+        "Type": "Bludgeoning"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "If you hit a creature with a wrist rocket attacks ,you have advantage on melee attacks against it until the end of your turn.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Duergar Torden (Arquebus)",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 200,
+      "Long": 400
+    },
+    "Properties": {
+      "Hooked": 14,
+      "Misfire": 1,
+      "Piercing": 4,
+      "Reload": "1",
+      "Two Handed": true,
+      "Mechanism": "Wheellock"
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Kishian Kenpatsu (Arquebus)",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 150,
+      "Long": 200
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 15,
+      "Piercing": 3,
+      "Reload": "12 actions",
+      "Spread": 2,
+      "Two Handed": true,
+      "Mechanism": "Wheellock",
+      "Special": "Spread is 15° wide"
+    },
+    "Ammo Cost": {
+      "Amount": 12,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Laminese Schiopetto (Handcannon)",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 5.5,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 200,
+      "Long": 400
+    },
+    "Properties": {
+      "Misfire": 1,
+      "Piercing": 4,
+      "Reload": "1",
+      "Two Handed": true,
+      "Mechanism": "Wheellock"
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You can load this weapon with a double load, doubling the base damage and misfire score. If this weapon jams, you may reload it and fire it to clear it, counting as a double load, but with the unstable property.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Llapock Axegun",
+    "Cost": {
+      "Amount": 115,
+      "Currency": "gp"
+    },
+    "Weight": 8,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 30,
+      "Long": 60
+    },
+    "Properties": {
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "One Handed": true,
+      "Piercing": 1,
+      "Reload": "1",
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 6,
+        "Type": "Slashing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "If during your turn you hit an enemy with a ranged attack, the next melee attack until the end of your turn that hits will be considered a critical hit.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Nasher Naffatun (Siphon)",
+    "Cost": {
+      "Amount": 350,
+      "Currency": "gp"
+    },
+    "Weight": 5,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 10,
+      "Long": 20
+    },
+    "Properties": {
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Reload": "1 Turn",
+      "Two Handed": true,
+      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    },
+    "Ammo Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "When attacking with a Siphon, you can choose to ignore a number of creatures equal to your Dexterity modifier.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Ragozan Salute (Blunderbuss)",
+    "Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Weight": 3,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 6,
+      "Extra Damage": 6,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 10,
+      "Long": 20
+    },
+    "Properties": {
+      "Light": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 3,
+      "Misfire Type": "(Unstable)",
+      "One Handed": true,
+      "Reload": "1",
+      "Spread": 1
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You do not have disadvantage from shooting at close quarters. When you hit an enemy within short range, you push it 10 ft in the opposite direction and knock it prone unless it is one size larger than you.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Sahilese Claw (Wrist Pistol)",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 1,
+    "Damage": {
+      "Number Die": 8,
+      "Die Amount": 4,
+      "Extra Damage": 4,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 5,
+      "Type": "(Melee)"
+    },
+    "Properties": {
+      "Conceal": true,
+      "Finesse": true,
+      "Misfire": 1,
+      "Piercing": 4,
+      "Reload": "2 (2 actions)",
+      "Mechanism": "Wheellock",
+      "Special": "1d4P on melee without consuming ammo"
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "sp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "An attack that hits with this weapon on a surprised enemy deals maximum dice damage. You can reload this weapon using 2 bonus actions instead of two actions.",
+    "Firearm Group": "Hand Firearms"
+  },
+  {
+    "Name": "Tetzuan Ōzutsu (Handcannon)",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Weight": 45,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 300,
+      "Long": 400
+    },
+    "Properties": {
+      "Heavy": true,
+      "Hooked": 15,
+      "Mechanism": "Matchlock",
+      "Misfire": 2,
+      "Misfire Type": "(Unstable)",
+      "Piercing": 4,
+      "Reload": "1 Turn",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 3,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "You can load this weapon with a double load, doubling the base damage and misfire score. If this weapon jams, you may reload it and fire it to clear it, counting as a double load, but with the unstable property.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Vlast Caliver",
+    "Cost": {
+      "Amount": 500,
+      "Currency": "gp"
+    },
+    "Weight": 10,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 300,
+      "Long": 600
+    },
+    "Properties": {
+      "Misfire": 1,
+      "Piercing": 4,
+      "Reload": "1",
+      "Two Handed": true,
+      "Mechanism": "Wheellock"
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Uncommon",
+    "Mastery Feat": "When you aim for a weak spot, you take the normal -5 to hit but triple the damage (2d8+8+Dex normally).",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Anatol Jezzail",
+    "Cost": {
+      "Amount": 1500,
+      "Currency": "gp"
+    },
+    "Weight": 7.7,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 300,
+      "Long": 600
+    },
+    "Properties": {
+      "Mechanism": "Flintlock",
+      "Misfire": 2,
+      "Piercing": 5,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "If you have advantage when shooting at an enemy and both dice would hit, it is considered a critical hit.",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Ferrofiammare (Siphon)",
+    "Cost": {
+      "Amount": 3000,
+      "Currency": "gp"
+    },
+    "Weight": 30,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire, Piercing"
+    },
+    "Range": {
+      "Short": 15,
+      "Long": 30
+    },
+    "Properties": {
+      "Mechanism": "Flintlock",
+      "Heavy": true,
+      "Hooked": 15,
+      "Misfire": 1,
+      "Piercing": 6,
+      "Reload": "1 Turn",
+      "Two Handed": true,
+      "Special": "Target all creatures in a short range cone or long range line."
+    },
+    "Ammo Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "When attacking with a Siphon, you can choose to ignore a number of creatures equal to your Dexterity modifier.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Galburian Thunderer (Handcannon)",
+    "Cost": {
+      "Amount": 2000,
+      "Currency": "gp"
+    },
+    "Weight": 30,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 10,
+      "Extra Damage": 10,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 100,
+      "Long": 200
+    },
+    "Properties": {
+      "Mechanism": "Flintlock",
+      "Heavy": true,
+      "Piercing": 6,
+      "Reload": "1",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 3,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "You can load this weapon with a double load, doubling the base damage and misfire score. If this weapon jams, you may reload it and fire it to clear it, counting as a double load, but with the unstable property.",
+    "Firearm Group": "Medium Firearms"
+  },
+  {
+    "Name": "Istvani Siphon",
+    "Cost": {
+      "Amount": 2500,
+      "Currency": "gp"
+    },
+    "Weight": 10,
+    "Damage": {
+      "Number Die": 5,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 30,
+      "Long": 60
+    },
+    "Properties": {
+      "Heavy": true,
+      "Reload": "1 Turn",
+      "Two Handed": true,
+      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    },
+    "Ammo Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "When attacking with a Siphon, you can choose to ignore a number of creatures equal to your Dexterity modifier.",
+    "Firearm Group": "Shotgun Firearms"
+  },
+  {
+    "Name": "Noker Dragonlance",
+    "Cost": {
+      "Amount": 2000,
+      "Currency": "gp"
+    },
+    "Weight": 15,
+    "Damage": {
+      "Number Die": 3,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 30
+    },
+    "Properties": {
+      "Brace": true,
+      "Heavy": true,
+      "Mechanism": "Matchlock",
+      "Misfire": 1,
+      "Misfire Type": "(Unstable)",
+      "Reach": true,
+      "Reload": "1 action",
+      "Two Handed": true,
+      "Melee Damage": {
+        "Number Die": 1,
+        "Die Amount": 12,
+        "Type": "Slashing"
+      }
+    },
+    "Ammo Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "As an action, you sweep the lance around you, forcing all targets within the weapon’s range to succeed on a Dexterity saving throw or suffer the damage die of the weapon. On a pass, the targets take half damage.",
+    "Firearm Group": "Assault Firearms"
+  },
+  {
+    "Name": "Ragosan Espingarda (Musket)",
+    "Cost": {
+      "Amount": 1500,
+      "Currency": "gp"
+    },
+    "Weight": 17,
+    "Damage": {
+      "Number Die": 6,
+      "Die Amount": 12,
+      "Extra Damage": 12,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 400,
+      "Long": 800
+    },
+    "Properties": {
+      "Mechanism": "Flintlock",
+      "Heavy": true,
+      "Hooked": 18,
+      "Misfire": 2,
+      "Piercing": 7,
+      "Reload": "1 turn",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 7,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "If you take the attack action on your turn and your musket is hooked, you can roll a Perception check against 15 or half the enemy's AC, whichever is higher. On success, the piercing score for your musket is doubled for this attack. If there is an object providing full cover to a creature, you can shoot through it as long as your Piercing score is higher than its AC, but losing piercing equal to its AC.",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Seytanlary Glass Tufeng (Caliver)",
+    "Cost": {
+      "Amount": 2000,
+      "Currency": "gp"
+    },
+    "Weight": 6,
+    "Damage": {
+      "Number Die": 2,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Fire"
+    },
+    "Range": {
+      "Short": 200
+    },
+    "Properties": {
+      "Explosive": "5ft",
+      "Misfire": 1,
+      "Piercing": 4,
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 5,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "When you aim for a weak spot, you take the normal -5 to hit but triple the damage (2d8+8+Dex normally).",
+    "Firearm Group": "Marksmen Firearms"
+  },
+  {
+    "Name": "Socket Gun (Arquebus)",
+    "Cost": {
+      "Amount": 2200,
+      "Currency": "gp"
+    },
+    "Weight": 10,
+    "Damage": {
+      "Number Die": 4,
+      "Die Amount": 8,
+      "Extra Damage": 8,
+      "Type": "Piercing"
+    },
+    "Range": {
+      "Short": 300,
+      "Long": 600
+    },
+    "Properties": {
+      "Mechanism": "Flintlock",
+      "Heavy": true,
+      "Hooked": 15,
+      "Misfire": 1,
+      "Piercing": 6,
+      "Reload": "3",
+      "Two Handed": true
+    },
+    "Ammo Cost": {
+      "Amount": 7,
+      "Currency": "gp"
+    },
+    "Rarity": "Rare",
+    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
+    "Firearm Group": "Medium Firearms"
+  }
+]

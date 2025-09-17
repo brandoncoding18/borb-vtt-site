@@ -1,0 +1,46 @@
+/*
+                <div>
+                    <h4>{race.name}</h4>
+                    <span><b>Size: </b>{race.size}</span>
+                    <div><b>Speed: </b>{Object.keys(race.speed).map((s) => (
+                        <span> Your base {s} speed is {race.speed[s]} feet.</span>
+                    ))}</div>
+                    <span><b>Languages: </b>{race.languages.map((l) => 
+                    
+                        (l.Choice) ? `${l.Choice} choices of ${l.Of} language`: l).join(", ")
+                    
+                    
+                
+                        }</span>
+                        <br/>
+                        <br/>
+                    <h4>Subraces: </h4>
+                    <br/>
+                    {
+                        race.subraces.map((s) => 
+                            <div>
+                            <h5>{s.name}</h5>
+                            <div><b>ASI: </b>{
+                                (!s.asi.Choice) 
+                                ?
+                                (!s.asi.All)
+                                ?
+                                Object.keys(s.asi).map((a) => `Your ${a} score increases by ${s.asi[a]}`).join(", ")
+                                :
+                                `All of your ability scores increase by ${s.asi.All}`
+                                :
+                                `Your choice of ${s.asi.Choice} scores increases by ${s.asi.Amount}`
+                            }</div>
+                            {(s.skills) ? 
+                                <div>
+                                    <b>Skills: </b>
+                                    {`${s.skills?.choice} choice of ${s.skills?.Of.map((skill) => `${skill}`).join(", ")} skill`}
+                                </div>
+                                :
+                                <></>
+                                    }
+                            </div>
+                        )
+                    }
+
+                </div>

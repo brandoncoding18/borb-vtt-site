@@ -1,0 +1,37 @@
+[{
+
+    "name" : "Artificer",
+    "hitDie" : {"die" : 8},
+    "armor_prof" : ["Light", "Medium", "Shields"],
+    "weapon_prof" : ["Simple"],
+    "tools_prof" : ["Thieves'", "Tinker's", {"choice" : 1, "type" : "Artisan's"}],
+    "saving_throws" : ["Constitution", "Intelligence"],
+    "skill_prof" : {"choice" : 2, "skills" : ["Arcana", "History", "Investigation", "Medicine", "Nature", "Perception", "Sleight of Hand"]},
+    "equipment" : ["any two simple weapons", "a light crossbow and 20 bolts", "(a) studded leather armor or (b) scale mail", "thieves’ tools and a dungeoneer’s pack"],
+    "starting_gold" : {"multiplier" : 10, "num_die" : 5, "die" : 4},
+    "features" : [
+        
+        {"name" : "Magical Tinkering", "lvl" : 1, "desc" : "At 1st level, you've learned how to invest a spark of magic into mundane objects. To use this ability, you must have thieves' tools or artisan's tools in hand. You then touch a Tiny nonmagical object as an action and give it one of the following magical properties of your choice: The object sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Whenever tapped by a creature, the object emits a recorded message that can be heard up to 10 feet away. You utter the message when you bestow this property on the object, and the recording can be no more than 6 seconds long. The object continuously emits your choice of an odor or a nonverbal sound (wind, waves, chirping, or the like). The chosen phenomenon is perceivable up to 10 feet away. A static visual effect appears on one of the object's surfaces. This effect can be a picture, up to 25 words of text, lines and shapes, or a mixture of these elements, as you like. The chosen property lasts indefinitely. As an action, you can touch the object and end the property early.You can bestow magic on multiple objects, touching one object each time you use this feature, though a single object can only bear one property at a time. The maximum number of objects you can affect with this feature at one time is equal to your Intelligence modifier (minimum of one object). If you try to exceed your maximum, the oldest property immediately ends, and then the new property applies."},
+        {"name" : "Spellcasting", "lvl" : 1, "desc" : "You've studied the workings of magic and how to cast spells, channeling the magic through objects. To observers, you don't appear to be casting spells in a conventional way; you appear to produce wonders from mundane items and outlandish inventions."},
+        {"name" : "Cantrips (0-Level Spells)", "lvl" : 1, "desc" : "You produce your artificer spell effects through your tools. You must have a spellcasting focus - specifically thieves' tools or some kind of artisan's tool - in hand when you cast any spell with this Spellcasting feature (meaning the spell has an \"M\" component when you cast it). You must be proficient with the tool to use it in this way. See the equipment chapter in the Player's Handbook for descriptions of these tools. After you gain the Infuse Item feature at 2nd level, you can also use any item bearing one of your infusions as a spellcasting focus."},
+        {"name" : "Preparing and Casting Spells", "lvl" : 1, "desc" : "The Artificer table shows how many spell slots you have to cast your artificer spells. To cast one of your artificer spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest. You prepare the list of artificer spells that are available for you to cast, choosing from the artificer spell list. When you do so, choose a number of artificer spells equal to your Intelligence modifier + half your artificer level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. For example, if you are a 5th-level artificer, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell Cure Wounds, you can cast it using a lst-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of artificer spells requires time spent tinkering with your spellcasting focuses: at least 1 minute per spell level for each spell on your list."},
+        {"name" : "Spellcasting Ability", "lvl" : 1, "desc" : "Intelligence is your spellcasting ability for your artificer spells; your understanding of the theory behind magic allows you to wield these spells with superior skill. You use your Intelligence whenever an artificer spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for an artificer spell you cast and when making an attack roll with one."},
+        {"name" : "Ritual Casting", "lvl" : 1, "desc" : "You can cast an artificer spell as a ritual if that spell has the ritual tag and you have the spell prepared."},
+        {"name" : "Infuse Item", "lvl" : 1, "desc" : "At 2nd level, you've gained the ability to imbue mundane items with certain magical infusions, turning those objects into magic items."},
+        {"name" : "Infusions Known", "lvl" : 1, "desc" : "When you gain this feature, pick four artificer infusions to learn. You learn additional infusions of your choice when you reach certain levels in this class, as shown in the Infusions Known column of the Artificer table. Whenever you gain a level in this class, you can replace one of the artificer infusions you learned with a new one."},
+        {"name" : "Infusing an Item", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Artificer Specialist", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "The Right Tool for the Job", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Ability Score Improvement", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Tool Expertise", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Flash of Genius", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Magic Item Adept", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Spell-Storing Item", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Magic Item Savant", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Magic Item Master", "lvl" : 1, "desc" : "ddd"},
+        {"name" : "Soul of Artifice", "lvl" : 1, "desc" : "ddd"}
+    ]
+
+
+}
+]
