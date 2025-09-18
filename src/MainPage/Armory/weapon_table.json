@@ -2147,7 +2147,7 @@
       "Trip"
     ],
     "special": "N/A",
-    "mastery": "Kukri deal 1d8 damage for you.When you score a critical hit, triple all damage dice instead of doubling."
+    "mastery": " You deal damage on Disarm and Trip attacks. When you hit with a Disarm attack, your target has disadvantage on Attack rolls until the end of its next turn. When you hit with a Trip attack, its speed is reduced by 10ft instead."
   },
   {
     "name": "Kusarigama",

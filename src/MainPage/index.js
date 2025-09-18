@@ -1,5 +1,7 @@
 import {useState} from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { useSearchParams } from 'react-router-dom'; // Import useSearchParams
+
 import SideNav from '../SideNav'; 
 import Armory from './Armory/index.js'; 
 import Races from './Races/index.js'; 
@@ -18,7 +20,6 @@ import MyError from '../Error/index.js';
 
 
 export default function MainPage({selectedPage}) {
-
     const componentMap = {
     Armory : Armory, 
     Classes : Classes, 
@@ -33,12 +34,15 @@ export default function MainPage({selectedPage}) {
   //TODO
   // query param format: /?spells&spell_name=[spellname]
   //Have it so that based on what you parse from the url, it selects the correct sidebar option, then looks for query parameters
-
+    const [searchParams] = useSearchParams();
+    const queryParams = Object.fromEntries(searchParams.entries());
     const ActivePage = componentMap[selectedPage] || MyError; // Fallback to SideNav
 
     return (<div class="mainContainer">
+        {JSON.stringify(window.location.search)}
         <SideNav selectedPage={selectedPage}/>
-        {<ActivePage />}
+        <ActivePage {...queryParams}/>
+
         </div>
 
     

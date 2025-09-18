@@ -75,7 +75,7 @@
     "Name": "Fey Touched",
     "Source": "Tasha's Cauldron of Everything",
     "Prereq": "N/A",
-    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the Misty Step spell and one 1st-level spell of your choice. The 1st-level spell must be from the Divination or Enchantment school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the ~sMisty Step~# spell and one 1st-level spell of your choice. The 1st-level spell must be from the ~xDivination~# or ~xEnchantment~# school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
   },
   {
     "Name": "Fighting Initiate",
@@ -516,7 +516,7 @@
     "Desc": "You gain mastery with a shield of your choice. If you take an Attack action on your turn, you can use a bonus action on the same turn to perform a shove with your shield. If you aren't incapacitated, you can add your shield AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you. If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the save, interposing your shield between yourself and the source of the effect. If you are Untrained with shields, while wielding one you suffer disadvantage on attack rolls, ability checks, and saving throws that rely on Strength or Dexterity, and you can’t cast spells."
   },
   {
-    "Name": "Throwing Weapons Prowess",
+    "Name": "Thrown Weapon Prowess",
     "Source": "DM Gideon",
     "Prereq": "N/A",
     "Desc": "When you throw a weapon, you draw another weapon freely. Additionally, you may throw with your off hand, and add your ability modifier to the damage roll. You gain mastery with a throwing weapon of your choice Throwing a weapon ignores half cover. You threaten 10ft around you and can make an Opportunity Attack if an enemy leaves your threatened space. You do not suffer disadvantage for throwing at long range and do not suffer disadvantage to ranged attacks made while an enemy is within 5ft of you. This feat applies to all light weapons with the thrown property, in addition to those in the group."

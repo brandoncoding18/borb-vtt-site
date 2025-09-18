@@ -294,20 +294,6 @@
     ]
   },
   {
-    "Name": "Hand of Radiance (UA)",
-    "Source": "Unearthed Arcana 36 - Starter Spells",
-    "Level": 0,
-    "Ritual": false,
-    "School": "Evocation",
-    "Casting Time": "1 action",
-    "Range": "5 feet",
-    "Components": "V, S",
-    "Duration": "Instantaneous",
-    "Description": "",
-    "Upcast": "N/A",
-    "Spell Lists": "n/a"
-  },
-  {
     "Name": "Infestation",
     "Source": "Xanathar's Guide to Everything",
     "Level": 0,

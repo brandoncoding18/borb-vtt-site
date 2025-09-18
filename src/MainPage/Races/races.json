@@ -5,39 +5,82 @@
         "speed" : {"Walking" : 30},
         "languages" : ["Common", "Elven"],
         "asi" : {"Dexterity" : 2},
-
+        "features" : {
+            "Darkvision" : "Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+            ,"Fey Ancestry" : "You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+            ,"Trance" : "Elves do not sleep. Instead they meditate deeply, remaining semi-conscious, for 4 hours a day. The Common word for this meditation is 'trance.' While meditating, you dream after a fashion; such dreams are actually mental exercises that have become reflexive after years of practice. After resting in this way, you gain the same benefit a human would from 8 hours of sleep."
+            ,"Keen Senses" : "You have proficiency in the Perception skill."
+        },
         "subraces" : [
         
             {
-                "sub" : "High Elf",
+                "name" : "High Elf",
+                "size" : ["Small", "Tiny"],
                 "asi" : {"Intelligence" : 1},
-                 "features" : [
-                    {"High Elf Cantrip" : "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it."},
-                    {"Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow."},
-                    {"Extra Language" : "You can read, speak, and write one additional language of your choice."}
-                ]
+                 "features" : {
+                    "High Elf Cantrip" : "You know one cantrip of your choice from the Wizard spell list. Intelligence is your spellcasting ability for it.",
+                    "High Elf Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+                    "Extra Language" : "You can read, speak, and write one additional language of your choice."
+                 }
             }, 
             {
 
-                "sub" : "Wood ELf",
+                "name" : "Wood Elf",
+                "size" : ["Small", "Tiny"],
+                "speed" : {"Walking" : 35},
                 "asi" : {"Wisdom" : 1 },
-                "features" : [
-                    {"Elf Weapon Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow."},
-                    {"Fleet of Foot" : "Your base walking speed increases to 35 feet."},
-                    {"Mask of the Wild" : " You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."}
-                ]
+                "features" : {
+                    "Wood Elf Training" : "You have proficiency with the longsword, shortsword, shortbow, and longbow.",
+                    "Mask of the Wild" : " You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+                }
 
             },
             {
 
-                "sub" : "Sea ELf",
+                "name" : "Sea Elf",
                 "asi" : {"Constitution" : 1 },
-                "features" : [
-                    {"Sea Elf Training" : "You have proficiency with the spear, trident, light crossbow, and net."},
-                    {"Friend of the Sea" : "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return."}
-                    ,{"Child of the Sea" : "You have a swimming speed of 30 feet, and you can breathe air and water."}
-                    ,{"Language of the Waves" : "You can speak, read, and write Aquan."}
-                                ]
+                "features" : {
+                    "Sea Elf Training" : "You have proficiency with the spear, trident, light crossbow, and net.",
+                    "Friend of the Sea" : "Aquatic animals have an extraordinary affinity with your people. You can communicate simple ideas to any Beast that has a swimming speed. It can understand your words, though you have no special ability to understand it in return."
+                    ,"Child of the Sea" : "You have a swimming speed of 30 feet, and you can breathe air and water."
+                    ,"Language of the Waves" : "You can speak, read, and write Aquan."
+                }  
+
+            },
+            {
+
+                "name" : "Desert Elf",
+                "asi" : {"Constitution" : 1 },
+                "features" : {
+                    "Desert Dweller" : "You naturally adapted to hot environments: you automatically pass Constitution checks made to avoid exhaustion as a result of extreme heat. Furthermore, you ignore difficult terrain caused by sand.",
+                    "Mirage Magic" : "In tune with the essence of the desert, you can summon forth a fraction of its power even far from its drifting sands. You know the minor illusion cantrip. When you reach 3rd level, you can cast the longstrider spell once per day. When you reach 5th level, you can also cast the blur spell once per day. Charisma is your spellcasting ability for these spells."
+                    ,"Survivor" : "The desert sands are harsh and unforgiving to many. To grow and thrive in these lands you must know how to survive in a seemingly endless expanse where so many have fallen. You have proficiency in the Survival skill."
+                    ,"Language of the Waves" : "You can speak, read, and write Aquan."
+                }  
+
+            },
+            {
+
+                "name" : "Snow Elf",
+                "asi" : {"Constitution" : 2, "Wisdom" : 1, "Dexterity" : 0},
+                "features" : {
+                    "Snow Walk" : "Snow and ice are not difficult terrain for you. Moving onto slippery icy does not cause you to fall prone.",
+                    "Snow Elf Training" : "You have proficiency light picks , war spears, longswords, shortswords, and longbows."
+                    ,"Hardened by Frost" : " You have resistance to cold damage, and take double damage if attacked by a weapon or spell dealing fire damage"
+                    ,"Snowy Step" : "If you are standing on a 5-foot square covered in snow or ice, you can use your bonus action to teleport to any other unoccupied 5-foot square covered in snow or ice within 60 feet of you. Once you do this, you cannot do it again until you finish a short or long rest."
+                }  
+
+            }, 
+            {
+
+                "name" : "Drow Elf",
+                "asi" : {"Charisma" : 1 },
+                "features" : {
+                    "Superior Darkvision" : "Your darkvision has a range of 120 feet, instead of 60.",
+                    "Sunlight Sensitivity" : "You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to perceive is in direct sunlight."
+                    ,"Drow Magic" : "You know the Dancing Lights cantrip. When you reach 3rd level, you can cast the Faerie Fire spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the Darkness spell once and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells."
+                    ,"Drow Elf Training" : "You have proficiency with rapiers, shortswords, and hand crossbows."
+                }  
 
             }
     ]

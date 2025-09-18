@@ -2,27 +2,38 @@ import races from './races.json'
 export default function Races() {
     const queryParams =  window.location.search
     const [query, queryParam] = queryParams.replace("?", "").split("=");
-    console.log(window.location.search)
 
     const beautify = (queryParam) => {
         return(queryParam.replaceAll('%20', ' '))
     }
-    const race_table = (queryParam) ? races.filter((race) => race.name == beautify(queryParam)) : races
 
-    return (<div>
+    return (<div class="subPageContainer">
         <h1>Races</h1>
         <br></br>
         {
-            race_table.map((race) =>{
+            races.map((race) =>{
+                
+                const subraces = (queryParam) ? [...race.subraces].map((r) => ({...r, "size" : r.size || race.size, "features" : {...race.features, ...r.features, }, "speed" : r.speed || race.speed, "asi" : {...race.asi, ...r.asi}})) : race.subraces
+                //(subraces.find((subrace) => subrace.name == queryParam).length == -1) ? 
+                            
 
-                const processList = [race, ...race.subraces];
+                const processed = [race, ...subraces]
+                const processList =  (queryParam) ? processed.filter((race) => race.name == beautify(queryParam)) : processed
                 const y = processList.map((x) => 
                     <div>
+                        
                         <h3>{x?.name}</h3>
+                        <h5>Ability Scores:</h5>
+                        <div>{(x?.asi) ? Object.keys(x.asi).map((score) => (
+                                    (x.asi[score] > 0) ?
+                                   <div><b>{score}: </b> +{x.asi[score]}</div> : <></>
+                                )) : <></>}</div>
+                                <br/>
+                        <h5>Features:</h5>
+                        <div>{Object.keys(x.features).map((f) => <div><b>{f}</b>: {x.features[f]}<br/></div>)}</div>
                         <h5>{x?.sub}</h5>
-                        <div>{(x?.size) ? <><b>Size:</b> {x?.size}</> : <></>}</div>
-
-                        {/*<div>{(x.asi) ? `${x?.asi?.Choice} ${(x?.asi?.Of) ? `choices of ${x?.asi.Of} of your ` : ''} ability scores increase by ${x?.asi?.Amount}` : <></>}</div>*/}
+                        <div>{(x?.size) ? <><b>Size:</b> {JSON.stringify(x?.size)}</> : <></>}</div>
+                        
                         <div>{
                             (x.speed) ? <><b>Speed: </b>
                                 {Object.keys(x.speed).map((s) => (

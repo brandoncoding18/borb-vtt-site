@@ -1,6 +1,6 @@
 import feats_table from "./feats.json"
 import {useState} from "react"
-
+import {formatter} from '../../helpers.js'
 export default function Feats({params}) {
      const queryParams =  window.location.search
     const [query, queryParam] = queryParams.replace("?", "").split("=");
@@ -21,15 +21,8 @@ export default function Feats({params}) {
                 <div class="spellContainer">
                     <h4>  {(feat.Name)} </h4>
                     <div><b>Prerequisite: </b> {feat.Prereq}</div>
-                    {feat.Desc.split("\n").map((line, lineIndex) => (
-                        <div>{
-                            
-                   line.startsWith('\t')
-                            ? <li>{line.replace(/^\t+/, (tabs) => '\u00A0\u00A0\u00A0\u00A0'.repeat(tabs.length))}</li>
-                            : <p>{line}</p>
-                        }
-                            </div>
-                ))}
+                    <div>{formatter(feat.Desc)}</div>
+                    
 
                 </div>
                                     <br/>
