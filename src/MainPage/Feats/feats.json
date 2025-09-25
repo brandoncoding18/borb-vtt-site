@@ -20,44 +20,39 @@
   {
     "Name": "Athlete",
     "Source": "Player's Handbook",
-    "Prereq": "N/A",
-    "Desc": "Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\tWhen you are prone, standing up uses only 5 feet of your movement.\n\tClimbing doesn't cost you extra movement.\n\tYou can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
+    "Desc": "You have undergone extensive physical training to gain the following benefits:\n\tIncrease your Strength or Dexterity score by 1, to a maximum of 20.\n\tWhen you are prone, standing up does not require movement.\n\tYou gain a climbing and swimming speed equal to your walking speed.\n\tYou can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
+    
+    
   },
   {
     "Name": "Charger",
     "Source": "Player's Handbook",
-    "Prereq": "N/A",
-    "Desc": ""
+    "Desc": "If you move at least 20 feet in a straight line and use the attack action at the end of the movement, you gain an extra melee attack (If you choose to attack) or shove the creature up to five times your proficiency bonus (If you choose to shove and succeed)"
   },
   {
     "Name": "Chef",
     "Source": "Tasha's Cauldron of Everything",
-    "Prereq": "N/A",
     "Desc": "Increase your Constitution or Wisdom score by 1, to a maximum of 20.\n\tYou gain proficiency with cook’s utensils if you don’t already have it.\n\tAs part of a short rest, you can cook special food, provided you have ingredients and cook's utensils on hand. You can prepare enough of this food for a number of creatures equal to 4 + your proficiency bonus. At the end of the short rest, any creature who eats the food and spends one or more Hit Dice to regain hit points regains an extra 1d8 hit points. \n\tWith one hour of work or when you finish a long rest, you can cook a number of treats equal to your proficiency bonus. These special treats last 8 hours after being made. A creature can use a bonus action to eat one of those treats to gain temporary hit points equal to your proficiency bonus."
   },
   {
     "Name": "Crusher",
     "Source": "Tasha's Cauldron of Everything",
-    "Prereq": "N/A",
     "Desc": "Increase your Strength or Constitution by 1, to a maximum of 20.\n\tOnce per turn, when you hit a creature with an attack that deals bludgeoning damage, you can move it 5 feet to an unoccupied space, provided the target is no more than one size larger than you.\n\tWhen you score a critical hit that deals bludgeoning damage to a creature, attack rolls against that creature are made with advantage until the start of your next turn."
   },
   {
     "Name": "Dual Wielder",
     "Source": "Player's Handbook",
-    "Prereq": "N/A",
     "Desc": "\tYou gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.\n\tYou can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.\n\tYou can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
   },
   {
     "Name": "Dungeon Delver",
     "Source": "Player's Handbook",
-    "Prereq": "N/A",
-    "Desc": "You have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.,You have advantage on saving throws made to avoid or resist traps.,You have resistance to the damage dealt by traps.,Travelling at a fast pace doesn't impose the normal -5 penalty on your passive Wisdom (Perception) score."
+    "Desc": "Alert to the hidden traps and secret doors found in many dungeons, you gain the following benefits:\n\tYou have advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors.\n\tYou have advantage on saving throws made to avoid or resist traps.\n\tYou have resistance to the damage dealt by traps.\n\tIf you are within 10 feet of a trap you have detected , you can use your action to roll either a Strength (Athletics) or Dexterity (Sleight of hand) check with a DC of 15 minus your proficiency bonus to jam the trap. If you succeed, the trap is deactivated."
   },
   {
     "Name": "Durable",
     "Source": "Player's Handbook",
-    "Prereq": "N/A",
-    "Desc": "Increase your Constitution score by 1, to a maximum of 20.,When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2)."
+    "Desc": "Hardy and resilient, you gain the following benefits:\n\tIncrease your Constitution score by 1, to a maximum of 20.\n\tWhen you roll a Hit Die to regain hit points, double the amount gained.\n\tAs a bonus action, you may spend a Hit Die to regain hit points. Once this ability is used, you cannot use it this way until you finish a short or long rest."
   },
   {
     "Name": "Eldritch Adept",
@@ -69,13 +64,12 @@
     "Name": "Elemental Adept",
     "Source": "Player's Handbook",
     "Prereq": "The ability to cast at least one spell",
-    "Desc": "When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.,Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.,You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+    "Desc": "\n\tWhen you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.\n\tSpells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage of that type, you can reroll any 1 or 2s.\n\tChoose one spell that you know when you learn this feat that deals damage. You can cast an alternative that deals the damage type that you chose when picking this feat. You can change which spell you have selected whenever you gain a level.\n\nYou can select this feat multiple times. Each time you do so, you must choose a different damage type."
   },
   {
     "Name": "Fey Touched",
     "Source": "Tasha's Cauldron of Everything",
-    "Prereq": "N/A",
-    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the ~sMisty Step~# spell and one 1st-level spell of your choice. The 1st-level spell must be from the ~xDivination~# or ~xEnchantment~# school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
+    "Desc": "Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.,You learn the ~sn^Misty Step~# spell and one 1st-level spell of your choice. The 1st-level spell must be from the ~ss^Divination~# or ~ss^Enchantment~# school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is the ability increased by this feat."
   },
   {
     "Name": "Fighting Initiate",
@@ -87,7 +81,7 @@
     "Name": "Grappler",
     "Source": "Player's Handbook",
     "Prereq": "Strength 13 or higher",
-    "Desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:,You have advantage on attack rolls against a creature you are grappling.,You can use your action to try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
+    "Desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:\n\tYou have advantage on attack rolls and skill checks against a creature you are grappling.\n\tYou may attempt a grapple as a bonus action.\n\tIf a creature misses you with a melee attack within your reach, you can use your reaction to attempt a grapple.\n\tYou can try to pin a creature grappled by you. To do so, make another grapple check. If you succeed, you and the creature are both restrained until the grapple ends."
   },
   {
     "Name": "Healer",

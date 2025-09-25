@@ -58,11 +58,11 @@ export default function Nations() {
                                         <>
                                         <div>{!nation.subnation ? <GiantLine/> : <></>}</div>
                                         <div>{(nation.subnation) ? <h4>{nation.name}</h4> : <h2>{nation.name}</h2>}</div>
-                                        <div>{(nation.races) ? <><b>Races: </b>| {(nation.races).map((r) => <>{formatter(r)}</>)}</>: <></>}</div>
-                                        <div>{(nation.feats) ? <><b>Feats: </b>| {(nation.feats).map((r) => <>{formatter(r)}</>)}</> : <></>}</div>
-                                        <div>{(nation.spells) ? <><b>Spells: </b>| {(nation.spells).map((r) => <>{formatter(r)}</>)}</> : <></>}</div>
-                                        <div>{(nation.unique_feat) ? <><b>Unique Feat: </b>| {(nation.unique_feat).map((r) => <>{formatter(r)}</>)}</> : <></>}</div>
-                                        <div>{(nation.language) ? <><b>Language: </b>| {(nation.language).map((r) => <>{formatter(r)}</>)}</> : <></>}</div>
+                                        <div>{(nation.races) ? <><b>Races: </b> | {(nation.races).map((r) => <>{formatter(r)} | </>)}</> : <></> }</div>
+                                        <div>{(nation.feats) ? <><b>Feats: </b>| {(nation.feats).map((r) => <>{formatter(r)} | </>)}</> : <></>}</div>
+                                        <div>{(nation.spells) ? <><b>Spells: </b>| {(nation.spells).map((r) => <>{formatter(r)} | </>)}</> : <></>}</div>
+                                        <div>{(nation.unique_feat) ? <><b>Unique Feat: </b>| {(nation.unique_feat).map((r) => <>{formatter(r)} | </>)}</> : <></>}</div>
+                                        <div>{(nation.language) ? <><b>Language: </b>| {(nation.language).map((r) => <>{formatter(r)} |</>)}</> : <></>}</div>
 
                                         </>
                                     /*

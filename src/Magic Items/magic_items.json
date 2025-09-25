@@ -1,0 +1,44 @@
+[ 
+    {
+    "name" : "Armblade", 
+    "rarity" : "Common",
+    "attunement" : "requires attunement by a ~rn^Warforged~#",
+    "type" : "Weapon (any one-handed melee weapon)",
+    "req" : "any one handed melee weapon",
+    "desc" : "An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you're attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period. As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can't use that hand for other purposes."
+    }
+     ,{
+    "name" : "Armor of Gleaming", 
+    "rarity" : "Common",
+    "type" : "Armor (medium or heavy)",
+    "desc" : "This armor never gets dirty."
+    }
+    ,{
+    "name" : "Band of Loyalty", 
+    "rarity" : "Common",
+    "attunement" : true,
+    "type" : "Ring",
+    "desc" : "If you are reduced to 0 hit points while attuned to a Band of Loyalty, you instantly die. These rings are favored by spies who can’t afford to fall into enemy hands."
+    }
+    ,{
+    "name" : "Bead of Nourishment", 
+    "rarity" : "Common",
+    "type" : "Consumable",
+    "desc" : "This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations."
+    }
+     ,{
+    "name" : "Bead of Refreshment", 
+    "rarity" : "Common",
+    "type" : "Consumable",
+    "desc" : "This spongy, flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison."
+    }
+    ,{
+    "name" : "Template", 
+    "rarity" : "Common",
+    "attunement" : "Att",
+    "type" : "Type",
+    "req" : "Req",
+    "desc" : "Desc"
+    }
+
+]

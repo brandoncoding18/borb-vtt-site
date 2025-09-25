@@ -25,6 +25,9 @@ export default function Redirect({selectedPage}) {
              case 'sc':
                 navigate(`../Spells?Class=${query["sc"]}`, { replace: true })
                 break; 
+             case 'ss':
+                navigate(`../Spells?School=${query["ss"]}`, { replace: true })
+                break; 
              case 'x':
                 navigate(`../Spells${query}`, { replace: true })
                 break; 

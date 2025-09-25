@@ -8,7 +8,234 @@
         "spells" : ["~sn^Awakening of The Nail~#", "~sn^Imperate~#", "~sn^Prepare~#", "~sn^Wrack~#"],
         "unique_feat" : ["~fn^Frightening Pragmatism~#"],
         "language" : ["Anatol"]
+    },
+     {
+        "name" : "Asker Tribes", 
+        "races" : ["~rn^Goliath~#", "~rn^Lizardfolk~#", "~rn^Aaracockra~#", "~rn^Minotaur~#"],
+        "feats" : ["~fn^Tough~#", "~fn^Eldritch Adept~#", "~fn^Weapon Master~# (~wn^Heavy Club~# ~wn^Maul~# ~wn^Greatclub~# ~wn^Wall Pick~#)", "~fn^Brawny~#"],
+        "spells" : ["~sn^Coarse Heart~#", "~sn^Spit Curse~#", "~sn^Crumble From Within~#", "~sn^Stone Fist~#", "~sn^Rockslide~#"],
+        "unique_feat" : ["~fn^Ear of Stone~#"],
+        "language" : ["Asker"]
+    },
+    {
+        "name" : "Divine Kingdom of Aysundar", 
+        "races" : ["~rn^Human~#", "~rn^Water Genasi~#", "~rn^Sea Elf~#", "~rn^Tiefling~#"],
+        "feats" : ["~fn^Eldritch Adept~#", "~fn^Initiate of High Sorcery~#", "~fn^Skulker~#"],
+        "spells" : ["~sn^Gust the Sails~#", "~sn^Forecast~#", "~sn^Mirror Spell~#", "~sn^Moon Mirror~#"],
+        "unique_feat" : ["None"],
+        "language" : ["Sahilese"],
+        "subnations" : [
+            {
+                    "name" : "Aysun Turannor", 
+                    "special" : ["Members from this faction will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty. Members from this faction also have the following oaths by default, being sworn as soon as they are capable of speech and understanding. The last oath can be dissolved by mutual agreement with the other party.Kinship: You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.Faith: You shall carry the rites of the Old Mother.Moon: You shall serve the Old Mother. She shall reward you for your service."],
+                    "races" : ["~rn^Shadar Kai~#"],
+                    "feats" : ["~fn^Ambush Weapon Prowess~#", "~fn^Resilient~# (Intelligence, Charisma)", "~fn^Shadow Touched~#", "~fn^Observant~#"],
+                    "spells" : ["~sn^Awakening from Repose~#", "~sn^Eldritch Step~#", "~sn^Moon Mirror~#", "~sn^Repose~#", "~sn^Whisper of Spells~#"],
+                    "unique_feat" : ["~fn^Oath of the Last Sacrifice~#"],
+                    "language" : ["Sahilese"]
+            }
+        ]
+    },
+    {
+            "name" : "Banate of the Craots",
+            "subnations" : [
+                        {
+                    "name" : "Clan Armagusa", 
+                    "member of" : "Banate of the Craots",
+                    "races" : ["~rn^Dragonborn~#", "~rn^Tiefling~#", "~rn^Goblin~#", "~rn^Hobgoblin~#", "~rn^Kobold~#"],
+                    "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Eldritch Adept~#", "~fn^Inspiring Leader~#", "~fn^Tandem Tactician~#"],
+                    "spells" : ["~sn^Blood Bond~#", "~sn^Imperate~#", "~sn^Respel Magic~#", "~sn^Tendrils of the Mind~#"],
+                    "unique_feat" : ["~fn^Tarkhin~#"],
+                    "language" : ["Armagusan"]
+                },
+                {
+                    "name" : "Clan Meropje", 
+                    "member of" : "Banate of the Craots",
+                    "races" : ["~rn^Gnoll~#"],
+                    "feats" : ["~fn^Bow and Sling Prowess~#", "~fn^Chef~#", "~fn^Skulker~#", "~fn^Tandem Tactician~#"],
+                    "spells" : ["~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Theft of Vitae~#", "~sn^Sense Lifeblood~#"],
+                    "unique_feat" : ["~fn^Tarkhin~#"],
+                    "language" : ["Armagusan"]
+                },
+                {
+                    "name" : "Clan Varcusa", 
+                    "member of" : "Banate of the Craots",
+                    "races" : ["~rn^Half Orc~#", "~rn^Orc~#"],
+                    "feats" : ["~fn^Bludgeon Prowess~#", "~fn^Charger~#", "~fn^Tough~#", "~fn^Heavy Armor Master~#"],
+                    "spells" : ["~sn^Counterspellcaster~#", "~sn^Fold Person~#", "~sn^Respel Magic~#", "~sn^Sense Lifeblood~#"],
+                    "unique_feat" : ["~fn^Stomper~#"],
+                    "language" : ["Varcusan"]
+                }
+            ]
+    },
+    {
+            "name" : "Blessed Maronnian Empire", 
+            "races" : ["~rn^Dwarf~#", "~rn^Fir Bolg~#", "~rn^Gnome~#", "~rn^Half Orc~#", "~rn^Halfling~#", "~rn^Human~#", "~rn^Wood Elf~#"],
+            "feats" : ["~fn^Skilled~#", "~fn^Inspiring Leader~#", "~fn^Durable~#", "~fn^Elemental Adept~#", "~fn^Spear Prowess~#"],
+            "spells" : ["~sn^Fiery Missile~#", "~sn^Imperate~#", "~sn^Sun Shield~#"],
+            "unique_feat" : ["~fn^Blessed by the Sun~#"],
+            "language" : ["Magerni"],
+            "subnations" : [
+                    {
+                "name" : "Kingdom of Helmar", 
+                "member of" : "Blessed Maronnian Empire",
+                "races" : ["~rn^Halfling~#", "~rn^Human~#", "~rn^Owlin~#", "~rn^Tiefling~#", "~rn^Wood Elf~#"],
+                "feats" : ["~fn^Elemental Adept~#", "~fn^Healer~#", "~fn^Magic Initiate~#", "~fn^Spell Sniper~#"],
+                "spells" : ["~sn^Fiery Missile~#", "~sn^Ghost Light~#", "~sn^Mirror Spell~#", "~sn^Armor of COntempt~#"],
+                "unique_feat" : ["~fn^Farlands Scholar~#"],
+                "language" : ["Helmar"]
+            },
+            {
+                "name" : "Knights of the Steel Cross", 
+                "member of" : "Blessed Maronnian Empire",
+                "races" : ["~rn^Dwarf~#", "~rn^Half Orc~#", "~rn^Human~#"],
+                "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Mounted Combatant~#", "~fn^Spear Prowess~#", "~fn^Theologian~#"],
+                "spells" : ["~sn^Armor of COntempt~#", "~sn^Imperate~#", "~sn^Litany of War~#", "~sn^Sun Shield~#"],
+                "unique_feat" : ["~fn^Bulwark of The Line~#"],
+                "language" : ["Magerni"]
+            },
+            {
+                "name" : "Ostzee Republic", 
+                "member of" : "Blessed Maronnian Empire",
+                "races" : ["~rn^Gnome~#", "~rn^Human~#", "~rn^Merfolk~#", "~rn^Triton~#"],
+                "feats" : ["~fn^Artificer Initiate~#", "~fn^Crossbow Prowess~#", "~fn^Eldritch Adept~#", "~fn^Resilient~# (Wisdom, Intelligence)"],
+                "spells" : ["~sn^Disregard~#", "~sn^Mind Screech~#", "~sn^Sphere of Silence~#", "~sn^Tendrils of the Mind~#"],
+                "unique_feat" : ["~fn^Keen Obscurist~#"],
+                "language" : ["Magerni"]
+            },
+            {
+                "name" : "Wood Lords", 
+                "member of" : "Blessed Maronnian Empire",
+                "races" : ["~rn^Half Orc~#", "~rn^Orc~#", "~rn^Wood Elf~#"],
+                "feats" : ["~fn^Bludgeon Prowess~#", "~fn^Bow and Sling Prowess~#", "~fn^Skulker~#", "~fn^Tracker~#"],
+                "spells" : ["~sn^One With the Ground~#", "~sn^Roots of the Earth~#"],
+                "unique_feat" : ["~fn^Melded with The Woods~#"],
+                "language" : ["Magerni"]
+            }
+        ]
+    },
+     {
+        "name" : "Brotherhood Of Saint Ariemos", 
+        "races" : ["~rn^Human~#"],
+        "feats" : ["~fn^Brawny~#", "~fn^Magic Initiate~# (From ~sc^Paladin~# or ~sc^Cleric~# Spell List)", "~fn^Theologian~#"],
+        "spells" : ["~sn^Reveal Curse~#", "~sn^Armor of Contempt~#", "~sn^Refuse Curse~#", "~sn^Sun Shield~#"],
+        "unique_feat" : ["~fn^Might of Solas~#"],
+        "language" : ["Solari"]
+    },
+    {
+        "name" : "Caliphate of Auropolis", 
+        "races" : ["~rn^Fire Genasi~#", "~rn^Khenra~#", "~rn^Lizardfolk~#"],
+        "feats" : ["~fn^Artificer Initiate~#", "~fn^Theologian~#", "~fn^Weapon Master~# (~wCompound Bow~# ~wKhopesh~# ~wGlaive~# ~wPortable Ballista~#)"],
+        "spells" : ["~sn^Awaken Glyphs~#", "~sn^Glyph of Salts~#", "~sn^Reveal Curse~#"],
+        "unique_feat" : ["~fn^Scholar of Wonders~#"],
+        "language" : ["Auropolian"],
+        "subnations" : 
+        [
+            {
+                "name" : "Sarab Tribes", 
+                "races" : ["~rn^Fire Genasi~#", "~rn^Desert Elf~#"],
+                "feats" : ["~fn^Perceptive~#", "~fn^Skulker~#", "~fn^Tracker~#", "~fn^Weapon Master~# (~wCompound Bow~# ~wBladed Bow~# ~wKatar~# ~wKukri~#)"],
+                "spells" : ["~sn^One With the Ground~#", "~sn^Moon Mirror~#", "~sn^Whisper of Spells~#"],
+                "unique_feat" : ["~fn^Dunewalker~#"],
+                "language" : ["Saraabi"]
+            }
+        ]
+
+    },
+     {
+        "name" : "Caliphate of the Mohads", 
+        "races" : ["~rn^Dragonborn~#", "~rn^Half Orc~#", "~rn^Lizardfolk~#", "~rn^Owlin~#", "~rn^Tiefling~#"],
+        "feats" : ["~fn^Elemental Adept~#", "~fn^Magic Initiate~# (From ~sc^Cleric~# or ~ss^Necromancy~# Spell List)", "~fn^Mounted Combatant~#", "~fn^Thrown Weapon Prowess~#"],
+        "spells" : ["~sn^Blood Rush~#", "~sn^Dark Sacrament~#", "~sn^Exanguinate~#", "~sn^Mind Screech~#", "~sn^Sense Lifeblood~#", "~sn^Sun Shield~#", "~sn^Theft of Vitae~#"],
+        "unique_feat" : ["~fn^Maker of Chains~#"],
+        "language" : ["Mohad"],
+        "subnations" : 
+        [
+            {
+                "name" : "Emirate of Alevaz", 
+                "races" : ["~rn^Half Orc~#", "~rn^Harengon~#", "~rn^Kenku~#", "~rn^Human~#", "~rn^Tabaxi~#"],
+                "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Dueling Blade Prowess~#", "~fn^Eldritch Adept~#", "~fn^Poisoner~#"],
+                "spells" : ["~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Gust the Sails~#", "~sn^Theft of Vitae~#"],
+                "unique_feat" : ["~fn^Opportunist~#"],
+                "language" : ["Mohad"]
+            }
+        ]
+
+    },
+    {
+        "name" : "Crown Countries", 
+        "subnations" : 
+        [
+            {
+                "name" : "Crown of Aguerre", 
+                "races" : ["~rn^Half Orc~#", "~rn^High Elf~#", "~rn^Human~#", "~rn^Wood Elf~#", "~rn^Tabaxi~#"],
+                "feats" : ["~fn^Crossbow Prowess~#", "~fn^Linguist~#", "~fn^Mobile~#", "~fn^War Caster~#"],
+                "spells" : ["~sn^Imperate~#", "~sn^Iron Awake~#", "~sn^Litany of War~#"],
+                "unique_feat" : ["~fn^Hill Fighter~#"],
+                "language" : ["Catruzian"]
+            },
+            {
+                "name" : "Crown of Matacan", 
+                "races" : ["~rn^Half Orc~#", "~rn^Harengon~#", "~rn^Human~#", "~rn^Wood Elf~#", "~rn^Tabaxi~#"],
+                "feats" : ["~fn^Alert~#", "~fn^Durable~#", "~fn^Dueling Blade Prowess~#", "~fn^Mobile~#"],
+                "spells" : ["~sn^Litany of War~#"],
+                "unique_feat" : ["~fn^Among the Rocks~#"],
+                "language" : ["Matacanese"]
+            },
+            {
+                "name" : "Crown of Rauna", 
+                "races" : ["~rn^Half Orc~#", "~rn^Leonin~#", "~rn^Human~#", "~rn^Tabaxi~#"],
+                "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Dual Wielder~#", "~fn^Mage Slayer~#", "~fn^Martial Adept~#"],
+                "spells" : ["~sn^Rush of the Hunt~#"],
+                "unique_feat" : ["~fn^Pounce~#"],
+                "language" : ["Raunan"]
+            },
+            {
+                "name" : "Crown of Tugarpu", 
+                "races" : ["~rn^Halfling~#", "~rn^High Elf~#", "~rn^Human~#", "~rn^Tabaxi~#", "~rn^Wood Elf~#"],
+                "feats" : ["~fn^Dueling Blade Prowess~#", "~fn^Linguist~#", "~fn^Medium Firearm Prowess~#", "~fn^Skill Expert~# (Deception, Insight, Investigation, Persuasion)"],
+                "spells" : ["~sn^Gust the Sails~#"],
+                "unique_feat" : ["~fn^Armed Trader~#"],
+                "language" : ["Tugarpese"]
+            },
+              {
+                "name" : "Crown of Varúz", 
+                "races" : ["~rn^Goliath~#", "~rn^Half Orc~#", "~rn^Tabaxi~#", "~rn^Wood Elf~#"],
+                "feats" : ["~fn^Axe Prowess~#", "~fn^Resilient~# (Constitution, Strength)", "~fn^Slasher~#", "~fn^Tough~#"],
+                "spells" : ["~sn^Litany of War~#", "~sn^Rune Boulder~#"],
+                "unique_feat" : ["~fn^High Grounder~#"],
+                "language" : ["Varúzian"]
+            }
+
+        ]
+
+    },
+
+
+    {
+        "name" : "Despotate of the Bress",
+        "races" : ["~rn^Half Ogre~#", "~rn^Half Orc~#", "~rn^Human~#", "~rn^Ogre~#", "~rn^Orc~#"],
+        "feats" : ["~fn^Crusher~#", "~fn^Shotgun Firearms Prowess~#", "~fn^Tough~#", "~fn^Weapon Master~# (~wn^Falchion~#, ~wn^Great Club~#, ~wn^Greataxe~#, ~wn^Poleaxe~#"],
+        "spells" : ["~sn^Imperate~#"],
+        "unique_feat" : ["~fn^Wall of Meat~#"],
+        "language" : ["Bressnian"],
+         "subnations" : 
+        [
+            {
+                "name" : "Cakoni Clan", 
+                "races" : ["~rn^Half Ogre~#", "~rn^Half Orc~#", "~rn^Gnoll~#", "~rn^Ogre~#", "~rn^Orc~#"],
+                "feats" : ["~fn^Assault Firearms Prowess~#", "~fn^Charger~#", "~fn^Crusher~#", "~fn^Shotgun Firearms Prowess~#"],
+                "spells" : ["~sn^Blood Bond~#", "~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Murder of Crows~#", "~sn^Sense Lifeblood~#", "~sn^Summon Psoglavs~#", "~sn^Theft of Vitae~#"],
+                "unique_feat" : ["~fn^Butcherer~#"],
+                "language" : ["Bressnian"]
+            }
+        ]
     }
+
+
+
+
+
 
 
 ]

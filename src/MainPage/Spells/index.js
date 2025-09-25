@@ -13,7 +13,7 @@ export default function Spells({Name="", School="", Class="", Region="", Family=
    
     const selections = {
         "School" : schoolSelections,
-        "Level" : ["Cantrip", "1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th"],
+        "Level" : ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
         "Class" : ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Psion", "Ranger", "Sorcerer", "Warlock", "Wizard"],
         "Region" :  ["Base5e", "Zentravalk", "Orientavalk", "Mahanna"],
         "Family" : ["Sangromancy", "Hydromancy", "Geomancy", "Technique"]

@@ -1,41 +1,51 @@
+import React from 'react'; 
+
 export const formatter = (passage) => {
-        const regex = /~.*?~#/g;
-        const matches = passage.match(regex);
+    const regex = /~.*?~#/g;
+    const lines = passage.split('\n'); // Split the entire passage into lines first
 
+    return (
+        <React.Fragment>
+            {lines.map((line, lineIndex) => {
+                const parts = line.split(regex);
+                const matches = line.match(regex);
+                const result = [];
 
-        return <span>{ passage.split("\n").map((line) => {
-           var fullHtmlString = []; 
-    line =  line.startsWith('\t')
-                            ? `<li>${line.replace(/^\t+/, (tabs) => '\u00A0\u00A0\u00A0\u00A0'.repeat(tabs.length))}</li>`
-                            : `<p>${line}</p>`
-          // return <div>{l.indexOf('~#')}</div>
-          console.log("Original Line: " + line)
-          matches?.map((x) => {
-            const startIndex = x.indexOf('~')
-            const endIndex = x.indexOf('~#')
-            const queryParamName = x.substring(startIndex + 1,x.indexOf("^"))
-            const queryParam = x.substring(x.indexOf("^") + 1, endIndex)
-            line = line.replace(x, `<span><a href=./Redirect/?${queryParamName}=${queryParam.replaceAll(" ", "%20")} target="_blank">${queryParam}</a></span>`)
-            }
-            )
-           /*while(line.indexOf('~#') != -1) {
-                const startIndex = line.indexOf('~')
-                const endIndex = line.indexOf('~#')
-                const param = line.substring(startIndex, endIndex + 2)
-                console.log("Entire Param: " + param); 
-                const queryParamName = line.substring(startIndex + 1,line.indexOf("^"))
-                console.log("Query Param: " + queryParamName); 
-                const queryParam = line.substring(line.indexOf("^") + 1, endIndex)
-                
-                line = line.replace(param, `<span><a href=./Redirect/?${queryParamName}=${queryParam.replaceAll(" ", "%20")} target="_blank">${queryParam}</a></span>`)
-                
-           }*/
-            fullHtmlString += line;
+                parts.forEach((part, partIndex) => {
+                    // Always render the plain text as a span
+                    if (part) {
+                        result.push(<span key={`text-${lineIndex}-${partIndex}`}>{part}</span>);
+                    }
 
-            return <div
-                dangerouslySetInnerHTML={{ __html: fullHtmlString }}
-                />
-        })
-        }
-        </span>
-    }
+                    // Render the link if it exists for this part
+                    if (matches && matches[partIndex]) {
+                        const match = matches[partIndex];
+                        const startIndex = match.indexOf('~');
+                        const endIndex = match.indexOf('~#');
+                        const queryParamName = match.substring(startIndex + 1, match.indexOf("^"));
+                        const queryParam = match.substring(match.indexOf("^") + 1, endIndex);
+
+                        result.push(
+                            <a 
+                                key={`link-${lineIndex}-${partIndex}`}
+                                href={`./Redirect/?${queryParamName}=${queryParam.replaceAll(" ", "%20")}`} 
+                                target="_blank"
+                            >
+                                {queryParam}
+                            </a>
+                        );
+                    }
+                });
+
+                // Wrap each full line's content in a <div> to create the desired line break
+                // You can also add conditional styling here for your list items
+                const isListItem = line.startsWith('\t');
+                const content = isListItem ? 
+                    <li style={{ display: 'inline' }}>{result}</li> : 
+                    <p style={{ display: 'inline' }}>{result}</p>;
+
+                return <div key={`line-container-${lineIndex}`}>{content}</div>;
+            })}
+        </React.Fragment>
+    );
+};

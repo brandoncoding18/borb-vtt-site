@@ -85,5 +85,167 @@
             }
     ]
 
+    },
+    {
+        "name" : "Dwarf", 
+        "size" : ["Medium"],
+        "speed" : {"Walking" : 25},
+        "languages" : ["Common", "Dwarvish"],
+        "asi" : {"Constitution" : 2},
+        "features" : {
+            "Dwarven Resilience" : "You have advantage on saving throws against poison, and you have resistance against poison damage.",
+            "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+            ,"Dwarven Combat Training" : "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+            ,"Tool Proficiency" : "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.    "
+            ,"Stonecunning" : "Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        },
+        "subraces" : [
+                    {
+                        "name" : "Hill Dwarf", 
+                        "asi" : {"Wisdom" : 1},
+                        "features" : {
+                        "Dwarven Toughness" : " Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+                        }
+            },
+            {
+                        "name" : "Mountain Dwarf", 
+                        "asi" : {"Strength" : 2},
+                        "features" : {
+                        "Dwarven Armor Training" : "You have proficiency with light and medium armor."
+                        }
+            }
+            
+
+        ]
+
+    },
+    
+    {
+        "name" : "Human", 
+        "size" : ["Medium"],
+        "speed" : {"Walking" : 30},
+        "languages" : ["Common", "One language of choice"],
+        "subraces" : [
+             {
+                "name" : "Common Human", 
+                "asi" : {"All" : 1}
+            },
+             {
+                "name" : "Variant Human", 
+                "asi" : {"Two scores" : 1},
+                "features" : {
+                    
+                        "Quick Learner" : "You gain proficiency in one skill of your choice.",
+                        "Lived Experience" : "You gain one Nation feat"
+                    
+                }
+
+            }
+
+        ]
+    },
+    {
+        "name" : "Tiefling", 
+        "size" : ["Medium"],
+        "speed" : {"Walking" : 30},
+        "languages" : ["Common", "Infernal"],
+        "asi" : {"Charisma" : 2},
+        "features" : {
+            "Darkvision" : "Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+            ,"Hellish Resistance" : "You have resistance to fire damage."
+        },
+        "subraces" : [
+            {
+                "name" : "Asmodeus Tiefling", 
+                "asi" : {"Intelligence" : 1},
+
+                "features" : {
+                    "Legacy of Nessus" : "You know the ~sn^Thaumaturgy~# cantrip. Once you reach 3rd level, you can cast the ~sn^Hellish Rebuke~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Darkness~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+            {
+                "name" : "Baalzebul Tiefling", 
+                "asi" : {"Intelligence" : 1},
+
+                "features" : {
+                    "Legacy of Maladomini" : "ou know the ~sn^Thaumaturgy~# cantrip. Once you reach 3rd level, you can cast the ~sn^Ray of Sickness~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Crown of Madness~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Dispater Tiefling", 
+                "asi" : {"Dexterity" : 1},
+
+                "features" : {
+                    "Legacy of Dis" : " You know the ~sn^Thaumaturgy~# cantrip. Once you reach 3rd level, you can cast the ~sn^Disguise Self~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Detect Thoughts~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+            {
+                "name" : "Fierna Tiefling", 
+                "asi" : {"Wisdom" : 1},
+
+                "features" : {
+                    "Legacy of Phlegethos" : " You know the ~sn^Friends~# cantrip. Once you reach 3rd level, you can cast the ~sn^Charm Person~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Suggestion~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Glasya Tiefling", 
+                "asi" : {"Dexterity" : 1},
+
+                "features" : {
+                    "Legacy of Malbolge" : "You know the ~sn^Minor Illusion~# cantrip. Once you reach 3rd level, you can cast the ~sn^Disguise Self~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Invisibility~# spell once as a 2nd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Levistus Tiefling", 
+                "asi" : {"Constitution" : 1},
+
+                "features" : {
+                    "Legacy of Stygia" : "You know the ~sn^Ray of Frost~# cantrip. Once you reach 3rd level, you can cast the ~sn^Armor of Agathys~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Darkness~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Mammon Tiefling", 
+                "asi" : {"Intelligence" : 1},
+
+                 "features" : {
+                    "Legacy of Minauros" : "You know the ~sn^Mage Hand~# cantrip. Once you reach 3rd level, you can cast the ~sn^Tenser's Floating Disk~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Arcane Lock~# spell once. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Mephistopheles Tiefling", 
+                "asi" : {"Intelligence" : 1},
+
+                "features" : {
+                    "Legacy of Cania" : "You know the ~sn^Mage Hand~# cantrip. Once you reach 3rd level, you can cast the ~sn^Burning Hands~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Flame Blade~# spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            },
+             {
+                "name" : "Zariel Tiefling", 
+                "asi" : {"Strength" : 1},
+
+                "features" : {
+                    "Legacy of Avernus" : "You know the ~sn^Thaumaturgy~# cantrip. Once you reach 3rd level, you can cast the ~sn^Searing Smite~# spell once as a 2nd-level spell. Once you reach 5th level, you can also cast the ~sn^Branding Smite~# spell once as a 3rd-level spell. You must finish a long rest to cast these spells again with this trait. Charisma is your spellcasting ability for these spells."
+                }
+            }
+
+        ]
+    },
+
+    {
+        "name" : "Template", 
+        "size" : ["Medium"],
+        "speed" : {"Walking" : 25},
+        "languages" : ["Common", "Elven"],
+        "asi" : {"Constitution" : 2},
+        "features" : {
+            "Darkvision" : "Feature"
+            ,"Feature" : "Feature"
+            ,"Feature" : "Feature"
+            ,"Feature" : "Feature"
+        },
+        "subraces" : [
+
+        ]
     }
+
 ]

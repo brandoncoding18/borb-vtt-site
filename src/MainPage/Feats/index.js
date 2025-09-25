@@ -20,7 +20,7 @@ export default function Feats({params}) {
                     <div>
                 <div class="spellContainer">
                     <h4>  {(feat.Name)} </h4>
-                    <div><b>Prerequisite: </b> {feat.Prereq}</div>
+                    {(feat.Prereq) ?  <div><b>Prerequisite: </b> {feat.Prereq}</div> : <></>}
                     <div>{formatter(feat.Desc)}</div>
                     
 

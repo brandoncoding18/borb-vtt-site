@@ -8,6 +8,10 @@ body {
   overflow: hidden; /* Prevent body scroll if sideNav or mainContent has its own scroll */
 }
 
+.listdisplay {
+  display: inline-block;
+  margin-right: 10px; /* Optional: Add some spacing between items */
+}
 .editable-column {
   display : flex; 
   cursor: text;

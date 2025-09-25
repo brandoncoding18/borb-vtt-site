@@ -1,7 +1,10 @@
 //import artificer from './artificer.json';
-import artificer from './bard.json';
+import artificer from './druid.json';
 import source_dict from './source_dict.json'
 import {useState} from "react"
+import {formatter} from '../../../helpers'
+import { Fragment } from 'react';
+
 export function Artificer() {
    const num_word_dict = {
     1 : 'one', 
@@ -73,9 +76,19 @@ export function Artificer() {
             : 
             <>None</>
     }</div>
+        <div>{artificer.special ? <><b>Special:</b> {artificer.special}</> : <></>} </div>
         <div><b>Weapons:</b> {artificer.weapon_prof.length > 0 ?
         
-        <>{artificer.weapon_prof.map((w) => (w.includes("Simple") || w.includes("Martial")) ? `${w} weapons` : w).join(", ")}</>
+        
+        <>{artificer.weapon_prof.map((w, index) => ( <>
+                    {(w.includes("Simple") || w.includes("Martial")) ? (
+                        <>{`${w} weapons`}</>
+                    ) : (
+                        <span style={{ display: 'inline-block' }}>{formatter(w)}</span>
+                    )}
+                    <>{index < artificer.weapon_prof.length - 1 && ", "}</>
+                </>)
+        )}</>
         : <>None</>
          }
         </div> 
@@ -127,7 +140,7 @@ export function Artificer() {
                                         {
                                             c.map((cn) => 
                                                 <td>{
-                                                        [...cn].join((cn[0].length <= 1) ? "" : ", ")
+                                                        formatter([...cn].join((cn[0].length <= 1) ? "" : ", "))
                                                     }</td>
 
                                             )
@@ -140,7 +153,7 @@ export function Artificer() {
                             <br/></div>
 
                     </div> : <></> : <div><h5>{f.name}</h5>                         
-                    <div>{f.desc.split("\n").map((f) => (f.includes("\b") ? <li>{`\t${f.replace("\b", "")}`}<br/></li> : <div>{f}<br/></div>))}</div>
+                    <div>{f.desc.split("\n").map((f) => (f.includes("\b") ? <li>{`\t${f.replace("\b", "")}`}<br/></li> : <div>{formatter(f)}<br/></div>))}</div>
                     </div>}
                          {(f.subclassOptions) ? <table class="table">
                             <thead>

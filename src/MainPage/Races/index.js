@@ -1,4 +1,5 @@
 import races from './races.json'
+import {formatter} from '../../helpers'
 export default function Races() {
     const queryParams =  window.location.search
     const [query, queryParam] = queryParams.replace("?", "").split("=");
@@ -30,7 +31,7 @@ export default function Races() {
                                 )) : <></>}</div>
                                 <br/>
                         <h5>Features:</h5>
-                        <div>{Object.keys(x.features).map((f) => <div><b>{f}</b>: {x.features[f]}<br/></div>)}</div>
+                        <div>{ (x.features) ? Object.keys(x.features).map((f) => <div><b>{f}</b>: {formatter(x.features[f])}<br/></div>) : <></>}</div>
                         <h5>{x?.sub}</h5>
                         <div>{(x?.size) ? <><b>Size:</b> {JSON.stringify(x?.size)}</> : <></>}</div>
                         
