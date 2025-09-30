@@ -1,5 +1,5 @@
 //import artificer from './artificer.json';
-import artificer from './druid.json';
+import artificer from './fighter.json';
 import source_dict from './source_dict.json'
 import {useState} from "react"
 import {formatter} from '../../../helpers'

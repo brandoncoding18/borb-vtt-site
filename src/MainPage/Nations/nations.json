@@ -230,7 +230,57 @@
                 "language" : ["Bressnian"]
             }
         ]
+    },
+
+    {
+        "name" : "Despotate of Drazhún",
+        "races" : ["~rn^Bugbear~#", "~rn^Gnome~#", "~rn^Goliath~#", "~rn^Human~#", "~rn^Shadar Kai~#"],
+        "feats" : ["~fn^Axe Prowess~#", "~fn^Medium Armor Master~#", "~fn^Slasher~#", "~fn^Weapon Master~# (~wn^Cutlass~#, ~wn^Falchion~#, ~wn^Greataxe~#, ~wn^Poleaxe~#"],
+        "spells" : ["~sn^Blood Rush~#", "~sn^Imperate~#", "~sn^Tendrils of the Mind~#", "~sn^Wineberry~#"],
+        "unique_feat" : ["~fn^Dauntless~#"],
+        "language" : ["Istvani"]
+         
+    },
+
+     {
+        "name" : "Dominion of Amrots",
+        "races" : ["~rn^Aaracockra~#", "~rn^Earth Genasi~#", "~rn^Goliath~#", "~rn^Lizardfolk~#", "~rn^Mountain Dwarf~#"],
+        "feats" : ["~fn^Heavy Armor Master~#", "~fn^Magic Initiate~# (From ~sc^Cleric~# or ~sc^Paladin~# Spell List)", "~fn^Rune Carver Apprentice~#", "~fn^Thrown Weapon Prowess~#", "~fn^Tough~#"],
+        "spells" : ["~sn^Armor of Stone~#", "~sn^Coarse Heart~#", "~sn^Refuse Curse~#", "~sn^Spit Curse~#"],
+        "unique_feat" : ["~fn^Ancestor Stones of the Morning~#"],
+        "language" : ["Amrotian"]
+         
+    },
+    {
+        "name" : "Dominion of Ashod",
+        "races" : ["~rn^Azer~#", "~rn^Fire Genasi~#", "~rn^Half Giant (Fire)~#"],
+        "feats" : ["~fn^Artificer Initiate~#", "~fn^Elemental Adept~# (Fire)", "~fn^Heavy Armor Master~#", "~fn^Theologian~#", "~fn^Weapon Master~# (~wn^Flanged Mace~# ~wn^Greataxe~# ~wn^Morningstar~# ~wn^Warhammer~#)"],
+        "spells" : ["~sn^Brass Shield~#", "~sn^Chains of Surtur~#", "~sn^Covenant of Brass~#", "~sn^Enliven Azer~#", "~sn^Molten Grasp~#", "~sn^Surtur's Rain~#", "~sn^Unforge~#", "~sn^Weapon of Molten Brass~#"],
+        "unique_feat" : ["~fn^Hand Forge~#"],
+        "language" : ["Ashodite"]
+         
+    },
+    {
+        "name" : "Dominion of The Snivir",
+        "races" : ["~rn^Deep Gnome~#", "~rn^Drow~#"],
+        "feats" : ["~fn^Alert~#", "~fn^Crossbow Prowess~#", "~fn^Poisoner~#", "~fn^Skulker~#"],
+        "spells" : ["~sn^Awakening of The Nail~#", "~sn^Prepare~#"],
+        "unique_feat" : ["~fn^Bone Knight~#"],
+        "language" : ["Undercommon"]
+         
+    },
+    {
+        "name" : "Duergar Under Empire",
+        "races" : ["~rn^Duergar~#"],
+        "feats" : ["~fn^Artificer Initiate~#", "~fn^Eldritch Adept~#", "~fn^Explosives Prowess~#", "~fn^Medium Firearm Prowess~#", "~fn^Shadow Touched~#"],
+        "spells" : ["~sn^Ghost Light~#", "~sn^Membrane of Laduguer~#", "~sn^Molten Grasp~#", "~sn^Unforge~#", "~sn^Veil of a Thousand Needles~#"],
+        "unique_feat" : ["~fn^Laduguer's Wanderer~#"],
+        "language" : ["Undercommon"]
+         
     }
+    
+
+
 
 
 

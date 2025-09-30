@@ -113,6 +113,17 @@
                         "features" : {
                         "Dwarven Armor Training" : "You have proficiency with light and medium armor."
                         }
+            },
+             {
+                        "name" : "Duergar", 
+                        "asi" : {"Strength" : 1},
+                        "features" : {
+                            "Superior Darkvision" : "You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                            ,"Duergar Resilience" : "You have advantage on saving throws against illusions and against being charmed or paralyzed."
+                            ,"Duergar Magic" : "When you reach 3rd level, you can cast the Enlarge/Reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the Invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.",
+                            "Sunlight Sensitivity" : " You have disadvantage on Attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+                        }
+
             }
             
 
@@ -232,6 +243,45 @@
     },
 
     {
+        "name" : "Gnome", 
+        "size" : ["Small"],
+        "speed" : {"Walking" : 25},
+        "languages" : ["Common", "Gnomish"],
+        "asi" : {"Intelligence" : 2},
+        "features" : {
+            "Darkvision" : "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray"
+            ,"Gnome Cunning" : "You have advantage on all Intelligence, Wisdom, and Charisma saves against magic."
+        },
+        "subraces" : [
+            {
+                "name" : "Deep Gnome", 
+                "asi" : {"Dexterity" : 1},
+                "features" : {
+                    "Superior Darkvision" : "Your darkvision has a radius of 120 feet."
+                    ,"Stone Camouflage" : "You have advantage on Dexterity (stealth) checks to hide in rocky terrain."
+                }
+            },
+            {
+                "name" : "Forest Gnome", 
+                "asi" : {"Dexterity" : 1},
+                "features" : {
+                    "Natural Illusionist" : "You know the ~sn^Minor Illusion~# cantrip. Intelligence is your spellcasting modifier for it."
+                    ,"Speak with Small Beasts" : "Through sound and gestures, you may communicate simple ideas with Small or smaller beasts."
+                }
+            },
+             {
+                "name" : "Rock Gnome", 
+                "asi" : {"Constitution" : 1},
+                "features" : {
+                    "Artificer's Lore" : "Whenever you make an Intelligence (History) check related to magical, alchemical, or technological items, you can add twice your proficiency bonus instead of any other proficiency bonus that may apply."
+                    ,"Tinker" : "You have proficiency with artisan tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:\n\tClockwork Toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n\tFire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n\tMusic Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.\n At your DM's discretion, you may make other objects with effects similar in power to these. The Prestidigitation cantrip is a good baseline for such effects."
+                }
+            }
+
+        ]
+    },
+
+    {
         "name" : "Template", 
         "size" : ["Medium"],
         "speed" : {"Walking" : 25},
@@ -239,9 +289,6 @@
         "asi" : {"Constitution" : 2},
         "features" : {
             "Darkvision" : "Feature"
-            ,"Feature" : "Feature"
-            ,"Feature" : "Feature"
-            ,"Feature" : "Feature"
         },
         "subraces" : [
 

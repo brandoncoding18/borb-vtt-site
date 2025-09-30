@@ -44,7 +44,7 @@ export const formatter = (passage) => {
                     <li style={{ display: 'inline' }}>{result}</li> : 
                     <p style={{ display: 'inline' }}>{result}</p>;
 
-                return <div key={`line-container-${lineIndex}`}>{content}</div>;
+                return <span key={`line-container-${lineIndex}`}>{content}</span>;
             })}
         </React.Fragment>
     );

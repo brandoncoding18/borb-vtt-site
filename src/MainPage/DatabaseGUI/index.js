@@ -8,7 +8,6 @@ import Armor from './Armor';
 import MagicItem from './Magic Item';
 import Subclass from './Subclass';
 import {FormDropdown} from './formdropdown';
-import styles from '../../styles.css'
 import spells from '../Spells/spells.json'
 export default function DatabaseGUI() {
 
