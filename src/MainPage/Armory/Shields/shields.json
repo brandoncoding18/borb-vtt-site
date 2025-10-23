@@ -1,136 +1,120 @@
-[{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a358b"
+[
+  {
+    "Name": "Armguard",
+    "Strength Requirement": "",
+    "Stealth": "Normal",
+    "Armor Type": "Light",
+    "Armor Class": 1,
+    "Cost": {
+      "Amount": 8,
+      "Currency": "gp"
+    },
+    "Weight": 1,
+    "Special": "Worn on the forearm, allows hands-free use of items",
+    "Mastery": "You no longer suffer an attack penalty, you cannot be disarmed from a weapon held by the armguard hand, and you can don the arm guard without using an object interaction."
   },
-  "Name": "Armguard",
-  "Strength Requirement": "N/A",
-  "Stealth": "Normal",
-  "Armor Type": "Light",
-  "Armor Class": 1,
-  "Cost": {
-    "Amount": 8,
-    "Currency": "gp"
+  {
+    "Name": "Buckler",
+    "Strength Requirement": "",
+    "Stealth": "Normal",
+    "Armor Type": "Light",
+    "Armor Class": 1,
+    "Cost": {
+      "Amount": 5,
+      "Currency": "gp"
+    },
+    "Weight": 2,
+    "Special": "Finesse, Deflect (d8)",
+    "Mastery": "You can add the Deflect roll from the buckler to any Deflect roll you make with your main hand, and if this roll reduces incoming damage to 0, you can make an attack against the triggering creature as part of the same reaction."
   },
-  "Weight": 1,
-  "Properties": "Worn on the forearm, allows hands-free use of items",
-  "Mastery": "You no longer suffer an attack penalty, you cannot be disarmed from a weapon held by the armguard hand, and you can don the arm guard without using an object interaction."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a358c"
+  {
+    "Name": "Dueling",
+    "Strength Requirement": "",
+    "Stealth": "Normal",
+    "Armor Type": "Medium",
+    "Armor Class": 2,
+    "Cost": {
+      "Amount": 30,
+      "Currency": "gp"
+    },
+    "Weight": 8,
+    "Special": "1d6 Piercing or Slashing, Finesse, Two-Handed",
+    "Mastery": "As a reaction, you may assume a defensive stance. Whenever a creature misses you with an attack, you may make a melee attack with your dueling shield against that creature without using your reaction."
   },
-  "Name": "Buckler",
-  "Strength Requirement": "N/A",
-  "Stealth": "Normal",
-  "Armor Type": "Light",
-  "Armor Class": 1,
-  "Cost": {
-    "Amount": 5,
-    "Currency": "gp"
+  {
+    "Name": "Spiked",
+    "Strength Requirement": "",
+    "Stealth": "Normal",
+
+    "Armor Type": "Medium",
+    "Armor Class": 1,
+    "Cost": {
+      "Amount": 20,
+      "Currency": "gp"
+    },
+    "Weight": 8,
+    "Special": "1d6 Piercing or Slashing, Brace, Thrown (20/60)",
+    "Mastery": "You gain advantage on any saving throw or ability check made to resist being knocked prone or forcibly moved. When you win a contested skill check against being moved or to move another creature, the enemy gains disadvantage on attack rolls and skill checks until the end of your next turn."
   },
-  "Weight": 2,
-  "Properties": "Finesse, Deflect (d8)",
-  "Mastery": "You can add the Deflect roll from the buckler to any Deflect roll you make with your main hand, and if this roll reduces incoming damage to 0, you can make an attack against the triggering creature as part of the same reaction."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a358d"
+  {
+    "Name": "Pavise",
+    "Strength Requirement": 13,
+    "Stealth": "Normal",
+
+    "Armor Type": "Medium",
+    "Armor Class": 1,
+    "Cost": {
+      "Amount": 30,
+      "Currency": "gp"
+    },
+    "Weight": 35,
+    "Special": "While worn, you gain +1 AC. As a bonus action, you can deploy the shield to solid ground, which takes up a 5 ft square space. While the shield is between you and any enemy, you gain the benefits of half cover.\nSpecial: While deployed, a Pavise can be knocked down if the enemy succeeds on an Athletics Check against your weapon DC. As a bonus action you can pick up a pavise and either deploy it again or don it on your back.",
+    "Mastery": "While wearing a pavise, you negate any flanking bonus any enemy might have on you. While the shield is between you and any enemy, you gain the benefits of three-quarters cover. Additionally, an enemy has disadvantage on any roll made to knock your shield down while you use it as cover."
   },
-  "Name": "Dueling",
-  "Strength Requirement": "N/A",
-  "Stealth": "Normal",
-  "Armor Type": "Medium",
-  "Armor Class": 2,
-  "Cost": {
-    "Amount": 30,
-    "Currency": "gp"
+  {
+    "Name": "Skirmish",
+    "Strength Requirement": "",
+    "Stealth": "Normal",
+    "Armor Type": "Medium",
+    "Armor Class": 2,
+    "Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Weight": 6,
+    "Special": "",
+    "Mastery": "You gain an additional +2AC bonus against ranged attacks, adding +4 in total, and a successful shove deals d4 + Strength modifier in bludgeoning damage."
   },
-  "Weight": 8,
-  "Properties": "1d6 Piercing or Slashing, Finesse, Two-Handed",
-  "Mastery": "As a reaction, you may assume a defensive stance. Whenever a creature misses you with an attack, you may make a melee attack with your dueling shield against that creature without using your reaction."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a358e"
+  {
+    "Name": "Kite",
+    "Strength Requirement": 13,
+    "Stealth": "Disadvantage",
+
+    "Armor Type": "Heavy",
+    "Armor Class": 3,
+    "Cost": {
+      "Amount": 30,
+      "Currency": "gp"
+    },
+    "Weight": 12,
+    "Special": "",
+    "Mastery": "You gain advantage on any saving throw or ability check made to resist being knocked prone or forcibly moved. When you win a contested skill check against being moved or to move another creature, the enemy gains disadvantage on attack rolls and skill checks until the end of your next turn."
+  
   },
-  "Name": "Spiked",
-  "Strength Requirement": "N/A",
-  "Stealth": "Disadvantage",
-  "Armor Type": "Medium",
-  "Armor Class": 1,
-  "Cost": {
-    "Amount": 20,
-    "Currency": "gp"
-  },
-  "Weight": 8,
-  "Properties": "1d6 Piercing or Slashing, Brace, Thrown (20/60)",
-  "Mastery": "You gain advantage on any saving throw or ability check made to resist being knocked prone or forcibly moved. When you win a contested skill check against being moved or to move another creature, the enemy gains disadvantage on attack rolls and skill checks until the end of your next turn."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a358f"
-  },
-  "Name": "Pavise",
-  "Strength Requirement": 13,
-  "Stealth": "Disadvantage",
-  "Armor Type": "Medium",
-  "Armor Class": 1,
-  "Cost": {
-    "Amount": 30,
-    "Currency": "gp"
-  },
-  "Weight": 35,
-  "Properties": "While worn, you gain +1 AC. As a bonus action, you can deploy the shield to solid ground, which takes up a 5 ft square space. While the shield is between you and any enemy, you gain the benefits of half cover.\nSpecial: While deployed, a Pavise can be knocked down if the enemy succeeds on an Athletics Check against your weapon DC. As a bonus action you can pick up a pavise and either deploy it again or don it on your back.",
-  "Mastery": "While wearing a pavise, you negate any flanking bonus any enemy might have on you. While the shield is between you and any enemy, you gain the benefits of three-quarters cover. Additionally, an enemy has disadvantage on any roll made to knock your shield down while you use it as cover."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a3590"
-  },
-  "Name": "Skirmish",
-  "Strength Requirement": "N/A",
-  "Stealth": "Normal",
-  "Armor Type": "Medium",
-  "Armor Class": 2,
-  "Cost": {
-    "Amount": 10,
-    "Currency": "gp"
-  },
-  "Weight": 6,
-  "Properties": null,
-  "Mastery": "You gain an additional +2AC bonus against ranged attacks, adding +4 in total, and a successful shove deals d4 + Strength modifier in bludgeoning damage."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a3591"
-  },
-  "Name": "Kite",
-  "Strength Requirement": 13,
-  "Stealth": "Disadvantage",
-  "Armor Type": "Heavy",
-  "Armor Class": 3,
-  "Cost": {
-    "Amount": 30,
-    "Currency": "gp"
-  },
-  "Weight": 12,
-  "Properties": null,
-  "Mastery": "You gain advantage on any saving throw or ability check made to resist being knocked prone or forcibly moved. When you win a contested skill check against being moved or to move another creature, the enemy gains disadvantage on attack rolls and skill checks until the end of your next turn."
-},
-{
-  "_id": {
-    "$oid": "686ecc2449fc2c9bd17a3592"
-  },
-  "Name": "Tower",
-  "Strength Requirement": 13,
-  "Stealth": "Disadvantage",
-  "Armor Type": "Heavy",
-  "Armor Class": 3,
-  "Cost": {
-    "Amount": 50,
-    "Currency": "gp"
-  },
-  "Weight": 50,
-  "Properties": null,
-  "Mastery": "You negate any flanking bonus an enemy might have on you. While using the shield as cover, if you are subjected to an effect that allows you to make a Dexterity saving throw, and you fail that save, you take only half damage."
-}]
+  {
+    "Name": "Tower",
+    "Strength Requirement": 13,
+    "Stealth": "Disadvantage",
+
+    "Armor Type": "Heavy",
+    "Armor Class": 3,
+    "Cost": {
+      "Amount": 50,
+      "Currency": "gp"
+    },
+    "Weight": 50,
+    "Special": "",
+    "Mastery": "You negate any flanking bonus an enemy might have on you. While using the shield as cover, if you are subjected to an effect that allows you to make a Dexterity saving throw, and you fail that save, you take only half damage."
+   
+  }
+]

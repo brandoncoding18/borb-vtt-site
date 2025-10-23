@@ -1,6 +1,7 @@
 import feats_table from "./feats.json"
 import {useState} from "react"
 import {formatter} from '../../helpers.js'
+import '../../styles.css'
 export default function Feats({params}) {
      const queryParams =  window.location.search
     const [query, queryParam] = queryParams.replace("?", "").split("=");
@@ -15,13 +16,14 @@ export default function Feats({params}) {
         <h1>Feats</h1>
         <br></br>
         {
-            feats.map((feat) => 
+            feats.sort((a, b) => a.Name.localeCompare(b.Name)).map((feat) => 
                 (
                     <div>
-                <div class="spellContainer">
+                <div class="tab-item">
                     <h4>  {(feat.Name)} </h4>
-                    {(feat.Prereq) ?  <div><b>Prerequisite: </b> {feat.Prereq}</div> : <></>}
-                    <div>{formatter(feat.Desc)}</div>
+                    {(feat.Prereq && feat.Prereq != 'N/A') ?  <div><b>Prerequisite: </b> {feat.Prereq}</div> : <></>}
+                    <></>
+                    <div >{formatter(feat.Desc)}</div>
                     
 
                 </div>

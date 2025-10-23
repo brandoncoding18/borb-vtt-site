@@ -16,13 +16,13 @@
       "Short": 150,
       "Long": 300
     },
-    "Properties": {
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Piercing": 3,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Matchlock",
+      "Misfire 1",
+      "Piercing 3",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -48,19 +48,19 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 13,
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Piercing": 2,
-      "Reload": "1",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 8,
-        "Type": "Slashing"
-      }
+    "Properties": [
+      "Heavy",
+      "Hooked 13",
+      "Matchlock",
+      "Misfire 2",
+      "Piercing 2",
+      "Reload 1",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 8,
+      "Type": "Slashing"
     },
     "Ammo Cost": {
       "Amount": 1,
@@ -87,14 +87,14 @@
       "Short": 20,
       "Long": 40
     },
-    "Properties": {
-      "Heavy": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 3,
-      "Reload": "1",
-      "Spread": 2,
-      "Two Handed": true
-    },
+    "Properties": [
+      "Heavy",
+      "Matchlock",
+      "Misfire 3",
+      "Reload 1",
+      "Spread 2",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 3,
       "Currency": "gp"
@@ -120,13 +120,13 @@
       "Short": 200,
       "Long": 400
     },
-    "Properties": {
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Piercing": 3,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Matchlock",
+      "Misfire 1",
+      "Piercing 3",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -150,21 +150,21 @@
     },
     "Range": {
       "Short": 15,
-      "Type" : "Cone"
+      "Type": "Cone"
     },
-    "Properties": {
-      "Brace": true,
-      "Heavy": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Reach": true,
-      "Reload": "1 action",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 12,
-        "Type": "Slashing"
-      }
+    "Properties": [
+      "Brace",
+      "Heavy",
+      "Matchlock",
+      "Misfire 1",
+      "Reach",
+      "Reload 1 action",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 12,
+      "Type": "Slashing"
     },
     "Ammo Cost": {
       "Amount": 50,
@@ -192,11 +192,11 @@
       "Long": 40,
       "Type": "Thrown"
     },
-    "Properties": {
-      "Explosive": "15 ft",
-      "Misfire": 3,
-      "Misfire Type": "Unstable"
-    },
+    "Properties": [
+      "Explosive 15 ft",
+      "Misfire 3",
+      "Misfire Type Unstable"
+    ],
     "Ammo Cost": {
       "Amount": 0,
       "Currency": "N/A"
@@ -222,14 +222,14 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Piercing": 2,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Heavy",
+      "Matchlock",
+      "Misfire 1",
+      "Piercing 2",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -255,15 +255,15 @@
       "Short": 50,
       "Long": 150
     },
-    "Properties": {
-      "Explosive": "15 ft",
-      "Hooked": 13,
-      "Mechanism": "Matchlock",
-      "Misfire": 3,
-      "Misfire Type": "Unstable",
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Explosive 15 ft",
+      "Hooked 13",
+      "Matchlock",
+      "Misfire 3",
+      "Misfire Type Unstable",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 50,
       "Currency": "gp"
@@ -289,20 +289,20 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 15,
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Piercing": 3,
-      "Reload": "1",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 8,
-        "Type": "Piercing",
-        "Melee Type": "(Hammers and Picks)"
-      }
+    "Properties": [
+      "Heavy",
+      "Hooked 15",
+      "Matchlock",
+      "Misfire 2",
+      "Piercing 3",
+      "Reload 1",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 8,
+      "Type": "Piercing",
+      "Melee Type": "(Hammers and Picks)"
     },
     "Ammo Cost": {
       "Amount": 1,
@@ -329,13 +329,13 @@
       "Short": 200,
       "Long": 300
     },
-    "Properties": {
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Piercing": 4,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Matchlock",
+      "Misfire 2",
+      "Piercing 4",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -361,15 +361,15 @@
       "Short": 300,
       "Long": 600
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 15,
-      "Mechanism": "Matchlock",
-      "Misfire": 3,
-      "Piercing": 6,
-      "Reload": "1 turn",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Heavy",
+      "Hooked 15",
+      "Matchlock",
+      "Misfire 3",
+      "Piercing 6",
+      "Reload 1 turn",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 3,
       "Currency": "gp"
@@ -395,14 +395,14 @@
       "Short": 30,
       "Long": 60
     },
-    "Properties": {
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "One Handed": true,
-      "Piercing": 1,
-      "Reload": "1"
-    },
+    "Properties": [
+      "Light",
+      "Matchlock",
+      "Misfire 1",
+      "One Handed",
+      "Piercing 1",
+      "Reload 1"
+    ],
     "Ammo Cost": {
       "Amount": 5,
       "Currency": "sp"
@@ -427,14 +427,14 @@
     "Range": {
       "Short": 15,
       "Long": 30,
-      "Type" : "Cone/Line"
+      "Type": "Cone/Line"
     },
-    "Properties": {
-      "Heavy": true,
-      "Reload": "1 Turn",
-      "Two Handed": true,
-      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
-    },
+    "Properties": [
+      "Heavy",
+      "Reload 1 Turn",
+      "Two Handed",
+      "Special: Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    ],
     "Ammo Cost": {
       "Amount": 10,
       "Currency": "gp"
@@ -460,14 +460,14 @@
       "Short": 20,
       "Long": 40
     },
-    "Properties": {
-      "Conceal": true,
-      "Light": true,
-      "Misfire": 1,
-      "Piercing": 2,
-      "Reload": "2 (2 actions)",
-      "Mechanism": "Wheellock"
-    },
+    "Properties": [
+      "Conceal",
+      "Light",
+      "Misfire 1",
+      "Piercing 2",
+      "Reload 2 (2 actions)",
+      "Wheellock"
+    ],
     "Ammo Cost": {
       "Amount": 5,
       "Currency": "sp"
@@ -492,18 +492,18 @@
     "Range": {
       "Short": 15
     },
-    "Properties": {
-      "Conceal": true,
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Reload": "1 action",
-      "Ranged Attack Type": "15ft line 5ft wide",
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 4,
-        "Type": "Piercing"
-      }
+    "Properties": [
+      "Conceal",
+      "Light",
+      "Matchlock",
+      "Misfire 1",
+      "Reload 1 action",
+      "Ranged Attack Type 15ft line 5ft wide"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 4,
+      "Type": "Piercing"
     },
     "Ammo Cost": {
       "Amount": 5,
@@ -530,19 +530,19 @@
       "Short": 20,
       "Long": 40
     },
-    "Properties": {
-      "Finesse": true,
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "One Handed": true,
-      "Piercing": 1,
-      "Reload": "1",
-      "Melee Damage": {
-        "Number Die": 2,
-        "Die Amount": 4,
-        "Type": "Slashing"
-      }
+    "Properties": [
+      "Finesse",
+      "Light",
+      "Matchlock",
+      "Misfire 1",
+      "One Handed",
+      "Piercing 1",
+      "Reload 1"
+    ],
+    "Melee Damage": {
+      "Number Die": 2,
+      "Die Amount": 4,
+      "Type": "Slashing"
     },
     "Ammo Cost": {
       "Amount": 5,
@@ -569,20 +569,20 @@
       "Short": 30,
       "Long": 60
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 18,
-      "Mechanism": "Matchlock",
-      "Misfire": 5,
-      "Misfire Type": "(Unstable)",
-      "Reload": "1 turn",
-      "Spread": 4,
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 2,
-        "Die Amount": 6,
-        "Type": "Bludgeoning"
-      }
+    "Properties": [
+      "Heavy",
+      "Hooked 18",
+      "Matchlock",
+      "Misfire 5",
+      "Misfire Type (Unstable)",
+      "Reload 1 turn",
+      "Spread 4",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Type": "Bludgeoning"
     },
     "Ammo Cost": {
       "Amount": 5,
@@ -609,19 +609,19 @@
       "Short": 150,
       "Long": 300
     },
-    "Properties": {
-      "Explosive": "30 ft",
-      "Heavy": true,
-      "Hooked": 18,
-      "Misfire": 5,
-      "Misfire Type": "(Unstable)",
-      "Reload": "1 turn",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 2,
-        "Die Amount": 6,
-        "Type": "Bludgeoning"
-      }
+    "Properties": [
+      "Explosive 30 ft",
+      "Heavy",
+      "Hooked 18",
+      "Misfire 5",
+      "Misfire Type (Unstable)",
+      "Reload 1 turn",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 2,
+      "Die Amount": 6,
+      "Type": "Bludgeoning"
     },
     "Ammo Cost": {
       "Amount": 100,
@@ -648,20 +648,20 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 17,
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Misfire Type": "(Unstable)",
-      "Piercing": 4,
-      "Reload": "1 Action",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 12,
-        "Type": "Piercing"
-      }
+    "Properties": [
+      "Heavy",
+      "Hooked 17",
+      "Matchlock",
+      "Misfire 2",
+      "Misfire Type (Unstable)",
+      "Piercing 4",
+      "Reload 1 Action",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 12,
+      "Type": "Piercing"
     },
     "Ammo Cost": {
       "Amount": 3,
@@ -688,20 +688,20 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 15,
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Piercing": 2,
-      "Reload": "1",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 12,
-        "Type": "Slashing",
-        "Melee Type": "(Axes)"
-      }
+    "Properties": [
+      "Heavy",
+      "Hooked 15",
+      "Matchlock",
+      "Misfire 2",
+      "Piercing 2",
+      "Reload 1",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 12,
+      "Type": "Slashing",
+      "Melee Type": "(Axes)"
     },
     "Ammo Cost": {
       "Amount": 1,
@@ -727,17 +727,17 @@
     "Range": {
       "Short": 15
     },
-    "Properties": {
-      "Misfire": 1,
-      "Piercing": 3,
-      "Reload": "1 action",
-      "Mechanism": "Wheellock",
-      "Ranged Attack Type": "15ft line 5ft wide",
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 6,
-        "Type": "Bludgeoning"
-      }
+    "Properties": [
+      "Misfire 1",
+      "Piercing 3",
+      "Reload 1 action",
+      "Wheellock",
+      "Ranged Attack Type 15ft line 5ft wide"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 6,
+      "Type": "Bludgeoning"
     },
     "Ammo Cost": {
       "Amount": 10,
@@ -764,14 +764,14 @@
       "Short": 200,
       "Long": 400
     },
-    "Properties": {
-      "Hooked": 14,
-      "Misfire": 1,
-      "Piercing": 4,
-      "Reload": "1",
-      "Two Handed": true,
-      "Mechanism": "Wheellock"
-    },
+    "Properties": [
+      "Hooked 14",
+      "Misfire 1",
+      "Piercing 4",
+      "Reload 1",
+      "Two Handed",
+      "Wheellock"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -797,16 +797,16 @@
       "Short": 150,
       "Long": 200
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 15,
-      "Piercing": 3,
-      "Reload": "12 actions",
-      "Spread": 2,
-      "Two Handed": true,
-      "Mechanism": "Wheellock",
-      "Special": "Spread is 15° wide"
-    },
+    "Properties": [
+      "Heavy",
+      "Hooked 15",
+      "Piercing 3",
+      "Reload 12 actions",
+      "Spread 2",
+      "Two Handed",
+      "Wheellock",
+      "Special: Spread is 15° wide"
+    ],
     "Ammo Cost": {
       "Amount": 12,
       "Currency": "gp"
@@ -832,13 +832,13 @@
       "Short": 200,
       "Long": 400
     },
-    "Properties": {
-      "Misfire": 1,
-      "Piercing": 4,
-      "Reload": "1",
-      "Two Handed": true,
-      "Mechanism": "Wheellock"
-    },
+    "Properties": [
+      "Misfire 1",
+      "Piercing 4",
+      "Reload 1",
+      "Two Handed",
+      "Wheellock"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -864,18 +864,18 @@
       "Short": 30,
       "Long": 60
     },
-    "Properties": {
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "One Handed": true,
-      "Piercing": 1,
-      "Reload": "1",
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 6,
-        "Type": "Slashing"
-      }
+    "Properties": [
+      "Light",
+      "Matchlock",
+      "Misfire 1",
+      "One Handed",
+      "Piercing 1",
+      "Reload 1"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 6,
+      "Type": "Slashing"
     },
     "Ammo Cost": {
       "Amount": 1,
@@ -902,13 +902,13 @@
       "Short": 10,
       "Long": 20
     },
-    "Properties": {
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Reload": "1 Turn",
-      "Two Handed": true,
-      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
-    },
+    "Properties": [
+      "Light",
+      "Matchlock",
+      "Reload 1 Turn",
+      "Two Handed",
+      "Special: Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    ],
     "Ammo Cost": {
       "Amount": 10,
       "Currency": "gp"
@@ -934,15 +934,15 @@
       "Short": 10,
       "Long": 20
     },
-    "Properties": {
-      "Light": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 3,
-      "Misfire Type": "(Unstable)",
-      "One Handed": true,
-      "Reload": "1",
-      "Spread": 1
-    },
+    "Properties": [
+      "Light",
+      "Matchlock",
+      "Misfire 3",
+      "Misfire Type (Unstable)",
+      "One Handed",
+      "Reload 1",
+      "Spread 1"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -968,15 +968,15 @@
       "Short": 5,
       "Type": "(Melee)"
     },
-    "Properties": {
-      "Conceal": true,
-      "Finesse": true,
-      "Misfire": 1,
-      "Piercing": 4,
-      "Reload": "2 (2 actions)",
-      "Mechanism": "Wheellock",
-      "Special": "1d4P on melee without consuming ammo"
-    },
+    "Properties": [
+      "Conceal",
+      "Finesse",
+      "Misfire 1",
+      "Piercing 4",
+      "Reload 2 (2 actions)",
+      "Wheellock",
+      "Special: 1d4P on melee without consuming ammo"
+    ],
     "Ammo Cost": {
       "Amount": 5,
       "Currency": "sp"
@@ -1002,16 +1002,16 @@
       "Short": 300,
       "Long": 400
     },
-    "Properties": {
-      "Heavy": true,
-      "Hooked": 15,
-      "Mechanism": "Matchlock",
-      "Misfire": 2,
-      "Misfire Type": "(Unstable)",
-      "Piercing": 4,
-      "Reload": "1 Turn",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Heavy",
+      "Hooked 15",
+      "Matchlock",
+      "Misfire 2",
+      "Misfire Type (Unstable)",
+      "Piercing 4",
+      "Reload 1 Turn",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 3,
       "Currency": "gp"
@@ -1037,13 +1037,13 @@
       "Short": 300,
       "Long": 600
     },
-    "Properties": {
-      "Misfire": 1,
-      "Piercing": 4,
-      "Reload": "1",
-      "Two Handed": true,
-      "Mechanism": "Wheellock"
-    },
+    "Properties": [
+      "Misfire 1",
+      "Piercing 4",
+      "Reload 1",
+      "Two Handed",
+      "Wheellock"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -1069,13 +1069,13 @@
       "Short": 300,
       "Long": 600
     },
-    "Properties": {
-      "Mechanism": "Flintlock",
-      "Misfire": 2,
-      "Piercing": 5,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Flintlock",
+      "Misfire 2",
+      "Piercing 5",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 1,
       "Currency": "gp"
@@ -1101,16 +1101,16 @@
       "Short": 15,
       "Long": 30
     },
-    "Properties": {
-      "Mechanism": "Flintlock",
-      "Heavy": true,
-      "Hooked": 15,
-      "Misfire": 1,
-      "Piercing": 6,
-      "Reload": "1 Turn",
-      "Two Handed": true,
-      "Special": "Target all creatures in a short range cone or long range line."
-    },
+    "Properties": [
+      "Flintlock",
+      "Heavy",
+      "Hooked 15",
+      "Misfire 1",
+      "Piercing 6",
+      "Reload 1 Turn",
+      "Two Handed",
+      "Special: Target all creatures in a short range cone or long range line."
+    ],
     "Ammo Cost": {
       "Amount": 100,
       "Currency": "gp"
@@ -1136,13 +1136,13 @@
       "Short": 100,
       "Long": 200
     },
-    "Properties": {
-      "Mechanism": "Flintlock",
-      "Heavy": true,
-      "Piercing": 6,
-      "Reload": "1",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Flintlock",
+      "Heavy",
+      "Piercing 6",
+      "Reload 1",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 3,
       "Currency": "gp"
@@ -1168,12 +1168,12 @@
       "Short": 30,
       "Long": 60
     },
-    "Properties": {
-      "Heavy": true,
-      "Reload": "1 Turn",
-      "Two Handed": true,
-      "Special": "Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
-    },
+    "Properties": [
+      "Heavy",
+      "Reload 1 Turn",
+      "Two Handed",
+      "Special: Target all creatures in a short range cone or long range line. All targets that take damage get set on fire until doused as an action, taking the same damage at the end of their turn."
+    ],
     "Ammo Cost": {
       "Amount": 100,
       "Currency": "gp"
@@ -1198,20 +1198,20 @@
     "Range": {
       "Short": 30
     },
-    "Properties": {
-      "Brace": true,
-      "Heavy": true,
-      "Mechanism": "Matchlock",
-      "Misfire": 1,
-      "Misfire Type": "(Unstable)",
-      "Reach": true,
-      "Reload": "1 action",
-      "Two Handed": true,
-      "Melee Damage": {
-        "Number Die": 1,
-        "Die Amount": 12,
-        "Type": "Slashing"
-      }
+    "Properties": [
+      "Brace",
+      "Heavy",
+      "Matchlock",
+      "Misfire 1",
+      "Misfire Type (Unstable)",
+      "Reach",
+      "Reload 1 action",
+      "Two Handed"
+    ],
+    "Melee Damage": {
+      "Number Die": 1,
+      "Die Amount": 12,
+      "Type": "Slashing"
     },
     "Ammo Cost": {
       "Amount": 200,
@@ -1238,15 +1238,15 @@
       "Short": 400,
       "Long": 800
     },
-    "Properties": {
-      "Mechanism": "Flintlock",
-      "Heavy": true,
-      "Hooked": 18,
-      "Misfire": 2,
-      "Piercing": 7,
-      "Reload": "1 turn",
-      "Two Handed": true
-    },
+    "Properties": [
+      "Flintlock",
+      "Heavy",
+      "Hooked 18",
+      "Misfire 2",
+      "Piercing 7",
+      "Reload 1 turn",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 7,
       "Currency": "gp"
@@ -1271,12 +1271,12 @@
     "Range": {
       "Short": 200
     },
-    "Properties": {
-      "Explosive": "5ft",
-      "Misfire": 1,
-      "Piercing": 4,
-      "Two Handed": true
-    },
+    "Properties": [
+      "Explosive 5ft",
+      "Misfire 1",
+      "Piercing 4",
+      "Two Handed"
+    ],
     "Ammo Cost": {
       "Amount": 5,
       "Currency": "gp"
@@ -1284,39 +1284,5 @@
     "Rarity": "Rare",
     "Mastery Feat": "When you aim for a weak spot, you take the normal -5 to hit but triple the damage (2d8+8+Dex normally).",
     "Firearm Group": "Marksmen Firearms"
-  },
-  {
-    "Name": "Socket Gun (Arquebus)",
-    "Cost": {
-      "Amount": 2200,
-      "Currency": "gp"
-    },
-    "Weight": 10,
-    "Damage": {
-      "Number Die": 4,
-      "Die Amount": 8,
-      "Extra Damage": 8,
-      "Type": "Piercing"
-    },
-    "Range": {
-      "Short": 300,
-      "Long": 600
-    },
-    "Properties": {
-      "Mechanism": "Flintlock",
-      "Heavy": true,
-      "Hooked": 15,
-      "Misfire": 1,
-      "Piercing": 6,
-      "Reload": "3",
-      "Two Handed": true
-    },
-    "Ammo Cost": {
-      "Amount": 7,
-      "Currency": "gp"
-    },
-    "Rarity": "Rare",
-    "Mastery Feat": "Your number of damage dice with this weapon is doubled. Special ammunition no longer increases the misfire score.",
-    "Firearm Group": "Medium Firearms"
   }
 ]

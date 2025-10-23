@@ -1,175 +1,142 @@
 [
   {
-    "name": "Bar Mace",
-    "cost": {
+    "Name": "Bar Mace",
+    "Cost": {
       "amount": 3,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
       "types": [
         "Bludgeoning",
         "Slashing"
       ],
       "inclusive": true
     },
-    "weight": 3,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Disarm"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "When you wield a Bar Mace it gains the Deflect property.If you roll 5 over the AC of an enemy, it gains disadvantage on melee attacks until the end of its next turn."
+    "Weight": 3,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Disarm~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "When you wield a Bar Mace it gains the ~wp^Deflect~# property.\n\nIf you roll 5 over the AC of an enemy, it gains disadvantage on melee attacks until the end of its next turn."
   },
+
   {
-    "name": "Bo Staff",
-    "cost": {
+    "Name": "Bo Staff",
+    "Cost": {
       "amount": 3,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": {
-      "num_die": 1,
-      "die": 4
-    },
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
+      "num_die_double": 1,
+      "die_double": 4,
       "types": [
         "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 2,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Double (1d4)",
-      "Trip",
-      "Versatile"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "When you wield a Bo staff it gains the Lunge Property.If you have the Extra Attack feature and you are only wielding a single Bo Staff, this weapon's Double property benefits from extra attack when you use it, as well as on opportunity attacks."
+    "Weight": 2,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Double~# (1d4)",
+      "~wp^Trip~#",
+      "~wp^Versatile~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "When you wield a Bo staff it gains the ~wp^Lunge~# Property.\n\nIf you have the Extra Attack feature and you are only wielding a single Bo Staff, this weapon's ~wp^Double~# property benefits from extra attack when you use it, as well as on opportunity attacks."
   },
   {
-    "name": "Dagger",
-    "cost": {
+    "Name": "Dagger",
+    "Cost": {
       "amount": 2,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Piercing",
         "Slashing"
       ],
       "inclusive": false
     },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light",
-      "Thrown (20/60)"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "You can use a bonus action to make an attack with a dagger, even if you don't take the attack action."
+    "Weight": 2,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Finesse~#",
+      "~wp^Light~#",
+      "~wp^Finesse~# (20/60)"
+    ],
+    "Special": "N/A",
+    "Mastery": "You can use a bonus action to make an attack with a dagger, even if you don't take the attack action."
   },
   {
-    "name": "Flanged Mace",
-    "cost": {
+    "Name": "Flanged Mace",
+    "Cost": {
       "amount": 5,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
       "types": [
         "Bludgeoning",
         "Piercing"
       ],
       "inclusive": true
     },
-    "weight": 4,
-    "weapon_group": "Bludgeons",
-    "properties": [],
-    "special": "N/A",
-    "mastery": "Flanged maces do 2d4 damage for you.If you roll 5 over the AC of an enemy , you reduce their AC by 2 until it finishes a short or long rest.A creature may only be subject to this effect once."
+    "Range": [
+      5
+    ],
+    "Weight": 4,
+    "Weapon Group": "Bludgeon",
+    "Properties": [],
+    "Special": "N/A",
+    "Mastery": "Flanged maces do 2d4 damage for you.\n\nIf you roll 5 over the AC of an enemy , you reduce their AC by 2 until it finishes a short or long rest.\nA creature may only be subject to this effect once."
   },
   {
-    "name": "Gauntlet",
-    "cost": {
+    "Name": "Gauntlet",
+    "Cost": {
       "amount": 10,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Bludgeoning",
         "Slashing",
@@ -177,4111 +144,2031 @@
       ],
       "inclusive": false
     },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [],
-    "special": "N/A",
-    "mastery": "Gauntlets gain the Light property for you.When you are hit with a melee attack, as a reaction before the damage, you can attempt a Disarm attack.If you disarm the enemy, you take no damage and come into possession of the weapon."
+    "Range": [
+      5
+    ],
+    "Weight": 1,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [],
+    "Special": "N/A",
+    "Mastery": "Gauntlets gain the ~wp^~wp^Light~#~# property for you.When you are hit with a melee attack, as a reaction before the damage, you can attempt a Disarm attack.If you disarm the enemy, you take no damage and come into possession of the weapon."
   },
   {
-    "name": "Greatclub",
-    "cost": {
+    "Name": "Greatclub",
+    "Cost": {
       "amount": 2,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 8,
       "types": [
         "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 8,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Two-Handed",
-      "Disarm",
-      "Heavy"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "You deal 1d10 damage with a greatclub and it gains the Deflect property.If you are successful in a disarm attempt, the enemy subtracts 1d4 for all damage rolls with that weapon until they take a short or long rest to repair it."
+    "Weight": 8,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "Two-Handed",
+      "~wp^Disarm~#",
+      "~wp^Heavy~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "You deal 1d10 damage with a greatclub and it gains the Deflect property.If you are successful in a disarm attempt, the enemy subtracts 1d4 for all damage rolls with that weapon until they take a short or long rest to repair it."
   },
   {
-    "name": "Handaxe",
-    "cost": {
+    "Name": "Handaxe",
+    "Cost": {
       "amount": 5,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
       "types": [
         "Slashing"
       ],
       "inclusive": false
     },
-    "weight": 2,
-    "weapon_group": "Axes",
-    "properties": [
-      "Thrown (20/60)",
-      "Light",
-      "Trip"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Handaxes gain the Disarm property for you. You have advantage on Disarm attacks."
+    "Weight": 2,
+    "Weapon Group": "Axes",
+    "Properties": [
+      "~wp^Finesse~# (20/60)",
+      "~wp^Light~#",
+      "~wp^Trip~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Handaxes gain the Disarm property for you. You have advantage on Disarm attacks."
   },
   {
-    "name": "Heavy Club",
-    "cost": {
+    "Name": "Heavy Club",
+    "Cost": {
       "amount": 1,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
       "types": [
         "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 3,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Thrown (10/30)"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Heavy clubs deal 1d8 damage.If you roll 5 over the target´s AC, your enemy has disadvantage to all attacks and ability checks until the end of its next turn."
+    "Weight": 3,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Finesse~# (10/30)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Heavy clubs deal 1d8 damage.If you roll 5 over the target´s AC, your enemy has disadvantage to all attacks and ability checks until the end of its next turn."
   },
   {
-    "name": "Interceptor",
-    "cost": {
+    "Name": "Interceptor",
+    "Cost": {
       "amount": 1,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 0,
-      "die": 0
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 0,
       "types": [],
       "inclusive": false
     },
-    "weight": 0.5,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Special",
-      "Finesse",
-      "Light",
-      "Deflect",
-      "Entangle",
-      "Trip",
-      "Disarm"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Your Deflect can be used against ranged weapon attacks for 1d8.When a creature you can see attacks a target within 5 ft of you, you can use your reaction to impose disadvantage."
+    "Weight": 0.5,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [
+      "Special",
+      "~wp^Finesse~#",
+      "~wp^Light~#",
+      "Deflect",
+      "~wp^Entangle~#",
+      "~wp^Trip~#",
+      "~wp^Disarm~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Your Deflect can be used against ranged weapon attacks for 1d8.When a creature you can see attacks a target within 5 ft of you, you can use your reaction to impose disadvantage."
   },
   {
-    "name": "Javelin",
-    "cost": {
+    "Name": "Javelin",
+    "Cost": {
       "amount": 1,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 6,
       "types": [
         "Piercing"
       ],
       "inclusive": false
     },
-    "weight": 1,
-    "weapon_group": "Spear",
-    "properties": [
-      "Special",
-      "Thrown (30/120)"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Javelins deal 1d8 damage for you and gain the Light property.If you score 5 over the enemy´s AC, the target suffers a -2 AC penalty.On its turn an enemy can use an action to succeed on a Strength check to pry the javelin free, destroying it in the process."
+    "Weight": 1,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "Special",
+      "~wp^Finesse~# (30/120)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Javelins deal 1d8 damage for you and gain the ~wp^Light~# property.If you score 5 over the enemy´s AC, the target suffers a -2 AC penalty.On its turn an enemy can use an action to succeed on a Strength check to pry the javelin free, destroying it in the process."
   },
   {
-    "name": "Kama",
-    "cost": {
+    "Name": "Kama",
+    "Cost": {
       "amount": 2,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Piercing",
         "Slashing"
       ],
       "inclusive": true
     },
-    "weight": 1,
-    "weapon_group": "Axe Prowess",
-    "properties": [
-      "Finesse",
-      "Light",
-      "Thrown (20/60)"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "You deal 1d6 damage with a Kama and it gains the Entangle property.If you score a critical hit with a kama, add an additional dice to the damage.If you are wielding two kamas, you may add two dice instead."
+    "Weight": 1,
+    "Weapon Group": "Axe Prowess",
+    "Properties": [
+      "~wp^Finesse~#",
+      "~wp^Light~#",
+      "~wp^Finesse~# (20/60)"
+    ],
+    "Special": "N/A",
+    "Mastery": "You deal 1d6 damage with a Kama and it gains the ~wp^Entangle~# property.If you score a critical hit with a kama, add an additional dice to the damage.If you are wielding two kamas, you may add two dice instead."
   },
   {
-    "name": "Kunai",
-    "cost": {
+    "Name": "Kunai",
+    "Cost": {
       "amount": 1,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Piercing"
       ],
       "inclusive": false
     },
-    "weight": 0.5,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light",
-      "Thrown (20/60)"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Your thrown range becomes 30/90 and gains the Deflect Property .You can use Deflect against ranged attacks, and for any creature of your choice within your normal range."
+    "Weight": 0.5,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [
+      "~wp^Finesse~# (30/120)",
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Kunai deal 1d6 damage for you.If you hit an enemy with a kunai, you impose disadvantage on its next saving throw against a spell or magical effect until the end of its next turn."
   },
   {
-    "name": "Light Club",
-    "cost": {
+    "Name": "~wp^Light~# Club",
+    "Cost": {
       "amount": 1,
       "currency": "sp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 2,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Conceal",
-      "Thrown (20/60)",
-      "Finesse",
-      "Light"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Light clubs deal 1d6 damage for you.If you score 5 over the enemy's AC on your attack, it gains disadvantage on its next strength, dexterity or wisdom saving throw before the end of his next turn."
+    "Weight": 2,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Finesse~# (20/60)",
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "~wp^Light~# clubs deal 1d6 damage for you.If you score 5 over the enemy's AC on your attack, it gains disadvantage on its next strength, dexterity or wisdom saving throw before the end of his next turn."
   },
   {
-    "name": "Light Flail",
-    "cost": {
+    "Name": "Light Flail",
+    "Cost": {
       "amount": 8,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
     },
-    "double": "N/A",
-    "range": [
+    "Range": [
       5
     ],
-    "damage_types": {
+    "Weight": 2,
+    "Weapon Group": "Flail",
+    "Properties": [
+      "~wp^Disarm~#",
+      "~wp^Trip~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Light flails gain the Light property for you.If you score a critical hit, the enemy must succeed on a Strength saving throw against your Weapon DC or be knocked prone."
+  },
+  {
+    "Name": "Light Hammer",
+    "Cost": {
+      "amount": 2,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Hammer",
+    "Properties": [
+      "~wp^Finesse~# (20/60)",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Light hammers deal 1d6 damage for you.You can attempt a shove as a bonus action.Any successful shove attempt also deals damage equal to your strength modifier."
+  },
+  {
+    "Name": "Light Pick",
+    "Cost": {
+      "amount": 1,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
       "types": [
         "Bludgeoning",
         "Piercing"
       ],
       "inclusive": true
     },
-    "weight": 3,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Disarm",
-      "Light",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "If you miss with an attack, you may reroll and take the new result."
-  },
-  {
-    "name": "Light Hammer",
-    "cost": {
-      "amount": 2,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
+    "Range": [
       5
     ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Thrown (20/60)",
-      "Light"
+    "Weight": 2,
+    "Weapon Group": "Hammer and Pick",
+    "Properties": [
+      "~wp^Finesse~# (20/60)",
+      "~wp^Light~#"
     ],
-    "special": "N/A",
-    "mastery": "When you hit an enemy wearing armor it has a 1d4 penalty to its next strength, dexterity or wisdom saving throw before the end of his next turn.If you have advantage on the attack, the penalty becomes 2d4 on a hit."
+    "Special": "N/A",
+    "Mastery": "You may attempt a shove as a bonus action.Any successful shove attempt also deals damage equal to your strength modifier."
   },
   {
-    "name": "Light Pick",
-    "cost": {
-      "amount": 2,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Thrown (20/60)",
-      "Finesse",
-      "Light",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Light picks deal 2d4 damage for you.When you have advantage on your attack and roll maximum damage on your die you may add an additional die to the damage total.This can repeat for as long as the criteria are met with any damage die that deals piercing damage in the same attack."
-  },
-  {
-    "name": "Mallet",
-    "cost": {
-      "amount": 3,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Thrown (20/60)",
-      "Disarm"
-    ],
-    "special": "N/A",
-    "mastery": "You may attempt a shove as a bonus action.Any successful shove attempt also deals damage equal to your strength modifier."
-  },
-  {
-    "name": "Mancatcher",
-    "cost": {
+    "Name": "Mancatcher",
+    "Cost": {
       "amount": 1,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Bludgeoning",
         "Piercing"
       ],
       "inclusive": true
     },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Disarm",
-      "Entangle",
-      "Reach",
-      "Trip",
-      "Two-Handed"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "You have advantage on Disarm and Trip attacks against creatures of the same size as you or smaller.Any successful hit damages, entangles and trips or disarms (your choice)."
+    "Weight": 3,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Finesse~# (20/60)",
+      "~wp^Disarm~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "You may attempt a shove as a bonus action.Any successful shove attempt also deals damage equal to your strength modifier."
   },
   {
-    "name": "Punch Dagger",
-    "cost": {
-      "amount": 1,
+    "Name": "Morningstar",
+    "Cost": {
+      "amount": 15,
       "currency": "gp"
     },
-    "type": {
+    "Type": {
       "training": "Simple",
-      "type": "Melee"
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "You have advantage on attacks made outside of your turn.If this weapon is off-hand, you can make an opportunity attack with both weapons."
-  },
-  {
-    "name": "Quarterstaff",
-    "cost": {
-      "amount": 5,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": {
-      "num_die": 1,
-      "die": 4
-    },
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Double (1d4)",
-      "Reach",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "You gain +1 AC while wielding a Quarterstaff.Additionally, you can use this weapon´s double property further than 5ft away."
-  },
-  {
-    "name": "Sickle",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Light",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Sickles deal 1d6 damage for you and gain the entangle property.Your Entangle and Trip attacks do damage. If you succeed on a trip or entangle,your enemy's speed is reduced by 10 feet until it heals at least as many hit points as it had taken from the attack.This speed reduction does not stack."
-  },
-  {
-    "name": "Side Baton",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Deflect",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Side Batons gain the Trip property for you.Your deflect roll is 3d6, rather than 1d6."
-  },
-  {
-    "name": "Spear",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Thrown (20/60)",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "Spears gain the Brace property for you.When an adjacent ally hits a creature adjacent to you with a melee attack, you may use your reaction to make an melee attack against the enemy."
-  },
-  {
-    "name": "Stiletto",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Stilettos gain the Entangle property for you.You gain advantage on attacks with any weapon against creatures you entangle with a stiletto."
-  },
-  {
-    "name": "Dart",
-    "cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      30,
-      60
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 0.25,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Thrown (30/60)",
-      "finesse",
-      "light"
-    ],
-    "special": "N/A",
-    "mastery": "The range of Darts become 60/120 for you and Darts thrown by you deal 1d6 damage.Additionally, darts gain the Entangle property for you."
-  },
-  {
-    "name": "Light crossbow",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 40,
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      80,
-      320
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 5,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (range 80/320)",
-      "loading",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "As a reaction, you can make an attack against a creature that comes within or leaves 10ft of you"
-  },
-  {
-    "name": "Repeating crossbow",
-    "cost": {
-      "amount": 150,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 40,
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      60,
-      180
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 6,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (range 60/180)",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "You can reload a repeating crossbow for free if you do not move during your turn.If you take the Attack action on your turn, you can take another Attack action with this weapon on your turn.You can use this action only if you haven't moved during this turn, and after you use the action, your speed is 0 until the end of the current turn."
-  },
-  {
-    "name": "Shortbow",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      80,
-      320
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (range 80/320)",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Shortbows deal 1d8 damage for you.You can use a bonus action to make an attack with a shortbow, even if you don't take the attack action."
-  },
-  {
-    "name": "Sling",
-    "cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      30,
-      120
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 0,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (30/120)",
-      "conceal"
-    ],
-    "special": "N/A",
-    "mastery": "Slings do 1d6 damage for you.You may roll a melee attack with a loaded sling that can still benefit from an overdraw.A successful melee attack still consumes a piece of ammunition, and the sling must be loaded in order to make a melee attack."
-  },
-  {
-    "name": "Sling Staff",
-    "cost": {
-      "amount": 6,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      150,
-      600
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 2.1,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (150/600)",
-      "Heavy",
-      "Special",
-      "Two Handed"
-    ],
-    "special": "You may use this weapon as a melee weapon with the Two Handed, Entangle and Disarm properties.",
-    "mastery": "You may add your Strength modifier to the ranged damage rolls of this weapon.When using sling staffs as a melee weapon, any entangle attack still deals its full damage."
-  },
-  {
-    "name": "Throwing knife",
-    "cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      20,
-      60
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 0.25,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Thrown (20/60)",
-      "conceal",
-      "finesse",
-      "light"
-    ],
-    "special": "N/A",
-    "mastery": "Your range for throwing knives becomes (40/120).You can choose to deal only your Strength or Dexterity modifier in damage, but force your target to succeed on a Dexterity saving throw or lose its reaction and suffer disadvantage on its next attack."
-  },
-  {
-    "name": "Throwing star",
-    "cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Simple",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      20,
-      60
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 0.25,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Thrown (20/60)",
-      "conceal",
-      "finesse",
-      "light"
-    ],
-    "special": "N/A",
-    "mastery": "Your range for throwing stars becomes (40/120).As an action, you can make a single attack against all targets of your choice within 20 ft of you.You must have enough throwing stars to attack each target."
-  },
-  {
-    "name": "Bastard Sword",
-    "cost": {
-      "amount": 40,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 4,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Two-Handed",
-      "Heavy"
-    ],
-    "special": "N/A",
-    "mastery": "You may wield a Bastard sword with a single hand and it gains the Versatile property.Your critical hit range is 19-20 and while wielding with two hands your critical hit range is 18-20.Additionally, your attacks cannot be deflected."
-  },
-  {
-    "name": "Battle Axe",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 4,
-    "weapon_group": "Axes",
-    "properties": [
-      "Trip",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "Your attacks now deal 2d6.When you roll maximum damage on your die you may add an additional die to the damage total.This can continue as long as the criteria are met"
-  },
-  {
-    "name": "Broadsword",
-    "cost": {
-      "amount": 20,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 3,
-    "weapon_group": "Combat Blades",
-    "properties": [],
-    "special": "N/A",
-    "mastery": "You deal 3d4 damage with broadswords.On your turn, when you score a critical hit or reduce a target to 0 hit points with a broadsword, you can immediately make another attack as part of the same action, as long as it is within the weapon´s reach.This effect can happen multiple times as long as the criteria are met."
-  },
-  {
-    "name": "Chakram",
-    "cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 10,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Finesse",
-      "Light",
-      "Thrown (40/120)"
-    ],
-    "special": "Every time you make a ranged attack you may make a DC10 Athletics or Acrobatics check.If you succeed, the weapon returns to you.",
-    "mastery": "Chakrams deal 1d6 damage when you wield them.If a creature attacks you with a ranged or melee attack, you can use your reaction to make a ranged or melee attack against that creature."
-  },
-  {
-    "name": "Cutlass",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 2.5,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse",
-      "Deflect"
-    ],
-    "special": "N/A",
-    "mastery": "Cutlasses deal 1d8 damage when you wield them.On your turn, when you score a critical hit or reduce a target to 0 hit points with a cutlass, you can immediatly make another attack as part of the same action, as long as it is within the weapon´s reach.This effect can happen multiple times as long as the criteria are met."
-  },
-  {
-    "name": "Double Flail",
-    "cost": {
-      "amount": 20,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning",
-        "Piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 7,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Heavy",
-      "Trip",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "When you suffer disadvantage but one dice would have hit, you deal 1 of the weapon's damage dice plus your strength modifier, but this still counts as a miss.If you have advantage and both dice hit, add your ability modifier twice."
-  },
-  {
-    "name": "Estoc",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Two-Handed",
-      "Brace",
-      "Finesse"
-    ],
-    "special": "N/A",
-    "mastery": "Estocs gain the Lunge Property for you.As a bonus action, you can make an attack with this weapon, even if you haven't used the attack action or held your action."
-  },
-  {
-    "name": "Falchion",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 4,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Disarm",
-      "Heavy",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You may wield a Falchion with a single hand and it gains the Versatile property.When you score 5 over the target´s AC,it is considered a critical hit."
-  },
-  {
-    "name": "Flamberge",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Deflect",
-      "Finesse",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Flamberges do 3d4 damage for you.If you roll 5 over the AC of an enemy that can bleed , it takes the weapon's damage at the start of every one of their turns until it succeeds on a Constitution Saving Throw against your Weapon DC at the end of their turn, receive healing or aid from a healer's kit."
-  },
-  {
-    "name": "Glaive",
-    "cost": {
-      "amount": 20,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing",
-        "Piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Brace",
-      "Finesse",
-      "Heavy",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 1d12 damage with a glaive.You instead deal 2d12 damage against creatures of Large category or larger with a glaive."
-  },
-  {
-    "name": "Godendag",
-    "cost": {
-      "amount": 2,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
+      "die": 8,
       "types": [
         "Piercing",
         "Bludgeoning"
       ],
       "inclusive": true
     },
-    "weight": 5,
-    "weapon_group": "Spear",
-    "properties": [
-      "Thrown (20/60)",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Godendags have the Disarm property.If your attack roll is 5 over the target´s AC, the next attack against this target gains advantage."
-  },
-  {
-    "name": "Greataxe",
-    "cost": {
-      "amount": 30,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
+    "Range": [
       5
     ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 6,
-    "weapon_group": "Axes",
-    "properties": [
-      "Heavy",
-      "Two-Handed"
+    "Weight": 4,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Disarm~#"
     ],
-    "special": "N/A",
-    "mastery": "Greataxes deal 2d8 damage for you.When you attack with axe prowess, you take the normal -5 to attack, but if you hit, you triple your weapon damage (2d8+str) instead of adding +10."
+    "Special": "N/A",
+    "Mastery": "Morningstars deal 1d10 damage for you and gain the ~wp^Deflect~# property.If you roll 5 over the AC of an enemy, it gains disadvantage on melee attacks until the end of its next turn."
   },
   {
-    "name": "Greatsword",
-    "cost": {
-      "amount": 50,
+    "Name": "Net",
+    "Cost": {
+      "amount": 4,
       "currency": "gp"
     },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Heavy",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 2d10 Damage with a greatsword, and your attacks cannot be deflected."
-  },
-  {
-    "name": "Guisarme",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 5,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Brace",
-      "Reach",
-      "Trip",
-      "Heavy",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 1d12 damage with a guisarme.You have advantage on trip attacks made to targets not adjacent to you.If you hit a mounted foe with a trip attack, it is automatically pulled from its mount to a prone position without making any additional saves."
-  },
-  {
-    "name": "Halberd",
-    "cost": {
-      "amount": 35,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 7,
-    "weapon_group": "Axes",
-    "properties": [
-      "Brace",
-      "Heavy",
-      "Reach",
-      "Two-Handed",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 2d6 damage with a Halberd and it gains the Entangle property.You may entangle, but not trip, foes up to two sizes larger than you, and you have advantage on this attack."
-  },
-  {
-    "name": "Harpoon",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Thrown (20/60)",
-      "Special"
-    ],
-    "special": "Each hit, your enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales.",
-    "mastery": "Your weapon range becomes (30/120) You may drag an enemy back to you as a bonus action and when you drag them back you drag them 30ft."
-  },
-  {
-    "name": "Heavy Flail",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Bludgeoning",
-        "Piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Heavy",
-      "Trip",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "Heavy flails deal 1d10 damage for you and gain the Disarm property.if your target successfully saves against your weapon DC, you can make a weapon attack as part of the same action.This additional attack must be a normal weapon attack, and cannot be a property attack forcing another saving throw."
-  },
-  {
-    "name": "Hidden Blade",
-    "cost": {
-      "amount": 50,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light",
-      "Special"
-    ],
-    "special": "The hand this weapon is equipped to is open allowing it to wield a weapon, shield, grapple, or perform somatic components for a spell.However, you can’t wield a weapon or shield and also use the hidden blade from the same hand.This weapon cannot be disarmed but takes an action to equip or remove.",
-    "mastery": "Any hit against a surprised creature takes maximum dice rolls from this weapon and any modifiers, instead of rolling for the damage."
-  },
-  {
-    "name": "Hollow Lance",
-    "cost": {
-      "amount": 15,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 12,
-    "weapon_group": "Spear",
-    "properties": [
-      "Brace",
-      "Reach (25 ft)",
-      "Special"
-    ],
-    "special": "You have disadvantage when you use a lance to Attack a target within 20 feet of you, and you cannot attack a target within a shorter distance.A lance requires two hands to wield when you aren’t mounted",
-    "mastery": "When mounted, successful attacks shove and damage.Additionally when mounted, you gain advantage in the athletics contest to shove."
-  },
-  {
-    "name": "Hook Sword",
-    "cost": {
-      "amount": 6,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Axe Prowess",
-    "properties": [
-      "Disarm",
-      "Finesse",
-      "Trip"
-    ],
-    "special": "As an object interaction, you can hook or unhook two hook swords.Hooked together, the weapons lose Light and gain Reach and Versatile , and count as one weapon",
-    "mastery": "Hook swords gains the Light, Lunge and Entangle properties for you.When you are hit with a melee weapon attack, you can use your reaction to roll an attack to Entangle or Disarm that enemy.The damage from the enemy's attack resolves before the enemy is disarmed."
-  },
-  {
-    "name": "Katana",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 2,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Deflect",
-      "Finesse",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 1d8 damage with a Katana and it gains the Light property.Your deflect dice is 2d10 if you use this weapon with two hands."
-  },
-  {
-    "name": "Katar",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "You deal 1d6 damage with a Katar.When you score 5 above the target's AC ,you can make one additional attack as part of this same action.If dual wielding katars, the offhand attacks also activate this ability."
-  },
-  {
-    "name": "Khopesh",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 3,
-    "weapon_group": "Axes",
-    "properties": [
-      "Disarm",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Your Trip attacks are made with advantage .If you hit with a Trip attack, your enemy's speed is reduced by 10ft until the end of their next turn.While they have this penalty, they suffer disadvantage to Strength saving throws."
-  },
-  {
-    "name": "Knuckle Axe",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Deflect",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "On your turn, when you score a critical hit or reduce a target to 0 hit points with a knuckle axe, you can make another attack as part of the same action, as long as it is within the weapon´s reach.Your normal attacks must be used first, and the subsequent attacks must be within the original reach of the weapon, but this effect can happen multiple times as long as the criteria are met."
-  },
-  {
-    "name": "Kukri",
-    "cost": {
-      "amount": 3,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Disarm",
-      "Finesse",
-      "Light",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": " You deal damage on Disarm and Trip attacks. When you hit with a Disarm attack, your target has disadvantage on Attack rolls until the end of its next turn. When you hit with a Trip attack, its speed is reduced by 10ft instead."
-  },
-  {
-    "name": "Kusarigama",
-    "cost": {
-      "amount": 30,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing",
-        "Piercing",
-        "Bludgeoning"
-      ],
-      "inclusive": true
-    },
-    "weight": 4,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Double",
-      "Entangle",
-      "Finesse",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Your main and Double attacks deal 1d8 damage now.If you hit with a main and Double attack on the same target on the same turn, you can move your target 5 ft in a direction of your choosing."
-  },
-  {
-    "name": "Lajatang",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": {
-      "num_die": 1,
-      "die": 6
-    },
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Slashing",
-        "Piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 8,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Double (1d6)",
-      "Brace",
-      "Finesse",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Lajatags deal 1d8 damage for both ends for you.You negate any bonus any enemy might have on you from flanking or having an ally near you, including bonuses such as Pack Tactics or Sneak Attack.You may use the Double property twice, but the 2nd attack must hit a different creature than the 1st."
-  },
-  {
-    "name": "Lance",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 6,
-    "weapon_group": "Spear",
-    "properties": [
-      "Brace",
-      "Reach",
-      "Special"
-    ],
-    "special": "You have disadvantage when you use a lance to Attack a target within 5 feet of you.Also, a lance requires two hands to wield when you aren’t mounted.",
-    "mastery": "When mounted, successful attacks shove and damage.Additionally when mounted, you gain advantage in the athletics contest to shove."
-  },
-  {
-    "name": "Longsword",
-    "cost": {
-      "amount": 15,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "Piercing",
-        "Slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 3,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Finesse",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "Your critical hit range is 19-20 and while wielding with two hands your critical hit range is 18-20.Additionally, Longswords gain the Disarm and Lunge Properties for you."
-  },
-  {
-    "name": "Lucerne",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "bludgeoning"
-      ],
-      "inclusive": true
-    },
-    "weight": 8,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Brace",
-      "Heavy",
-      "Reach",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Lucernes deal 1d12 damage for you.Against enemies wearing medium or heavy armor, you double your proficiency bonus for the attack roll."
-  },
-  {
-    "name": "Maul",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 12,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Heavy",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Mauls deal 2d8 damage for you.When you roll 5 over the target´s AC that is not more than one size larger than you, you may send them flying 10ft in any direction of your choosing, after which they fall prone."
-  },
-  {
-    "name": "Meteor Hammer",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 5,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Entangle",
-      "Finesse",
-      "Lunge",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Meteor Hammers gain the Disarm property for you.As a reaction you can enter a readied stance. Until the start of your next turn, you can make an attack of opportunity against any creature that enters your reach, and doing so does not use your reaction."
-  },
-  {
-    "name": "Montante",
-    "cost": {
-      "amount": 75,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Heavy",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "On your turn, you can use your reaction to enter a protective stance.Until the start of your next turn, all attacks against allies within your reach suffer disadvantage.Also, Montantes deal 2d8 damage for you."
-  },
-  {
-    "name": "Morningstar",
-    "cost": {
-      "amount": 15,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "bludgeoning"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Bludgeons",
-    "properties": [
-      "Heavy",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Before you roll an attack, you can take -5 to the roll.On hit, you reduce the enemy's AC by your strength modifier.A creature can be affected by this effect only once."
-  },
-  {
-    "name": "Naginata",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Finesse",
-      "Reach",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You gain the Deflect and Lunge properties with naginatas, and you may add your proficiency bonus to deflect rolls."
-  },
-  {
-    "name": "Nunchaku",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": {
-      "num_die": 1,
-      "die": 4
-    },
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Conceal",
-      "Deflect",
-      "Double (1d4)",
-      "Entangle",
-      "Finesse"
-    ],
-    "special": "N/A",
-    "mastery": "Nunchaku gain the Light and Disarm properties for you.If you are wielding a single Nunchaku, you may make an additional attack to your Double attack."
-  },
-  {
-    "name": "Odachi",
-    "cost": {
-      "amount": 50,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 5,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Heavy",
-      "Two-Handed",
-      "Deflect"
-    ],
-    "special": "N/A",
-    "mastery": "Odachis deal 2d6 Damage for you.When you Deflect , you may also use the deflect as a weapon attack against the attacker, as long as it is within the odachi's reach."
-  },
-  {
-    "name": "Partisan",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 6,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Brace",
-      "Reach",
-      "Heavy",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "You have +2AC against melee attacks from enemies that are 10ft away from you.When an enemy lands an attack on an ally within your range, you can use your reaction to force the enemy to reroll the attack."
-  },
-  {
-    "name": "Pike",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 8,
-    "weapon_group": "Spear",
-    "properties": [
-      "Brace",
-      "Heavy",
-      "Reach (15 ft)",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Pikes deal 1d12 damage for you.No creature can benefit from half cover while at reach.You still benefit from half cover when you have a creature between you and an attacking creature.Additionally, if you hit with an attack on a target more than 5ft away, it cannot move closer to you until the end of its next turn."
-  },
-  {
-    "name": "Pole Flail",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 6,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Heavy",
-      "Reach",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Pole flails have the Entangle for you.As an action you may perform a sweep attack at all squares adjacent to you.Roll one attack for all targets."
-  },
-  {
-    "name": "Poleaxe",
-    "cost": {
-      "amount": 40,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning",
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 7,
-    "weapon_group": "Axes",
-    "properties": [
-      "Brace",
-      "Deflect",
-      "Heavy",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Poleaxes do 2d6 damage for you.While wielding a poleaxe, you gain +1 AC."
-  },
-  {
-    "name": "Rapier",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse",
-      "Lunge"
-    ],
-    "special": "N/A",
-    "mastery": "Rapiers gain the Deflect property for you.You may wield a light weapon in your off-hand and engage in two-weapon fighting as though your rapier had the light property.Your off hand weapon may not be another rapier. If you are wielding a rapier and nothing in your off hand, you can add 1d4 to your damage roll.If you are wielding a light weapon, instead add +1 to AC."
-  },
-  {
-    "name": "Ravenbeak",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Brace",
-      "Entangle",
-      "Heavy",
-      "Reach",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "Ravenbeaks gain the Disarm property for you.While at reach, you ignore AC bonuses granted by shields. Additionally, you deal damage on a successful disarm."
-  },
-  {
-    "name": "Saber",
-    "cost": {
-      "amount": 35,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse"
-    ],
-    "special": "N/A",
-    "mastery": "Sabers gain the Deflect and Light properties for you.If wielding a single saber, you can add d4 to your Deflect rolls.While wielding two sabers, if you reduce an enemy's damage to 0, you gain the use of your reaction back."
-  },
-  {
-    "name": "Sai",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Conceal",
-      "Deflect",
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Sai have the Disarm property for you.You gain +1 AC if you are wielding a Sai in your off hand.If an enemy misses you with a melee attack, as a reaction you can force them to succeed on a Strength or Dexterity saving throw or drop the weapon."
-  },
-  {
-    "name": "Scimitar",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2.5,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Scimitars deal 1d8 damage and have the Deflect property for you.When you choose to deflect, you may roll twice and take the better result.Additionally, while mounted, your weapon deals 2d8 slashing damage instead."
-  },
-  {
-    "name": "Scourge",
-    "cost": {
-      "amount": 3,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2.5,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Disarm",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Scourges have the Entangle and Lunge properties for you.If you roll 5 over the AC of an enemy that can bleed ,it takes the weapon's damage at the start of every one of their turns until it succeeds on a Constitution Saving Throw against your Weapon DC at the end of their turn, receive healing or aid from a healer's kit."
-  },
-  {
-    "name": "Short Glaive",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 4,
-    "weapon_group": "Combat Blades",
-    "properties": [
-      "Finesse",
-      "Lunge",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "When a creature misses you with an attack, it provokes an opportunity attack from you.If you move at least 20 feet in a straight line and use the attack action at the end of it, you may do one extra attack with a short glaive."
-  },
-  {
-    "name": "Shortsword",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 2,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Shortswords deal 1d8 damage for you.When you have advantage on the attack, shortswords deal 2d8 damage for you."
-  },
-  {
-    "name": "Smallsword",
-    "cost": {
-      "amount": 30,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Smallswords gain the Lunge property for you .On your turn, if you take the attack action you can roll an athletics or acrobatics check against 15 or half the enemy´s AC, whichever is higher.On a success, you double your proficiency bonus on attack rolls towards that target until the start of its turn."
-  },
-  {
-    "name": "Swordbreaker",
-    "cost": {
-      "amount": 50,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Finesse",
-      "Light",
-      "Deflect",
-      "Disarm"
-    ],
-    "special": "N/A",
-    "mastery": "When you Deflect, you can also force your enemy to succeed on your choice of a Strength or Dexterity saving throw or be disarmed.If your Disarm attack die rolls a 4, when your enemy fails the saving throw, the mundane weapon is broken and unusable."
-  },
-  {
-    "name": "Tanto",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Finesse",
-      "Light"
-    ],
-    "special": "N/A",
-    "mastery": "Tantos gain the Deflect and Versatile properties for you.If you are attacked or disarmed from your weapon, you may freely draw it from its scabbard beforehand."
-  },
-  {
-    "name": "Tomahawk",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing",
-        "piercing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Axes",
-    "properties": [
-      "Thrown (40/120)",
-      "Finesse",
-      "Light",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Tomahawks gain the Disarm property for you.If you successfully trip or disarm you may use your reaction to make an additional attack against that enemy."
-  },
-  {
-    "name": "Trident",
-    "cost": {
-      "amount": 40,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Thrown (20/60)",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "Tridents deal 1d10 damage for you. They also gain the Disarm property.If an enemy misses you with a melee weapon attack, you may use your reaction to attempt a disarm attack."
-  },
-  {
-    "name": "Wall Pick",
-    "cost": {
-      "amount": 3,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Thrown (20/60)",
-      "Entangle",
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "Wall picks deal 1d8 damage for you and have the Light property.Every successful hit Entangles and does damage."
-  },
-  {
-    "name": "War Hammer",
-    "cost": {
-      "amount": 15,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "War hammers deal 1d10 damage for you.If you move at least 10ft in a straight line before your attack, a successful hit on an enemy wearing medium or heavy armor will reduce the enemy´s AC by 2 if it is one handed, or 3 if it is a two handed attack until it is mended.A creature can be affected by this effect only once."
-  },
-  {
-    "name": "War Pick",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Hammer and Pick",
-    "properties": [
-      "Trip"
-    ],
-    "special": "N/A",
-    "mastery": "War picks deal 1d10 damage for you.When you score 5 over the target´s AC,it is considered a critical hit."
-  },
-  {
-    "name": "War Scythe",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 8,
-    "weapon_group": "Polearm",
-    "properties": [
-      "Heavy",
-      "Entangle",
-      "Reach",
-      "Trip",
-      "Two-Handed"
-    ],
-    "special": "N/A",
-    "mastery": "War scythes deal 2d6 damage for you.When you successfully trip an enemy, that enemy takes damage equal to your ability modifier and has its speed reduced by 10ft until it heals at least as many hit points as it had taken from the trip.This speed reduction does not stack."
-  },
-  {
-    "name": "War Spear",
-    "cost": {
-      "amount": 25,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": {
-      "num_die": 1,
-      "die": 4
-    },
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Spear",
-    "properties": [
-      "Thrown (20/60)",
-      "Double (1d4)",
-      "Brace",
-      "Finesse",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "War spears deal an additional 1d4 damage for you when you wield them with two hands, and when wielding them with one hand, you may still apply the damage bonus from Versatile to the Double attack .Additionally, the range of the war spear's thrown property becomes (30/120)."
-  },
-  {
-    "name": "War Fan",
-    "cost": {
-      "amount": 10,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Light",
-      "Finesse",
-      "Deflect"
-    ],
-    "special": "N/A",
-    "mastery": "While unfolded, your Deflect can be used against ranged attacks with Deflect 2d4.While folded, your war fan deals 2d4 damage"
-  },
-  {
-    "name": "Wakizashi",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1.5,
-    "weapon_group": "Dueling Blade",
-    "properties": [
-      "Light",
-      "Finesse",
-      "Deflect",
-      "Versatile"
-    ],
-    "special": "N/A",
-    "mastery": "While wielding a Wakizashi with one hand, you can add your proficiency bonus to Deflect rolls.While wielding with two hands, your Deflect becomes 2d8."
-  },
-  {
-    "name": "Whip",
-    "cost": {
-      "amount": 2,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "slashing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Flail and Whip",
-    "properties": [
-      "Disarm",
-      "Finesse",
-      "Reach (15 ft)"
-    ],
-    "special": "N/A",
-    "mastery": "Whips gain the Trip property for you.When you disarm any creature, you may to place the item anywhere within your reach or to use your reaction to catch it.You may also attempt to move unattended objects within your reach by targeting an AC of 10."
-  },
-  {
-    "name": "Whip Dagger",
-    "cost": {
-      "amount": 15,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Melee"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      5
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Ambush Weapons",
-    "properties": [
-      "Conceal",
-      "Entangle",
-      "Finesse",
-      "Reach"
-    ],
-    "special": "N/A",
-    "mastery": "Whip daggers gain the Lunge property for you.On hit, your entangle deals damage, and you can choose to force the enemy to succeed on a Strength saving throw or be pulled up to 10ft toward you."
-  },
-  {
-    "name": "Bladed bow",
-    "cost": {
-      "amount": 100,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      80,
-      320
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 5,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (80/320)",
-      "heavy",
-      "special",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Bladed Bows deal 1d8 damage for you.When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
-  },
-  {
-    "name": "Blowgun",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 100,
-    "damage": {
-      "num_die": 1,
-      "die": 2
-    },
-    "double": "N/A",
-    "range": [
-      25,
-      100
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (25/100)",
-      "Conceal",
-      "Special"
-    ],
-    "special": "N/A",
-    "mastery": "Your range increases to  50/100 and it gains the Light property for you.You can load two darts. Roll two attacks at the same target or at a different target within 5ft of the original.Each dart deals 1d2 damage and applies their effect to the target, but you can only do this at your normal range."
-  },
-  {
-    "name": "Bolas",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      20,
-      30
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Entangle",
-      "thrown (20,30)"
-    ],
-    "special": "N/A",
-    "mastery": "Bolas you wield gain the Trip property when you wield them.Any successful hit damages, entangles and trips."
-  },
-  {
-    "name": "Boomerang",
-    "cost": {
-      "amount": 3,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      40,
-      120
-    ],
-    "damage_types": {
-      "types": [
-        "bludgeoning",
-        "slashing"
-      ],
-      "inclusive": true
-    },
-    "weight": 1,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Light",
-      "special",
-      "thrown (40/120)"
-    ],
-    "special": "N/A",
-    "mastery": "You ignore half and 3/4 cover and can target two separate targets within your normal range with one attack."
-  },
-  {
-    "name": "Compound bow",
-    "cost": {
-      "amount": 250,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      200,
-      800
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 3,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (200/800)",
-      "heavy",
-      "loading",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Compound bows do not have the Loading property for you.When you overdraw, you take the normal -5 to attack, but if you hit, you triple your weapon damage (1d10+dex) instead of adding +10."
-  },
-  {
-    "name": "Greatbow",
-    "cost": {
-      "amount": 75,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "sp"
-    },
-    "ammunition_weight": 0.5,
-    "ammunition_amount": 1,
-    "damage": {
-      "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      200,
-      800
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 7.5,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (200/800)",
-      "heavy",
-      "special",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "When you roll 5 over the target´s AC that is not more than one size larger than you, you may send them flying 10ft in any direction of your choosing, after which they fall prone."
-  },
-  {
-    "name": "Hand crossbow",
-    "cost": {
-      "amount": 75,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 40,
-    "damage": {
-      "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      30,
-      120
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (30/120)",
-      "light",
-      "loading"
-    ],
-    "special": "N/A",
-    "mastery": "You can use a bonus action to make an attack with a hand crossbow, even if you don't take the attack action."
-  },
-  {
-    "name": "Heavy crossbow",
-    "cost": {
-      "amount": 50,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 40,
-    "damage": {
-      "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      100,
-      400
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 8,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (range 100/400)",
-      "heavy",
-      "loading",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Heavy crossbows deal 1d12 damage for you.When you score 5 over the target´s AC,it is considered a critical hit."
-  },
-  {
-    "name": "Hidden crossbow",
-    "cost": {
-      "amount": 150,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 100,
-    "damage": {
-      "num_die": 1,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      20,
-      40
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 1,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (20/40)",
-      "conceal",
-      "light",
-      "loading"
-    ],
-    "special": "The hand this weapon is equipped to is open allowing it to wield a weapon, shield, grapple, or perform somatic components for a spell.However, you can’t wield a weapon or shield and also use the hidden blade from the same hand.This weapon cannot be disarmed but takes an action to equip or remove.",
-    "mastery": "Any hit against a surprised creature takes maximum dice rolls from this weapon and any modifiers, instead of rolling for the damage"
-  },
-  {
-    "name": "Longbow",
-    "cost": {
-      "amount": 50,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      150,
-      600
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 5,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (150/600)",
-      "heavy",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Longbows deal 1d10 damage for you.On your turn, if you take the attack action you can roll a perception check against 15 or half the enemy´s AC, whichever is higher.On a success, you double your proficiency bonus on attack rolls towards that target until the start of its turn."
-  },
-  {
-    "name": "Net",
-    "cost": {
-      "amount": 1,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
       "num_die": 0,
-      "die": 0
-    },
-    "double": "N/A",
-    "range": [
-      10
-    ],
-    "damage_types": {
+      "die": 0,
       "types": [],
       "inclusive": false
     },
-    "weight": 3,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Special",
-      "thrown (10ft)"
+    "Range": [
+      5,
+      15
     ],
-    "special": "A large or smaller creature hit by a net is restrained until freed.A net has no effect on creatures that are formless, or creatures that are Huge or larger.A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success.Dealing 5 slashing damage to the net (AC10) also frees the creature without harming it, ending the effect and destroying the net.At the DM discretion nets made of stronger materials may be available for purchase.",
-    "mastery": "The range of the Net becomes (15ft) and it gains the Trip property.You may use a net in your off hand regardless of the size of your other weapon."
+    "Weight": 3,
+    "Weapon Group": "Special Weapons",
+    "Properties": [
+      "~wp^Thrown~# (5/15)",
+      "~wp^Entangle~#",
+      "Special"
+    ],
+    "Special": "N/A",
+    "Mastery": "Nets do not impose disadvantage when throwing beyond its normal range.Once per turn, when a creature is entangled by your net, you can choose to make an attack roll against its AC.If you succeed, it takes damage equal to half its remaining hit points as it had taken from the attack.This speed reduction does not stack."
   },
   {
-    "name": "Orc throwing shot",
-    "cost": {
-      "amount": 5,
+    "Name": "Quarterstaff",
+    "Cost": {
+      "amount": 2,
       "currency": "sp"
     },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
     },
-    "ammunition_cost": "N/A",
-    "ammunition_weight": "N/A",
-    "ammunition_amount": "N/A",
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 10
-    },
-    "double": "N/A",
-    "range": [
-      20,
-      60
-    ],
-    "damage_types": {
+      "die": 6,
+      "num_die_double": 1,
+      "die_double": 8,
       "types": [
-        "bludgeoning"
+        "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 10,
-    "weapon_group": "Throwing Weapon",
-    "properties": [
-      "Thrown (20/60)",
-      "two-handed"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "Orc throwing shot loses the Two-handed property for you , gains the Versatile property and deals 1d12 damage.If you score a critical hit or have advantage and both rolls would have hit, your enemy must succeed on a Constitution saving throw or be stunned until the end of its next turn.If you have disadvantage but one dice would have hit, deal your Strength modifier in damage, though this still counts as a miss."
+    "Weight": 4,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Versatile~# (1d8)"
+    ],
+    "Special": "N/A",
+    "Mastery": "You can use a bonus action to strike with the opposite end of the staff, dealing 1d4 bludgeoning damage plus your Strength or Dexterity modifier."
   },
   {
-    "name": "Portable Ballista",
-    "cost": {
-      "amount": 200,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
+    "Name": "Sickle",
+    "Cost": {
       "amount": 1,
       "currency": "gp"
     },
-    "ammunition_weight": 1,
-    "ammunition_amount": 2,
-    "damage": {
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
       "num_die": 1,
-      "die": 12
-    },
-    "double": "N/A",
-    "range": [
-      150,
-      600
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 25,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (150/600)",
-      "Entangle",
-      "Heavy",
-      "Two Handed",
-      "Loading",
-      "Special"
-    ],
-    "special": "if the Portable Ballista is loaded with Harpoons , on a hit, the enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales.This limits the range of the portable ballista to the length of chain/rope attached to the harpoon.",
-    "mastery": "The Crossbow Prowess two-target range is 50ft.Additionally, your entangle attacks now do your damage modifier in damage and add the restrained condition if successful, as you pin your target surrounding terrain features."
-  },
-  {
-    "name": "Recurve Bow",
-    "cost": {
-      "amount": 100,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
-      "num_die": 1,
-      "die": 8
-    },
-    "double": "N/A",
-    "range": [
-      100,
-      400
-    ],
-    "damage_types": {
-      "types": [
-        "piercing"
-      ],
-      "inclusive": false
-    },
-    "weight": 2,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (100/400)",
-      "two-handed"
-    ],
-    "special": "N/A",
-    "mastery": "Recurve bows deal 2d4 damage for you.Once per turn when you make an attack with this weapon, you can make another attack against a different creature that is within 5 feet of the original target and within normal range."
-  },
-  {
-    "name": "Spinner",
-    "cost": {
-      "amount": 100,
-      "currency": "gp"
-    },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
-    },
-    "ammunition_cost": {
-      "amount": 10,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 10,
-    "damage": {
-      "num_die": 2,
-      "die": 4
-    },
-    "double": "N/A",
-    "range": [
-      60,
-      120
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
         "Slashing"
       ],
       "inclusive": false
     },
-    "weight": 2,
-    "weapon_group": "Crossbow",
-    "properties": [
-      "Ammunition (60/120)",
-      "two-handed",
-      "disarm"
+    "Range": [
+      5
     ],
-    "special": "N/A",
-    "mastery": "As an action, you can choose a number of targets equal to your Intelligence modifier, minimum of 1, within 10ft of your first target to all be the target of a single attack roll.Roll damage separately for each attack."
+    "Weight": 2,
+    "Weapon Group": "Sickle",
+    "Properties": [
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "You can use a bonus action to make an attack with a sickle, even if you don't take the attack action."
   },
   {
-    "name": "Wrist shot",
-    "cost": {
-      "amount": 5,
-      "currency": "gp"
+    "Name": "Sling",
+    "Cost": {
+      "amount": 1,
+      "currency": "sp"
     },
-    "type": {
-      "training": "Martial",
+    "Type": {
+      "training": "Simple",
       "type": "Ranged"
     },
-    "ammunition_cost": {
-      "amount": 1,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 6
-    },
-    "double": "N/A",
-    "range": [
-      40,
-      160
-    ],
-    "damage_types": {
+      "die": 4,
       "types": [
-        "bludgeoning"
+        "Bludgeoning"
       ],
       "inclusive": false
     },
-    "weight": 1,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition (40/160)",
-      "Disarm",
-      "two-handed"
+    "Range": [
+      30,
+      120
     ],
-    "special": "N/A",
-    "mastery": "Wrist shots deal 1d6 damage for you.When you roll 5 above the AC of a target, your enemy loses its reaction until the start of its next turn.If you have advantage and both dice would hit, all attacks against this enemy gain advantage until the end of your next turn.On a critical hit, these effects both apply."
+    "Weight": 0,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (30/120)"
+    ],
+    "Special": "N/A",
+    "Mastery": "When you fire a sling, you may opt to stun your enemy.If you do so, the damage is reduced to 1d4 and the enemy must succeed on a Constitution saving throw or be stunned until the end of its next turn.If you have advantage and both rolls would have hit, your enemy has disadvantage on the saving throw."
   },
   {
-    "name": "Yumi Bow",
-    "cost": {
-      "amount": 65,
+    "Name": "Spear",
+    "Cost": {
+      "amount": 1,
       "currency": "gp"
     },
-    "type": {
-      "training": "Martial",
-      "type": "Ranged"
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
     },
-    "ammunition_cost": {
-      "amount": 5,
-      "currency": "cp"
-    },
-    "ammunition_weight": 1,
-    "ammunition_amount": 20,
-    "damage": {
+    "Damage": {
       "num_die": 1,
-      "die": 8
+      "die": 6,
+      "num_die_double": 1,
+      "die_double": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
     },
-    "double": "N/A",
-    "range": [
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "~wp^Thrown~# (20/60)",
+      "~wp^Versatile~# (1d8)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Spears gain the ~wp^Brace~# property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw or be knocked prone."
+  },
+  {
+    "Name": "Side Baton",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Bludgeon",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Deflect~#",
+      "~wp^Versatile~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Side Batons gain the ~wp^Light~# property for you.You can use a bonus action to make an attack with a side baton, even if you don't take the attack action."
+  },
+  {
+    "Name": "Throwing knife",
+    "Cost": {
+      "amount": 1,
+      "currency": "sp"
+    },
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 0.5,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Thrown~# (20/60)",
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Throwing Knives gain the ~wp^Conceal~# property for you.You can use a bonus action to make an attack with a throwing knife, even if you don't take the attack action."
+  },
+  {
+    "Name": "Warhammer",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Simple",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "num_die_double": 1,
+      "die_double": 10,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Hammer",
+    "Properties": [
+      "~wp^Versatile~# (1d10)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Warhammers gain the Disarm property for you.If you hit an enemy wearing medium or heavy armor, you can choose to reduce the enemy's AC by 1 until the enemy takes a short or long rest to repair it.A creature can be affected by this effect only once."
+  },
+  {
+    "Name": "Bastard Sword",
+    "Cost": {
+      "amount": 35,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "num_die_double": 1,
+      "die_double": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Versatile~# (1d10)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Bastard Swords gain the ~wp^Deflect~# property for you.When you score a critical hit, the enemy takes an additional 1d6 slashing damage per one handed attack, or 1d10 per two handed attack."
+  },
+  {
+    "Name": "Battleaxe",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "num_die_double": 1,
+      "die_double": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 4,
+    "Weapon Group": "Axes",
+    "Properties": [
+      "~wp^Versatile~# (1d10)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Battleaxes gain the Disarm property for you.You have advantage on Disarm attacks."
+  },
+  {
+    "Name": "Bec De Corbin",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing",
+        "Bludgeoning"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Polearm",
+    "Properties": [
+      "Reach",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Bec De Corbin deal 1d12 damage for you and gain the ~wp^Brace~# property.If you hit an enemy wearing medium or heavy armor, you can choose to reduce the enemy's AC by 2 until the enemy takes a short or long rest to repair it.A creature can be affected by this effect only once."
+  },
+  {
+    "Name": "Broadaxe",
+    "Cost": {
+      "amount": 30,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Axes",
+    "Properties": [
+      "Two-Handed",
+      "~wp^Heavy~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Broadaxes gain the Disarm property for you. You have advantage on Disarm attacks."
+  },
+  {
+    "Name": "Chain Whip",
+    "Cost": {
+      "amount": 25,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      10
+    ],
+    "Weight": 3,
+    "Weapon Group": "Whips",
+    "Properties": [
+      "Reach",
+      "~wp^Trip~#",
+      "~wp^Entangle~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Chain whips deal 1d6 damage for you and gain the Disarm property.If you are successful in a disarm attack, the enemy cannot draw a new weapon until the end of its next turn."
+  },
+  {
+    "Name": "Light Crossbow",
+    "Cost": {
+      "amount": 25,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      80,
+      320
+    ],
+    "Weight": 5,
+    "Weapon Group": "Crossbow",
+    "Properties": [
+      "~wp^Ammunition~# (80/320)",
+      "Loading",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Crossbows gain the ~wp^Versatile~# property for you.When you score a critical hit, the enemy must succeed on a Constitution saving throw against your Weapon DC or be stunned until the end of its next turn."
+  },
+  {
+    "Name": "Falchion",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Falchions gain the ~wp^Finesse~# property for you.If you roll 5 over the AC of an enemy that can bleed , it takes the weapon's damage at the start of every one of their turns until it succeeds on a Constitution Saving Throw against your Weapon DC at the end of their turn, receive healing or aid from a healer's kit."
+  },
+  {
+    "Name": "Flail",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Flail",
+    "Properties": [
+      "~wp^Disarm~#",
+      "~wp^Trip~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Flails deal 1d10 damage for you and gain the ~wp^Deflect~# property.If you are successful in a Disarm attempt, the enemy subtracts 1d4 for all damage rolls with that weapon until they take a short or long rest to repair it."
+  },
+  {
+    "Name": "Glaive",
+    "Cost": {
+      "amount": 20,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Slashing",
+        "Piercing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Polearm",
+    "Properties": [
+      "Reach",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Glaives gain the ~wp^Trip~# property for you.When a creature enters the reach of your weapon, you can use your reaction to make a single melee attack against that creature.The attack must be a normal weapon attack, and cannot be a property attack forcing another saving throw."
+  },
+  {
+    "Name": "Greatsword",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 2,
+      "die": 6,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "Two-Handed",
+      "~wp^Heavy~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Greatswords gain the ~wp^Deflect~# property for you.When you score a critical hit, the enemy is knocked prone."
+  },
+  {
+    "Name": "Guisarme",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 5,
+    "Weapon Group": "Polearm",
+    "Properties": [
+      "~wp^Brace~#",
+      "Reach",
+      "~wp^Trip~#",
+      "~wp^Heavy~#",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "You deal 1d12 damage with a guisarme.You have advantage on trip attacks made to targets not adjacent to you.If you hit a mounted foe with a trip attack, it is dismounted and knocked prone."
+  },
+  {
+    "Name": "Halberd",
+    "Cost": {
+      "amount": 20,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Slashing",
+        "Piercing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Polearm",
+    "Properties": [
+      "Reach",
+      "Two-Handed",
+      "~wp^Brace~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Halberds gain the ~wp^Trip~# property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw against your Weapon DC or be knocked prone."
+  },
+  {
+    "Name": "Hand-and-a-half Sword",
+    "Cost": {
+      "amount": 25,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "num_die_double": 1,
+      "die_double": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Versatile~# (1d10)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Hand-and-a-half Swords gain the ~wp^Deflect~# property for you.When a creature misses you with a melee attack, you can use your reaction to make a Disarm attack against that enemy.The damage from the enemy's attack resolves before the enemy is disarmed."
+  },
+  {
+    "Name": "Hidden Blade",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 1,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Finesse~#",
+      "~wp^Light~#",
+      "Special"
+    ],
+    "Special": "The hand this weapon is in can still hold a component or shield and also use the hidden blade from the same hand.This weapon cannot be disarmed but takes an action to equip or remove.",
+    "Mastery": "Any hit against a surprised creature takes maximum dice rolls from this weapon and any modifiers, instead of rolling for the damage"
+  },
+  {
+    "Name": "Katana",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Versatile~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Katanas gain the ~wp^Deflect~# property for you.Once per turn when you reduce an enemy to 0 hit points with an attack with this weapon, you can choose to make another weapon attack."
+  },
+  {
+    "Name": "Lance",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 12,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "Reach",
+      "Special"
+    ],
+    "Special": "You have disadvantage when you use a lance to attack a target within 5 ft of you.While mounted, this disadvantage is removed and you gain advantage instead.",
+    "Mastery": "You deal 2d6 damage with a lance.When you hit an enemy while mounted, you deal an additional 1d6 damage.If the enemy is a mounted creature, you deal an additional 1d12 instead."
+  },
+  {
+    "Name": "Longsword",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "num_die_double": 1,
+      "die_double": 10,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Versatile~# (1d10)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Longswords gain the ~wp^Deflect~# property for you.When a creature misses you with a melee attack, you can use your reaction to make a Disarm attack against that enemy."
+  },
+  {
+    "Name": "Maul",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 2,
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 10,
+    "Weapon Group": "Hammer",
+    "Properties": [
+      "Two-Handed",
+      "~wp^Heavy~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Mauls gain the ~wp^Deflect~# property for you.If you hit an enemy wearing medium or heavy armor, you can choose to reduce the enemy's AC by 2 until the enemy takes a short or long rest to repair it.A creature can be affected by this effect only once."
+  },
+  {
+    "Name": "Naginata",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Polearm",
+    "Properties": [
+      "Reach",
+      "Two-Handed",
+      "~wp^Finesse~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Naginatas gain the ~wp^Trip~# property for you.When you score a critical hit, the enemy must succeed on a Dexterity saving throw against your Weapon DC or be knocked prone."
+  },
+  {
+    "Name": "Partisan",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "~wp^Brace~#",
+      "Reach",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Partisans gain the Disarm property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw against your Weapon DC or be knocked prone."
+  },
+  {
+    "Name": "Pike",
+    "Cost": {
+      "amount": 5,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 18,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "Reach",
+      "~wp^Heavy~#",
+      "Two-Handed",
+      "~wp^Brace~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Pikes gain the Disarm property for you.When a creature enters the reach of your weapon, you can use your reaction to make a single melee attack against that creature.The attack must be a normal weapon attack, and cannot be a property attack forcing another saving throw."
+  },
+  {
+    "Name": "Rapier",
+    "Cost": {
+      "amount": 25,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Finesse~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Rapiers gain the ~wp^Deflect~# property for you.Once per turn, when a creature misses you with a melee attack, you can use your reaction to make a Disarm attack against that enemy."
+  },
+  {
+    "Name": "Rondel Dagger",
+    "Cost": {
+      "amount": 5,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 1,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Rondel daggers deal 1d6 damage for you and gain the ~wp^Deflect~# property.If you roll 5 over the AC of an enemy wearing medium or heavy armor, you can choose to reduce the enemy's AC by 2 until the enemy takes a short or long rest to repair it.A creature can be affected by this effect only once."
+  },
+  {
+    "Name": "Scimitar",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 3,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Scimitars gain the ~wp^Deflect~# property for you.You can use a bonus action to make an attack with a scimitar, even if you don't take the attack action."
+  },
+  {
+    "Name": "Short Glaive",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing",
+        "Slashing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 4,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Finesse~#",
+      "~wp^Lunge~#",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "When a creature misses you with an attack, it provokes an opportunity attack from you.If you move at least 20 feet in a straight line and use the attack action at the end of it, you may do one extra attack with a short glaive."
+  },
+  {
+    "Name": "Shortsword",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Shortswords gain the ~wp^Deflect~# property for you.You can use a bonus action to make an attack with a shortsword, even if you don't take the attack action."
+  },
+  {
+    "Name": "Tanto",
+    "Cost": {
+      "amount": 10,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Piercing",
+        "Slashing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 1,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Tantos gain the ~wp^Deflect~# and ~wp^Versatile~# properties for you.If you are attacked or disarmed from your weapon, you may freely draw it from its scabbard beforehand."
+  },
+  {
+    "Name": "Trident",
+    "Cost": {
+      "amount": 5,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "num_die_double": 1,
+      "die_double": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 4,
+    "Weapon Group": "Spear",
+    "Properties": [
+      "~wp^Thrown~# (20/60)",
+      "~wp^Versatile~# (1d8)"
+    ],
+    "Special": "N/A",
+    "Mastery": "Tridents gain the ~wp^Trip~# property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw against your Weapon DC or be knocked prone."
+  },
+  {
+    "Name": "Two-Bladed Scimitar",
+    "Cost": {
+      "amount": 100,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "num_die_double": 1,
+      "die_double": 4,
+      "types": [
+        "Slashing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 6,
+    "Weapon Group": "Combat Blades",
+    "Properties": [
+      "~wp^Double~# (1d4)",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Two-bladed scimitars gain the ~wp^Deflect~# property for you.If you hit an enemy with the first attack, you have advantage on the second attack, and vice versa."
+  },
+  {
+    "Name": "War Pick",
+    "Cost": {
+      "amount": 5,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Axes",
+    "Properties": [],
+    "Special": "N/A",
+    "Mastery": "War picks deal 1d10 damage for you and gain the Versatile property.If you move at least 10ft in a straight line before your attack, a successful hit on an enemy wearing medium or heavy armor will reduce the enemy´s AC by 2 if it is one handed, or 3 if it is a two handed attack until it is mended.A creature can be affected by this effect only once."
+  },
+  {
+    "Name": "War Fan",
+    "Cost": {
+      "amount": 15,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 4,
+      "types": [
+        "Piercing",
+        "Slashing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 1,
+    "Weapon Group": "Ambush Weapons",
+    "Properties": [
+      "~wp^Conceal~#",
+      "~wp^Light~#",
+      "~wp^Finesse~#",
+      "~wp^Deflect~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "While unfolded, your ~wp^Deflect~# can be used against ranged attacks with ~wp^Deflect~# 2d4.While folded, your war fan deals 2d4 damage"
+  },
+  {
+    "Name": "Wakizashi",
+    "Cost": {
+      "amount": 5,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Piercing",
+        "Slashing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Dueling Blade",
+    "Properties": [
+      "~wp^Finesse~#",
+      "~wp^Light~#"
+    ],
+    "Special": "N/A",
+    "Mastery": "Wakizashi gain the ~wp^Deflect~# property for you.You can use a bonus action to make an attack with a wakizashi, even if you don't take the attack action."
+  },
+  {
+    "Name": "Bladed Bow",
+    "Cost": {
+      "amount": 30,
+      "currency": "gp"
+    },
+    "Type": {
+      "Training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      80,
+      320
+    ],
+    "Weight": 5,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (80/320)",
+      "heavy",
+      "Special",
+      "two-handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Bladed Bows deal 1d8 damage for you.When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not."
+  },
+  {
+    "Name": "Blowgun",
+    "Cost": {
+      "amount": 1,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 0,
+      "die": 0,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      25,
+      100
+    ],
+    "Weight": 1,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (25/100)",
+      "Loading"
+    ],
+    "Special": "N/A",
+    "Mastery": "Blowguns lose the Loading property for you.When you hit an enemy with a blowgun, the enemy must succeed on a Constitution saving throw or be poisoned until the end of its next turn."
+  },
+  {
+    "Name": "Compound Bow",
+    "Cost": {
+      "amount": 100,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      150,
+      600
+    ],
+    "Weight": 3,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (150/600)",
+      "Loading",
+      "Special",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Compound bows do not have the Loading property for you.When you overdraw, you take the normal -5 to attack, but if you hit, you triple your weapon damage (1d10+dex) instead of adding +10."
+  },
+  {
+    "Name": "Crossbow, Heavy",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
       100,
       400
     ],
-    "damage_types": {
+    "Weight": 18,
+    "Weapon Group": "Crossbow",
+    "Properties": [
+      "~wp^Ammunition~# (100/400)",
+      "~wp^Heavy~#",
+      "Loading",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Heavy Crossbows gain the ~wp^Versatile~# property for you.When you score a critical hit, the enemy must succeed on a Constitution saving throw against your Weapon DC or be stunned until the end of its next turn."
+  },
+  {
+    "Name": "Crossbow, Hand",
+    "Cost": {
+      "amount": 75,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
       "types": [
-        "piercing"
+        "Piercing"
       ],
       "inclusive": false
     },
-    "weight": 2.5,
-    "weapon_group": "Bow and Sling",
-    "properties": [
-      "Ammunition(100/400)",
-      "two-handed"
+    "Range": [
+      30,
+      120
     ],
-    "special": "N/A",
-    "mastery": "While mounted, you gain +2 to your attack roll.While on foot, you do not suffer disadvantage to attacks made while prone."
+    "Weight": 3,
+    "Weapon Group": "Crossbow",
+    "Properties": [
+      "~wp^Ammunition~# (30/120)",
+      "~wp^Light~#",
+      "Loading"
+    ],
+    "Special": "N/A",
+    "Mastery": "Hand Crossbows lose the Loading property for you.When you use your bonus action to make an attack with a hand crossbow, you can make two instead."
+  },
+  {
+    "Name": "Greatbow",
+    "Cost": {
+      "amount": 75,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 12,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      200,
+      800
+    ],
+    "Weight": 3,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (200/800)",
+      "~wp^Heavy~#",
+      "Special",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Greatbows lose the Loading property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw or be pushed back 10 ft."
+  },
+  {
+    "Name": "Jemez Bow",
+    "Cost": {
+      "amount": 25,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      150,
+      600
+    ],
+    "Weight": 2,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (150/600)",
+      "Special",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Jemez bows deal 1d10 damage for you and gain the ~wp^Versatile~# property.If you hit an enemy that is within 30 ft of you, you deal an additional 1d6 damage."
+  },
+  {
+    "Name": "Longbow",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      150,
+      600
+    ],
+    "Weight": 2,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (150/600)",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Longbows lose the Loading property for you.When you score a critical hit, the enemy must succeed on a Constitution saving throw against your Weapon DC or be stunned until the end of its next turn."
+  },
+  {
+    "Name": "Orc Throwing Shot",
+    "Cost": {
+      "amount": 2,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Melee"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 10,
+      "types": [
+        "Piercing",
+        "Slashing"
+      ],
+      "inclusive": true
+    },
+    "Range": [
+      5
+    ],
+    "Weight": 2,
+    "Weapon Group": "Axe Prowess",
+    "Properties": [
+      "~wp^Finesse~# (20/60)",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Orc throwing shot loses the Two-handed property for you , gains the ~wp^Versatile~# property and deals 1d12 damage.If you score a critical hit or have advantage and both rolls would have hit, your enemy must succeed on a Constitution saving throw or be stunned until the end of its next turn.If you have disadvantage but one dice would have hit, deal your Strength modifier in damage, though this still counts as a miss."
+  },
+  {
+    "Name": "Sling Staff",
+    "Cost": {
+      "amount": 2,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      150,
+      600
+    ],
+    "Weight": 2.1,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (150/600)",
+      "~wp^Heavy~#",
+      "Special",
+      "Two-Handed"
+    ],
+    "Special": "You may use this weapon as a melee weapon with the Two Handed, ~wp^Entangle~# and Disarm properties.",
+    "Mastery": "You may add your Strength modifier to the ranged damage rolls of this weapon.When using sling staffs as a melee weapon, any entangle attack still deals its full damage."
+  },
+  {
+    "Name": "Wrist Shot",
+    "Cost": {
+      "amount": 50,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 6,
+      "types": [
+        "Bludgeoning"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      40,
+      160
+    ],
+    "Weight": 1,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (40/160)",
+      "~wp^Disarm~#",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Wrist shots deal 1d6 damage for you.When you roll 5 above the AC of a target, your enemy loses its reaction until the start of its next turn.If you have advantage and both dice would hit, all attacks against this enemy gain advantage until the end of your next turn.On a critical hit, these effects both apply."
+  },
+  {
+    "Name": "Yumi Bow",
+    "Cost": {
+      "amount": 65,
+      "currency": "gp"
+    },
+    "Type": {
+      "training": "Martial",
+      "Type": "Ranged"
+    },
+    "Damage": {
+      "num_die": 1,
+      "die": 8,
+      "types": [
+        "Piercing"
+      ],
+      "inclusive": false
+    },
+    "Range": [
+      150,
+      600
+    ],
+    "Weight": 2,
+    "Weapon Group": "Bow and Sling",
+    "Properties": [
+      "~wp^Ammunition~# (150/600)",
+      "Two-Handed"
+    ],
+    "Special": "N/A",
+    "Mastery": "Yumi bows lose the Loading property for you.When you score a critical hit, the enemy must succeed on a Strength saving throw against your Weapon DC or be knocked prone."
   }
 ]

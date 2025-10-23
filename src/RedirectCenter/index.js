@@ -16,7 +16,6 @@ export default function Redirect({selectedPage}) {
             
             //THE HARD R??!?!?!?!?!?!?!?!??!??????11
             case 'rn':
-                alert(query)
                 navigate(`../Races?Name=${query["rn"]}`, {replace : true})
                 break; 
             case 'sn':
@@ -31,11 +30,14 @@ export default function Redirect({selectedPage}) {
              case 'x':
                 navigate(`../Spells${query}`, { replace: true })
                 break; 
-            case 'f':
-                navigate(`../Feats${query}`, { replace: true })
+            case 'fn':
+                navigate(`../Feats?Name=${query["fn"]}`, { replace: true })
                 break;
-            case 'w': 
-                navigate(`../Armory${query}`, { replace: true })
+            case 'fnp':
+                navigate(`../Feats?Name=${query["fnp"]} Prowess`, { replace: true })
+                break;
+            case 'wn': 
+                navigate(`../Armory?Name=${query["wn"]}`, { replace: true })
                 break; 
 
                                        

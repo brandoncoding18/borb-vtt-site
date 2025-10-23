@@ -5,9 +5,10 @@
         "name" : "Anatol Tribes", 
         "races" : ["~rn^Human~#", "~rn^Tabaxi~#"],
         "feats" : ["~fn^Mounted Combatant~#", "~fn^Magic Initiate~# (From ~sc^Sorcerer~# or ~sc^Warlock~# Spell List)", "~fn^Weapon Master~# (~wn^Net~# ~wn^Scimitar~# ~wn^Jezzail~# ~wn^Recurve Bow~#)", "~fn^Animal Handler~#", "~fn^Slasher~#"],
-        "spells" : ["~sn^Awakening of The Nail~#", "~sn^Imperate~#", "~sn^Prepare~#", "~sn^Wrack~#"],
+        "spells" : ["~sn^Awakening of The Nail~#", "~sn^Imperate~#", "~sn^Prepare~#", "~sn^Wrack~#", "~sn^Dyslexia~#"],
         "unique_feat" : ["~fn^Frightening Pragmatism~#"],
-        "language" : ["Anatol"]
+        "language" : ["Anatol"]    ,"region" : "Zentravalk"
+
     },
      {
         "name" : "Asker Tribes", 
@@ -15,7 +16,8 @@
         "feats" : ["~fn^Tough~#", "~fn^Eldritch Adept~#", "~fn^Weapon Master~# (~wn^Heavy Club~# ~wn^Maul~# ~wn^Greatclub~# ~wn^Wall Pick~#)", "~fn^Brawny~#"],
         "spells" : ["~sn^Coarse Heart~#", "~sn^Spit Curse~#", "~sn^Crumble From Within~#", "~sn^Stone Fist~#", "~sn^Rockslide~#"],
         "unique_feat" : ["~fn^Ear of Stone~#"],
-        "language" : ["Asker"]
+        "language" : ["Asker"]    ,"region" : "Zentravalk"
+
     },
     {
         "name" : "Divine Kingdom of Aysundar", 
@@ -23,7 +25,8 @@
         "feats" : ["~fn^Eldritch Adept~#", "~fn^Initiate of High Sorcery~#", "~fn^Skulker~#"],
         "spells" : ["~sn^Gust the Sails~#", "~sn^Forecast~#", "~sn^Mirror Spell~#", "~sn^Moon Mirror~#"],
         "unique_feat" : ["None"],
-        "language" : ["Sahilese"],
+        "language" : ["Sahilese"]    ,"region" : "Zentravalk",
+
         "subnations" : [
             {
                     "name" : "Aysun Turannor", 
@@ -46,7 +49,8 @@
                     "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Eldritch Adept~#", "~fn^Inspiring Leader~#", "~fn^Tandem Tactician~#"],
                     "spells" : ["~sn^Blood Bond~#", "~sn^Imperate~#", "~sn^Respel Magic~#", "~sn^Tendrils of the Mind~#"],
                     "unique_feat" : ["~fn^Tarkhin~#"],
-                    "language" : ["Armagusan"]
+                    "language" : ["Armagusan"]    ,"region" : "Zentravalk"
+
                 },
                 {
                     "name" : "Clan Meropje", 
@@ -55,7 +59,8 @@
                     "feats" : ["~fn^Bow and Sling Prowess~#", "~fn^Chef~#", "~fn^Skulker~#", "~fn^Tandem Tactician~#"],
                     "spells" : ["~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Theft of Vitae~#", "~sn^Sense Lifeblood~#"],
                     "unique_feat" : ["~fn^Tarkhin~#"],
-                    "language" : ["Armagusan"]
+                    "language" : ["Armagusan"]    ,"region" : "Zentravalk"
+
                 },
                 {
                     "name" : "Clan Varcusa", 
@@ -64,7 +69,8 @@
                     "feats" : ["~fn^Bludgeon Prowess~#", "~fn^Charger~#", "~fn^Tough~#", "~fn^Heavy Armor Master~#"],
                     "spells" : ["~sn^Counterspellcaster~#", "~sn^Fold Person~#", "~sn^Respel Magic~#", "~sn^Sense Lifeblood~#"],
                     "unique_feat" : ["~fn^Stomper~#"],
-                    "language" : ["Varcusan"]
+                    "language" : ["Varcusan"]    ,"region" : "Zentravalk"
+
                 }
             ]
     },
@@ -74,7 +80,8 @@
             "feats" : ["~fn^Skilled~#", "~fn^Inspiring Leader~#", "~fn^Durable~#", "~fn^Elemental Adept~#", "~fn^Spear Prowess~#"],
             "spells" : ["~sn^Fiery Missile~#", "~sn^Imperate~#", "~sn^Sun Shield~#"],
             "unique_feat" : ["~fn^Blessed by the Sun~#"],
-            "language" : ["Magerni"],
+            "language" : ["Magerni"]    ,"region" : "Zentravalk"
+,
             "subnations" : [
                     {
                 "name" : "Kingdom of Helmar", 
@@ -83,7 +90,8 @@
                 "feats" : ["~fn^Elemental Adept~#", "~fn^Healer~#", "~fn^Magic Initiate~#", "~fn^Spell Sniper~#"],
                 "spells" : ["~sn^Fiery Missile~#", "~sn^Ghost Light~#", "~sn^Mirror Spell~#", "~sn^Armor of COntempt~#"],
                 "unique_feat" : ["~fn^Farlands Scholar~#"],
-                "language" : ["Helmar"]
+                "language" : ["Helmar"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Knights of the Steel Cross", 
@@ -92,7 +100,8 @@
                 "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Mounted Combatant~#", "~fn^Spear Prowess~#", "~fn^Theologian~#"],
                 "spells" : ["~sn^Armor of COntempt~#", "~sn^Imperate~#", "~sn^Litany of War~#", "~sn^Sun Shield~#"],
                 "unique_feat" : ["~fn^Bulwark of The Line~#"],
-                "language" : ["Magerni"]
+                "language" : ["Magerni"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Ostzee Republic", 
@@ -101,7 +110,8 @@
                 "feats" : ["~fn^Artificer Initiate~#", "~fn^Crossbow Prowess~#", "~fn^Eldritch Adept~#", "~fn^Resilient~# (Wisdom, Intelligence)"],
                 "spells" : ["~sn^Disregard~#", "~sn^Mind Screech~#", "~sn^Sphere of Silence~#", "~sn^Tendrils of the Mind~#"],
                 "unique_feat" : ["~fn^Keen Obscurist~#"],
-                "language" : ["Magerni"]
+                "language" : ["Magerni"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Wood Lords", 
@@ -110,7 +120,8 @@
                 "feats" : ["~fn^Bludgeon Prowess~#", "~fn^Bow and Sling Prowess~#", "~fn^Skulker~#", "~fn^Tracker~#"],
                 "spells" : ["~sn^One With the Ground~#", "~sn^Roots of the Earth~#"],
                 "unique_feat" : ["~fn^Melded with The Woods~#"],
-                "language" : ["Magerni"]
+                "language" : ["Magerni"]    ,"region" : "Zentravalk"
+
             }
         ]
     },
@@ -120,7 +131,8 @@
         "feats" : ["~fn^Brawny~#", "~fn^Magic Initiate~# (From ~sc^Paladin~# or ~sc^Cleric~# Spell List)", "~fn^Theologian~#"],
         "spells" : ["~sn^Reveal Curse~#", "~sn^Armor of Contempt~#", "~sn^Refuse Curse~#", "~sn^Sun Shield~#"],
         "unique_feat" : ["~fn^Might of Solas~#"],
-        "language" : ["Solari"]
+        "language" : ["Solari"]    ,"region" : "Zentravalk"
+
     },
     {
         "name" : "Caliphate of Auropolis", 
@@ -128,7 +140,8 @@
         "feats" : ["~fn^Artificer Initiate~#", "~fn^Theologian~#", "~fn^Weapon Master~# (~wCompound Bow~# ~wKhopesh~# ~wGlaive~# ~wPortable Ballista~#)"],
         "spells" : ["~sn^Awaken Glyphs~#", "~sn^Glyph of Salts~#", "~sn^Reveal Curse~#"],
         "unique_feat" : ["~fn^Scholar of Wonders~#"],
-        "language" : ["Auropolian"],
+        "language" : ["Auropolian"]    ,"region" : "Zentravalk"
+,
         "subnations" : 
         [
             {
@@ -137,7 +150,8 @@
                 "feats" : ["~fn^Perceptive~#", "~fn^Skulker~#", "~fn^Tracker~#", "~fn^Weapon Master~# (~wCompound Bow~# ~wBladed Bow~# ~wKatar~# ~wKukri~#)"],
                 "spells" : ["~sn^One With the Ground~#", "~sn^Moon Mirror~#", "~sn^Whisper of Spells~#"],
                 "unique_feat" : ["~fn^Dunewalker~#"],
-                "language" : ["Saraabi"]
+                "language" : ["Saraabi"]    ,"region" : "Zentravalk"
+
             }
         ]
 
@@ -148,7 +162,8 @@
         "feats" : ["~fn^Elemental Adept~#", "~fn^Magic Initiate~# (From ~sc^Cleric~# or ~ss^Necromancy~# Spell List)", "~fn^Mounted Combatant~#", "~fn^Thrown Weapon Prowess~#"],
         "spells" : ["~sn^Blood Rush~#", "~sn^Dark Sacrament~#", "~sn^Exanguinate~#", "~sn^Mind Screech~#", "~sn^Sense Lifeblood~#", "~sn^Sun Shield~#", "~sn^Theft of Vitae~#"],
         "unique_feat" : ["~fn^Maker of Chains~#"],
-        "language" : ["Mohad"],
+        "language" : ["Mohad"]    ,"region" : "Zentravalk"
+,
         "subnations" : 
         [
             {
@@ -157,7 +172,8 @@
                 "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Dueling Blade Prowess~#", "~fn^Eldritch Adept~#", "~fn^Poisoner~#"],
                 "spells" : ["~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Gust the Sails~#", "~sn^Theft of Vitae~#"],
                 "unique_feat" : ["~fn^Opportunist~#"],
-                "language" : ["Mohad"]
+                "language" : ["Mohad"]    ,"region" : "Zentravalk"
+
             }
         ]
 
@@ -172,7 +188,8 @@
                 "feats" : ["~fn^Crossbow Prowess~#", "~fn^Linguist~#", "~fn^Mobile~#", "~fn^War Caster~#"],
                 "spells" : ["~sn^Imperate~#", "~sn^Iron Awake~#", "~sn^Litany of War~#"],
                 "unique_feat" : ["~fn^Hill Fighter~#"],
-                "language" : ["Catruzian"]
+                "language" : ["Catruzian"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Crown of Matacan", 
@@ -180,7 +197,8 @@
                 "feats" : ["~fn^Alert~#", "~fn^Durable~#", "~fn^Dueling Blade Prowess~#", "~fn^Mobile~#"],
                 "spells" : ["~sn^Litany of War~#"],
                 "unique_feat" : ["~fn^Among the Rocks~#"],
-                "language" : ["Matacanese"]
+                "language" : ["Matacanese"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Crown of Rauna", 
@@ -188,7 +206,8 @@
                 "feats" : ["~fn^Combat Blade Prowess~#", "~fn^Dual Wielder~#", "~fn^Mage Slayer~#", "~fn^Martial Adept~#"],
                 "spells" : ["~sn^Rush of the Hunt~#"],
                 "unique_feat" : ["~fn^Pounce~#"],
-                "language" : ["Raunan"]
+                "language" : ["Raunan"]    ,"region" : "Zentravalk"
+
             },
             {
                 "name" : "Crown of Tugarpu", 
@@ -196,7 +215,8 @@
                 "feats" : ["~fn^Dueling Blade Prowess~#", "~fn^Linguist~#", "~fn^Medium Firearm Prowess~#", "~fn^Skill Expert~# (Deception, Insight, Investigation, Persuasion)"],
                 "spells" : ["~sn^Gust the Sails~#"],
                 "unique_feat" : ["~fn^Armed Trader~#"],
-                "language" : ["Tugarpese"]
+                "language" : ["Tugarpese"]    ,"region" : "Zentravalk"
+
             },
               {
                 "name" : "Crown of Varúz", 
@@ -204,7 +224,8 @@
                 "feats" : ["~fn^Axe Prowess~#", "~fn^Resilient~# (Constitution, Strength)", "~fn^Slasher~#", "~fn^Tough~#"],
                 "spells" : ["~sn^Litany of War~#", "~sn^Rune Boulder~#"],
                 "unique_feat" : ["~fn^High Grounder~#"],
-                "language" : ["Varúzian"]
+                "language" : ["Varúzian"]    ,"region" : "Zentravalk"
+
             }
 
         ]
@@ -218,7 +239,8 @@
         "feats" : ["~fn^Crusher~#", "~fn^Shotgun Firearms Prowess~#", "~fn^Tough~#", "~fn^Weapon Master~# (~wn^Falchion~#, ~wn^Great Club~#, ~wn^Greataxe~#, ~wn^Poleaxe~#"],
         "spells" : ["~sn^Imperate~#"],
         "unique_feat" : ["~fn^Wall of Meat~#"],
-        "language" : ["Bressnian"],
+        "language" : ["Bressnian"]    ,"region" : "Zentravalk"
+,
          "subnations" : 
         [
             {
@@ -227,7 +249,8 @@
                 "feats" : ["~fn^Assault Firearms Prowess~#", "~fn^Charger~#", "~fn^Crusher~#", "~fn^Shotgun Firearms Prowess~#"],
                 "spells" : ["~sn^Blood Bond~#", "~sn^Blood Rush~#", "~sn^Exanguinate~#", "~sn^Murder of Crows~#", "~sn^Sense Lifeblood~#", "~sn^Summon Psoglavs~#", "~sn^Theft of Vitae~#"],
                 "unique_feat" : ["~fn^Butcherer~#"],
-                "language" : ["Bressnian"]
+                "language" : ["Bressnian"]    ,"region" : "Zentravalk"
+
             }
         ]
     },
@@ -238,7 +261,8 @@
         "feats" : ["~fn^Axe Prowess~#", "~fn^Medium Armor Master~#", "~fn^Slasher~#", "~fn^Weapon Master~# (~wn^Cutlass~#, ~wn^Falchion~#, ~wn^Greataxe~#, ~wn^Poleaxe~#"],
         "spells" : ["~sn^Blood Rush~#", "~sn^Imperate~#", "~sn^Tendrils of the Mind~#", "~sn^Wineberry~#"],
         "unique_feat" : ["~fn^Dauntless~#"],
-        "language" : ["Istvani"]
+        "language" : ["Istvani"]    ,"region" : "Zentravalk"
+
          
     },
 
@@ -248,7 +272,8 @@
         "feats" : ["~fn^Heavy Armor Master~#", "~fn^Magic Initiate~# (From ~sc^Cleric~# or ~sc^Paladin~# Spell List)", "~fn^Rune Carver Apprentice~#", "~fn^Thrown Weapon Prowess~#", "~fn^Tough~#"],
         "spells" : ["~sn^Armor of Stone~#", "~sn^Coarse Heart~#", "~sn^Refuse Curse~#", "~sn^Spit Curse~#"],
         "unique_feat" : ["~fn^Ancestor Stones of the Morning~#"],
-        "language" : ["Amrotian"]
+        "language" : ["Amrotian"]    ,"region" : "Zentravalk"
+
          
     },
     {
@@ -257,7 +282,8 @@
         "feats" : ["~fn^Artificer Initiate~#", "~fn^Elemental Adept~# (Fire)", "~fn^Heavy Armor Master~#", "~fn^Theologian~#", "~fn^Weapon Master~# (~wn^Flanged Mace~# ~wn^Greataxe~# ~wn^Morningstar~# ~wn^Warhammer~#)"],
         "spells" : ["~sn^Brass Shield~#", "~sn^Chains of Surtur~#", "~sn^Covenant of Brass~#", "~sn^Enliven Azer~#", "~sn^Molten Grasp~#", "~sn^Surtur's Rain~#", "~sn^Unforge~#", "~sn^Weapon of Molten Brass~#"],
         "unique_feat" : ["~fn^Hand Forge~#"],
-        "language" : ["Ashodite"]
+        "language" : ["Ashodite"]    ,"region" : "Zentravalk"
+
          
     },
     {
@@ -266,7 +292,8 @@
         "feats" : ["~fn^Alert~#", "~fn^Crossbow Prowess~#", "~fn^Poisoner~#", "~fn^Skulker~#"],
         "spells" : ["~sn^Awakening of The Nail~#", "~sn^Prepare~#"],
         "unique_feat" : ["~fn^Bone Knight~#"],
-        "language" : ["Undercommon"]
+        "language" : ["Undercommon"]    ,"region" : "Zentravalk"
+
          
     },
     {
@@ -275,9 +302,2610 @@
         "feats" : ["~fn^Artificer Initiate~#", "~fn^Eldritch Adept~#", "~fn^Explosives Prowess~#", "~fn^Medium Firearm Prowess~#", "~fn^Shadow Touched~#"],
         "spells" : ["~sn^Ghost Light~#", "~sn^Membrane of Laduguer~#", "~sn^Molten Grasp~#", "~sn^Unforge~#", "~sn^Veil of a Thousand Needles~#"],
         "unique_feat" : ["~fn^Laduguer's Wanderer~#"],
-        "language" : ["Undercommon"]
+        "language" : ["Undercommon"]    ,"region" : "Zentravalk"
+
          
-    }
+    },
+        {
+        "name": "Emirate of The Hashna",
+        "races": [
+            "~rn^Half Ogre~#",
+            "~rn^Half Orc~#",
+            "~rn^Human~#",
+            "~rn^Tabaxi~#",
+            "~rn^Wood Elf~#"
+        ],
+        "feats": [
+            "~fn^Bludgeon Prowess~#",
+            "~fn^Eldritch Adept~#",
+            "~fn^Linguist~#",
+            "~fn^Spear Prowess~#"
+        ],
+        "spells": [
+            "~sn^Imperate~#"
+        ],
+        "unique_feat": [
+            "~fn^Court of Pikes~#"
+        ],
+        "language": [
+            "Muharbese"
+        ]    ,"region" : "Zentravalk"
+
+    },
+
+    
+  {
+    "name": "Al Nasser Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Heavy Armor Master~#",
+      "~fn^Weapon Master~# (~wn^Lajatang~#, ~wn^Recurve Bow~#, ~wn^Scimitar~#, ~wn^Shortbow~#)"
+    ],
+    "spells": ["~sn^Imperate~#"],
+    "unique_feat": ["~fn^Oath of The Reckless Dance~#"],
+    "language": ["Muharbese"],
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of the Old Mother and Alsham.), Wrath (You shall wage war on the Mukhlis Turannor. Your Kinsmen shall reward you.)"
+    ]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Hashna Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Tandem Tactician (UA)~#",
+      "~fn^Tough~#",
+      "~fn^Weapon Master~# (~wn^Greatclub~#, ~wn^Pole Flail~#, ~wn^Scimitar~#, ~wn^Sling Staff~#)"
+    ],
+    "spells": ["~sn^Reveal Curse~#"],
+    "unique_feat": ["~fn^Oath of Allegiance~#"],
+    "language": ["Muharbese"],
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of Alsham.), Law (You shall exercise The Law of Alsham as long as it aligns with the law of the land. Alsham shall reward you.)"
+    ]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Emirate of Seytanlar",
+    "races": ["~rn^Azer~#", "~rn^Goblin~#", "~rn^Kobold~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Charger~#",
+      "~fn^Magic Initiate~# (~sc^Cleric~# or ~sc^Wizard~# spell lists)~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Weapon Master~# (~wn^Katar~#, ~wn^Recurve Bow~#, ~wn^Scimitar~#, ~wn^War Pick~#)"
+    ],
+    "spells": [
+      "~sn^Awakening of The Nail~#",
+      "~sn^Blood Bond~#",
+      "~sn^Glamour of Glass~#",
+      "~sn^Prepare~#",
+      "~sn^Reconstitute~#",
+      "~sn^Solidify~#"
+    ],
+    "unique_feat": ["~fn^Wonders of Brass and Glass~#"],
+    "language": ["Seytanlari"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Estún Tribes",
+    "races": ["~rn^Bugbear~#", "~rn^Hobgoblin~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Keen Mind~#",
+      "~fn^Mobile~#",
+      "~fn^Rune Carver Apprentice~#",
+      "~fn^War Caster~#"
+    ],
+    "spells": ["~sn^Call Old Friend~#", "~sn^Rune Boulder~#"],
+    "unique_feat": ["~fn^Tree Whisperer~#"],
+    "language": ["Estunian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Gyamar Tribes",
+    "races": ["~rn^Cambion~#", "~rn^Tiefling~#"],
+    "feats": [],
+    "spells": [
+      "~sn^Blood Bond~#",
+      "~sn^Blood Rush~#",
+      "~sn^Dark Sacrament~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Revitalize~#",
+      "~sn^Sense Lifeblood~#"
+    ],
+    "unique_feat": ["~fn^Devilmen~#"],
+    "language": ["Gyamar"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Halvedain League",
+    "races": ["~rn^Dwarf~#", "~rn^Gnome~#", "~rn^Halfling~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Keen Mind~#",
+      "~fn^Polearm Prowess~#",
+      "~fn^Practiced Expert~#",
+      "~fn^Tandem Tactician~#"
+    ],
+    "spells": ["~sn^Reconstitute~#", "~sn^Solidify~#"],
+    "unique_feat": ["~fn^Keen Merchant~#"],
+    "language": ["Halvedain"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Hadjuk Commune",
+    "races": [
+      "~rn^Harengon~#",
+      "~rn^Human~#",
+      "~rn^Wood Elf~#",
+      "~rn^Hobgoblin~#"
+    ],
+    "feats": [
+      "~fn^Alert~#",
+      "~fn^Medium Firearm Prowess~#",
+      "~fn^Survivalist~#",
+      "~fn^Stealthy~#",
+      "~fn^Tandem Tactician~#",
+      "~fn^Tracker~#"
+    ],
+    "spells": [],
+    "unique_feat": ["~fn^Pebbler~#"],
+    "language": ["Bressnian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Heptarchy of Sahran",
+    "races": [
+      "~rn^Dhampir~#",
+      "~rn^Genasi~#",
+      "~rn^Human~#",
+      "~rn^Lizardfolk~#",
+      "~rn^Loxodon~#",
+      "~rn^Reborn~#",
+      "~rn^Shifter~#",
+      "~rn^Tabaxi~#",
+      "~rn^Tiefling~#",
+      "~rn^Yuan Ti~#"
+    ],
+    "feats": [
+      "~fn^Dual Wielder~#",
+      "~fn^Eldritch Adept~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Ritual Caster~#"
+    ],
+    "spells": [
+      "~sn^Beacon of Doom~#",
+      "~sn^Blood Bond~#",
+      "~sn^Create Bloodhound~#",
+      "~sn^Dark Sacrament~#",
+      "~sn^Exanguinate~#",
+      "~sn^False Person~#",
+      "~sn^Murder of Crows~#",
+      "~sn^Red Rain~#",
+      "~sn^Theft of Vitae~#"
+    ],
+    "unique_feat": ["~fn^Crimson Touched~#"],
+    "language": ["Sahrani"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Al Damawi Turannor",
+    "races": ["~rn^Shadar Kai~#", "~rn^Dhampir~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Dual Wielder~#",
+      "~fn^Eldritch Adept~#",
+      "~fn^Weapon Master~# (~wn^Khopesh~#, ~wn^Longsword~#, ~wn^Scimitar~#, ~wn^Shortsword~#)"
+    ],
+    "spells": [
+      "~sn^Blood Rush~#",
+      "~sn^Reanimate~#",
+      "~sn^Sense Lifeblood~#"
+    ],
+    "unique_feat": ["~fn^Oath of Rampage~#"],
+    "language": ["Sahrani"],
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of the Old Mother, Alsham, and the Cult of Blood.), Hunger (You shall aid any kinsmen or allied thing that hungers for blood, meat or soul. On successful quenching of their hunger, they shall reward you.)"
+    ]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Al Murán Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Resilient~# (Charisma, Wisdom)",
+      "~fn^Weapon Master~# (Greatsword, Lajatang, Montante, Scimitar)~#"
+    ],
+    "spells": ["~sn^Endure~#", "~sn^Refuse Curse~#"],
+    "unique_feat": ["~fn^Oath of Endurance~#"],
+    "language": ["Auropolian"],
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of the Old Mother and Alsham.), Shield (You shall protect any kinsmen or allied thing under danger of death. On successful saving of their life, they shall reward you.)"
+    ]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Istvani Empire",
+    "region" : "Zentravalk",
+    "subnations" : [
+      {
+        "name" : "House Hadrianos",
+        "races": [
+          "~rn^Goliath~#",
+          "~rn^High Elf~#",
+          "~rn^Human~#",
+          "~rn^Mountain Dwarf~#"
+        ],
+        "feats": [
+          "~fn^Athlete~#",
+          "~fn^Heavy Armor Master~#",
+          "~fn^Mounted Combatant~#",
+          "~fn^Skilled (Acrobatics, Athletics, History, Perception, Religion)~#",
+          "~fn^Tough~#"
+        ],
+        "spells": ["~sn^Imperate~#", "~sn^Reconstitute~#"],
+        "unique_feat": ["~fn^Trampler~#"],
+        "language": ["Istvani"]    ,"region" : "Zentravalk"
+      },
+      {
+    "name": "House Palailogos",
+    "races": ["~rn^Gnome~#", "~rn^High Elf~#", "~rn^Human~#", "~rn^Mountain Dwarf~#"],
+    "feats": [
+      "~fn^Combat Blade Prowess~#",
+      "~fn^Diplomat (UA)~#",
+      "~fn^Linguist~#",
+      "~fn^Skilled~# (All Charisma Skills, History, Religion)"
+    ],
+    "spells": [
+      "~sn^Imperate~#",
+      "~sn^Reconstitute~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Merchant’s Cant~#"],
+    "language": ["Istvani"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "House Saburnikos",
+    "races": [
+      "~rn^Goliath~#",
+      "~rn^Human~#",
+      "~rn^Lizardfolk~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Linguist~#",
+      "~fn^Tough~#",
+      "~fn^Weapon Master (Maul, Partisan, Recurve Bow, Scimitar)~#"
+    ],
+    "spells": [
+      "~sn^Imperate~#",
+      "~sn^Reconstitute~#",
+      "~sn^Veil of a Thousand Needles~#"
+    ],
+    "unique_feat": ["~fn^Dreamer~#"],
+    "language": ["Anatol"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "House Salonikos",
+    "races": [
+      "~rn^Half Giant (Hill)~#",
+      "~rn^Halfling~#",
+      "~rn^Hill Dwarf~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Magic Initiate~#",
+      "~fn^Skilled (All Charisma Skills, History, Religion)~#",
+      "~fn^Weapon Master (Hook Sword, Longbow, Short Bow, Short Glaive)~#"
+    ],
+    "spells": [
+      "~sn^Lance of Armann~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Visibility~#",
+      "~sn^Whisper of Spells~#"
+    ],
+    "unique_feat": ["~fn^Cloth of Sun and Beauty~#"],
+    "language": ["Istvani"]    ,"region" : "Zentravalk"
+
+  }
+    ]
+    
+
+  },
+  
+  
+  {
+    "name": "Kingdom Of Druz",
+    "races": [
+      "~rn^Goliath~#",
+      "~rn^Half Giant (Frost, Stone, Storm)~#",
+      "~rn^Hill Dwarf~#",
+      "~rn^Snow Elf~#"
+    ],
+    "feats": [
+      "~fn^Axe Prowess~#",
+      "~fn^Rune Carver Apprentice (UA)~#",
+      "~fn^Skulker~#",
+      "~fn^Skill Expert (Arcana, Stealth, Survival)~#"
+    ],
+    "spells": [
+      "~sn^Conjure Igloo~#",
+      "~sn^One With the Ground~#",
+      "~sn^Rune Boulder~#"
+    ],
+    "unique_feat": ["~fn^Rune Attuned~#"],
+    "language": ["Druzian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Kingdom of The Gyamars",
+    "races": ["~rn^Human~#", "~rn^Hobgoblin~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Combat Blade Prowess~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Skilled~#",
+      "~fn^Weapon Master (Broadsword, Lance, Longbow, Partisan)~#",
+      "~fn^Spear Prowess~#"
+    ],
+    "spells": ["~sn^Imperate~#", "~sn^Sun Shield~#"],
+    "unique_feat": ["~fn^Lance of The Steppe~#"],
+    "language": ["Gahunre"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Kingdom of the Llapocks",
+    "races": ["~rn^Harengon~#", "~rn^Human~#", "~rn^Kenku~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Resilient (Constitution, Wisdom)~#",
+      "~fn^Skulker~#",
+      "~fn^Weapon Master (Lance, Partisan, Spear, War Scythe)~#"
+    ],
+    "spells": ["~sn^Arboreal Curse~#", "~sn^Sun Shield~#"],
+    "unique_feat": ["~fn^Thorn~#"],
+    "language": ["Llapock"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Luth Tribes",
+    "races": ["~rn^Fir Bolg~#", "~rn^Grung~#", "~rn^Verdan~#"],
+    "feats": [
+      "~fn^Sentinel~#",
+      "~fn^Shield Master (Kite, Skirmish, Tower)~#",
+      "~fn^Skulker~#",
+      "~fn^Spear Prowess~#"
+    ],
+    "spells": [
+      "~sn^Conjure Hounds of the Trod~#",
+      "~sn^Roots of the Earth~#"
+    ],
+    "unique_feat": ["~fn^Barkmen~#"],
+    "language": ["Luth"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Szlachta",
+    "races": ["~rn^Aasimar~#", "~rn^Avariel~#"],
+    "feats": [
+      "~fn^Diplomat (UA)~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Metamagic Adept~#",
+      "~fn^Spell Sniper~#"
+    ],
+    "spells": [
+      "~sn^Imbue with Lightning~#",
+      "~sn^Imbue with Thunder~#",
+      "~sn^Lance of the Stars~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Respel Magic~#"
+    ],
+    "unique_feat": ["~fn^Arcane Scribe~#"],
+    "language": ["Celestial"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Kingdom of Normand",
+    "races": [
+      "~rn^Human~#",
+      "~rn^Wood Elf~#",
+      "~rn^Goliath~#",
+      "~rn^Half-Orc~#",
+      "~rn^Harengon~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Chef~#",
+      "~fn^Bow and Sling Prowess~#"
+    ],
+    "spells": [
+      "~sn^Fiery Missile~#",
+      "~sn^Litany of War~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Magic Adept~#"],
+    "language": ["Normand"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "The Garbunnian Nobles",
+    "races": ["~rn^Centaur~#", "~rn^Half-Orc~#", "~rn^Human~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Actor~#",
+      "~fn^Bow and Sling Prowess~#",
+      "~fn^Linguist~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Mobile~#"
+    ],
+    "spells": [
+      "~sn^Ghost Lightt~#",
+      "~sn^Rush of The Hunt~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Coin and Wine~#"],
+    "language": ["Normand"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Letún Tribes",
+    "races": ["~rn^Half Troll~#", "~rn^Human~#", "~rn^Shifter~#"],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Axe Prowess~#",
+      "~fn^Charger~#",
+      "~fn^Savage Attacker~#"
+    ],
+    "spells": [
+      "~sn^Roots of the Earth~#",
+      "~sn^Sharpen with Green~#",
+      "~sn^Wurzel Eyes~#"
+    ],
+    "unique_feat": ["~fn^Gift of Mizada~#"],
+    "language": ["Letun"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Marna of The Wagon",
+    "races": ["~rn^Atavi~#", "~rn^Harengon~#", "~rn^Human~#", "~rn^Tabaxi~#"],
+    "feats": [
+      "~fn^Acrobat~#",
+      "~fn^Alchemist (UA)~#",
+      "~fn^Performer~#",
+      "~fn^Skilled~#",
+      "~fn^Stealthy~#"
+    ],
+    "spells": [
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Disregard~#",
+      "~sn^Sphere of Silence~#"
+    ],
+    "unique_feat": ["~fn^Trinketeer~#"],
+    "language": ["Mahanni"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Mythrellian Baronies",
+    "races": [
+      "~rn^Dragonborn~#",
+      "~rn^Drow~#",
+      "~rn^Dwarf~#",
+      "~rn^Half-Orc~#",
+      "~rn^Halfling~#",
+      "~rn^Human~#",
+      "~rn^Tabaxi~#",
+      "~rn^Tiefling~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Healer~#",
+      "~fn^Skilled~#",
+      "~fn^Sentinel~#",
+      "~fn^Spear Prowess~#"
+    ],
+    "spells": [
+      "~sn^Fiery Missile~#",
+      "~sn^Imperate~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Old Hope~#"],
+    "language": ["Mythrellian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "The Sapphire Island",
+    "races": ["~rn^Human~#", "~rn^High Elf~#"],
+    "feats": [
+      "~fn^Arcanist (UA)~#",
+      "~fn^Elemental Adept~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Metamagic Adept~#"
+    ],
+    "spells": [
+      "~sn^Fiery Missile~#",
+      "~sn^Forecast~#",
+      "~sn^Imperate~#",
+      "~sn^Lance of Armann~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Whisper of Spells~#"
+    ],
+    "unique_feat": ["~fn^Ascended Lore~#"],
+    "language": ["Mythrellian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Oirannor Tribes",
+    "races": ["~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Mobile~#",
+      "~fn^Tracker (UA)~#",
+      "~fn^Stealthy (UA)~#",
+      "~fn^Weapon Master (Javelin, Longbow, Skirmish Shield, Tomahawk)~#"
+    ],
+    "spells": ["~sn^One With the Ground~#", "~sn^Rush of The Hunt~#"],
+    "unique_feat": ["~fn^Sprinter~#"],
+    "language": ["Oira"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Principality of The Folyos",
+    "races": ["~rn^Half Ogre~#", "~rn^Half Orc~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Bow and Sling Prowess~#",
+      "~fn^Mobile~#",
+      "~fn^Skulker~#",
+      "~fn^Tracker (UA)~#"
+    ],
+    "spells": [
+      "~sn^Arboreal Curse~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Sphere of Silence~#"
+    ],
+    "unique_feat": ["~fn^Virajte~#"],
+    "language": ["Vrache"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Principality of The Vlast",
+    "races": ["~rn^Drow~#", "~rn^High Elf~#", "~rn^Kor~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Bow and Sling Prowess~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Marksmen Firearm Prowess~#",
+      "~fn^Skulker~#",
+      "~fn^Tracker (UA)~#"
+    ],
+    "spells": [
+      "~sn^Blade of Stars~#",
+      "~sn^Disregard~#",
+      "~sn^Ghost Light~#",
+      "~sn^Lance of Armann~#",
+      "~sn^Magic Bullet~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Moon Mirror~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Whisper of Spells~#",
+      "~sn^Wrath of Armann~#"
+    ],
+    "unique_feat": ["~fn^Acolyte of The Palace of Moonlight~#"],
+    "language": ["Vlast"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Unseelie Fey",
+    "races": ["~rn^Dhampir~#", "~rn^Eladrin~#", "~rn^Fairy~#", "~rn^Shifter~#"],
+    "feats": [
+      "~fn^Eldritch Adept~#",
+      "~fn^Fey Touched~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Shadow Touched~#"
+    ],
+    "spells": [
+      "~sn^Eldritch Step~#",
+      "~sn^Lies Of The Void~#",
+      "~sn^Tendrils of The Mind~#"
+    ],
+    "unique_feat": ["~fn^Step Beyond The Veil~#"],
+    "language": ["Sylvan"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Principality of Wachonia",
+    "races": ["~rn^Halfling~#", "~rn^Human~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Arcanist (UA)~#",
+      "~fn^Linguist~#",
+      "~fn^Perceptive (UA)~#",
+      "~fn^Resilient (Wisdom, Charisma)~#"
+    ],
+    "spells": [
+      "~sn^Arboreal Curse~#",
+      "~sn^Ghost Light~#",
+      "~sn^Reveal Curse~#"
+    ],
+    "unique_feat": ["~fn^Ghost Sight~#"],
+    "language": ["Wachonian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Vojivoivode",
+    "races": ["~rn^Dhampir~#", "~rn^Shadar Kai~#", "~rn^Shifter~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Polearm Prowess~#",
+      "~fn^Shadow Touched~#",
+      "~fn^Tandem Tactician (UA)~#",
+      "~fn^Tracker (UA)~#"
+    ],
+    "spells": [
+      "~sn^Gut Feeling~#",
+      "~sn^Lies Of The Void~#",
+      "~sn^Mind Screech~#",
+      "~sn^Sense Lifeblood~#",
+      "~sn^Wrack~#"
+    ],
+    "unique_feat": ["~fn^Gift of Haemomancy~#"],
+    "language": ["Wachonian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Ratarte Khanate",
+    "races": ["~rn^Gnoll~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Charger~#",
+      "~fn^Eldritch Adept~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Weapon Master (Axegun, Net, Recurve Bow, Saber, Short Bow)~#"
+    ],
+    "spells": [
+      "~sn^Blood Rush~#",
+      "~sn^Consumption~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Reveal Curse~#",
+      "~sn^Sense Lifeblood~#"
+    ],
+    "unique_feat": ["~fn^Relentless Rampage~#"],
+    "language": ["Ratarte"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Kythenian Tribes",
+    "races": ["~rn^Bugbear~#", "~rn^Goblin~#", "~rn^Harengon~#", "~rn^Tabaxi~#"],
+    "feats": [
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Skulker~#",
+      "~fn^Tandem Tactician (UA)~#",
+      "~fn^Tracker (UA)~#"
+    ],
+    "spells": ["~sn^Rush of The Hunt~#", "~sn^Wineberry~#"],
+    "unique_feat": ["~fn^Tunneler~#"],
+    "language": ["Kythenian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Principality of The Dalmovs",
+    "races": ["~rn^Drow~#", "~rn^Gith~#"],
+    "feats": [
+      "~fn^Durable~#",
+      "~fn^Medium Firearm Prowess~#",
+      "~fn^Polearm Prowess~#",
+      "~fn^Telekinetic~#",
+      "~fn^Telepathic~#"
+    ],
+    "spells": [
+      "~sn^Greater Mold Earth~#",
+      "~sn^Veil of a Thousand Needles~#"
+    ],
+    "unique_feat": ["~fn^Psionic Adept~#"],
+    "language": ["Undercommon"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Sharpheart Clans",
+    "races": ["~rn^Hill Dwarf~#", "~rn^Human~#", "~rn^Minotaur~#", "~rn^Satyr~#"],
+    "feats": [
+      "~fn^Axe Prowess~#",
+      "~fn^Charger~#",
+      "~fn^Fey Touched~#",
+      "~fn^Tough~#"
+    ],
+    "spells": ["~sn^Disregard~#"],
+    "unique_feat": ["~fn^Oathsworn~#"],
+    "language": ["Sharpheart"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Seelie Fey",
+    "races": ["~rn^Eladrin~#", "~rn^Fairy~#", "~rn^Satyr~#"],
+    "feats": [
+      "~fn^Combat Blades Prowess~#",
+      "~fn^Fey Touched~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Telepathic~#"
+    ],
+    "spells": [
+      "~sn^Disregard~#",
+      "~sn^Dress of Rainbows~#",
+      "~sn^Visibility~#",
+      "~sn^Wind Deflect~#"
+    ],
+    "unique_feat": ["~fn^Court Retainer~#"],
+    "language": ["Sylvan"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Shidte of Karán",
+    "races": [
+      "~rn^Human~#",
+      "~rn^Hobgoblin~#",
+      "~rn^Kor~#",
+      "~rn^Tabaxi~#",
+      "~rn^Tiefling~#"
+    ],
+    "feats": [
+      "~fn^Alert~#",
+      "~fn^Eldritch Adept~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Shadow Touched~#"
+    ],
+    "spells": [
+      "~sn^Beacon of Doom~#",
+      "~sn^Create Bloodhound~#",
+      "~sn^Dark Sacrament~#",
+      "~sn^Eldritch Step~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Lies Of The Void~#",
+      "~sn^Mind Screech~#",
+      "~sn^Moon Mirror~#",
+      "~sn^Murder of Crows~#",
+      "~sn^Sense Lifeblood~#",
+      "~sn^Tendrils of The Mind~#",
+      "~sn^Wrack~#",
+      "~sn^Wrath of Armann~#"
+    ],
+    "unique_feat": ["~fn^Eldritch Master~#"],
+    "language": ["Karanni"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Sultanate of Altyn Nehir",
+    "races": [
+      "~rn^Aasimar~#",
+      "~rn^Genasi~#",
+      "~rn^Halfling~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#",
+      "~rn^Lizardfolk~#",
+      "~rn^Loxodon~#",
+      "~rn^Tabaxi~#",
+      "~rn^Yuan Ti~#"
+    ],
+    "feats": [
+      "~fn^Arcanist (UA)~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Conjure Crystal Spider~#",
+      "~sn^Denounce Magic~#",
+      "~sn^Reveal Curse~#",
+      "~sn^Signature~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Temple Bureaucrat~#"],
+    "language": ["Nehirese"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Al Hisan Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Eldritch Adept~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Squire of Solamnia~#",
+      "~fn^Weapon Master (Jezzail, Recurve Bow, Scimitar, Shortbow)~#"
+    ],
+    "spells": [
+      "~sn^Gut Feeling~#",
+      "~sn^Sense Lifeblood~#",
+      "~sn^Wrack~#"
+    ],
+    "unique_feat": ["~fn^Oath of Dust and Distance~#"],
+    "language": ["Nehirese"]    ,"region" : "Zentravalk"
+,
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites to the Old Mother and Alsham), Hunt (You shall hunt slavers and free those in chains under them. The priests and rulers shall reward you.)"
+    ]
+  },
+  {
+    "name": "Al Nehir Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Assault Firearm Prowess~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Squire of Solamnia~#",
+      "~fn^Weapon Master (Halberd, Lajatang, Partisan, Recurve Bow)~#"
+    ],
+    "spells": ["~sn^Veil of a Thousand Needles~#"],
+    "unique_feat": ["~fn^Oath of The Adept Custodian~#"],
+    "language": ["Nehirese"]    ,"region" : "Zentravalk"
+,
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of the Old Mother, Alsham and Anhur.), Crown (You shall serve the Sultan of Altyn Nehir for as long as it is righteous. The Sultan shall reward your service.)"
+    ]
+  },
+  {
+    "name": "Noker Turannor",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Mage Slayer~#",
+      "~fn^Elemental Adept (Fire)~#",
+      "~fn^Weapon Master (Scimitar, Recurve Bow, Lance, Firelance)~#"
+    ],
+    "spells": [
+      "~sn^Counterspellcaster~#",
+      "~sn^Fiery Missile~#",
+      "~sn^Fire Lance~#",
+      "~sn^Ignite~#"
+    ],
+    "unique_feat": ["~fn^Oath of The Endless Battle~#"],
+    "language": ["Nehirese"]    ,"region" : "Zentravalk"
+,
+    "special": [
+      "Members from this faction Will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty.",
+      "Oaths: Kinship (You shall treat your kinsmen with hospitality, generosity and reciprocity, for as long as they are deserving of it.), Friendship (You shall treat the kindred of the Anatol as esteemed friends, as long as they reciprocate, and their acts do not go against your oaths.), Faith (You shall carry the rites of the Old Mother, Anhur and Alsham.), Hatred (You shall lay waste to all blood sorcerers, vampires and their kin. The rulers of your land shall reward you.)"
+    ]
+  },
+  {
+    "name": "Thalic Peninsula: Duchy of Argens",
+    "races": [
+      "~rn^Drow~#",
+      "~rn^Deep Gnome~#",
+      "~rn^Human~#",
+      "~rn^Owlin~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Ambush Weapon Prowess~#",
+      "~fn^Dungeon Delver~#",
+      "~fn^Perceptive (UA)~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": ["~sn^Litany of War~#"],
+    "unique_feat": ["~fn^Guffor~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Thalic Peninsula: Holy Seat Of Amaunator",
+    "races": [
+      "~rn^Drow~#",
+      "~rn^Half Orc~#",
+      "~rn^Halfling~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Linguist~#",
+      "~fn^Sentinel~#",
+      "~fn^Skill Expert (Religion, Deception, Persuasion)~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Litany of War~#",
+      "~sn^Reveal Curse~#",
+      "~sn^Signature~#"
+    ],
+    "unique_feat": ["~fn^Learned Clergy~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Thalic Peninsula: Kingdom of Anjou",
+    "races": [
+      "~rn^Half Orc~#",
+      "~rn^High Elf~#",
+      "~rn^Hill Dwarf~#",
+      "~rn^Human~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Dueling Blade Prowess~#",
+      "~fn^Performer (UA)~#",
+      "~fn^Poisoner~#",
+      "~fn^Skill Expert (Deception,Perception, Stealth)~#"
+    ],
+    "spells": [
+      "~sn^Fiery Missile~#",
+      "~sn^Litany of War~#",
+      "~sn^Visibility~#"
+    ],
+    "unique_feat": ["~fn^Idyllique~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Thalic Peninsula: Signoria of Arlequin",
+    "races": ["~rn^High Elf~#", "~rn^Half Orc~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Combat Blade Prowess~#",
+      "~fn^Heavy Armor Master~#",
+      "~fn^Magic Initiate (From Cleric or Paladin spell list)~#",
+      "~fn^Theologian~#"
+    ],
+    "spells": [
+      "~sn^Armor of Contempt~#",
+      "~sn^Awakening from Repose~#",
+      "~sn^Repose~#"
+    ],
+    "unique_feat": ["~fn^Light Beyond Life~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Thalic Peninsula: Republic of Lamín",
+    "races": [
+      "~rn^Human~#",
+      "~rn^Hill Dwarf~#",
+      "~rn^Mountain Dwarf~#",
+      "~rn^Halfling~#",
+      "~rn^Gnome~#"
+    ],
+    "feats": [
+      "~fn^Heavy Armor Master~#",
+      "~fn^Slasher~#",
+      "~fn^Rune Carver Apprentice (UA)~#",
+      "~fn^Hammer And Pick Prowess~#"
+    ],
+    "spells": [
+      "~sn^Reconstitute~#",
+      "~sn^Solidify~#",
+      "~sn^Armor of Stone~#"
+    ],
+    "unique_feat": ["~fn^Master Smith~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Thalic Peninsula: Republic of Vanettia",
+    "races": [
+      "~rn^Gnome~#",
+      "~rn^Halfling~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Diplomat (UA)~#",
+      "~fn^Empathic (UA)~#",
+      "~fn^Skilled~#",
+      "~fn^Skill Expert (Deception, Insight, Perception)~#"
+    ],
+    "spells": [
+      "~sn^Gust the Sails~#",
+      "~sn^Forecast~#",
+      "~sn^Ghost Light~#"
+    ],
+    "unique_feat": ["~fn^Seafarer~#"],
+    "language": ["Thalic"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Tsardom of Galburia",
+    "races": ["~rn^Drow~#", "~rn^Human~#", "~rn^Tabaxi~#", "~rn^Wood Elf~#"],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Bow and Sling Prowess~#",
+      "~fn^Medium Armor Master~#",
+      "~fn^Shield Master (Pavise, Skirmish)~#"
+    ],
+    "spells": ["~sn^Etch Stones~#", "~sn^Wineberry~#"],
+    "unique_feat": ["~fn^Skirmisher~#"],
+    "language": ["Galburian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Dwarven Holds",
+    "races": ["~rn^Drow~#", "~rn^Gnome~#", "~rn^Hill Dwarf~#"],
+    "feats": [
+      "~fn^Artificer Initiate~#",
+      "~fn^Rune Carver Apprentice~#",
+      "~fn^Tough~#",
+      "~fn^Hammer And Pick Prowess~#"
+    ],
+    "spells": [
+      "~sn^Reconstitute~#",
+      "~sn^Etch Stones~#",
+      "~sn^Solidify~#"
+    ],
+    "unique_feat": ["~fn^Tunnel Defender~#"],
+    "language": ["Galburian"]    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Wodanaz Blood Druids",
+    "races": [
+      "~rn^Fir Bolg~#",
+      "~rn^Harengon~#",
+      "~rn^Kenku~#",
+      "~rn^Owlin~#",
+      "~rn^Wood Elf~#"
+    ],
+    "feats": [
+      "~fn^Fey Touched~#",
+      "~fn^Magic Initiate (Spells from Druid or Ranger Lists)~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": [
+      "~sn^Arboreal Curse~#",
+      "~sn^Blood Berry~#",
+      "~sn^Blood Bond~#",
+      "~sn^Blood Broth~#",
+      "~sn^Exanguinate~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Murder of Crows~#",
+      "~sn^Sense Lifeblood~#"
+    ],
+    "unique_feat": ["~fn^Manhunter~#"],
+    "language": ["Galburian"],
+    "region" : "Zentravalk"
+
+  },
+  {
+    "name": "Tsardom of Varángor",
+    "races": [
+      "~rn^Goliath~#",
+      "~rn^Half Giant (Cloud)~#",
+      "~rn^Half Giant (Stone)~#",
+      "~rn^Half Giant (Storm)~#",
+      "~rn^Human~#"
+    ],
+    "feats": [
+      "~fn^Axe Prowess~#",
+      "~fn^Resilient (Constitution, Strength)~#",
+      "~fn^Rune Carver Apprentice (UA)~#",
+      "~fn^Tough~#"
+    ],
+    "spells": ["~sn^Imperate~#", "~sn^Rune Boulder~#"],
+    "unique_feat": ["~fn^Druzhina~#"],
+    "language": ["Varangor"],
+    "region" : "Zentravalk"
+
+  },
+  {
+    "name": "Tsardom of Vidìn",
+    "races": [
+      "~rn^Aarakocra~#",
+      "~rn^Centaur~#",
+      "~rn^Fir Bolg~#",
+      "~rn^Goliath~#",
+      "~rn^Harengon~#",
+      "~rn^Human~#",
+      "~rn^Lizardfolk~#",
+      "~rn^Owlin~#",
+      "~rn^Tabaxi~#",
+      "~rn^Tortle~#"
+    ],
+    "feats": [
+      "~fn^Charger~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Weapon Master (Arquebus, Javelin, Lance, War Spear)~#"
+    ],
+    "spells": [
+      "~sn^Gifts from Father Earth~#",
+      "~sn^Gifts from Mother Oak~#",
+      "~sn^Rush of The Hunt~#",
+      "~sn^Spit Curse~#",
+      "~sn^Veil of a Thousand Needles~#",
+      "~sn^Wineberry~#"
+    ],
+    "unique_feat": ["~fn^Winemaker~#"],
+    "language": ["Vidinak"],
+    "region" : "Zentravalk"
+
+  },
+  {
+    "name": "Tsardom of the Bress",
+    "races": [
+      "~rn^Half Ogre~#",
+      "~rn^Half Orc~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#"
+    ],
+    "feats": [
+      "~fn^Magic Initiate~#",
+      "~fn^Metamagic Adept~#",
+      "~fn^Shield Master (Kite, Skirmish,Tower)~#",
+      "~fn^Tough~#"
+    ],
+    "spells": [
+      "~sn^Lance of Armann~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Sphere of Silence~#",
+      "~sn^Whisper of Spells~#",
+      "~sn^Wrath of Armann~#"
+    ],
+    "unique_feat": ["~fn^Battlemage~#"],
+    "language": ["Bressnian"],
+    "region" : "Zentravalk"
+
+  },
+  {
+    "name": "Tyranny Of Ragoza",
+    "races": ["~rn^Cambion~#", "~rn^Human~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Alchemist (UA)~#",
+      "~fn^Inspiring Leader~#",
+      "~fn^Hand Firearm Prowess~#",
+      "~fn^Magic initiate~#"
+    ],
+    "spells": [
+      "~sn^Blood Rush~#",
+      "~sn^Bullet Barrage~#",
+      "~sn^Consumption~#",
+      "~sn^Greater Mold Earth~#",
+      "~sn^Magic Bullet~#",
+      "~sn^Red Rain~#",
+      "~sn^Sense Lifeblood~#",
+      "~sn^Tarpushta's Fire~#",
+      "~sn^Wineberry~#"
+    ],
+    "unique_feat": ["~fn^Tyrant~#"],
+    "language": ["Ragozan"],
+    "region" : "Zentravalk"
+  },    
+  {
+    "name": "Union of Buzaartov: Boolannor",
+    "races": ["~rn^Orc~#"],
+    "feats": [
+      "~fn^Brawny (UA)~#",
+      "~fn^Durable~#",
+      "~fn^Tough~#",
+      "~fn^Weapon Master (Maul, Orc Throwing Shot, Sling Staff)~#"
+    ],
+    "spells": [],
+    "unique_feat": ["~fn^Iron Warrior~#"],
+    "language": ["Boolannor"]
+    ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Union of Buzaartov: Gorbennor",
+    "races": [
+      "~rn^Centaur~#",
+      "~rn^Foxfolk~#",
+      "~rn^Harengon~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Fey Touched~#",
+      "~fn^Mobile~#",
+      "~fn^Skulker~#",
+      "~fn^Stealthy (UA)~#"
+    ],
+    "spells": [
+      "~sn^Disregard~#",
+      "~sn^Ghost Light~#",
+      "~sn^Rush of The Hunt~#"
+    ],
+    "unique_feat": ["~fn^Veil of Grass~#"],
+    "language": ["Gorbennor"]
+        ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Union of Buzaartov: Kharannor",
+    "races": ["~rn^Human~#", "~rn^Genasi (Fire)~#"],
+    "feats": [
+      "~fn^Elemental Adept (Fire)~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Ritual Caster~#"
+    ],
+    "spells": [
+      "~sn^Ember Wisps~#",
+      "~sn^Blood Rush~#",
+      "~sn^Fire Lance~#",
+      "~sn^Sense Lifeblood~#"
+    ],
+    "unique_feat": ["~fn^Ember Blooded~#"],
+    "language": ["Ashkhal"]
+        ,"region" : "Zentravalk"
+
+  },
+  {
+    "name": "Union of Buzaartov: Nikannor",
+    "races": ["~rn^Hill Dwarf~#", "~rn^Thri Kreen~#"],
+    "feats": [
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Athlete~#",
+      "~fn^Heavy Armor Master~#",
+      "~fn^Weapon Master (Heavy Crossbow, Pike, Stiletto, War Hammer)~#"
+    ],
+    "spells": [
+      "~sn^Dark Sacrament~#",
+      "~sn^Greater Mold Earth~#",
+      "~sn^Sense Lifeblood~#",
+      "~sn^Earth Worm~#"
+    ],
+    "unique_feat": ["~fn^Blood Smith~#"],
+    "language": ["Nikannor"]
+        ,"region" : "Zentravalk"
+
+  },
+  
+  {
+    "name": "Divine Empire of Shenghuang", 
+    "region": "Orientavalk",
+
+    "subnations" : [
+        {
+            "name" : "Divine Bureaucracy",
+            "races": ["~rn^Aasimar~#", "~rn^Dragonborn~#", "~rn^Human~#"],
+            "feats": [
+            "~fn^Eldritch Adept~#",
+            "~fn^Elemental Adept~#",
+            "~fn^Magic Initiate~#",
+            "~fn^Theologian~#",
+            "~fn^Alchemist~#"
+            ],
+            "spells": [
+            "~sn^Conjure Crystal Spider~#",
+            "~sn^Celestial Smite~#",
+            "~sn^Denounce Magic~#",
+            "~sn^Dragon Specter~#",
+            "~sn^Quill of Writing~#",
+            "~sn^Signature~#",
+            "~sn^Summon Celestial Servant~#"
+            ],
+            "unique_feat": [],
+            "language": [],
+            "region": "Orientavalk"
+        },
+        {
+            "name": "Heartland Provinces",
+            "races": [
+            "~rn^Auroch~#",
+            "~rn^Aven (Ibis-Headed)~#",
+            "~rn^Badgerfolk (Heartlander)~#",
+            "~rn^Dragonborn~#",
+            "~rn^Kobold~#",
+            "~rn^Kenku~#",
+            "~rn^Human~#",
+            "~rn^Hogfolk (Heartlander)~#",
+            "~rn^Harengon~#",
+            "~rn^Locathah~#",
+            "~rn^Naga~#",
+            "~rn^Pangolian (Heartlander)~#",
+            "~rn^Tortle~#",
+            "~rn^Tabaxi~#"
+            ],
+            "feats": [
+            "~fn^Skilled~#",
+            "~fn^Chef~#",
+            "~fn^Gourmand~#",
+            "~fn^Naturalist~#"
+            ],
+            "spells": [
+            "~sn^Contact Ancestors~#",
+            "~sn^Conjure Fox Spirit~#",
+            "~sn^Enrichen Broth~#"
+            ],
+            "unique_feat": [],
+            "language": [],
+            "region": "Orientavalk"
+        },
+        {
+    "name": "Northern Provinces",
+    "races": [
+      "~rn^Auroch~#",
+      "~rn^Aven (Hawk-Headed)~#",
+      "~rn^Badgerfolk (Northern)~#",
+      "~rn^Centaurs~#",
+      "~rn^Dogfolk~#",
+      "~rn^Kobold~#",
+      "~rn^Kenku~#",
+      "~rn^Human~#",
+      "~rn^Hogfolk (Northern)~#",
+      "~rn^Leonin~#",
+      "~rn^Pangolian (Northern)~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Spear Prowess~#",
+      "~fn^Polearm Prowess~#",
+      "~fn^Tough~#",
+      "~fn^Durable~#"
+    ],
+    "spells": [
+      "~sn^Enliven Clay Soldier~#",
+      "~sn^Northern Gust~#",
+      "~sn^Raise Wall~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Southern Provinces",
+    "races": [
+      "~rn^Badgerfolk (Southern)~#",
+      "~rn^Crabfolk~#",
+      "~rn^Foxfolk~#",
+      "~rn^Human~#",
+      "~rn^Hogfolk (Southern)~#",
+      "~rn^Grung~#",
+      "~rn^Locathah~#",
+      "~rn^Naga~#",
+      "~rn^Tortle~#",
+      "~rn^Triton~#"
+    ],
+    "feats": [
+      "~fn^Linguist~#",
+      "~fn^Poisoner~#",
+      "~fn^Perceptive~#",
+      "~fn^Tavern Brawler~#"
+    ],
+    "spells": [
+      "~sn^Burn the False Myrh~#",
+      "~sn^Gust the Sails~#",
+      "~sn^Southern Monsoon~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Brotherhood of Turàn",
+    "races": [
+      "~rn^Arangran~#",
+      "~rn^Goliath~#",
+      "~rn^Kor~#",
+      "~rn^Owlin~#",
+      "~rn^Shadar Kai~#"
+    ],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Martial Arts Inititate~#",
+      "~fn^Ki Warrior~#",
+      "~fn^Weapon Master (Bo Staff, Sling, Sai, Meteor Hammer)~#"
+    ],
+    "spells": [
+      "~sn^Moon Mirror~#",
+      "~sn^Traverse of the Chi~#",
+      "~sn^Whisper of Spells~#",
+      "~sn^Weapon of a Thousand Yards~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  }
+    ]
+},
+   
+  
+  
+  {
+    "name": "Brotherhood of Turàn: Malshan Mountains",
+    "races": [
+      "~rn^Arangran~#",
+      "~rn^Goliath~#",
+      "~rn^Human~#",
+      "~rn^Hogfolk (Northern)~#",
+      "~rn^Kenku~#"
+    ],
+    "feats": [
+      "~fn^Charger~#",
+      "~fn^Tough~#",
+      "~fn^Durable~#",
+      "~fn^Resilient~#"
+    ],
+    "spells": [
+      "~sn^Traverse of the Chi~#",
+      "~sn^Weapon of a Thousand Yards~#",
+      "~sn^Lesser Warding from Yaoguai~#",
+      "~sn^Greater Warding from Yaoguai~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Marannor Khanate",
+    "races": ["~rn^Centaur~#", "~rn^Kor~#", "~rn^Human~#", "~rn^Tabaxi~#"],
+    "feats": [
+      "~fn^Charger~#",
+      "~fn^Savage Attacker~#",
+      "~fn^Throwing Weapon Prowess~#",
+      "~fn^Slasher~#"
+    ],
+    "spells": [
+      "~sn^Awakening of The Nail~#",
+      "~sn^Prepare~#",
+      "~sn^Rush of The Hunt~#",
+      "~sn^Host of Tamed Mogwai~#",
+      "~sn^Host of Wild Mogwai~#",
+      "~sn^Wrack~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Meiji Principality",
+    "races": [
+      "~rn^Eladrin~#",
+      "~rn^Genasi~#",
+      "~rn^Human~#",
+      "~rn^Halfling~#",
+      "~rn^High Elf~#",
+      "~rn^Loxodon~#"
+    ],
+    "feats": [
+      "~fn^Magic Initiate~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Linguist~#"
+    ],
+    "spells": [
+      "~sn^Reveal Curse~#",
+      "~sn^Visibility~#",
+      "~sn^Denounce Magic~#",
+      "~sn^Magic Bullet~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Ghost Light~#",
+      "~sn^Disregard~#",
+      "~sn^Lance of Armann~#",
+      "~sn^Dress of Rainbows~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Fumeishi Island",
+    "races": ["~rn^Human~#", "~rn^Triton~#", "~rn^Tiefling~#"],
+    "feats": [
+      "~fn^Eldritch Adept~#",
+      "~fn^Skulker~#",
+      "~fn^Shadow Touched~#",
+      "~fn^Spell Sniper~#"
+    ],
+    "spells": [
+      "~sn^Wrath of Armann~#",
+      "~sn^Eldritch Step~#",
+      "~sn^Lies of the Void~#",
+      "~sn^Moon Mirror~#",
+      "~sn^Gut Feeling~#",
+      "~sn^Tendrils of The Mind~#",
+      "~sn^Mind Screech~#",
+      "~sn^Dark Sacrament~#",
+      "~sn^Wrack~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Shabuluk Shogunate",
+    "races": [
+      "~rn^Human~#",
+      "~rn^Kobold~#",
+      "~rn^Hobgoblin~#",
+      "~rn^Triton~#",
+      "~rn^Yuan Ti~#"
+    ],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Flail and Whip Prowess~#",
+      "~fn^Athlete~#",
+      "~fn^Shield Master (Armguard Buckler, Kite, Tower)~#"
+    ],
+    "spells": [
+      "~sn^Cultivate Lesser Disciple~#",
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Southern Monsoon~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Mikoshi Retinue",
+    "races": ["~rn^Tengu~#", "~rn^Dragonborn~#"],
+    "feats": [
+      "~fn^Combat Blades Prowess~#",
+      "~fn^Charger~#",
+      "~fn^Mage Slayer~#",
+      "~fn^Inspiring Leader~#",
+      "~fn^Elemental Adept~#"
+    ],
+    "spells": [
+      "~sn^Phantasmal Warriors~#",
+      "~sn^Lesser Eye of Lightning~#",
+      "~sn^Wind Deflect~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Shinsei Shogunate",
+    "races": ["~rn^Kor~#", "~rn^Kodan~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Dungeon Delver~#",
+      "~fn^Heavy Armor Master~#",
+      "~fn^Bludgeon Prowess~#",
+      "~fn^Assault Firearm Prowess~#",
+      "~fn^Mounted Combatant~#"
+    ],
+    "spells": [
+      "~sn^Conjure Igloo~#",
+      "~sn^Moon Mirror~#",
+      "~sn^Whisper of Spells~#"
+    ],
+    "unique_feat": [],
+    "language": [],
+    "region": "Orientavalk"
+  },
+  {
+    "name": "Tetzuan Shogunate",
+    "region": "Orientavalk",
+    "subnations" : [
+        {
+            "name" : "Kishian",
+            "races": ["~rn^Dragonborn~#", "~rn^Kor~#", "~rn^Human~#", "~rn^Triton~#"],
+            "feats": [
+            "~fn^Medium Firearm Prowess~#",
+            "~fn^Heavy Armor Master~#",
+            "~fn^Animal Handler~#"
+            ],
+            "spells": [
+            "~sn^Create Lei Ting Charm~#",
+            "~sn^Moon Shroud~#",
+            "~sn^Guided Missile~#"
+            ],
+            "unique_feat": [],
+            "language": [],
+            "region": "Orientavalk"
+        },
+                {
+            "name": "Highlander",
+            "races": ["~rn^Bugbear~#", "~rn^Goblin~#", "~rn^Hobgoblin~#", "~rn^Kobold~#"],
+            "feats": [
+            "~fn^Medium Firearm Prowess~#",
+            "~fn^Tandem Tactician~#",
+            "~fn^Survivalist~#"
+            ],
+            "spells": [
+            "~sn^Awaken Gunpowder~#",
+            "~sn^Create Lei Ting Charm~#",
+            "~sn^Create Lesser Jiangshi~#"
+            ],
+            "unique_feat": [],
+            "language": [],
+            "region": "Orientavalk"
+        }
+    ]
+}
+
+,
+  {
+    "name": "Ashodite Wastes",
+    "region" : "Mahanna", 
+    "subnations" : [
+        {
+            "name" : "Mukhlis Turannor",
+            "races": ["~rn^Shadar Kai~#"],
+            "special": "Members from this faction will never lie, or break any promise, and will be openly honest about matters. Additionally, members from this faction will by default notice dishonesty. Members from this faction also have the following oaths by default: Kinship, Friendship, Faith, and Wrath (against the Al Nasser Turannor). The last oath can be dissolved by mutual agreement with the other party.",
+            "feats": [
+            "~fn^Linguist~#",
+            "~fn^Perceptive (UA)~#",
+            "~fn^Survivalist~#",
+            "~fn^Tandem Tactician (UA)~#"
+            ],
+            "spells": ["~sn^Gust The Sails~#"],
+            "unique_feat": ["~fn^Oath of Stalwart Service~#"],
+            "language": ["Muharbese"],
+            "region": "Mahanna"
+        }
+    ]
+}
+  ,
+
+   {
+    "name": "Asra Lanka",
+    "region" : "Mahanna", 
+    "subnations" : [
+    {
+            "name": "Raktayana",
+            "races": ["~rn^Dhampir~#", "~rn^Reborn~#"],
+            "feats": [
+            "~fn^Inspiring Leader~#",
+            "~fn^Linguist~#",
+            "~fn^Heavy Armor Master~#",
+            "~fn^Ritual Caster~#"
+            ],
+            "spells": [
+            "~sn^Chain of Varùn~#",
+            "~sn^Blood To Flesh~#",
+            "~sn^Ichor~#",
+            "~sn^Feast of The Crimson Flesh~#",
+            "~sn^March of Burning Sinew~#",
+            "~sn^Rite of Boiling Bones~#",
+            "~sn^Ruby Thorns~#",
+            "~sn^Song of Crimson Rivers~#"
+            ],
+            "unique_feat": [
+            "~uf^Raktachuna~# (Casting of 3 sangromancy spells without spell slot, once per LR each)"
+            ],
+            "language": ["Asrani"],
+            "region": "Mahanna"
+        },
+        {
+            "name": "Kamsarjati",
+            "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+            "feats": [
+            "~fn^Durable~#",
+            "~fn^Bludgeon Prowess~#",
+            "~fn^Light Armor Master~#",
+            "~fn^Tandem Tactician~#"
+            ],
+            "spells": ["~sn^Cruor~#", "~sn^Blood Rush~#", "~sn^Sense Lifeblood~#"],
+            "unique_feat": [
+            "~uf^Kamsarchuna~# (Second Wind + Durable when healed by sangromancy spells)"
+            ],
+            "language": ["Asrani"],
+            "region": "Mahanna"
+        }
+    ]
+},
+  
+  
+  {
+    "name" : "Emirlands",
+    "region" : "Mahanna", 
+    "subnations" : [
+         {
+    "name": "Emirate of Dhul-Janan",
+    "races": [
+      "~rn^Genasi (Fire)~#",
+      "~rn^Khenra~#",
+      "~rn^Human~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Artificer Initiate~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Theologian~#",
+      "~fn^Weapon Master (Khopesh, Portable Ballista, Recurve Bow, War Spear)~#"
+    ],
+    "spells": [
+      "~sn^Awaken Glyphs~#",
+      "~sn^Dancing Flames~#",
+      "~sn^End of Hubris~#",
+      "~sn^Glyph of Salts~#"
+    ],
+    "unique_feat": [
+      "~uf^Beacon of Alsham~# (Artificer initiate + Light cantrip now has more light and pierces magical darkness)"
+    ],
+    "language": ["Jannani"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Emirate of Kharandun",
+    "races": ["~rn^Kobold~#", "~rn^Half Ogre~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Bludgeon Prowess~#",
+      "~fn^Dungeon Delver~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": ["~sn^Glamour of Glass~#"],
+    "unique_feat": [
+      "~uf^Tunnel Trapper~# (Enemies have disadvantage on checks to find and disarm traps placed by you, can place made traps as a bonus action, which are immediately hidden if possible. Can dig a trap within a minute)"
+    ],
+    "language": ["Kharandun"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Emirate of Shamsul-Zahra",
+    "races": [
+      "~rn^Genasi (Earth)~#",
+      "~rn^Human~#",
+      "~rn^Tiefling~#"
+    ],
+    "feats": [
+      "~fn^Mounted Combatant~#",
+      "~fn^Survivalist~#",
+      "~fn^Weapon Master (Bolas, Scimitar, Shortbow, War Spear)~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": [
+      "~sn^Forecast~#",
+      "~sn^Greater Mold Earth~#",
+      "~sn^Theft of Vitae~#"
+    ],
+    "unique_feat": [
+      "~uf^Dust Dervish~# (Hide in lightly obscured dust clouds, extra attack from attack action when attacking whilst hidden)"
+    ],
+    "language": ["Zahreni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Emirate of Wādī al-Qamar",
+    "races": [
+      "~rn^Aasimar (Scourge)~#",
+      "~rn^High Elf~#",
+      "~rn^Human~#"
+    ],
+    "feats": [
+      "~fn^Arcanist (UA)~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Conjure Crystal Spider~#",
+      "~sn^Mirror Spell~#",
+      "~sn^Moon Mirror~#",
+      "~sn^Whisper of Spells~#"
+    ],
+    "unique_feat": [
+      "~uf^Eyes of The Dial~# (free casting of a divination spell, adv on checks for divination spells)"
+    ],
+    "language": ["Arvanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Emirate of Zulmat-Qila",
+    "races": [
+      "~rn^Genasi (Fire)~#",
+      "~rn^Half Orc~#",
+      "~rn^Human~#"
+    ],
+    "feats": [
+      "~fn^Bludgeon Prowess~#",
+      "~fn^Crusher~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Cleansing Pyre~#",
+      "~sn^Dancing Flames~#",
+      "~sn^Hecatomb~#",
+      "~sn^Imperate~#"
+    ],
+    "unique_feat": ["~uf^Wastelander~#"],
+    "language": ["Zulmati"],
+    "region": "Mahanna"
+  }
+
+    ]
+
+  }
+ ,
+  {
+    "name": "Empire of Mahaan Sher",
+    "region" : "Mahanna",
+    "subnations" : [
+        {
+        "name": " Sheravarna",
+    "races": [
+      "~rn^Human~#",
+      "~rn^Leonin~#",
+      "~rn^Loxodon~#",
+      "~rn^Tabaxi~#"
+    ],
+    "feats": [
+      "~fn^Combat Blades Prowess~#",
+      "~fn^Inspiring Leader~#",
+      "~fn^Linguist~#",
+      "~fn^Skilled (All Charisma Skills, History, Religion)~#"
+    ],
+    "spells": [
+      "~sn^Denounce Magic~#",
+      "~sn^Imperate~#",
+      "~sn^Quill of Writing~#"
+    ],
+    "unique_feat": ["~uf^Lion Captain~# (Inspiring Leader +)"],
+    "language": ["Mahaani"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Lokajathi",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Human~#", "~rn^Owlin~#"],
+    "feats": [
+      "~fn^Durable~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Spear Prowess~#",
+      "~fn^Thrown Weapon Prowess~#"
+    ],
+    "spells": [],
+    "unique_feat": [
+      "~uf^Roughmarcher~# (Half CON feat + Short rest on 30 minutes, Long rest on 6 hours)"
+    ],
+    "language": ["Karkanni OR Mahanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Vanikarma",
+    "races": [
+      "~rn^Atavi~#",
+      "~rn^Bandar Log~#",
+      "~rn^Grung~#",
+      "~rn^Human~#",
+      "~rn^Lizardfolk~#",
+      "~rn^Makrata~#"
+    ],
+    "feats": [
+      "~fn^Linguist~#",
+      "~fn^Perceptive~#",
+      "~fn^Performer (UA)~#",
+      "~fn^Skilled~#"
+    ],
+    "spells": [],
+    "unique_feat": ["~uf^Lifelong Expertise~# (Skill Expert +)"],
+    "language": ["Karkanni OR Mahanni"],
+    "region": "Mahanna"
+  }
+
+    ]
+},
+
+    
+  {
+    "name": "Denizens of the Great Marsh",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Human~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Resilient~#",
+      "~fn^Survivalist~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": [
+      "~sn^Conjure Swamp Spirit (Toad of Monsoons, Snail of Droughts, Catfish of Floods)~#",
+      "~sn^Fist of Ishan~#",
+      "~sn^Mud Sling~#",
+      "~sn^Sludge Armor~#",
+      "~sn^Warden of Ishan~#",
+      "~sn^Whirling mire~#"
+    ],
+    "unique_feat": ["~uf^Mire’s Eye~#"],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Kaliasa",
+    "races": [
+      "~rn^Air Genasi~#",
+      "~rn^Atavi~#",
+      "~rn^Bandar Log~#",
+      "~rn^Makrata~#"
+    ],
+    "feats": [
+      "~fn^Magic Initiate~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Cultivate Greater Disciple~#",
+      "~sn^Cultivate Lesser Disciple~#",
+      "~sn^Demise of Vadru~#",
+      "~sn^Divine Hand of Tisha~#",
+      "~sn^Dream of the Seven Fates~#",
+      "~sn^End of Sorrows~#",
+      "~sn^Plant The Lotus of Spring~#"
+    ],
+    "unique_feat": [
+      "~uf^Font of Ki~# (Straight up Ki points, half the PC level + half WIS score, but no techniques)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Kaadhalabad",
+    "region" : "Mahanna", 
+    "subnations" : [
+            {
+                "name" : "Nahari",
+                "races": ["~rn^Human~#"],
+                "feats": [
+                "~fn^Diplomat~#",
+                "~fn^Linguist~#",
+                "~fn^Inspiring Leader~#",
+                "~fn^Skilled~#"
+                ],
+                "spells": [],
+                "unique_feat": [
+                "~uf^Way of The River Warden~# (+2 to AC while wielding a dueling blade/halberd and nothing but light armor. You learn one sword bard flourish, and you gain 2 bardic inspirations which you may only use for flourishes. Your die for the flourish is a d6 unless it is bigger)"
+                ],
+                "language": ["Naabadi"],
+                "region": "Mahanna"
+            },
+            {
+                "name": "Prabbudh",
+                "races": [
+                "~rn^Human~#",
+                "~rn^Water Genasi~#",
+                "~rn^Earth Genasi~#"
+                ],
+                "feats": [
+                "~fn^Artificer Initiate~#",
+                "~fn^Ritual Caster~#",
+                "~fn^Keen Mind~#",
+                "~fn^Magic Initiate (Wizard, Bard)~#"
+                ],
+                "spells": [
+                "~sn^Glimmerdew~#",
+                "~sn^Dewdrop Courier~#",
+                "~sn^Brackish Claw~#",
+                "~sn^Riptide~#",
+                "~sn^Cragspike~#",
+                "~sn^Earthen Stele~#",
+                "~sn^Raise or Lower Earth~#",
+                "~sn^Stone Anchor~#",
+                "~sn^Riverbound Wain~#"
+                ],
+                "unique_feat": ["~uf^Sage of Rivers~#"],
+                "language": ["Naabadi"],
+                "region": "Mahanna"
+            },
+            {
+                "name": "Ghumana",
+                "races": [
+                "~rn^Human~#",
+                "~rn^Makrata~#",
+                "~rn^Bandar Log~#",
+                "~rn^Earth Genasi~#",
+                "~rn^Water Genasi~#"
+                ],
+                "feats": [
+                "~fn^Brawny~#",
+                "~fn^Tough~#",
+                "~fn^Durable~#",
+                "~fn^Tandem Tactician~#"
+                ],
+                "spells": [
+                "~sn^Sludge Armor~#",
+                "~sn^Stone Fist~#",
+                "~sn^Mud Sling~#"
+                ],
+                "unique_feat": ["~uf^Canal Helmsman~#"],
+                "language": ["Naabadi"],
+                "region": "Mahanna"
+            }
+        
+    ]
+},
+  {
+    "name": "Menzorabad ",
+    "region" : "Mahanna",
+
+    "subnations" : [
+ {
+    "name" : "Imrathi",
+    "races": ["~rn^Drow~#"],
+    "feats": [
+      "~fn^Alchemist (UA)~#",
+      "~fn^Crossbow Prowess~#",
+      "~fn^Metamagic Adept~#",
+      "~fn^Skulker~#"
+    ],
+    "spells": [
+      "~sn^Breath of False Myrh~#",
+      "~sn^Burn the False Myrh~#",
+      "~sn^Conjure Juvenile Raakadiyaan~#",
+      "~sn^Conjure Rakadi~#",
+      "~sn^Eye of Umbra~#",
+      "~sn^Excruciate~#",
+      "~sn^Gloambolt~#",
+      "~sn^Gloamspear~#",
+      "~sn^Wall of Myrh~#"
+    ],
+    "unique_feat": [
+      "~uf^Hidden in scents~# (Stealth stuff bonus while incense is in the air)"
+    ],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Menzorabad: Neyathi",
+    "races": [
+      "~rn^Atavi~#",
+      "~rn^Bandar Log~#",
+      "~rn^Human~#",
+      "~rn^Makrata~#"
+    ],
+    "feats": [
+      "~fn^Shadow Touched~#",
+      "~fn^Herbalist~#",
+      "~fn^Chef~#",
+      "~fn^Perceptive~#",
+      "~fn^Gourmand~#"
+    ],
+    "spells": [
+      "~sn^End of Sorrows~#",
+      "~sn^Eye of Umbra~#",
+      "~sn^Gloambolt~#"
+    ],
+    "unique_feat": ["~uf^Temple Smoker~# (Chef +)"],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  }
+    ]
+},
+  {
+    "name": "Nāgapura: Sarvajanma (The Pure Blooded)",
+    "races": ["~rn^Yuan Ti~#"],
+    "feats": [
+      "~fn^Dueling Blade Prowess~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Poisoner~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Cultivate Greater Disciple~#",
+      "~sn^Cultivate Lesser Disciple~#",
+      "~sn^Grim Gaze of Shivalk~#",
+      "~sn^Mist of Shivalk~#",
+      "~sn^Silence of The Slit Tongue~#"
+    ],
+    "unique_feat": [
+      "~uf^Godtongue~# (Animal Handler + with reptiles)"
+    ],
+    "language": ["Nagapur"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Nāgapura: Jāgrata (Those who were awakened)",
+    "races": ["~rn^Lizardfolk~#", "~rn^Mosquitofolk~#"],
+    "feats": [
+      "~fn^Brawny (UA)~#",
+      "~fn^Dungeon Delver~#",
+      "~fn^Resilient~#",
+      "~fn^Skilled~#"
+    ],
+    "spells": ["~sn^Greater Mold Earth~#"],
+    "unique_feat": [
+      "~uf^Bestial Brood~# (Grow to Large Size, +1 STR)"
+    ],
+    "language": ["Nagapur"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Parvat Lanka",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Ki Warrior~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Telekinetic~#",
+      "~fn^Telepathic~#"
+    ],
+    "spells": [
+      "~sn^Awaken In Clay~#",
+      "~sn^Akashic Record~#",
+      "~sn^Entomb~#",
+      "~sn^Secrets From Beyond The Veil~#"
+    ],
+    "unique_feat": [
+      "~uf^Soul Smith~# (Make magical items out of souls, enchant magical items by consuming souls)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Agnipur: Azur (The Purest of The Pure)",
+    "races": ["~rn^Genasi (Fire)~#"],
+    "feats": [
+      "~fn^Elemental Adept (Fire)~#",
+      "~fn^Fiery Missile~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Metamagic Adept~#",
+      "~fn^Theologian (UA)~#"
+    ],
+    "spells": [
+      "~sn^Blooming Fire Lance~#",
+      "~sn^Cleansing Pyre~#",
+      "~sn^Dancing Flames~#",
+      "~sn^Flames From The Sky~#",
+      "~sn^Reborn of Fire~#",
+      "~sn^Robe of Pure Flames~#",
+      "~sn^Wrath of the Anathemant~#"
+    ],
+    "unique_feat": [
+      "~uf^Fireborn~# (Supercharged magic init, but for fire spells, like 4th level)"
+    ],
+    "language": ["Agnipuram"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Agnipur: Ashkhal (The Ashen Horsemen)",
+    "races": ["~rn^Human~#"],
+    "feats": [
+      "~fn^Chef~#",
+      "~fn^Light Armor Master~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Weapon Master (Firelance, Shortbow, Siphon, War Spear)~#"
+    ],
+    "spells": [
+      "~sn^Ashen Self~#",
+      "~sn^End of Hubris~#",
+      "~sn^End of Sorrows~#",
+      "~sn^Hecatomb~#"
+    ],
+    "unique_feat": [
+      "~uf^Ashborn~# (Mix of Tough and freecast of Ashen Self)"
+    ],
+    "language": ["Agnipuram"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Ahigara: Urazhàn",
+    "races": ["~rn^Naga~#"],
+    "feats": [
+      "~fn^Dual Wielder~#",
+      "~fn^Initiate of High Sorcery~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Sentinel~#"
+    ],
+    "spells": [],
+    "unique_feat": [
+      "~uf^Queen Consort~# (Diplomat meets Charger)"
+    ],
+    "language": ["Ahipuram"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Ahigara: Naukar",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Durable~#",
+      "~fn^Poisoner~#",
+      "~fn^Resilient~#"
+    ],
+    "spells": [
+      "~sn^Summon Swamp Spirit (Toad of Monsoons, Snail of Droughts, Catfish of Floods)~#"
+    ],
+    "unique_feat": [
+      "~uf^Voice of The Jungle~# (Magic Initiate + , but for druid spells)"
+    ],
+    "language": ["Ahipuram"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Kalagiri: Kalajnani (Interpreters of Wisdom)",
+    "races": ["~rn^Air Genasi~#", "~rn^Atavi~#", "~rn^Loxodon~#"],
+    "feats": [
+      "~fn^Arcanist (UA)~#",
+      "~fn^Magic Initiate~#",
+      "~fn^Historian~#",
+      "~fn^Ritual Caster~#"
+    ],
+    "spells": [
+      "~sn^Akashic Record~#",
+      "~sn^Budding of Raakh~#",
+      "~sn^Gaze of Rava~#",
+      "~sn^Hindsight~#",
+      "~sn^Seeds of Yajna~#",
+      "~sn^Traverse of the Chi~#"
+    ],
+    "unique_feat": [
+      "~uf^Sage~# (Reliable talent for all INT&WIS skills, even without prof. Cost of scroll scribing/writing into spell book halved)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Kalagiri: Bhritaka (The Learned Servants)",
+    "races": ["~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Animal Handler (UA)~#",
+      "~fn^Durable~#",
+      "~fn^Skilled~#",
+      "~fn^Skill Expert~#"
+    ],
+    "spells": [
+      "~sn^Cultivate Lesser Disciple~#",
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Divine Step of Varu~#"
+    ],
+    "unique_feat": ["~uf^Beast Tamer~# (Animal Handler + )"],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Saan Jangal: Ourokaran (Those of The Cycle)",
+    "races": ["~rn^Yuan Ti~#"],
+    "feats": [
+      "~fn^Eldritch Adept~#",
+      "~fn^Ki Warrior~#",
+      "~fn^Magic Initiate~#",
+      "~fn^War Caster~#"
+    ],
+    "spells": [
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Excruciate~#",
+      "~sn^Emerald Eyes~#",
+      "~sn^Grim Gaze of Shivalk~#",
+      "~sn^Mist of Shivalk~#",
+      "~sn^Silence of The Slit Tongue~#"
+    ],
+    "unique_feat": [
+      "~uf^Ouroboros~# (Be one size larger, become an abominable amalgam of several Yuan Ti. Much like the Virajte transformation)"
+    ],
+    "language": ["Jangali"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Saan Jangal: Vanpravartin (The Whisperers of The Jungle)",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Chef~#",
+      "~fn^Fey Touched~#",
+      "~fn^Skilled~#",
+      "~fn^Shadow Touched~#"
+    ],
+    "spells": [
+      "~sn^Summon Swamp Spirit (Serpent of Rebirth, Ox of The Plague, Dove of Past Omens)~#",
+      "~sn^Divine Step of Varu~#"
+    ],
+    "unique_feat": [
+      "~uf^Wood Molder~# (Ability to cast Mold Earth, but affecting living trees to mold instead, +1 to WIS)"
+    ],
+    "language": ["Jangali"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Saan Jangal: Jeevanjati (Those Born to Live)",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Durable~#",
+      "~fn^Poisoner~#",
+      "~fn^Resilient~#",
+      "~fn^Shadow Touched~#"
+    ],
+    "spells": [],
+    "unique_feat": [
+      "~uf^Master Cobbler~# (Prof in 4 tools of choice, expertise if already proficient)"
+    ],
+    "language": ["Jangali"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Saan Jangal: Niranvritti (Those Who Will Not Be Reborn)",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Eldritch Adept~#",
+      "~fn^Skulker~#",
+      "~fn^Tough~#",
+      "~fn^Shadow Touched~#"
+    ],
+    "spells": [
+      "~sn^Demise of Vadru~#",
+      "~sn^Excruciate~#",
+      "~sn^Hecatomb~#"
+    ],
+    "unique_feat": [
+      "~uf^Dreg Resilience~# (Necrotic Damage Resistance, adv on saves against disease and poisons, prof on one saving throw of choice)"
+    ],
+    "language": ["Jangali"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Surangara: Suryavanshi (The Children of The Sun)",
+    "races": ["~rn^Atavi~#", "~rn^Human~#", "~rn^Leonin~#"],
+    "feats": [
+      "~fn^Dueling Blade Prowess~#",
+      "~fn^Inspiring Leader~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Shield Master~#"
+    ],
+    "spells": ["~sn^Hecatomb~#"],
+    "unique_feat": [
+      "~uf^Honor Duelist~# (Once per SR, challenge a creature to 1v1 Duel. If duel is negated or won, gain inspiration until end of next SR. If duel is interrupted, immediate free attack towards any creature)"
+    ],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Surangara: Suravritta (The Sun’s Witnesses)",
+    "races": ["~rn^Atavi~#", "~rn^Human~#", "~rn^Leonin~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Ki Warrior~#",
+      "~fn^Survivalist~#",
+      "~fn^War Caster~#"
+    ],
+    "spells": ["~sn^End of Hubris~#"],
+    "unique_feat": [
+      "~uf^Sun’s Own~# (Durable, but instead of double HP, Max HP gained from hit die spent during short resting under sunlight)"
+    ],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Surangara: Vajrabha (Those of The Hoof)",
+    "races": ["~rn^Atavi~#", "~rn^Human~#", "~rn^Leonin~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Skill Expert~#",
+      "~fn^Weapon Master (Bolas, Harpoon, Mancatcher, Net)~#"
+    ],
+    "spells": [],
+    "unique_feat": [
+      "~uf^Beastcatcher~# (Their weapons trip and entangle properties count as one size larger)"
+    ],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Surangara: Mrityahara (The Carriers of Death)",
+    "races": ["~rn^Atavi~#", "~rn^Human~#", "~rn^Leonin~#"],
+    "feats": [
+      "~fn^Mobile~#",
+      "~fn^Ritual Caster~#",
+      "~fn^Stealthy~#",
+      "~fn^Tracker~#"
+    ],
+    "spells": [
+      "~sn^Ashen Self~#",
+      "~sn^Blood Rush~#",
+      "~sn^Mud Sling~#"
+    ],
+    "unique_feat": [
+      "~uf^Sacramental~# (Free LR cast of Dark Sacrament spell without the extra added damage or hit die consumption, can give the benefits to self or other)"
+    ],
+    "language": ["Naabadi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Tomoruul, The Ironmongers in Lockstep",
+    "races": ["~rn^Goblin~#"],
+    "feats": [
+      "~fn^Heavy Armor Master~#",
+      "~fn^Inspiring Leader~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Tandem Tactician (UA)~#"
+    ],
+    "spells": [
+      "~sn^Awaken Gunpowder~#",
+      "~sn^Create Lei Ting Charm~#"
+    ],
+    "unique_feat": [
+      "~uf^Chainlink~# (+1 STR, can wield heavy weapons without penalty, Benefits from the Help action to attack for all the attacks of an attack action)"
+    ],
+    "language": ["Tomoraal"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Vanadhara: The Pravatta (Servants of The Great Trees)",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Alert~#",
+      "~fn^Martial Adept~#",
+      "~fn^Observant~#",
+      "~fn^War Caster~#"
+    ],
+    "spells": [
+      "~sn^Break The Seal~#",
+      "~sn^Forest Growth~#",
+      "~sn^Root Burst~#",
+      "~sn^Wood Seal~#"
+    ],
+    "unique_feat": [
+      "~uf^Chosen Servant~# (Always know the location of the closest Great Tree, spellcasting bonus when casting spells within forests)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Vanadhara: The Vrataya (The People of The Forest)",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Mobile~#",
+      "~fn^Stealthy~#",
+      "~fn^Tracker~#"
+    ],
+    "spells": [],
+    "unique_feat": [
+      "~uf^Gift of The Forest~# (Goodberry, Leomund's tiny hut freecast per LR)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Zahar: Nāgarājya (The Serpent Druids)",
+    "races": ["~rn^Atavi~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Poisoner~#",
+      "~fn^Theologian~#",
+      "~fn^Skill Expert~#"
+    ],
+    "spells": [
+      "~sn^Grim Gaze of Shivalk~#",
+      "~sn^Silence of The Slit Tongue~#"
+    ],
+    "unique_feat": [
+      "~uf^Snaketongue~# (Speak with snakes and reptiles, use WIS stat for charisma checks)"
+    ],
+    "language": ["Mahanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Zahar: Tambrawana (Those Clad in Bronze)",
+    "races": ["~rn^Human~#"],
+    "feats": [
+      "~fn^Bow and Sling Prowess~#",
+      "~fn^Mounted Combatant~#",
+      "~fn^Spear Prowess~#",
+      "~fn^Thrown Weapon Prowess~#"
+    ],
+    "spells": ["~sn^Imperate~#", "~sn^Mist of Shivalk~#"],
+    "unique_feat": [
+      "~uf^Venom Warrior~# (Adv on enemies that are under the effects of a poison, enemies have disadv on saves against poisons if the poison was inflicted with an attack that had advantage)"
+    ],
+    "language": ["Mahanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Rajyam of Zahar: Nadijanah (The River Folk)",
+    "races": ["~rn^Atavi~#", "~rn^Human~#"],
+    "feats": [
+      "~fn^Perceptive~#",
+      "~fn^Skilled~#",
+      "~fn^Stealthy~#"
+    ],
+    "spells": ["~sn^Mist of Shivalk~#"],
+    "unique_feat": [
+      "~uf^Snake Oil~# (Make healing potions out of venom doses per gp value. 25gp equals one potion)"
+    ],
+    "language": ["Mahanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Shonitagiri, Temple of Blood",
+    "races": ["~rn^Atavi~#", "~rn^Bandar Log~#", "~rn^Makrata~#"],
+    "feats": [
+      "~fn^Bludgeon Prowess~#",
+      "~fn^Durable~#",
+      "~fn^Resilient~#"
+    ],
+    "spells": [
+      "~sn^Budding of Raakh~#",
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Cultivate Lesser Disciple~#",
+      "~sn^Seeds of Yajna~#"
+    ],
+    "unique_feat": [
+      "~uf^Twiceborn~# (Half Orc 1 hit point feature + CON save prof)"
+    ],
+    "language": ["Vanadhari"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Samvara: The Ocean People",
+    "races": ["~rn^Crabfolk~#", "~rn^Human~#", "~rn^Triton~#", "~rn^Yuan Ti~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Athlete~#",
+      "~fn^Spear Prowess~#",
+      "~fn^Thrown Weapon Prowess~#"
+    ],
+    "spells": [
+      "~sn^Create Lei Ting Charm~#",
+      "~sn^Hindsight~#",
+      "~sn^Southern Monsoon~#"
+    ],
+    "unique_feat": [
+      "~uf^Waverider~# (Faster speed and higher jump distance when riding a sea creature in open sea, can hold breath for longer and swim faster)"
+    ],
+    "language": ["Shabuluk"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Asrava : The Coast People",
+    "races": ["~rn^Kuo Toa~#", "~rn^Triton~#"],
+    "feats": [
+      "~fn^Animal Handler~#",
+      "~fn^Chef~#",
+      "~fn^Linguist~#"
+    ],
+    "spells": [
+      "~sn^Bounty of Bhell~#",
+      "~sn^Bloom of Palash~#",
+      "~sn^Seeds of Yajna~#",
+      "~sn^Wilting of Ashoka~#"
+    ],
+    "unique_feat": [
+      "~uf^Lore Beneath The Waves~# (Package of Primordial spells learned)"
+    ],
+    "language": ["Asravi"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Maathriheen: Sayad (Sword of The Maathriheen)",
+    "races": ["~rn^Shadar Kai~#"],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Dueling Blade Prowess~#",
+      "~fn^Magic Initiate (Cleric, Druid)~#",
+      "~fn^Weapon Master (Cutlass, Harpoon, Lajatang, Trident)~#"
+    ],
+    "spells": [
+      "~sn^Karan’s Flood~#",
+      "~sn^Nasirat’s Monsoon~#",
+      "~sn^Marsu’s Rainbow~#",
+      "~sn^Samira’s Sunshower~#"
+    ],
+    "unique_feat": [
+      "~uf^Aspirant of the Four Cardinals~# (Grants all four holy hydromancies as freecasts)"
+    ],
+    "language": ["Mahanni"],
+    "region": "Mahanna"
+  },
+  {
+    "name": "Maathriheen: Rakshak (Healers of The River)",
+    "races": [
+      "~rn^Atavi~#",
+      "~rn^Human~#",
+      "~rn^Loxodon~#",
+      "~rn^Tortle~#"
+    ],
+    "feats": [
+      "~fn^Athlete~#",
+      "~fn^Magic Initiate (Cleric, Druid)~#",
+      "~fn^Naturalist~#",
+      "~fn^Theologian~#"
+    ],
+    "spells": [
+      "~sn^Shimmerdew~#",
+      "~sn^Shimmering Rain~#",
+      "~sn^Flood of Naaghrada~#",
+      "~sn^Tide of Naaghrada~#",
+      "~sn^Naaghrada’s Embrace~#"
+    ],
+    "unique_feat": [
+      "~uf^Tillers of the Riverbanks~# (Ritual casting of Flood of Naaghrada and Tide of Naaghrada, but only as rituals)"
+    ],
+    "language": ["Mahanni"],
+    "region": "Mahanna"
+  }
+
+   
+ 
+
+
+
     
 
 

@@ -4,7 +4,7 @@ import MainPage from './MainPage/index.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from 'react-redux'
 import store from './store'
-import { Artificer } from './MainPage/Classes/Artificer/index.js';
+import { ClassPage } from './MainPage/Classes/ClassPages/index.js';
 import Redirect from './RedirectCenter/index.js';
 
 function App() {
@@ -24,8 +24,7 @@ function App() {
         <Route path="/Nations" element={<MainPage selectedPage={'Nations'}/>}></Route>
         <Route path="/Rules" element={<MainPage selectedPage={'Rules'}/>}></Route>
         <Route path="/Races" element={<MainPage selectedPage={'Races'}/>}></Route>
-        <Route path="/artificer" element={<Artificer />}></Route>
-
+        <Route path="/artificer" element={<ClassPage/>}></Route>
       </Routes>
     </BrowserRouter>
     </Provider>

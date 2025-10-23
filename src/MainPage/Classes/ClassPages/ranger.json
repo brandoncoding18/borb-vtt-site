@@ -1,0 +1,751 @@
+{
+
+    "name" : "Ranger",
+    "caster_type" : "Half",
+    "hitDie" : 10,
+    "armor_prof" : ["Light", "Medium", "Shields"],
+    "weapon_prof" : ["Simple", "Martial"],
+    "tools_prof": [],
+    "saving_throws" : ["Strength", "Dexterity"],
+    "skill_prof" : {"choice" : 3, "skills" : ["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"]},
+    "equipment" : ["(a) scale mail or (b) leather armor", "(a) two shortswords or (b) two simple melee weapons", "(a) a dungeoneer's pack or (b) an explorer's pack", "A longbow and a quiver of 20 arrows"],
+    "starting_gold" : {"multiplier" : 10, "num_die" : 5, "die" : 4},
+    "misc_table_features" : [],
+    "features" : [
+        {"name" : "Favored Enemy", "prog" : ["", "(x2)", "(x3)"], "lvl" : [1, 6, 14], "desc" : "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.\nChoose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.\nYou have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.\nWhen you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.\nYou choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."}
+        ,{"name" : "Favored Foe (Optional)", "prog" : ["(1d4)", "(1d6)", "(1d8)"], "lvl" : [1, 6, 14], "desc" : "This 1st-level feature replaces the Favored Enemy feature and works with the Foe Slayer feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it.\nWhen you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your concentration (as if you were concentrating on a spell).\nThe first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you increase that damage by 1d4.\nYou can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nThis feature's extra damage increases when you reach certain levels in this class: to 1d6 at 6th level and to 1d8 at 14th level."}
+        ,{"name" : "Natural Explorer", "prog" : ["", "(x2)", "(x3)"], "lvl" : [1, 6, 10], "desc" : "Also at 1st level, you are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.\n\tWhile traveling for an hour or more in your favored terrain, you gain the following benefits:\n\tDifficult terrain doesn’t slow your group’s travel.\n\tYour group can’t become lost except by magical means.\n\tEven when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.\n\tIf you are traveling alone, you can move stealthily at a normal pace.\n\tWhen you forage, you find twice as much food as you normally would.\n\tWhile tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.\nYou choose additional favored terrain types at 6th and 10th level."}
+        ,{"name" : "Deft Explorer: ", "prog" : ["Canny", "Roving", "Tireless"], "lvl" : [1, 6, 10], "desc" : "This 1st-level feature replaces the Natural Explorer feature. You gain no benefit from the replaced feature and don't qualify for anything in the game that requires it.\nYou are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. \nYou gain the Canny benefit below, and you gain an additional benefit when you reach 6th level and 10th level in this class.\nCanny (1st Level)\nChoose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make using the chosen skill.\nYou can also speak, read, and write 2 additional languages of your choice.\nRoving (6th Level)\nYour walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.\nTireless (10th Level)\nAs an action, you can give yourself a number of temporary hit points equal to 1d8 + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\nIn addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1."}
+        ,{"name" : "Fighting Style", "lvl" : [2], "desc" : "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.\n\tArchery. You gain a +2 bonus to attack rolls you make with ranged weapons.\n\tBlind Fighting. You have blindsight with a range equal to five times your proficiency bonus . Within that range, you can effectively see anything that isn't behind total cover, even if you're blinded or in darkness. Moreover, you can see an invisible creature within that range, unless the creature successfully hides from you.\n\tDefense. While you are wearing armor, you gain a +1 bonus to AC.If your armor has a DR value, you gain a +1 to DR as well\n\tDruidic Warrior. You learn two cantrips of your choice from the Druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the ~sc^Druid~# spell list.\n\tDueling . When you are wielding a one handed melee weapon with the finesse property and nothing else in your offhand, you may add a +2 to your attack rolls. If this weapon has the finesse and versatile properties, you may wield it with two hands.\n\tFeatherweight Fighting .While you are unarmed or wielding only light weapons, and are not wearing medium or heavy armor, your walking speed increases by 10 feet, and you gain a +1 bonus to your damage rolls with light melee weapons and unarmed strikes.\n\tThrown Weapon Fighting. You can draw a weapon that has the thrown property as part of the attack you make with the weapon.In addition, when you hit with a ranged attack using a thrown weapon, you gain a +2 bonus to the damage roll.Two-Weapon Fighting. When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.\n\tInterception. When a creature you can see hits a target that is within 5 feet of you with an attack, you can use your reaction to reduce the damage the target takes by 1d10 + your proficiency bonus (to a minimum of 0 damage). You must be wielding a shield or a simple or martial weapon to use this reaction.\n\tUnarmed Fighting (UA). Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier. If you strike with two free hands, the d6 becomes a d8.\nWhen you successfully start a grapple, you can deal 1d4 bludgeoning damage to the grappled creature. Until the grapple ends, you can also deal this damage to the creature whenever you hit it with a melee attack.\n"}
+
+        ,{
+      "name": "Spellcasting",
+      "lvl": [
+        2
+      ],
+      "desc": "You learn to use the magical essence of nature to cast spells."
+    },
+    {
+      "name": "Spell Slots",
+      "sub": true,
+      "lvl": [
+        2
+      ],
+      "desc": "The Ranger table shows how many spell slots you have to cast your ranger spells of 1st level and higher. You regain all expended spell slots when you finish a long rest."
+    },
+    {
+      "name": "Spells Known of 1st Level and Higher",
+      "sub": true,
+      "lvl": [
+        2
+      ],
+      "desc": "You know a number of spells shown in the Spells Known column. When you gain a level, you can replace one known ranger spell with another."
+    },
+    {
+      "name": "Spellcasting Ability",
+      "sub": true,
+      "lvl": [
+        2
+      ],
+      "desc": "Wisdom is your spellcasting ability for your ranger spells.\n**Spell save DC** = $$8 + \\text{your proficiency bonus} + \\text{your Wisdom modifier}$$\n**Spell attack modifier** = $$\\text{your proficiency bonus} + \\text{your Wisdom modifier}$$"
+    },
+    {
+      "name": "Spellcasting Focus (Optional)",
+      "sub": true,
+      "lvl": [
+        2
+      ],
+      "desc": "You can use a **druidic focus** as a spellcasting focus for your ranger spells."
+    },
+    {
+      "name": "Primeval Awareness",
+      "lvl": [
+        3
+      ],
+      "desc": "As an action, expend one ranger spell slot. For 1 minute per level of the spell slot, you can sense whether **aberrations, celestials, dragons, elementals, fey, fiends, and undead** are present within 1 mile of you (or within up to 6 miles if in favored terrain). This doesn’t reveal their location or number."
+    },
+    {
+      "name": "Primal Awareness (Optional)",
+      "lvl": [
+        3
+      ],
+      "desc": "This feature replaces Primeval Awareness. You learn the following spells, which don't count against your known spells, and can cast each once without expending a spell slot (regain use on a long rest):\n\t**3rd Level**: Speak with Animals\n\t**5th Level**: Beast Sense\n\t**9th Level**: Speak with Plants\n\t**13th Level**: Locate Creature\n\t**17th Level**: Commune with Nature"
+    },
+    {
+      "name": "Ranger Conclave",
+      "subclassOptions": true,
+      "lvl": [
+        3
+      ],
+      "desc": "You choose a ranger conclave, which grants you features at **3rd, 7th, 11th, and 15th level**."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "lvl": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "desc": "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    },
+    {
+      "name": "Martial Versatility (Optional)",
+      "lvl": [
+        4,
+        8,
+        12,
+        16,
+        19
+      ],
+      "desc": "Whenever you gain the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers."
+    },
+    {
+      "name": "Extra Attack",
+      "lvl": [
+        5
+      ],
+      "desc": "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+    },
+    {
+      "name": "Land's Stride",
+      "lvl": [
+        8
+      ],
+      "desc": "Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed or damaged by them. You have **advantage on saving throws** against magically created or manipulated plants that impede movement."
+    },
+    {
+      "name": "Hide in Plain Sight",
+      "lvl": [
+        10
+      ],
+      "desc": "Spend 1 minute creating camouflage. You gain a **+10 bonus to Dexterity (Stealth) checks** as long as you press yourself up against a solid surface at least as tall and wide as you are and don't move or take actions/reactions."
+    },
+    {
+      "name": "Nature's Veil (Optional)",
+      "lvl": [
+        10
+      ],
+      "desc": "This feature replaces Hide in Plain Sight. As a bonus action, you can magically become **invisible** until the start of your next turn. You can use this a number of times equal to your proficiency bonus, regaining all uses on a long rest."
+    },
+    {
+      "name": "Vanish",
+      "lvl": [
+        14
+      ],
+      "desc": "You can use the **Hide action as a bonus action**. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail."
+    },
+    {
+      "name": "Feral Senses",
+      "lvl": [
+        18
+      ],
+      "desc": "Your inability to see a creature doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any **invisible creature within 30 feet** of you, provided it isn't hidden from you and you aren't blinded or deafened."
+    },
+    {
+      "name": "Foe Slayer",
+      "lvl": [
+        20
+      ],
+      "desc": "Once on each of your turns, you can add your **Wisdom modifier** to the attack roll or the damage roll of an attack you make against one of your favored enemies."
+    }
+    ,
+  {
+    "name": "Beast Master Magic",
+    "subclass": "Beast Master",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spells"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Longstrider~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Barkskin~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Haste~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Death Ward~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Hold Monster~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn an additional spell when you reach certain levels in this class, as shown in the Beast Master Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+  },
+  {
+    "name": "Master Over Beast",
+    "subclass": "Beast Master",
+    "lvl": [
+      3
+    ],
+    "desc": "You gain **proficiency** with the **Animal Handling** skill, and if you are already proficient, you gain **expertise**. Additionally, you gain **advantage** in **Animal Handling (Wisdom) checks** to either **forcefully domesticate** or **subtly convince** a creature to be tamed by you (your choice when you reach this level).\nAny creatures tamed by you will answer to your command, which can be done by hand signs, words, or callouts. You can command them to follow a specific course of action on your turn, and the creature takes its turn immediately before or after yours.\nYou can control any number of beasts in this way for an equivalent of CR up to your **proficiency modifier**."
+  },
+  {
+    "name": "Exceptional Training",
+    "subclass": "Beast Master",
+    "lvl": [
+      7
+    ],
+    "desc": "Your tamed beasts may add your **Proficiency bonus** instead of theirs to any roll where they add theirs, such as attack rolls or skill checks."
+  },
+  {
+    "name": "Bestial Fury",
+    "subclass": "Beast Master",
+    "lvl": [
+      11
+    ],
+    "desc": "When you command your beast companion to take the **Attack action**, the beast can make **two attacks**, or it can take the **Multiattack action** if it has that action."
+  },
+  {
+    "name": "Share Spells",
+    "subclass": "Beast Master",
+    "lvl": [
+      15
+    ],
+    "desc": "When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is **within 30 feet** of you."
+  },
+
+  
+  {
+    "name": "Draconic Gift",
+    "subclass": "Drakewarden",
+    "lvl": [
+      3
+    ],
+    "desc": "The bond you share with your drake grants you the following benefits:\n\t**Thaumaturgy**: You learn the **Thaumaturgy** cantrip, which is a ranger spell for you.\n\t**Tongue of Dragons**: You learn to speak, read, and write **Draconic** or one other language of your choice."
+  },
+  {
+    "name": "Drake Companion",
+    "subclass": "Drakewarden",
+    "lvl": [
+      3
+    ],
+    "desc": "As an action, you can magically summon the drake that is bound to you in an unoccupied space within 30 feet. The drake is friendly and obeys your commands. Choose a damage type (acid, cold, fire, lightning, or poison) for its Draconic Essence when you summon it.\n\nIn combat, the drake shares your initiative and takes its turn immediately after yours. It can only take the **Dodge** action on its turn, unless you use a **bonus action** to command it to take another action (one in its stat block or some other action).\n\nThe drake remains until reduced to 0 hit points, you summon it again, or you die. Once summoned, you can't do so again until you finish a long rest, unless you expend a spell slot of 1st level or higher to summon it."
+  },
+  {
+    "name": "Bond of Fang and Scale",
+    "subclass": "Drakewarden",
+    "lvl": [
+      7
+    ],
+    "desc": "When you summon your drake, it grows wings and gains a **flying speed** equal to its walking speed.\nIn addition, while your drake is summoned, you and the drake gain the following benefits:\n\t**Drake Mount**: The drake grows to **Medium size**. If your size is Medium or smaller, you can use the drake as a mount. While you are riding the drake, it can't use the flying speed from this feature.\n\t**Magic Fang**: The drake's Bite attack deals an extra **1d6 damage** of the type chosen for its Draconic Essence.\n\t**Resistance**: You gain **resistance** to the damage type chosen for the drake's Draconic Essence."
+  },
+  {
+    "name": "Drake's Breath",
+    "subclass": "Drakewarden",
+    "lvl": [
+      11, 15
+    ],
+    "prog": [
+      "(8d6)",
+      "(10d6)"
+    ],
+    "desc": "As an action, you can exhale a **30-foot cone** of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage. Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking **8d6 damage** on a failed save, or half as much on a successful one. This damage increases to **10d6 at 15th level**.\n\nOnce used, you can't use this feature again until you finish a long rest, unless you expend a spell slot of 3rd level or higher to use it again."
+  },
+  {
+    "name": "Perfected Bond",
+    "subclass": "Drakewarden",
+    "lvl": [
+      15
+    ],
+    "desc": "While your drake is summoned, you and the drake gain the following benefits:\n\t**Empowered Bite**: The drake’s Bite attack deals an extra **1d6 damage** of the type chosen for its Draconic Essence (**2d6 total** extra damage).\n\t**Large Drake**: The drake grows to **Large size**. When you ride your drake, it is **no longer prohibited** from using the flying speed of Bond of Fang and Scale.\n\t**Reflexive Resistance**: When either you or the drake takes damage while within 30 feet of each other, you can use your **reaction** to give yourself or the drake **resistance** to that instance of damage. You can use this a number of times equal to your **proficiency bonus**, regaining all uses on a long rest."
+  },
+  
+  {
+    "name": "Dreadful Strikes",
+    "subclass": "Fey Wanderer",
+    "lvl": [
+      3
+    ],
+    "desc": "When you hit a creature with a weapon, you can deal an extra **1d4 psychic damage** to the target. If you target a creature that is your Favored Foe, it has **disadvantage on attack rolls** against creatures other than you until the end of its next turn.\nThe extra damage increases to **1d6** when you reach **11th level** in this class."
+  },
+  {
+    "name": "Fey Wanderer Magic",
+    "subclass": "Fey Wanderer",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spell"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Charm Person~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Misty Step~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Dispel Magic~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Dimension Door~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Mislead~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Feywild Gifts**: You also possess a preternatural blessing from a fey ally or a place of fey power (e.g., illusory butterflies, fresh seasonal flowers, faint comforting smell, a dancing shadow, or horns/antlers)."
+  },
+  {
+    "name": "Otherworldly Glamour",
+    "subclass": "Fey Wanderer",
+    "lvl": [
+      3
+    ],
+    "desc": "Whenever you make a **Charisma check**, you gain a bonus to the check equal to your **Wisdom modifier** (minimum of +1).\nIn addition, you gain **proficiency** in one of the following skills of your choice: **Deception, Performance, or Persuasion**."
+  },
+  {
+    "name": "Beguiling Twist",
+    "subclass": "Fey Wanderer",
+    "lvl": [
+      7
+    ],
+    "desc": "You have **advantage on saving throws against being charmed or frightened**.\nIn addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being charmed or frightened, you can use your **reaction** to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. On a failed save, the target is **charmed or frightened** by you (your choice) for 1 minute (repeat save ends)."
+  },
+  {
+    "name": "Fey Reinforcements",
+    "subclass": "Fey Wanderer",
+    "lvl": [
+      11
+    ],
+    "desc": "You know the spell **Summon Fey**. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it **once without using a spell slot**, regaining the ability to do so on a long rest.\nWhenever you start casting this spell, you can modify it so that it **doesn't require concentration**, changing the duration to **1 minute** for that casting."
+  },
+  {
+    "name": "Misty Wanderer",
+    "subclass": "Fey Wanderer",
+    "lvl": [
+      15
+    ],
+    "desc": "You can cast **Misty Step without expending a spell slot**. You can do so a number of times equal to your **Wisdom modifier** (minimum of once), regaining all expended uses on a long rest.\nIn addition, whenever you cast Misty Step, you can bring along one **willing creature** you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space."
+  },
+  {
+    "name": "Gloom Stalker Magic",
+    "subclass": "Gloom Stalker",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spells"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Disguise Self~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Rope Trick~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Fear~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Greater Invisibility~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Seeming~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+  },
+  {
+    "name": "Dread Ambusher",
+    "subclass": "Gloom Stalker",
+    "lvl": [
+      3
+    ],
+    "desc": "You can give yourself a bonus to your **initiative rolls equal to your Wisdom modifier**.\nAt the start of your **first turn of each combat**, your walking speed increases by **10 feet** until the end of that turn. If you take the Attack action on that turn, you can make **one additional weapon attack** as part of that action. If that attack hits, the target takes an **extra 1d8 damage** of the weapon's damage type."
+  },
+  {
+    "name": "Umbral Sight",
+    "subclass": "Gloom Stalker",
+    "lvl": [
+      3
+    ],
+    "desc": "You gain **darkvision out to a range of 60 feet**. If you already have darkvision, its range increases by **30 feet**.\nYou are also adept at evading creatures that rely on darkvision. While in **darkness**, you are **invisible** to any creature that relies on darkvision to see you in that darkness."
+  },
+  {
+    "name": "Iron Mind",
+    "subclass": "Gloom Stalker",
+    "lvl": [
+      7
+    ],
+    "desc": "You gain **proficiency in Wisdom saving throws**. If you already have this proficiency, you instead gain proficiency in **Intelligence or Charisma** saving throws (your choice)."
+  },
+  {
+    "name": "Stalker's Flurry",
+    "subclass": "Gloom Stalker",
+    "lvl": [
+      11
+    ],
+    "desc": "Once on each of your turns when you **miss with a weapon attack**, you can make **another weapon attack** as part of the same action."
+  },
+  {
+    "name": "Shadowy Dodge",
+    "subclass": "Gloom Stalker",
+    "lvl": [
+      15
+    ],
+    "desc": "Whenever a creature makes an attack roll against you and **doesn't have advantage** on the roll, you can use your **reaction** to **impose disadvantage** on it. You must use this feature before you know the outcome of the attack roll."
+  },
+  {
+    "name": "Horizon Walker Magic",
+    "subclass": "Horizon Walker",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spells"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Protection from Evil and Good~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Misty Step~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Haste~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Banishment~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Teleportation Circle~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+  },
+  {
+    "name": "Detect Portal",
+    "subclass": "Horizon Walker",
+    "lvl": [
+      3
+    ],
+    "desc": "As an **action**, you detect the distance and direction to the **closest planar portal** within **1 mile** of you. You can't use this feature again until you finish a **short or long rest**."
+  },
+  {
+    "name": "Planar Warrior",
+    "subclass": "Horizon Walker",
+    "lvl": [
+      3
+    ],
+    "prog": [
+      "1d8",
+      "2d8"
+    ],
+    "desc": "As a **bonus action**, choose one creature you can see within 30 feet. The next time you hit that creature with a weapon attack this turn, all damage dealt by the attack becomes **force damage**, and the creature takes an extra **1d8 force damage** from the attack. The extra damage increases to **2d8** when you reach **11th level** in this class."
+  },
+  {
+    "name": "Ethereal Step",
+    "subclass": "Horizon Walker",
+    "lvl": [
+      7
+    ],
+    "desc": "As a **bonus action** on your turn, you can cast the **Etherealness** spell with this feature, without expending a spell slot, but the spell **ends at the end of the current turn**. You can't use this feature again until you finish a **short or long rest**."
+  },
+  {
+    "name": "Distant Strike",
+    "subclass": "Horizon Walker",
+    "lvl": [
+      11
+    ],
+    "desc": "When you use the Attack action, you can **teleport up to 10 feet before each attack** to an unoccupied space you can see. If you attack at least **two different creatures** with the action, you can make **one additional attack** with it against a third creature."
+  },
+  {
+    "name": "Spectral Defense",
+    "subclass": "Horizon Walker",
+    "lvl": [
+      15
+    ],
+    "desc": "When you take damage from an attack, you can use your **reaction** to give yourself **resistance** to all of that attack's damage on this turn."
+  },
+  
+  {
+    "name": "Hunter's Prey",
+    "subclass": "Hunter",
+    "lvl": [
+      3
+    ],
+    "options": true,
+    "desc": "You gain one of the following features of your choice:\n\t**Colossus Slayer**: When you hit a creature with a weapon attack, the creature takes an extra **1d6 damage** if it’s below its hit point maximum.\n\t**Giant Killer**: When a Large or larger creature within 5 feet of you targets you with an attack, you can use your **reaction** to attack that creature immediately before its attack, provided that you can see the creature.\n\t**Horde Breaker**: Once on each of your turns when you make a weapon attack, you can make **another attack** with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+  },
+  {
+    "name": "Defensive Tactics",
+    "subclass": "Hunter",
+    "lvl": [
+      7
+    ],
+    "options": true,
+    "desc": "You gain one of the following features of your choice:\n\t**Escape the Horde**: **Opportunity attacks against you are made with disadvantage**.\n\t**Multiattack Defense**: When a creature hits you with an attack, you gain a **+4 bonus to AC** against all subsequent attacks made by that creature for the rest of the turn.\n\t**Steel Will**: You have **advantage on saving throws against being frightened**."
+  },
+  {
+    "name": "Multiattack",
+    "subclass": "Hunter",
+    "lvl": [
+      11
+    ],
+    "options": true,
+    "desc": "You gain one of the following features of your choice:\n\t**Volley**: You can use your **action** to make a **ranged attack against any number of creatures** within 10 feet of a point you can see within your weapon’s range. You make a single attack roll for all targets.\n\t**Whirlwind Attack**: You can use your **action** to make **melee attacks against any number of creatures** within 5 feet of you. You make a single attack roll for all targets."
+  },
+  {
+    "name": "Superior Hunter's Defense",
+    "subclass": "Hunter",
+    "lvl": [
+      15
+    ],
+    "options": true,
+    "desc": "You gain one of the following features of your choice:\n\t**Evasion**: When you are subjected to an effect that allows a Dexterity saving throw for half damage, you take **no damage on a successful save**, and only **half damage on a failed save**.\n\t**Stand Against the Tide**: When a hostile creature misses you with a melee attack, you can use your **reaction** to **force that creature to repeat the same attack** against another creature (other than itself) of your choice.\n\t**Uncanny Dodge**: When an attacker that you can see hits you with an attack, you can use your **reaction to halve the attack’s damage** against you."
+  },
+  {
+    "name": "Monster Slayer Magic",
+    "subclass": "Monster Slayer",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spells"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Protection from Evil and Good~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Zone of Truth~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Magic Circle~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Banishment~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Hold Monster~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+  },
+  {
+    "name": "Hunter's Sense",
+    "subclass": "Monster Slayer",
+    "lvl": [
+      3
+    ],
+    "desc": "As an **action**, choose one creature you can see within 60 feet. You immediately learn whether the creature has any **damage immunities, resistances, or vulnerabilities** and what they are. If the creature is hidden from divination magic, you sense that it has none of these.\nYou can use this feature a number of times equal to your **Wisdom modifier** (minimum of once), regaining all expended uses on a **long rest**."
+  },
+  {
+    "name": "Slayer's Prey",
+    "subclass": "Monster Slayer",
+    "lvl": [
+      3
+    ],
+    "desc": "As a **bonus action**, you designate one creature you can see within 60 feet as the target. Each time that you hit that target with a weapon attack, it takes an extra **1d6 damage** from the weapon.\nThis benefit lasts until you finish a **short or long rest**, or if you designate a different creature."
+  },
+  {
+    "name": "Supernatural Defense",
+    "subclass": "Monster Slayer",
+    "lvl": [
+      7
+    ],
+    "desc": "Whenever the target of your **Slayer's Prey** forces you to make a saving throw, or when you make an ability check to escape that target's grapple, you **add 1d6 to your roll**."
+  },
+  {
+    "name": "Magic-User's Nemesis",
+    "subclass": "Monster Slayer",
+    "lvl": [
+      11
+    ],
+    "desc": "When you see a creature casting a spell or teleporting within 60 feet, you can use your **reaction** to try to foil it. The creature must succeed on a **Wisdom saving throw** against your spell save DC, or its spell or teleport **fails and is wasted**.\nOnce you use this feature, you can't use it again until you finish a **short or long rest**."
+  },
+  {
+    "name": "Slayer's Counter",
+    "subclass": "Monster Slayer",
+    "lvl": [
+      15
+    ],
+    "desc": "If the target of your **Slayer’s Prey** forces you to make a saving throw, you can use your **reaction** to make **one weapon attack** against it. You make this attack immediately before making the saving throw. If the attack hits, your save **automatically succeeds**, in addition to the attack’s normal effects."
+  },
+  {
+    "name": "Gathered Swarm",
+    "subclass": "Swarmkeeper",
+    "lvl": [
+      3
+    ],
+    "desc": "An intangible swarm of nature spirits is bonded to you and remains in your space. Once on each of your turns, immediately after you hit a creature with an attack, you can cause the swarm to assist you in one of the following ways:\n\t1. The attack's target takes **1d6 piercing damage** from the swarm.\n\t2. The attack's target must succeed on a **Strength saving throw** against your spell save DC or be **moved up to 15 feet horizontally** in a direction of your choice.\n\t3. You are **moved 5 feet horizontally** in a direction of your choice.\n\nThe damage increases to **1d8 at 11th level**."
+  },
+  {
+    "name": "Swarmkeeper Magic",
+    "subclass": "Swarmkeeper",
+    "table": {
+      "column_names": [
+        "Ranger Level",
+        "Spell"
+      ],
+      "columns": [
+        [
+          "3rd",
+          [
+            "~sn^Faerie Fire~#",
+            "~sn^Mage Hand~#"
+          ]
+        ],
+        [
+          "5th",
+          [
+            "~sn^Web~#"
+          ]
+        ],
+        [
+          "9th",
+          [
+            "~sn^Gaseous Form~#"
+          ]
+        ],
+        [
+          "13th",
+          [
+            "~sn^Arcane Eye~#"
+          ]
+        ],
+        [
+          "17th",
+          [
+            "~sn^Insect Plague~#"
+          ]
+        ]
+      ]
+    },
+    "lvl": [
+      3
+    ],
+    "desc": "You learn the **Mage Hand** cantrip (if you don't know it), which takes the form of your swarm spirits. You also learn additional spells shown in the Swarmkeeper Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know."
+  },
+  {
+    "name": "Writhing Tide",
+    "subclass": "Swarmkeeper",
+    "lvl": [
+      7
+    ],
+    "desc": "As a **bonus action**, you gain a **flying speed of 10 feet** and can **hover**. This effect lasts for 1 minute or until you are incapacitated.\nYou can use this feature a number of times equal to your **proficiency bonus**, regaining all expended uses when you finish a **long rest**."
+  },
+  {
+    "name": "Mighty Swarm",
+    "subclass": "Swarmkeeper",
+    "lvl": [
+      11
+    ],
+    "desc": "Your Gathered Swarm improves in the following ways:\n\t1. The damage of Gathered Swarm increases to **1d8**.\n\t2. If a creature fails its saving throw against being moved by the Gathered Swarm, you can also cause the swarm to **knock the creature prone**.\n\t3. When you are moved by Gathered Swarm, it gives you **half cover** until the start of your next turn."
+  },
+  {
+    "name": "Swarming Dispersal",
+    "subclass": "Swarmkeeper",
+    "lvl": [
+      15
+    ],
+    "desc": "When you take damage, you can use your **reaction** to give yourself **resistance** to that damage. You vanish into your swarm and then **teleport** to an unoccupied space you can see within **30 feet** of you, where you reappear with the swarm.\nYou can use this feature a number of times equal to your **proficiency bonus**, regaining all expended uses when you finish a **long rest**."
+  }
+
+
+
+
+
+
+
+    ]
+}

@@ -13,10 +13,10 @@ export default function Nations() {
   return (
     <div
       style={{
-        height: "10px", // Thickness of the line
+        height: "2px", // Thickness of the line
+        margin : '10px',
         backgroundColor: "#000", // Line color
         width: "100%", // Full width
-        margin: "20px 0", // Spacing around the line
       }}
     ></div>
   );
@@ -35,7 +35,8 @@ export default function Nations() {
     return (
     <div className="subPageContainer">
 
-        <h1>Regions</h1>
+        <h1>Nations</h1>
+        <br/>
             <div class="binderContainer">
             {selections.map((s) => (
                 <a class={`binderSelection ${binderSelection == s ? "active" : ""}`} onClick={() => {
@@ -51,9 +52,9 @@ export default function Nations() {
                         nations.map((n) => 
                             <div>
                                 {
-                                [n, ...(n.subnations || []).map((x) => ({...x, 'subnation' : true}))].map((nation) => 
+                                [n, ...(n.subnations || []).map((x) => ({...x, 'subnation' : true}))].filter((y) => y.region == binderSelection).map((nation) => 
 
-                                <div>
+                                <div class="nationContainer">
                                     {
                                         <>
                                         <div>{!nation.subnation ? <GiantLine/> : <></>}</div>

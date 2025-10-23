@@ -1,6 +1,6 @@
 import weapons_table from "../weapon_table.json";
 import {useState} from 'react'; 
-export function Weapons({queryParams}) {
+export function Weapons({Name=""}) {
        const selections = [
                         {training: "Simple", type : "Melee"},
                         {training: "Simple", type : "Ranged"},
@@ -12,15 +12,16 @@ export function Weapons({queryParams}) {
         return(queryParams.replaceAll('%20', ' '))
     }
     const [binderSelection, setBinderSelection] = useState(selections[0])
-    const weapons = ((queryParams) ? weapons_table.filter((weapon) => weapon.name == beautify(queryParams)) : weapons_table)
+    
+    const weapons = ((Name) ? weapons_table.filter((weapon) => weapon.name == beautify(Name)) : weapons_table)
 
 
     return(
         <div>
-            {queryParams}
+            {Name}
             
             {
-                (!queryParams) ?
+                (!Name) ?
             <div class="optionalContainer">
                 <div class="binderContainer">
                     {selections.map((s) => (
@@ -52,7 +53,7 @@ export function Weapons({queryParams}) {
                     </thead>
                     <tbody>
                         
-                       {weapons.filter((w) => (queryParams) ||   w.type.training == binderSelection.training && w.type.type == binderSelection.type).map(
+                       {weapons.filter((w) => (Name) ||   w.type.training == binderSelection.training && w.type.type == binderSelection.type).map(
                         (weapon) => 
                         
                         

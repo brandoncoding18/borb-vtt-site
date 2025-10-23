@@ -18,9 +18,8 @@ body {
   max-height : 3em; 
   overflow-y : hidden; 
 }
-
-.editable-column.a{
-  
+.bullet-item {
+    margin-left : 40px; 
 }
 
 
@@ -45,6 +44,8 @@ td {
 
 /* Container for the entire page layout */
 .mainContainer {
+    font-family : 'BookSanity';
+
   display: flex; /* Use flexbox to arrange children (SideNav and ActivePage) */
   height: 100vh; /* Make mainContainer take up full viewport height */
   width: 100vw; /* Make mainContainer take up full viewport width */

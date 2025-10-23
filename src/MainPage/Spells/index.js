@@ -23,17 +23,10 @@ export default function Spells({Name="", School="", Class="", Region="", Family=
     ); 
 
     const handleFilterPayload = (f) => {
-        //alert(JSON.stringify({...filterPayload}))
         var temp = {...filterPayload, ...f}
         setFilterPayload(temp); 
-    }               //||(s["Spell Lists"].findIndex((spell) => spell == classSelection) !== -1)
+    }              
         
-
-   /* const queryParams =  window.location.search
-    const [query, queryParam] = queryParams.replace("?", "").split("=");
-    const beautify = (queryParam) => {
-        return(queryParam.replaceAll('%20', ' '))
-    }*/
     const spells = spells_table.sort((a, b) => a.Level - b.Level)
                
     return (<div className="subPageContainer">

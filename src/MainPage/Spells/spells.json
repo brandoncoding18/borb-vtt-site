@@ -37,6 +37,26 @@
       "Psion"
     ]
   },
+
+  {
+    "Name" : "Dyslexia",
+    "Source" : "Marilee's Childhood",
+    "Level" : 9,
+    "Ritual" : true,
+    "School" : "Illusion",
+    "Casting Time" : "1 hour",
+    "Range" : "Self",
+    "Components" : "S",
+    "Duration" : "Until dispelled",
+    "Description" : "Lol get unreaded",
+    "Upcast": "When you cast this spell using a spell slot of 13th level or higher, you can affect one additional creature for each slot level above 12th. The creatures must be within 30 feet of each other when you target them."
+    ,"Spell Lists": [
+      "Artificer",
+      "Sorcerer",
+      "Warlock",
+      "Wizard"
+    ]
+  },
   {
     "Name": "Booming Blade",
     "Source": "Tasha's Cauldron of Everything",
@@ -12187,6 +12207,7 @@
     ],
     "Region": "Orientavalk"
   }
+
  
     
 ]

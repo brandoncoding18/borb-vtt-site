@@ -1,414 +1,341 @@
-[{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a3595"
+[
+  {
+    "Name": "Padded",
+    "Armor Group": "Light",
+    "Cost": {
+      "Amount": 5,
+      "Currency": "gp"
+    },
+    "Armor Class": 11,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 8,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Padded",
-  "Armor Group": "Light",
-  "Cost": {
-    "Amount": 5,
-    "Currency": "gp"
+  {
+    "Name": "Leather",
+    "Armor Group": "Light",
+    "Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Armor Class": 11,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 10,
+    "disadvantages": []
   },
-  "Armor Class": 11,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 8
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a3596"
+  {
+    "Name": "Studded Leather",
+    "Armor Group": "Light",
+    "Cost": {
+      "Amount": 45,
+      "Currency": "gp"
+    },
+    "Armor Class": 12,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 13,
+    "disadvantages": []
   },
-  "Name": "Leather",
-  "Armor Group": "Light",
-  "Cost": {
-    "Amount": 10,
-    "Currency": "gp"
+  {
+    "Name": "Hide",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Armor Class": 12,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 12,
+    "disadvantages": []
   },
-  "Armor Class": 11,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 10
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a3597"
+  {
+    "Name": "Chain Shirt",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 50,
+      "Currency": "gp"
+    },
+    "Armor Class": 13,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 20,
+    "disadvantages": []
   },
-  "Name": "Studded Leather",
-  "Armor Group": "Light",
-  "Cost": {
-    "Amount": 45,
-    "Currency": "gp"
+  {
+    "Name": "Scale Mail",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 50,
+      "Currency": "gp"
+    },
+    "Armor Class": 14,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 45,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 12,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 13
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a3598"
+  {
+    "Name": "Breastplate",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 400,
+      "Currency": "gp"
+    },
+    "Armor Class": 14,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 20,
+    "disadvantages": []
   },
-  "Name": "Hide",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 10,
-    "Currency": "gp"
+  {
+    "Name": "Half Plate",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 750,
+      "Currency": "gp"
+    },
+    "Armor Class": 15,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 30,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 12,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 12
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a3599"
+  {
+    "Name": "Ring Mail",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 30,
+      "Currency": "gp"
+    },
+    "Armor Class": 14,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 40,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Chain Shirt",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 50,
-    "Currency": "gp"
+  {
+    "Name": "Chain Mail",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 75,
+      "Currency": "gp"
+    },
+    "Armor Class": 16,
+    "Damage Reduction": 0,
+    "Strength Requirement": 13,
+    "Weight": 55,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 13,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 20
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359a"
+  {
+    "Name": "Splint",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 200,
+      "Currency": "gp"
+    },
+    "Armor Class": 17,
+    "Damage Reduction": 0,
+    "Strength Requirement": 15,
+    "Weight": 60,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Scale Mail",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 50,
-    "Currency": "gp"
+  {
+    "Name": "Plate",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 1500,
+      "Currency": "gp"
+    },
+    "Armor Class": 18,
+    "Damage Reduction": 0,
+    "Strength Requirement": 15,
+    "Weight": 65,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 14,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 45
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359b"
+  {
+    "Name": "Brigantine",
+    "Armor Group": "Light",
+    "Cost": {
+      "Amount": 45,
+      "Currency": "gp"
+    },
+    "Armor Class": 13,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 15,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Breastplate",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 400,
-    "Currency": "gp"
+  {
+    "Name": "Three Quarters Plate",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 1250,
+      "Currency": "gp"
+    },
+    "Armor Class": 17,
+    "Damage Reduction": 0,
+    "Strength Requirement": 14,
+    "Weight": 50,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 14,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 20
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359c"
+  {
+    "Name": "Bastinik Splint",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 400,
+      "Currency": "gp"
+    },
+    "Armor Class": 19,
+    "Damage Reduction": 0,
+    "Strength Requirement": 15,
+    "Weight": 100,
+    "disadvantages": [
+      "stealth",
+      "perception",
+      "climbing"
+    ]
   },
-  "Name": "Half Plate",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 750,
-    "Currency": "gp"
+  {
+    "Name": "Kataphractoi Mail",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 2000,
+      "Currency": "gp"
+    },
+    "Armor Class": 20,
+    "Damage Reduction": 3,
+    "Strength Requirement": 15,
+    "Weight": 120,
+    "disadvantages": [
+      "stealth",
+      "perception",
+      "climbing"
+    ]
   },
-  "Armor Class": 15,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 30
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359d"
+  {
+    "Name": "Laminese Plate",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 3500,
+      "Currency": "gp"
+    },
+    "Armor Class": 18,
+    "Damage Reduction": 3,
+    "Strength Requirement": 15,
+    "Weight": 60,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Ring Mail",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 30,
-    "Currency": "gp"
+  {
+    "Name": "Bamboo Armor",
+    "Armor Group": "Light",
+    "Cost": {
+      "Amount": 1,
+      "Currency": "gp"
+    },
+    "Armor Class": 11,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 10,
+    "disadvantages": []
   },
-  "Armor Class": 14,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 40
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359e"
+  {
+    "Name": "Rhinoceros Hide",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 10,
+      "Currency": "gp"
+    },
+    "Armor Class": 14,
+    "Damage Reduction": 0,
+    "Strength Requirement": 0,
+    "Weight": 30,
+    "disadvantages": []
   },
-  "Name": "Chain Mail",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 75,
-    "Currency": "gp"
+  {
+    "Name": "Kishian Scale Mail",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 100,
+      "Currency": "gp"
+    },
+    "Armor Class": 15,
+    "Damage Reduction": 0,
+    "Strength Requirement": 14,
+    "Weight": 50,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Armor Class": 16,
-  "Damage Reduction": 0,
-  "Strength Requirement": 13,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 55
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a359f"
+  {
+    "Name": "Shinsei Singisu Armor",
+    "Armor Group": "Medium",
+    "Cost": {
+      "Amount": 1000,
+      "Currency": "gp"
+    },
+    "Armor Class": 17,
+    "Damage Reduction": 3,
+    "Strength Requirement": 14,
+    "Weight": 50,
+    "disadvantages": [
+      "stealth"
+    ]
   },
-  "Name": "Splint",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 200,
-    "Currency": "gp"
+  {
+    "Name": "Shabuluk O-Yoroi",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 300,
+      "Currency": "gp"
+    },
+    "Armor Class": 14,
+    "Damage Reduction": 6,
+    "Strength Requirement": 15,
+    "Weight": 75,
+    "disadvantages": [
+      "stealth",
+      "perception",
+      "climbing"
+    ]
   },
-  "Armor Class": 17,
-  "Damage Reduction": 0,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 60
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a0"
-  },
-  "Name": "Plate",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 1500,
-    "Currency": "gp"
-  },
-  "Armor Class": 18,
-  "Damage Reduction": 0,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 65
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a1"
-  },
-  "Name": "Brigantine",
-  "Armor Group": "Light",
-  "Cost": {
-    "Amount": 45,
-    "Currency": "gp"
-  },
-  "Armor Class": 13,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 15
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a2"
-  },
-  "Name": "Three Quarters Plate",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 1250,
-    "Currency": "gp"
-  },
-  "Armor Class": 17,
-  "Damage Reduction": 0,
-  "Strength Requirement": 14,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 50
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a3"
-  },
-  "Name": "Bastinik Splint",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 400,
-    "Currency": "gp"
-  },
-  "Armor Class": 19,
-  "Damage Reduction": 0,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": true,
-  "Climbing Disadvantage": true,
-  "Weight": 100
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a4"
-  },
-  "Name": "Kataphractoi Mail",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 2000,
-    "Currency": "gp"
-  },
-  "Armor Class": 20,
-  "Damage Reduction": 3,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": true,
-  "Climbing Disadvantage": true,
-  "Weight": 120
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a5"
-  },
-  "Name": "Laminese Plate",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 3500,
-    "Currency": "gp"
-  },
-  "Armor Class": 18,
-  "Damage Reduction": 3,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 60
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a6"
-  },
-  "Name": "Bamboo Armor",
-  "Armor Group": "Light",
-  "Cost": {
-    "Amount": 1,
-    "Currency": "gp"
-  },
-  "Armor Class": 11,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 10
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a7"
-  },
-  "Name": "Rhinoceros Hide",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 10,
-    "Currency": "gp"
-  },
-  "Armor Class": 14,
-  "Damage Reduction": 0,
-  "Strength Requirement": 0,
-  "Stealth Disadvantage": false,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 30
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a8"
-  },
-  "Name": "Kishian Scale Mail",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 100,
-    "Currency": "gp"
-  },
-  "Armor Class": 15,
-  "Damage Reduction": 0,
-  "Strength Requirement": 14,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 50
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35a9"
-  },
-  "Name": "Shinsei Singisu Armor",
-  "Armor Group": "Medium",
-  "Cost": {
-    "Amount": 1000,
-    "Currency": "gp"
-  },
-  "Armor Class": 17,
-  "Damage Reduction": 3,
-  "Strength Requirement": 14,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": false,
-  "Climbing Disadvantage": false,
-  "Weight": 50
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35aa"
-  },
-  "Name": "Shabuluk O-Yoroi",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 300,
-    "Currency": "gp"
-  },
-  "Armor Class": 14,
-  "Damage Reduction": 6,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": true,
-  "Climbing Disadvantage": true,
-  "Weight": 75
-},
-{
-  "_id": {
-    "$oid": "686ecc6e49fc2c9bd17a35ab"
-  },
-  "Name": "Highlander Splint",
-  "Armor Group": "Heavy",
-  "Cost": {
-    "Amount": 400,
-    "Currency": "gp"
-  },
-  "Armor Class": 16,
-  "Damage Reduction": 3,
-  "Strength Requirement": 15,
-  "Stealth Disadvantage": true,
-  "Perception Disadvantage": true,
-  "Climbing Disadvantage": true,
-  "Weight": 100
-}]
+  {
+    "Name": "Highlander Splint",
+    "Armor Group": "Heavy",
+    "Cost": {
+      "Amount": 400,
+      "Currency": "gp"
+    },
+    "Armor Class": 16,
+    "Damage Reduction": 3,
+    "Strength Requirement": 15,
+    "Weight": 100,
+    "disadvantages": [
+      "stealth",
+      "perception",
+      "climbing"
+    ]
+  }
+]

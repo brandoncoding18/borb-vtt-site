@@ -1,11 +1,12 @@
 //import artificer from './artificer.json';
-import artificer from './fighter.json';
+import artificer from './paladin.json';
 import source_dict from './source_dict.json'
 import {useState} from "react"
 import {formatter} from '../../../helpers'
 import { Fragment } from 'react';
 
-export function Artificer() {
+export function ClassPage() {
+   const classPage = ''
    const num_word_dict = {
     1 : 'one', 
     2 : 'two',
@@ -118,7 +119,7 @@ export function Artificer() {
                 artificer.features.sort((a, b) => a.lvl[0] - b.lvl[0]).map((f) => 
                     <div>
 
-
+                            
                          {(!f.sub) ? (!(f.subclass) || f.subclass == selectedSubclass) ? <div><h4>{f.name}</h4>  
                          <div>        
                             {f.desc.split("\n").map((f) => (f.includes("\b") ? <li>{`\t${f.replace("\b", "")}`}<br/></li> : <div>{f}<br/></div>))}

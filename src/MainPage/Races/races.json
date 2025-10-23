@@ -280,6 +280,116 @@
 
         ]
     },
+    {
+  "name": "Half-Orc",
+  "size": ["Medium"],
+  "speed": {
+    "Walking": 30
+  },
+  "languages": ["Common", "Orc"],
+  "asi": {
+    "Strength": 2,
+    "Constitution": 1
+  },
+  "features": {
+    "Darkvision": "Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+    "Menacing": "You gain proficiency in the Intimidation skill.",
+    "Relentless Endurance": "When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+    "Savage Attacks": "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+  },
+  "subraces": []
+},
+
+{
+  "name": "Orc",
+  "size": ["Medium"],
+  "speed": {
+    "Walking": 30
+  },
+  "languages": ["Common", "Orc"],
+  "asi": {
+    "Strength": 2,
+    "Constitution": 1
+  },
+  "features": {
+    "Darkvision": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+    "Aggressive": "As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.",
+    "Primal Intuition": "You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, and Survival.",
+    "Powerful Build": "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+  },
+  "subraces": []
+},
+{
+  "name": "Dhampir",
+  "size": ["Medium", "Small"],
+  "speed": {
+    "Walking": 35
+  },
+  "languages": [
+    "Common",
+    "one other language that you and your DM agree is appropriate for the character"
+  ],
+  "asi": {
+    "Choice 1": 2,
+    "Choice 2": 1
+  },
+  "features": {
+    "Creature Type": "You are a Humanoid.",
+    "Ancestral Legacy": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it. If you don't keep any of those elements or you choose this lineage at character creation, you gain proficency in two skills of your choice.",
+    "Darkvision": "You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.",
+    "Deathless Nature": "You don't need to breathe.",
+    "Spider Climb": "You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.",
+    "Vampiric Bite": "Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d4 piercing damage on a hit. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. When you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:\nYou regain hit points equal to the piercing damage dealt by the bite.\nYou gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.\nYou can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+  },
+  "subraces": []
+},
+
+{
+  "name": "Aasimar",
+  "size": ["Medium"],
+  "speed": {
+    "Walking": 30
+  },
+  "languages": ["Common", "Celestial"],
+  "asi": {
+    "Charisma": 2
+  },
+  "features": {
+    "Darkvision": "Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
+    "Celestial Resistance": "You have resistance to necrotic damage and radiant damage.",
+    "Healing Hands": "As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.",
+    "Light Bearer": "You know the Light cantrip. Charisma is your spellcasting ability for it."
+  },
+  "subraces": [
+    {
+      "name": "Protector Aasimar",
+      "asi": {
+        "Wisdom": 1
+      },
+      "features": {
+        "Radiant Soul": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+      }
+    },
+    {
+      "name": "Scourge Aasimar",
+      "asi": {
+        "Constitution": 1
+      },
+      "features": {
+        "Radiant Consumption": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+      }
+    },
+    {
+      "name": "Fallen Aasimar",
+      "asi": {
+        "Strength": 1
+      },
+      "features": {
+        "Necrotic Shroud": "Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level. Once you use this trait, you can't use it again until you finish a long rest."
+      }
+    }
+  ]
+},
 
     {
         "name" : "Template", 
