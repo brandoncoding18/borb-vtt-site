@@ -7,7 +7,7 @@ export const formatter = (passage) => {
     return (
         <React.Fragment>
             {lines.map((line, lineIndex) => {
-                console.log(line.length)
+                //console.log(line.length)
                 const parts = line.split(regex);
                 const matches = line.match(regex);
                 const result = [];

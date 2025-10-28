@@ -26,23 +26,39 @@ const jsonDict = {
 }
 
 // Define categorize outside the component to prevent re-creation on every render
-const categorize = (json, selectedPage) => {
-    var categorized = {}
-    // Safely get the data array for the selected page
-    const data = json[selectedPage] || []; 
-    data.map((x) => {
-        // Use a logical fallback to determine the item's category key
-        var training = Object.values(x["Type"] || x["Armor Type"] || x["Armor Group"] || x["Rarity"] || x["Poison Type"] || "").join((x["Type"] ? " " : ""))
-        categorized[training] = categorized[training] ? [...categorized[training], (x)] : [x]
-    })
-    return categorized; 
-}
 
 
 export default function Armory({Name=""}) {
     const [filterPayload, setFilterPayload] = useState(
         { Name }
     ); 
+    const categorize = (json, selectedPage) => {
+    
+        var categorized = {}
+        if(filterPayload["Name"]) {
+            const match = Object.entries(jsonDict).find(([name, data]) => 
+            data.find((entry) => 
+                entry["Name"] === filterPayload["Name"]
+            )   
+            );
+                    if (match) {
+                    selectedPage = match[0]; 
+                } else {
+                    // Handle case where item is not found, maybe reset selectedPage to the default view
+                }
+        }
+        // Safely get the data array for the selected page
+        const data = json[selectedPage] || []; 
+        data.map((x) => {
+            // Use a logical fallback to determine the item's category key
+            var training = Object.values(x["Type"] || x["Armor Type"] || x["Armor Group"] || x["Rarity"] || x["Poison Type"] || "Ammunition").join((x["Type"] ? " " : ""))
+            categorized[training] = categorized[training] ? [...categorized[training], (x)] : [x]
+        })
+        console.log(categorized)
+        setSelectedPage(selectedPage)
+        return categorized; 
+    }
+
     const handleFilterPayload = (f) => {
         var temp = {...filterPayload, ...f}
         setFilterPayload(temp); 
@@ -69,15 +85,14 @@ export default function Armory({Name=""}) {
             return values.join(" ")
         }
         if(keys.includes("num_die")) {
-            return `${val["num_die"]}d${val["die"]} ${val["types"].join((val["types"]["inclusive"] ? " and " : " or "))}`
-        }
+            return `${val["num_die"]}d${val["die"]}${val["additional"] ? ` +${val["additional"]}` : ''} ${val["types"].join(val["inclusive"] ? " and " : " or")}`        }
         if(key == ("Range")) {
             return `${(values || val).join("/")} feet`
         }
         if(key == ("Weight")) {
             return `${val} lbs`
         }
-        if(key == ("Weapon Group")) {
+        if(key == ("Family")) {
             return `~fnp^${val}~#`
         }
         if(key == ("Special") && val == "N/A") {
@@ -130,7 +145,7 @@ export default function Armory({Name=""}) {
 
             <div class="binderContainer">
                 {
-                    (<>{(Object.keys(jsonDict)).map((c) => 
+                    (!filterPayload["Name"] ? <>{(Object.keys(jsonDict)).map((c) => 
                         <a 
                             key={c} // Added key for list stability
                             class={`binderSelection ${(c == selectedPage) ? "active" : ""}`} 
@@ -138,19 +153,19 @@ export default function Armory({Name=""}) {
                         >
                             {(c)}
                         </a>
-                    )}</>)
+                    )}</> : <></>)
                 }
             </div>
 
                 
                 
                 {
-                    Object.entries(categorized).filter((x) => (!filterPayload["Name"]) || x["Name"] == filterPayload["Name"]).map(([category, categorizedItems]) => {
+                    Object.entries(categorized).filter(([key, val]) => val.some((row) => (!filterPayload["Name"]) || row["Name"] == filterPayload["Name"])).map(([category, categorizedItems]) => {
 
                             //console.log(categorizedItems[0])
                             // Added key for list stability
                             return <div key={category}> 
-                            <h2>{category}</h2>
+                            <h2>{filterPayload["Name"] ? <>{filterPayload["Name"]} <a href="../Armory">Clear</a></> : category}</h2>
 
                             <table class="table">
                                 <thead>
@@ -162,7 +177,7 @@ export default function Armory({Name=""}) {
 
                                 {<tbody style={{"border" : "solid"}}>
                                     
-                                    {categorizedItems.map((k, index) => 
+                                    {categorizedItems.filter((ci) => (!filterPayload["Name"]) || ci["Name"] == filterPayload["Name"]).map((k, index) => 
                                         // Added key for list stability
                                         <tr key={k["Name"] || index}>
                                             {  Object.entries(k).map(([x, y]) => 
